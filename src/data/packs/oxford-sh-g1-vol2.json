@@ -1,0 +1,655 @@
+{
+  "id": "oxford-sh-g1-vol2",
+  "title": "牛津上海 一年级下册",
+  "curriculum": "other",
+  "grade": "一年级",
+  "volume": "下册",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "frog",
+      "lemma": "frog",
+      "ipa": "/frɒɡ/",
+      "pos": "n",
+      "zh": "青蛙",
+      "examples": [
+        {
+          "en": "I have a frog.",
+          "zh": "我有一只青蛙。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "rabbit",
+      "lemma": "rabbit",
+      "ipa": "/ˈræbɪt/",
+      "pos": "n",
+      "zh": "兔子",
+      "examples": [
+        {
+          "en": "The rabbit is white.",
+          "zh": "兔子是白的。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "bee",
+      "lemma": "bee",
+      "ipa": "/biː/",
+      "pos": "n",
+      "zh": "蜜蜂",
+      "examples": [
+        {
+          "en": "I have a bee.",
+          "zh": "我有一只蜜蜂。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "bird",
+      "lemma": "bird",
+      "ipa": "/bɜːd/",
+      "pos": "n",
+      "zh": "鸟",
+      "examples": [
+        {
+          "en": "The bird can fly.",
+          "zh": "鸟会飞。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "sheep",
+      "lemma": "sheep",
+      "ipa": "/ʃiːp/",
+      "pos": "n",
+      "zh": "绵羊",
+      "examples": [
+        {
+          "en": "The sheep is white.",
+          "zh": "绵羊是白的。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "hen",
+      "lemma": "hen",
+      "ipa": "/hen/",
+      "pos": "n",
+      "zh": "母鸡",
+      "examples": [
+        {
+          "en": "I have a hen.",
+          "zh": "我有一只母鸡。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "dog",
+      "lemma": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "n",
+      "zh": "狗",
+      "examples": [
+        {
+          "en": "The dog can run.",
+          "zh": "狗会跑。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "cat",
+      "lemma": "cat",
+      "ipa": "/kæt/",
+      "pos": "n",
+      "zh": "猫",
+      "examples": [
+        {
+          "en": "I have a cat.",
+          "zh": "我有一只猫。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "rice",
+      "lemma": "rice",
+      "ipa": "/raɪs/",
+      "pos": "n",
+      "zh": "米饭",
+      "examples": [
+        {
+          "en": "I eat rice.",
+          "zh": "我吃饭。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "soup",
+      "lemma": "soup",
+      "ipa": "/suːp/",
+      "pos": "n",
+      "zh": "汤",
+      "examples": [
+        {
+          "en": "I drink soup.",
+          "zh": "我喝汤。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "egg",
+      "lemma": "egg",
+      "ipa": "/eɡ/",
+      "pos": "n",
+      "zh": "鸡蛋",
+      "examples": [
+        {
+          "en": "I eat an egg.",
+          "zh": "我吃鸡蛋。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "noodles",
+      "lemma": "noodles",
+      "ipa": "/ˈnuːd(ə)lz/",
+      "pos": "n",
+      "zh": "面条",
+      "examples": [
+        {
+          "en": "I have a noodles.",
+          "zh": "我有一个面条。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "ball",
+      "lemma": "ball",
+      "ipa": "/bɔːl/",
+      "pos": "n",
+      "zh": "球",
+      "examples": [
+        {
+          "en": "Kick the ball.",
+          "zh": "踢球。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "doll",
+      "lemma": "doll",
+      "ipa": "/dɒl/",
+      "pos": "n",
+      "zh": "玩具娃娃",
+      "examples": [
+        {
+          "en": "I have a doll.",
+          "zh": "我有一个玩具娃娃。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "bicycle",
+      "lemma": "bicycle",
+      "ipa": "/ˈbaɪsɪk(ə)l/",
+      "pos": "n",
+      "zh": "自行车",
+      "examples": [
+        {
+          "en": "I have a bicycle.",
+          "zh": "我有一个自行车。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "kite",
+      "lemma": "kite",
+      "ipa": "/kaɪt/",
+      "pos": "n",
+      "zh": "风筝",
+      "examples": [
+        {
+          "en": "I have a kite.",
+          "zh": "我有一个风筝。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "jelly",
+      "lemma": "jelly",
+      "ipa": "/ˈdʒeli/",
+      "pos": "n",
+      "zh": "果冻",
+      "examples": [
+        {
+          "en": "I have a jelly.",
+          "zh": "我有一个果冻。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "ice cream",
+      "lemma": "ice cream",
+      "ipa": "/ˈaɪs kriːm/",
+      "pos": "n",
+      "zh": "【食】冰淇淋",
+      "examples": [
+        {
+          "en": "I eat ice cream in summer.",
+          "zh": "我夏天吃冰淇淋。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "sweet",
+      "lemma": "sweet",
+      "ipa": "/swiːt/",
+      "pos": "n",
+      "zh": "糖果",
+      "examples": [
+        {
+          "en": "I have a sweet.",
+          "zh": "我有一个糖果。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "biscuit",
+      "lemma": "biscuit",
+      "ipa": "/ˈbɪskɪt/",
+      "pos": "n",
+      "zh": "小点心",
+      "examples": [
+        {
+          "en": "I have a biscuit.",
+          "zh": "我有一个小点心。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "cola",
+      "lemma": "cola",
+      "ipa": "/ˈkəʊlə/",
+      "pos": "n",
+      "zh": "可乐",
+      "examples": [
+        {
+          "en": "I have a cola.",
+          "zh": "我有一个可乐。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "milk",
+      "lemma": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "n",
+      "zh": "牛奶",
+      "examples": [
+        {
+          "en": "Drink some milk.",
+          "zh": "喝一点牛奶。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "water",
+      "lemma": "water",
+      "ipa": "/ˈwɔːtə/",
+      "pos": "n",
+      "zh": "水",
+      "examples": [
+        {
+          "en": "I drink water.",
+          "zh": "我喝水。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "warm",
+      "lemma": "warm",
+      "ipa": "/wɔːm/",
+      "pos": "n",
+      "zh": "取暖",
+      "examples": [
+        {
+          "en": "I have a warm.",
+          "zh": "我有一个取暖。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "hot",
+      "lemma": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adj",
+      "zh": "热的",
+      "examples": [
+        {
+          "en": "The soup is hot.",
+          "zh": "汤很热。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "spring",
+      "lemma": "spring",
+      "ipa": "/sprɪŋ/",
+      "pos": "n",
+      "zh": "春天",
+      "examples": [
+        {
+          "en": "I have a spring.",
+          "zh": "我有一个春天。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "summer",
+      "lemma": "summer",
+      "ipa": "/ˈsʌmə(r)/",
+      "pos": "n",
+      "zh": "夏季",
+      "examples": [
+        {
+          "en": "I have a summer.",
+          "zh": "我有一个夏季。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "sunny",
+      "lemma": "sunny",
+      "ipa": "/ˈsʌni/",
+      "pos": "adj",
+      "zh": "阳光充足的",
+      "examples": [
+        {
+          "en": "It is sunny today.",
+          "zh": "今天阳光充足的。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "cloudy",
+      "lemma": "cloudy",
+      "ipa": "/ˈklaʊdi/",
+      "pos": "adj",
+      "zh": "多云的",
+      "examples": [
+        {
+          "en": "It is cloudy today.",
+          "zh": "今天多云的。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "rainy",
+      "lemma": "rainy",
+      "ipa": "/ˈreɪni/",
+      "pos": "adj",
+      "zh": "下雨的",
+      "examples": [
+        {
+          "en": "It is rainy today.",
+          "zh": "今天下雨的。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "windy",
+      "lemma": "windy",
+      "ipa": "/ˈwɪndi/",
+      "pos": "adj",
+      "zh": "多风的",
+      "examples": [
+        {
+          "en": "It is windy today.",
+          "zh": "今天多风的。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "T-shirt",
+      "lemma": "t-shirt",
+      "ipa": "/ˈtiː ʃɜːt/",
+      "pos": "n",
+      "zh": "短袖圆领汗衫",
+      "examples": [
+        {
+          "en": "I have a T-shirt.",
+          "zh": "我有一个短袖圆领汗衫。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "ipa": "/dres/",
+      "pos": "n",
+      "zh": "连衣裙",
+      "examples": [
+        {
+          "en": "I have a dress.",
+          "zh": "我有一个连衣裙。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "shorts",
+      "lemma": "shorts",
+      "ipa": "/ʃɔːts/",
+      "pos": "n",
+      "zh": "短裤",
+      "examples": [
+        {
+          "en": "I have a shorts.",
+          "zh": "我有一个短裤。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "blouse",
+      "lemma": "blouse",
+      "ipa": "/blaʊz/",
+      "pos": "n",
+      "zh": "宽松的上衣",
+      "examples": [
+        {
+          "en": "I have a blouse.",
+          "zh": "我有一个宽松的上衣。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "ride",
+      "lemma": "ride",
+      "ipa": "/raɪd/",
+      "pos": "n",
+      "zh": "骑",
+      "examples": [
+        {
+          "en": "I have a ride.",
+          "zh": "我有一个骑。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "skip",
+      "lemma": "skip",
+      "ipa": "/skɪp/",
+      "pos": "n",
+      "zh": "跳跃",
+      "examples": [
+        {
+          "en": "I have a skip.",
+          "zh": "我有一个跳跃。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "play",
+      "lemma": "play",
+      "ipa": "/pleɪ/",
+      "pos": "v",
+      "zh": "玩",
+      "examples": [
+        {
+          "en": "I play ball.",
+          "zh": "我玩球。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "fly",
+      "lemma": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "v",
+      "zh": "飞",
+      "examples": [
+        {
+          "en": "Birds can fly.",
+          "zh": "鸟会飞。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "gift",
+      "lemma": "gift",
+      "ipa": "/ɡɪft/",
+      "pos": "n",
+      "zh": "礼物",
+      "examples": [
+        {
+          "en": "I have a gift.",
+          "zh": "我有一个礼物。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "card",
+      "lemma": "card",
+      "ipa": "/kɑːd/",
+      "pos": "n",
+      "zh": "卡片",
+      "examples": [
+        {
+          "en": "I have a card.",
+          "zh": "我有一个卡片。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "firecracker",
+      "lemma": "firecracker",
+      "ipa": "/ˈfaɪəkrækə(r)/",
+      "pos": "n",
+      "zh": "鞭炮",
+      "examples": [
+        {
+          "en": "I have a firecracker.",
+          "zh": "我有一个鞭炮。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "firework",
+      "lemma": "firework",
+      "ipa": "/ˈfaɪəwɜːk/",
+      "pos": "n",
+      "zh": "烟火",
+      "examples": [
+        {
+          "en": "I have a firework.",
+          "zh": "我有一个烟火。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "boy",
+      "lemma": "boy",
+      "ipa": "/bɔɪ/",
+      "pos": "n",
+      "zh": "男孩",
+      "examples": [
+        {
+          "en": "The boy is tall.",
+          "zh": "这个男孩很高。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "wolf",
+      "lemma": "wolf",
+      "ipa": "/wʊlf/",
+      "pos": "n",
+      "zh": "狼",
+      "examples": [
+        {
+          "en": "I have a wolf.",
+          "zh": "我有一个狼。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "farmer",
+      "lemma": "farmer",
+      "ipa": "/ˈfɑːmə(r)/",
+      "pos": "n",
+      "zh": "农夫",
+      "examples": [
+        {
+          "en": "I have a farmer.",
+          "zh": "我有一个农夫。"
+        }
+      ],
+      "unit": "M4U3"
+    }
+  ]
+}

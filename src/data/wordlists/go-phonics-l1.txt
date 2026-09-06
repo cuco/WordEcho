@@ -1,0 +1,5 @@
+# Go! Phonics Level 1 · 请从课本填写（官方无公开完整词库）
+# 格式：英文单词\tUnit N
+# 例：
+# ship\tUnit 1
+# chat\tUnit 1

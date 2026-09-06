@@ -1,0 +1,73 @@
+# 牛津上海版 四年级下册 · 社区对照表，导入前请核对课本 Word List
+watermelon	M1U1
+grape	M1U1
+plum	M1U1
+cherry	M1U1
+strawberry	M1U1
+hard	M1U2
+soft	M1U2
+rough	M1U2
+smooth	M1U2
+sharp	M1U2
+blunt	M1U2
+thick	M1U2
+thin	M1U2
+knife	M1U2
+pencil	M1U2
+pencil case	M1U2
+hill	M1U3
+lawn	M1U3
+path	M1U3
+bench	M1U3
+shadow	M1U3
+sun	M1U3
+the sun	M1U3
+high	M1U3
+play football	M2U1
+poster	M2U1
+join	M2U1
+club	M2U1
+bone	M2U2
+cat food	M2U2
+dog food	M2U2
+parrot	M2U2
+tortoise	M2U2
+cute	M2U2
+bedroom	M2U3
+living room	M2U3
+bathroom	M2U3
+kitchen	M2U3
+homework	M2U3
+model plane	M2U3
+dinner	M2U3
+quiet	M3U1
+loud	M3U1
+bell	M3U1
+television	M3U1
+TV	M3U1
+sound	M3U1
+noisy	M3U1
+ring	M3U1
+seven o'clock	M3U2
+brush my teeth	M3U2
+always	M3U3
+usually	M3U3
+often	M3U3
+sometimes	M3U3
+never	M3U3
+Monday	M3U3
+Tuesday	M3U3
+Wednesday	M3U3
+Thursday	M3U3
+Friday	M3U3
+Saturday	M3U3
+Sunday	M3U3
+piano	M4U1
+violin	M4U1
+triangle	M4U1
+drum	M4U1
+music	M4U1
+the Spring Festival	M4U2
+duckling	M4U3
+swan	M4U3
+nest	M4U3

@@ -1,0 +1,1355 @@
+{
+  "id": "opw-l4",
+  "title": "Oxford Phonics World 4",
+  "curriculum": "opw",
+  "grade": "Level 4",
+  "volume": "全册",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "black",
+      "lemma": "black",
+      "ipa": "/blæk/",
+      "pos": "adj",
+      "zh": "黑色的",
+      "examples": [
+        {
+          "en": "The cake is black.",
+          "zh": "蛋糕是黑色的。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "blanket",
+      "lemma": "blanket",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "毯子",
+      "examples": [
+        {
+          "en": "I have a blanket.",
+          "zh": "我有一个毯子。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "bride",
+      "lemma": "bride",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "新娘",
+      "examples": [
+        {
+          "en": "The bride is happy.",
+          "zh": "新娘很开心。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "broom",
+      "lemma": "broom",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "扫帚",
+      "examples": [
+        {
+          "en": "I have a broom.",
+          "zh": "我有一个扫帚。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "clock",
+      "lemma": "clock",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "时钟",
+      "examples": [
+        {
+          "en": "I have a clock.",
+          "zh": "我有一个时钟。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "club",
+      "lemma": "club",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "俱乐部",
+      "examples": [
+        {
+          "en": "I have a club.",
+          "zh": "我有一个俱乐部。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "crab",
+      "lemma": "crab",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "螃蟹",
+      "examples": [
+        {
+          "en": "I have a crab.",
+          "zh": "我有一个螃蟹。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "crocodile",
+      "lemma": "crocodile",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "鳄鱼",
+      "examples": [
+        {
+          "en": "I have a crocodile.",
+          "zh": "我有一个鳄鱼。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "flag",
+      "lemma": "flag",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "旗子",
+      "examples": [
+        {
+          "en": "I have a flag.",
+          "zh": "我有一个旗子。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "fly",
+      "lemma": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "v",
+      "zh": "飞",
+      "examples": [
+        {
+          "en": "I can fly.",
+          "zh": "我会飞。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "glass",
+      "lemma": "glass",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "玻璃杯",
+      "examples": [
+        {
+          "en": "I have a glass.",
+          "zh": "我有一个玻璃杯。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "globe",
+      "lemma": "globe",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "地球仪",
+      "examples": [
+        {
+          "en": "I have a globe.",
+          "zh": "我有一个地球仪。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "连衣裙",
+      "examples": [
+        {
+          "en": "I have a dress.",
+          "zh": "我有一个连衣裙。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "drum",
+      "lemma": "drum",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "鼓",
+      "examples": [
+        {
+          "en": "I have a drum.",
+          "zh": "我有一个鼓。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "Friday",
+      "lemma": "friday",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "星期五",
+      "examples": [
+        {
+          "en": "Friday is fun.",
+          "zh": "星期五很开心。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "frog",
+      "lemma": "frog",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "青蛙",
+      "examples": [
+        {
+          "en": "I have a frog.",
+          "zh": "我有一只青蛙。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "grass",
+      "lemma": "grass",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "草",
+      "examples": [
+        {
+          "en": "I need grass.",
+          "zh": "我需要草。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "green",
+      "lemma": "green",
+      "ipa": "/ɡriːn/",
+      "pos": "adj",
+      "zh": "绿色的",
+      "examples": [
+        {
+          "en": "The cake is green.",
+          "zh": "蛋糕是绿色的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "plate",
+      "lemma": "plate",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "盘子",
+      "examples": [
+        {
+          "en": "I have a plate.",
+          "zh": "我有一个盘子。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "play",
+      "lemma": "play",
+      "ipa": "/pleɪ/",
+      "pos": "v",
+      "zh": "玩",
+      "examples": [
+        {
+          "en": "I can play.",
+          "zh": "我会玩。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sleep",
+      "lemma": "sleep",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "睡觉",
+      "examples": [
+        {
+          "en": "I can sleep.",
+          "zh": "我会睡觉。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "slide",
+      "lemma": "slide",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "滑梯",
+      "examples": [
+        {
+          "en": "I have a slide.",
+          "zh": "我有一个滑梯。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "tree",
+      "lemma": "tree",
+      "ipa": "/triː/",
+      "pos": "n",
+      "zh": "树",
+      "examples": [
+        {
+          "en": "I have a tree.",
+          "zh": "我有一个树。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "truck",
+      "lemma": "truck",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "卡车",
+      "examples": [
+        {
+          "en": "I have a truck.",
+          "zh": "我有一个卡车。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "fast",
+      "lemma": "fast",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "快的",
+      "examples": [
+        {
+          "en": "The cake is fast.",
+          "zh": "蛋糕是快的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "smile",
+      "lemma": "smile",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "微笑",
+      "examples": [
+        {
+          "en": "I have a smile.",
+          "zh": "我有一个微笑。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "smoke",
+      "lemma": "smoke",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "烟",
+      "examples": [
+        {
+          "en": "I have a smoke.",
+          "zh": "我有一个烟。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "snake",
+      "lemma": "snake",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "蛇",
+      "examples": [
+        {
+          "en": "I have a snake.",
+          "zh": "我有一个蛇。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "snow",
+      "lemma": "snow",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "雪",
+      "examples": [
+        {
+          "en": "I need snow.",
+          "zh": "我需要雪。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "spoon",
+      "lemma": "spoon",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "勺子",
+      "examples": [
+        {
+          "en": "I have a spoon.",
+          "zh": "我有一个勺子。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "spot",
+      "lemma": "spot",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "斑点",
+      "examples": [
+        {
+          "en": "I have a spot.",
+          "zh": "我有一个斑点。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "stamp",
+      "lemma": "stamp",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "邮票",
+      "examples": [
+        {
+          "en": "I have a stamp.",
+          "zh": "我有一个邮票。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "stop",
+      "lemma": "stop",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "停",
+      "examples": [
+        {
+          "en": "I can stop.",
+          "zh": "我会停。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "swim",
+      "lemma": "swim",
+      "ipa": "/swɪm/",
+      "pos": "v",
+      "zh": "游泳",
+      "examples": [
+        {
+          "en": "I can swim.",
+          "zh": "我会游泳。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "swing",
+      "lemma": "swing",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "秋千",
+      "examples": [
+        {
+          "en": "I have a swing.",
+          "zh": "我有一个秋千。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "test",
+      "lemma": "test",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "测试",
+      "examples": [
+        {
+          "en": "I have a test.",
+          "zh": "我有一个测试。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "brush",
+      "lemma": "brush",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "刷子",
+      "examples": [
+        {
+          "en": "I have a brush.",
+          "zh": "我有一个刷子。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "catch",
+      "lemma": "catch",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "接住",
+      "examples": [
+        {
+          "en": "I can catch.",
+          "zh": "我会接住。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "chick",
+      "lemma": "chick",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "小鸡",
+      "examples": [
+        {
+          "en": "I have a chick.",
+          "zh": "我有一只小鸡。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "dolphin",
+      "lemma": "dolphin",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "海豚",
+      "examples": [
+        {
+          "en": "I have a dolphin.",
+          "zh": "我有一个海豚。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "fish",
+      "lemma": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "n",
+      "zh": "鱼",
+      "examples": [
+        {
+          "en": "I have a fish.",
+          "zh": "我有一只鱼。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "lunch",
+      "lemma": "lunch",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "午餐",
+      "examples": [
+        {
+          "en": "I have a lunch.",
+          "zh": "我有一个午餐。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "phone",
+      "lemma": "phone",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "电话",
+      "examples": [
+        {
+          "en": "I have a phone.",
+          "zh": "我有一个电话。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "shell",
+      "lemma": "shell",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "贝壳",
+      "examples": [
+        {
+          "en": "I have a shell.",
+          "zh": "我有一个贝壳。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "ship",
+      "lemma": "ship",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "船",
+      "examples": [
+        {
+          "en": "I have a ship.",
+          "zh": "我有一个船。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "watch",
+      "lemma": "watch",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "手表",
+      "examples": [
+        {
+          "en": "I have a watch.",
+          "zh": "我有一个手表。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "whale",
+      "lemma": "whale",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "鲸鱼",
+      "examples": [
+        {
+          "en": "I have a whale.",
+          "zh": "我有一个鲸鱼。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "white",
+      "lemma": "white",
+      "ipa": "/waɪt/",
+      "pos": "adj",
+      "zh": "白色的",
+      "examples": [
+        {
+          "en": "The cake is white.",
+          "zh": "蛋糕是白色的。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "bath",
+      "lemma": "bath",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "洗澡",
+      "examples": [
+        {
+          "en": "I have a bath.",
+          "zh": "我有一个洗澡。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "duck",
+      "lemma": "duck",
+      "ipa": "/dʌk/",
+      "pos": "n",
+      "zh": "鸭子",
+      "examples": [
+        {
+          "en": "I have a duck.",
+          "zh": "我有一只鸭子。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "ipa": "/ˈfɑːðə/",
+      "pos": "n",
+      "zh": "爸爸",
+      "examples": [
+        {
+          "en": "I have a father.",
+          "zh": "我有一个爸爸。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "mother",
+      "lemma": "mother",
+      "ipa": "/ˈmʌðə/",
+      "pos": "n",
+      "zh": "妈妈",
+      "examples": [
+        {
+          "en": "I have a mother.",
+          "zh": "我有一个妈妈。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "queen",
+      "lemma": "queen",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "女王",
+      "examples": [
+        {
+          "en": "I have a queen.",
+          "zh": "我有一个女王。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "quilt",
+      "lemma": "quilt",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "被子",
+      "examples": [
+        {
+          "en": "I have a quilt.",
+          "zh": "我有一个被子。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "rocket",
+      "lemma": "rocket",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "火箭",
+      "examples": [
+        {
+          "en": "I have a rocket.",
+          "zh": "我有一个火箭。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "teeth",
+      "lemma": "teeth",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "牙齿",
+      "examples": [
+        {
+          "en": "I have a teeth.",
+          "zh": "我有一个牙齿。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "that",
+      "lemma": "that",
+      "ipa": "/ðæt/",
+      "pos": "pron",
+      "zh": "那个",
+      "examples": [
+        {
+          "en": "That is a dog.",
+          "zh": "那是一只狗。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "think",
+      "lemma": "think",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "想",
+      "examples": [
+        {
+          "en": "I can think.",
+          "zh": "我会想。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "this",
+      "lemma": "this",
+      "ipa": "/ðɪs/",
+      "pos": "pron",
+      "zh": "这个",
+      "examples": [
+        {
+          "en": "This is a cat.",
+          "zh": "这是一只猫。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "three",
+      "lemma": "three",
+      "ipa": "/θriː/",
+      "pos": "num",
+      "zh": "三",
+      "examples": [
+        {
+          "en": "I have three books.",
+          "zh": "我有三本书。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "adult",
+      "lemma": "adult",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "大人",
+      "examples": [
+        {
+          "en": "An adult helps the child.",
+          "zh": "大人帮助孩子。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "bank",
+      "lemma": "bank",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "银行",
+      "examples": [
+        {
+          "en": "I have a bank.",
+          "zh": "我有一个银行。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "belt",
+      "lemma": "belt",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "腰带",
+      "examples": [
+        {
+          "en": "I have a belt.",
+          "zh": "我有一个腰带。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "camp",
+      "lemma": "camp",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "营地",
+      "examples": [
+        {
+          "en": "I have a camp.",
+          "zh": "我有一个营地。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "hand",
+      "lemma": "hand",
+      "ipa": "/hænd/",
+      "pos": "n",
+      "zh": "手",
+      "examples": [
+        {
+          "en": "I have a hand.",
+          "zh": "我有一个手。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "king",
+      "lemma": "king",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "国王",
+      "examples": [
+        {
+          "en": "I have a king.",
+          "zh": "我有一个国王。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "lamp",
+      "lemma": "lamp",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "灯",
+      "examples": [
+        {
+          "en": "I have a lamp.",
+          "zh": "我有一个灯。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "long",
+      "lemma": "long",
+      "ipa": "/lɒŋ/",
+      "pos": "adj",
+      "zh": "长的",
+      "examples": [
+        {
+          "en": "The cake is long.",
+          "zh": "蛋糕是长的。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "paint",
+      "lemma": "paint",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "颜料",
+      "examples": [
+        {
+          "en": "I can paint.",
+          "zh": "我会颜料。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "pink",
+      "lemma": "pink",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "粉色的",
+      "examples": [
+        {
+          "en": "The cake is pink.",
+          "zh": "蛋糕是粉色的。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "tent",
+      "lemma": "tent",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "帐篷",
+      "examples": [
+        {
+          "en": "I have a tent.",
+          "zh": "我有一个帐篷。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "wind",
+      "lemma": "wind",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "风",
+      "examples": [
+        {
+          "en": "I need wind.",
+          "zh": "我需要风。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "desk",
+      "lemma": "desk",
+      "ipa": "/desk/",
+      "pos": "n",
+      "zh": "课桌",
+      "examples": [
+        {
+          "en": "I have a desk.",
+          "zh": "我有一个课桌。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "scale",
+      "lemma": "scale",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "秤",
+      "examples": [
+        {
+          "en": "I have a scale.",
+          "zh": "我有一个秤。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "ipa": "/skuːl/",
+      "pos": "n",
+      "zh": "学校",
+      "examples": [
+        {
+          "en": "I have a school.",
+          "zh": "我有一个学校。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "skunk",
+      "lemma": "skunk",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "臭鼬",
+      "examples": [
+        {
+          "en": "I have a skunk.",
+          "zh": "我有一个臭鼬。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "splash",
+      "lemma": "splash",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "溅水",
+      "examples": [
+        {
+          "en": "I can splash.",
+          "zh": "我会溅水。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "splint",
+      "lemma": "splint",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "夹板",
+      "examples": [
+        {
+          "en": "I have a splint.",
+          "zh": "我有一个夹板。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "spray",
+      "lemma": "spray",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "喷雾",
+      "examples": [
+        {
+          "en": "I can spray.",
+          "zh": "我会喷雾。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "spring",
+      "lemma": "spring",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "春天",
+      "examples": [
+        {
+          "en": "I have a spring.",
+          "zh": "我有一个春天。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "square",
+      "lemma": "square",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "正方形",
+      "examples": [
+        {
+          "en": "I have a square.",
+          "zh": "我有一个正方形。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "squid",
+      "lemma": "squid",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "鱿鱼",
+      "examples": [
+        {
+          "en": "I have a squid.",
+          "zh": "我有一个鱿鱼。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "string",
+      "lemma": "string",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "绳子",
+      "examples": [
+        {
+          "en": "I have a string.",
+          "zh": "我有一个绳子。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "strong",
+      "lemma": "strong",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "强壮的",
+      "examples": [
+        {
+          "en": "She is strong.",
+          "zh": "她很强壮。"
+        }
+      ],
+      "unit": "Unit 7"
+    },
+    {
+      "word": "cage",
+      "lemma": "cage",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "笼子",
+      "examples": [
+        {
+          "en": "I have a cage.",
+          "zh": "我有一个笼子。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "cell phone",
+      "lemma": "cell phone",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "手机",
+      "examples": [
+        {
+          "en": "I like cell phone.",
+          "zh": "我喜欢手机。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "cheese",
+      "lemma": "cheese",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "奶酪",
+      "examples": [
+        {
+          "en": "I need cheese.",
+          "zh": "我需要奶酪。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "city",
+      "lemma": "city",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "城市",
+      "examples": [
+        {
+          "en": "I have a city.",
+          "zh": "我有一个城市。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "giant",
+      "lemma": "giant",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "巨人",
+      "examples": [
+        {
+          "en": "The giant is very tall.",
+          "zh": "巨人非常高。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "giraffe",
+      "lemma": "giraffe",
+      "ipa": "/dʒəˈrɑːf/",
+      "pos": "n",
+      "zh": "长颈鹿",
+      "examples": [
+        {
+          "en": "I have a giraffe.",
+          "zh": "我有一个长颈鹿。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "ice cream",
+      "lemma": "ice cream",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "冰淇淋",
+      "examples": [
+        {
+          "en": "I eat ice cream in summer.",
+          "zh": "我夏天吃冰淇淋。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "jeans",
+      "lemma": "jeans",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "牛仔裤",
+      "examples": [
+        {
+          "en": "I have a jeans.",
+          "zh": "我有一个牛仔裤。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "legs",
+      "lemma": "legs",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "腿",
+      "examples": [
+        {
+          "en": "I have a legs.",
+          "zh": "我有一个腿。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "orange",
+      "lemma": "orange",
+      "ipa": "/ˈɒrɪndʒ/",
+      "pos": "n",
+      "zh": "橙子",
+      "examples": [
+        {
+          "en": "I have an orange.",
+          "zh": "我有一个橙子。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "rice",
+      "lemma": "rice",
+      "ipa": "/raɪs/",
+      "pos": "n",
+      "zh": "米饭",
+      "examples": [
+        {
+          "en": "I eat rice.",
+          "zh": "我吃米饭。"
+        }
+      ],
+      "unit": "Unit 8"
+    },
+    {
+      "word": "rose",
+      "lemma": "rose",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "玫瑰",
+      "examples": [
+        {
+          "en": "I have a rose.",
+          "zh": "我有一个玫瑰。"
+        }
+      ],
+      "unit": "Unit 8"
+    }
+  ]
+}

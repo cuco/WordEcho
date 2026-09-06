@@ -1,0 +1,2163 @@
+{
+  "version": 1,
+  "words": [
+    {
+      "lemma": "hello",
+      "display": "hello",
+      "ipa": "/həˈləʊ/",
+      "pos": "int",
+      "zh": "你好",
+      "examples": [
+        {
+          "en": "Hello, I am Amy.",
+          "zh": "你好，我是艾米。"
+        }
+      ]
+    },
+    {
+      "lemma": "hi",
+      "display": "hi",
+      "ipa": "/haɪ/",
+      "pos": "int",
+      "zh": "嗨",
+      "examples": [
+        {
+          "en": "Hi, Mike.",
+          "zh": "嗨，迈克。"
+        }
+      ]
+    },
+    {
+      "lemma": "goodbye",
+      "display": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "pos": "int",
+      "zh": "再见",
+      "examples": [
+        {
+          "en": "Goodbye, class.",
+          "zh": "同学们再见。"
+        }
+      ]
+    },
+    {
+      "lemma": "name",
+      "display": "name",
+      "ipa": "/neɪm/",
+      "pos": "n",
+      "zh": "名字",
+      "examples": [
+        {
+          "en": "My name is John.",
+          "zh": "我的名字是约翰。"
+        }
+      ]
+    },
+    {
+      "lemma": "i",
+      "display": "I",
+      "ipa": "/aɪ/",
+      "pos": "pron",
+      "zh": "我",
+      "examples": [
+        {
+          "en": "I am a boy.",
+          "zh": "我是男孩。"
+        }
+      ]
+    },
+    {
+      "lemma": "you",
+      "display": "you",
+      "ipa": "/juː/",
+      "pos": "pron",
+      "zh": "你",
+      "examples": [
+        {
+          "en": "You are my friend.",
+          "zh": "你是我的朋友。"
+        }
+      ]
+    },
+    {
+      "lemma": "boy",
+      "display": "boy",
+      "ipa": "/bɔɪ/",
+      "pos": "n",
+      "zh": "男孩",
+      "examples": [
+        {
+          "en": "The boy is tall.",
+          "zh": "这个男孩很高。"
+        }
+      ]
+    },
+    {
+      "lemma": "girl",
+      "display": "girl",
+      "ipa": "/ɡɜːl/",
+      "pos": "n",
+      "zh": "女孩",
+      "examples": [
+        {
+          "en": "The girl is kind.",
+          "zh": "这个女孩很善良。"
+        }
+      ]
+    },
+    {
+      "lemma": "teacher",
+      "display": "teacher",
+      "ipa": "/ˈtiːtʃə/",
+      "pos": "n",
+      "zh": "老师",
+      "examples": [
+        {
+          "en": "She is a teacher.",
+          "zh": "她是老师。"
+        }
+      ]
+    },
+    {
+      "lemma": "student",
+      "display": "student",
+      "ipa": "/ˈstjuːdnt/",
+      "pos": "n",
+      "zh": "学生",
+      "examples": [
+        {
+          "en": "He is a student.",
+          "zh": "他是学生。"
+        }
+      ]
+    },
+    {
+      "lemma": "red",
+      "display": "red",
+      "ipa": "/red/",
+      "pos": "adj",
+      "zh": "红色的",
+      "examples": [
+        {
+          "en": "The apple is red.",
+          "zh": "苹果是红的。"
+        }
+      ]
+    },
+    {
+      "lemma": "yellow",
+      "display": "yellow",
+      "ipa": "/ˈjeləʊ/",
+      "pos": "adj",
+      "zh": "黄色的",
+      "examples": [
+        {
+          "en": "The banana is yellow.",
+          "zh": "香蕉是黄的。"
+        }
+      ]
+    },
+    {
+      "lemma": "blue",
+      "display": "blue",
+      "ipa": "/bluː/",
+      "pos": "adj",
+      "zh": "蓝色的",
+      "examples": [
+        {
+          "en": "The sky is blue.",
+          "zh": "天空是蓝的。"
+        }
+      ]
+    },
+    {
+      "lemma": "green",
+      "display": "green",
+      "ipa": "/ɡriːn/",
+      "pos": "adj",
+      "zh": "绿色的",
+      "examples": [
+        {
+          "en": "The leaf is green.",
+          "zh": "叶子是绿的。"
+        }
+      ]
+    },
+    {
+      "lemma": "black",
+      "display": "black",
+      "ipa": "/blæk/",
+      "pos": "adj",
+      "zh": "黑色的",
+      "examples": [
+        {
+          "en": "The cat is black.",
+          "zh": "猫是黑的。"
+        }
+      ]
+    },
+    {
+      "lemma": "white",
+      "display": "white",
+      "ipa": "/waɪt/",
+      "pos": "adj",
+      "zh": "白色的",
+      "examples": [
+        {
+          "en": "The snow is white.",
+          "zh": "雪是白的。"
+        }
+      ]
+    },
+    {
+      "lemma": "colour",
+      "display": "colour",
+      "ipa": "/ˈkʌlə/",
+      "pos": "n",
+      "zh": "颜色",
+      "examples": [
+        {
+          "en": "What colour is it?",
+          "zh": "它是什么颜色？"
+        }
+      ]
+    },
+    {
+      "lemma": "cat",
+      "display": "cat",
+      "ipa": "/kæt/",
+      "pos": "n",
+      "zh": "猫",
+      "examples": [
+        {
+          "en": "I have a cat.",
+          "zh": "我有一只猫。"
+        }
+      ]
+    },
+    {
+      "lemma": "dog",
+      "display": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "n",
+      "zh": "狗",
+      "examples": [
+        {
+          "en": "The dog can run.",
+          "zh": "狗会跑。"
+        }
+      ]
+    },
+    {
+      "lemma": "duck",
+      "display": "duck",
+      "ipa": "/dʌk/",
+      "pos": "n",
+      "zh": "鸭子",
+      "examples": [
+        {
+          "en": "The duck is in the water.",
+          "zh": "鸭子在水里。"
+        }
+      ]
+    },
+    {
+      "lemma": "pig",
+      "display": "pig",
+      "ipa": "/pɪɡ/",
+      "pos": "n",
+      "zh": "猪",
+      "examples": [
+        {
+          "en": "The pig is pink.",
+          "zh": "猪是粉色的。"
+        }
+      ]
+    },
+    {
+      "lemma": "bird",
+      "display": "bird",
+      "ipa": "/bɜːd/",
+      "pos": "n",
+      "zh": "鸟",
+      "examples": [
+        {
+          "en": "The bird can fly.",
+          "zh": "鸟会飞。"
+        }
+      ]
+    },
+    {
+      "lemma": "bear",
+      "display": "bear",
+      "ipa": "/beə/",
+      "pos": "n",
+      "zh": "熊",
+      "examples": [
+        {
+          "en": "The bear is big.",
+          "zh": "熊很大。"
+        }
+      ]
+    },
+    {
+      "lemma": "elephant",
+      "display": "elephant",
+      "ipa": "/ˈelɪfənt/",
+      "pos": "n",
+      "zh": "大象",
+      "examples": [
+        {
+          "en": "The elephant is big.",
+          "zh": "大象很大。"
+        }
+      ]
+    },
+    {
+      "lemma": "monkey",
+      "display": "monkey",
+      "ipa": "/ˈmʌŋki/",
+      "pos": "n",
+      "zh": "猴子",
+      "examples": [
+        {
+          "en": "The monkey likes bananas.",
+          "zh": "猴子喜欢香蕉。"
+        }
+      ]
+    },
+    {
+      "lemma": "apple",
+      "display": "apple",
+      "ipa": "/ˈæpl/",
+      "pos": "n",
+      "zh": "苹果",
+      "examples": [
+        {
+          "en": "I eat an apple.",
+          "zh": "我吃一个苹果。"
+        }
+      ]
+    },
+    {
+      "lemma": "banana",
+      "display": "banana",
+      "ipa": "/bəˈnɑːnə/",
+      "pos": "n",
+      "zh": "香蕉",
+      "examples": [
+        {
+          "en": "The banana is yellow.",
+          "zh": "香蕉是黄的。"
+        }
+      ]
+    },
+    {
+      "lemma": "pear",
+      "display": "pear",
+      "ipa": "/peə/",
+      "pos": "n",
+      "zh": "梨",
+      "examples": [
+        {
+          "en": "This pear is sweet.",
+          "zh": "这个梨很甜。"
+        }
+      ]
+    },
+    {
+      "lemma": "orange",
+      "display": "orange",
+      "ipa": "/ˈɒrɪndʒ/",
+      "pos": "n",
+      "zh": "橙子",
+      "examples": [
+        {
+          "en": "I like orange juice.",
+          "zh": "我喜欢橙汁。"
+        }
+      ]
+    },
+    {
+      "lemma": "bread",
+      "display": "bread",
+      "ipa": "/bred/",
+      "pos": "n",
+      "zh": "面包",
+      "examples": [
+        {
+          "en": "I eat bread.",
+          "zh": "我吃面包。"
+        }
+      ]
+    },
+    {
+      "lemma": "milk",
+      "display": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "n",
+      "zh": "牛奶",
+      "examples": [
+        {
+          "en": "Drink some milk.",
+          "zh": "喝一点牛奶。"
+        }
+      ]
+    },
+    {
+      "lemma": "water",
+      "display": "water",
+      "ipa": "/ˈwɔːtə/",
+      "pos": "n",
+      "zh": "水",
+      "examples": [
+        {
+          "en": "I drink water.",
+          "zh": "我喝水。"
+        }
+      ]
+    },
+    {
+      "lemma": "book",
+      "display": "book",
+      "ipa": "/bʊk/",
+      "pos": "n",
+      "zh": "书",
+      "examples": [
+        {
+          "en": "This is my book.",
+          "zh": "这是我的书。"
+        }
+      ]
+    },
+    {
+      "lemma": "pen",
+      "display": "pen",
+      "ipa": "/pen/",
+      "pos": "n",
+      "zh": "钢笔",
+      "examples": [
+        {
+          "en": "I have a pen.",
+          "zh": "我有一支钢笔。"
+        }
+      ]
+    },
+    {
+      "lemma": "pencil",
+      "display": "pencil",
+      "ipa": "/ˈpensl/",
+      "pos": "n",
+      "zh": "铅笔",
+      "examples": [
+        {
+          "en": "This pencil is short.",
+          "zh": "这支铅笔很短。"
+        }
+      ]
+    },
+    {
+      "lemma": "ruler",
+      "display": "ruler",
+      "ipa": "/ˈruːlə/",
+      "pos": "n",
+      "zh": "尺子",
+      "examples": [
+        {
+          "en": "Use a ruler.",
+          "zh": "用尺子。"
+        }
+      ]
+    },
+    {
+      "lemma": "school",
+      "display": "school",
+      "ipa": "/skuːl/",
+      "pos": "n",
+      "zh": "学校",
+      "examples": [
+        {
+          "en": "I go to school.",
+          "zh": "我去上学。"
+        }
+      ]
+    },
+    {
+      "lemma": "bag",
+      "display": "bag",
+      "ipa": "/bæɡ/",
+      "pos": "n",
+      "zh": "包",
+      "examples": [
+        {
+          "en": "My bag is blue.",
+          "zh": "我的包是蓝色的。"
+        }
+      ]
+    },
+    {
+      "lemma": "family",
+      "display": "family",
+      "ipa": "/ˈfæməli/",
+      "pos": "n",
+      "zh": "家庭",
+      "examples": [
+        {
+          "en": "I love my family.",
+          "zh": "我爱我的家。"
+        }
+      ]
+    },
+    {
+      "lemma": "father",
+      "display": "father",
+      "ipa": "/ˈfɑːðə/",
+      "pos": "n",
+      "zh": "爸爸",
+      "examples": [
+        {
+          "en": "My father is tall.",
+          "zh": "我爸爸很高。"
+        }
+      ]
+    },
+    {
+      "lemma": "mother",
+      "display": "mother",
+      "ipa": "/ˈmʌðə/",
+      "pos": "n",
+      "zh": "妈妈",
+      "examples": [
+        {
+          "en": "My mother is kind.",
+          "zh": "我妈妈很温柔。"
+        }
+      ]
+    },
+    {
+      "lemma": "brother",
+      "display": "brother",
+      "ipa": "/ˈbrʌðə/",
+      "pos": "n",
+      "zh": "哥哥或弟弟",
+      "examples": [
+        {
+          "en": "I have a brother.",
+          "zh": "我有一个兄弟。"
+        }
+      ]
+    },
+    {
+      "lemma": "sister",
+      "display": "sister",
+      "ipa": "/ˈsɪstə/",
+      "pos": "n",
+      "zh": "姐姐或妹妹",
+      "examples": [
+        {
+          "en": "This is my sister.",
+          "zh": "这是我的姐姐。"
+        }
+      ]
+    },
+    {
+      "lemma": "friend",
+      "display": "friend",
+      "ipa": "/frend/",
+      "pos": "n",
+      "zh": "朋友",
+      "examples": [
+        {
+          "en": "He is my friend.",
+          "zh": "他是我的朋友。"
+        }
+      ]
+    },
+    {
+      "lemma": "one",
+      "display": "one",
+      "ipa": "/wʌn/",
+      "pos": "num",
+      "zh": "一",
+      "examples": [
+        {
+          "en": "I have one book.",
+          "zh": "我有一本书。"
+        }
+      ]
+    },
+    {
+      "lemma": "two",
+      "display": "two",
+      "ipa": "/tuː/",
+      "pos": "num",
+      "zh": "二",
+      "examples": [
+        {
+          "en": "I have two cats.",
+          "zh": "我有两只猫。"
+        }
+      ]
+    },
+    {
+      "lemma": "three",
+      "display": "three",
+      "ipa": "/θriː/",
+      "pos": "num",
+      "zh": "三",
+      "examples": [
+        {
+          "en": "I see three birds.",
+          "zh": "我看见三只鸟。"
+        }
+      ]
+    },
+    {
+      "lemma": "four",
+      "display": "four",
+      "ipa": "/fɔː/",
+      "pos": "num",
+      "zh": "四",
+      "examples": [
+        {
+          "en": "I have four pens.",
+          "zh": "我有四支钢笔。"
+        }
+      ]
+    },
+    {
+      "lemma": "five",
+      "display": "five",
+      "ipa": "/faɪv/",
+      "pos": "num",
+      "zh": "五",
+      "examples": [
+        {
+          "en": "Five apples, please.",
+          "zh": "请来五个苹果。"
+        }
+      ]
+    },
+    {
+      "lemma": "six",
+      "display": "six",
+      "ipa": "/sɪks/",
+      "pos": "num",
+      "zh": "六",
+      "examples": [
+        {
+          "en": "I am six.",
+          "zh": "我六岁。"
+        }
+      ]
+    },
+    {
+      "lemma": "seven",
+      "display": "seven",
+      "ipa": "/ˈsevn/",
+      "pos": "num",
+      "zh": "七",
+      "examples": [
+        {
+          "en": "Seven days a week.",
+          "zh": "一周七天。"
+        }
+      ]
+    },
+    {
+      "lemma": "eight",
+      "display": "eight",
+      "ipa": "/eɪt/",
+      "pos": "num",
+      "zh": "八",
+      "examples": [
+        {
+          "en": "I have eight crayons.",
+          "zh": "我有八支蜡笔。"
+        }
+      ]
+    },
+    {
+      "lemma": "nine",
+      "display": "nine",
+      "ipa": "/naɪn/",
+      "pos": "num",
+      "zh": "九",
+      "examples": [
+        {
+          "en": "Nine is a number.",
+          "zh": "九是一个数字。"
+        }
+      ]
+    },
+    {
+      "lemma": "ten",
+      "display": "ten",
+      "ipa": "/ten/",
+      "pos": "num",
+      "zh": "十",
+      "examples": [
+        {
+          "en": "I can count to ten.",
+          "zh": "我能数到十。"
+        }
+      ]
+    },
+    {
+      "lemma": "big",
+      "display": "big",
+      "ipa": "/bɪɡ/",
+      "pos": "adj",
+      "zh": "大的",
+      "examples": [
+        {
+          "en": "The elephant is big.",
+          "zh": "大象很大。"
+        }
+      ]
+    },
+    {
+      "lemma": "small",
+      "display": "small",
+      "ipa": "/smɔːl/",
+      "pos": "adj",
+      "zh": "小的",
+      "examples": [
+        {
+          "en": "The ant is small.",
+          "zh": "蚂蚁很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "hot",
+      "display": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adj",
+      "zh": "热的",
+      "examples": [
+        {
+          "en": "The soup is hot.",
+          "zh": "汤很热。"
+        }
+      ]
+    },
+    {
+      "lemma": "cold",
+      "display": "cold",
+      "ipa": "/kəʊld/",
+      "pos": "adj",
+      "zh": "冷的",
+      "examples": [
+        {
+          "en": "The water is cold.",
+          "zh": "水很冷。"
+        }
+      ]
+    },
+    {
+      "lemma": "happy",
+      "display": "happy",
+      "ipa": "/ˈhæpi/",
+      "pos": "adj",
+      "zh": "高兴的",
+      "examples": [
+        {
+          "en": "I am happy.",
+          "zh": "我很高兴。"
+        }
+      ]
+    },
+    {
+      "lemma": "sad",
+      "display": "sad",
+      "ipa": "/sæd/",
+      "pos": "adj",
+      "zh": "难过的",
+      "examples": [
+        {
+          "en": "He is sad.",
+          "zh": "他很难过。"
+        }
+      ]
+    },
+    {
+      "lemma": "run",
+      "display": "run",
+      "ipa": "/rʌn/",
+      "pos": "v",
+      "zh": "跑",
+      "examples": [
+        {
+          "en": "I can run.",
+          "zh": "我会跑。"
+        }
+      ]
+    },
+    {
+      "lemma": "jump",
+      "display": "jump",
+      "ipa": "/dʒʌmp/",
+      "pos": "v",
+      "zh": "跳",
+      "examples": [
+        {
+          "en": "I can jump.",
+          "zh": "我会跳。"
+        }
+      ]
+    },
+    {
+      "lemma": "sing",
+      "display": "sing",
+      "ipa": "/sɪŋ/",
+      "pos": "v",
+      "zh": "唱",
+      "examples": [
+        {
+          "en": "We sing a song.",
+          "zh": "我们唱歌。"
+        }
+      ]
+    },
+    {
+      "lemma": "read",
+      "display": "read",
+      "ipa": "/riːd/",
+      "pos": "v",
+      "zh": "读",
+      "examples": [
+        {
+          "en": "I read a book.",
+          "zh": "我读书。"
+        }
+      ]
+    },
+    {
+      "lemma": "write",
+      "display": "write",
+      "ipa": "/raɪt/",
+      "pos": "v",
+      "zh": "写",
+      "examples": [
+        {
+          "en": "I write my name.",
+          "zh": "我写我的名字。"
+        }
+      ]
+    },
+    {
+      "lemma": "eat",
+      "display": "eat",
+      "ipa": "/iːt/",
+      "pos": "v",
+      "zh": "吃",
+      "examples": [
+        {
+          "en": "I eat an apple.",
+          "zh": "我吃苹果。"
+        }
+      ]
+    },
+    {
+      "lemma": "drink",
+      "display": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "v",
+      "zh": "喝",
+      "examples": [
+        {
+          "en": "I drink milk.",
+          "zh": "我喝牛奶。"
+        }
+      ]
+    },
+    {
+      "lemma": "like",
+      "display": "like",
+      "ipa": "/laɪk/",
+      "pos": "v",
+      "zh": "喜欢",
+      "examples": [
+        {
+          "en": "I like dogs.",
+          "zh": "我喜欢狗。"
+        }
+      ]
+    },
+    {
+      "lemma": "have",
+      "display": "have",
+      "ipa": "/hæv/",
+      "pos": "v",
+      "zh": "有",
+      "examples": [
+        {
+          "en": "I have a bag.",
+          "zh": "我有一个包。"
+        }
+      ]
+    },
+    {
+      "lemma": "go",
+      "display": "go",
+      "ipa": "/ɡəʊ/",
+      "pos": "v",
+      "zh": "去",
+      "examples": [
+        {
+          "en": "I go to school.",
+          "zh": "我去上学。"
+        }
+      ]
+    },
+    {
+      "lemma": "come",
+      "display": "come",
+      "ipa": "/kʌm/",
+      "pos": "v",
+      "zh": "来",
+      "examples": [
+        {
+          "en": "Come here.",
+          "zh": "过来。"
+        }
+      ]
+    },
+    {
+      "lemma": "see",
+      "display": "see",
+      "ipa": "/siː/",
+      "pos": "v",
+      "zh": "看见",
+      "examples": [
+        {
+          "en": "I see a bird.",
+          "zh": "我看见一只鸟。"
+        }
+      ]
+    },
+    {
+      "lemma": "look",
+      "display": "look",
+      "ipa": "/lʊk/",
+      "pos": "v",
+      "zh": "看",
+      "examples": [
+        {
+          "en": "Look at me.",
+          "zh": "看着我。"
+        }
+      ]
+    },
+    {
+      "lemma": "sit",
+      "display": "sit",
+      "ipa": "/sɪt/",
+      "pos": "v",
+      "zh": "坐",
+      "examples": [
+        {
+          "en": "Sit down, please.",
+          "zh": "请坐下。"
+        }
+      ]
+    },
+    {
+      "lemma": "stand",
+      "display": "stand",
+      "ipa": "/stænd/",
+      "pos": "v",
+      "zh": "站",
+      "examples": [
+        {
+          "en": "Stand up.",
+          "zh": "站起来。"
+        }
+      ]
+    },
+    {
+      "lemma": "open",
+      "display": "open",
+      "ipa": "/ˈəʊpən/",
+      "pos": "v",
+      "zh": "打开",
+      "examples": [
+        {
+          "en": "Open the book.",
+          "zh": "打开书。"
+        }
+      ]
+    },
+    {
+      "lemma": "close",
+      "display": "close",
+      "ipa": "/kləʊz/",
+      "pos": "v",
+      "zh": "关上",
+      "examples": [
+        {
+          "en": "Close the door.",
+          "zh": "关门。"
+        }
+      ]
+    },
+    {
+      "lemma": "head",
+      "display": "head",
+      "ipa": "/hed/",
+      "pos": "n",
+      "zh": "头",
+      "examples": [
+        {
+          "en": "This is my head.",
+          "zh": "这是我的头。"
+        }
+      ]
+    },
+    {
+      "lemma": "hand",
+      "display": "hand",
+      "ipa": "/hænd/",
+      "pos": "n",
+      "zh": "手",
+      "examples": [
+        {
+          "en": "Wave your hand.",
+          "zh": "挥挥手。"
+        }
+      ]
+    },
+    {
+      "lemma": "eye",
+      "display": "eye",
+      "ipa": "/aɪ/",
+      "pos": "n",
+      "zh": "眼睛",
+      "examples": [
+        {
+          "en": "I have two eyes.",
+          "zh": "我有两只眼睛。"
+        }
+      ]
+    },
+    {
+      "lemma": "nose",
+      "display": "nose",
+      "ipa": "/nəʊz/",
+      "pos": "n",
+      "zh": "鼻子",
+      "examples": [
+        {
+          "en": "This is my nose.",
+          "zh": "这是我的鼻子。"
+        }
+      ]
+    },
+    {
+      "lemma": "mouth",
+      "display": "mouth",
+      "ipa": "/maʊθ/",
+      "pos": "n",
+      "zh": "嘴",
+      "examples": [
+        {
+          "en": "Open your mouth.",
+          "zh": "张开嘴。"
+        }
+      ]
+    },
+    {
+      "lemma": "ear",
+      "display": "ear",
+      "ipa": "/ɪə/",
+      "pos": "n",
+      "zh": "耳朵",
+      "examples": [
+        {
+          "en": "I have two ears.",
+          "zh": "我有两只耳朵。"
+        }
+      ]
+    },
+    {
+      "lemma": "face",
+      "display": "face",
+      "ipa": "/feɪs/",
+      "pos": "n",
+      "zh": "脸",
+      "examples": [
+        {
+          "en": "Wash your face.",
+          "zh": "洗脸。"
+        }
+      ]
+    },
+    {
+      "lemma": "arm",
+      "display": "arm",
+      "ipa": "/ɑːm/",
+      "pos": "n",
+      "zh": "胳膊",
+      "examples": [
+        {
+          "en": "Raise your arm.",
+          "zh": "举起胳膊。"
+        }
+      ]
+    },
+    {
+      "lemma": "leg",
+      "display": "leg",
+      "ipa": "/leɡ/",
+      "pos": "n",
+      "zh": "腿",
+      "examples": [
+        {
+          "en": "This is my leg.",
+          "zh": "这是我的腿。"
+        }
+      ]
+    },
+    {
+      "lemma": "foot",
+      "display": "foot",
+      "ipa": "/fʊt/",
+      "pos": "n",
+      "zh": "脚",
+      "examples": [
+        {
+          "en": "My foot is small.",
+          "zh": "我的脚很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "sun",
+      "display": "sun",
+      "ipa": "/sʌn/",
+      "pos": "n",
+      "zh": "太阳",
+      "examples": [
+        {
+          "en": "The sun is bright.",
+          "zh": "太阳很亮。"
+        }
+      ]
+    },
+    {
+      "lemma": "moon",
+      "display": "moon",
+      "ipa": "/muːn/",
+      "pos": "n",
+      "zh": "月亮",
+      "examples": [
+        {
+          "en": "The moon is round.",
+          "zh": "月亮是圆的。"
+        }
+      ]
+    },
+    {
+      "lemma": "star",
+      "display": "star",
+      "ipa": "/stɑː/",
+      "pos": "n",
+      "zh": "星星",
+      "examples": [
+        {
+          "en": "I see a star.",
+          "zh": "我看见一颗星星。"
+        }
+      ]
+    },
+    {
+      "lemma": "tree",
+      "display": "tree",
+      "ipa": "/triː/",
+      "pos": "n",
+      "zh": "树",
+      "examples": [
+        {
+          "en": "The tree is green.",
+          "zh": "树是绿的。"
+        }
+      ]
+    },
+    {
+      "lemma": "flower",
+      "display": "flower",
+      "ipa": "/ˈflaʊə/",
+      "pos": "n",
+      "zh": "花",
+      "examples": [
+        {
+          "en": "The flower is red.",
+          "zh": "花是红的。"
+        }
+      ]
+    },
+    {
+      "lemma": "fish",
+      "display": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "n",
+      "zh": "鱼",
+      "examples": [
+        {
+          "en": "The fish can swim.",
+          "zh": "鱼会游泳。"
+        }
+      ]
+    },
+    {
+      "lemma": "horse",
+      "display": "horse",
+      "ipa": "/hɔːs/",
+      "pos": "n",
+      "zh": "马",
+      "examples": [
+        {
+          "en": "The horse can run.",
+          "zh": "马会跑。"
+        }
+      ]
+    },
+    {
+      "lemma": "tiger",
+      "display": "tiger",
+      "ipa": "/ˈtaɪɡə/",
+      "pos": "n",
+      "zh": "老虎",
+      "examples": [
+        {
+          "en": "The tiger is strong.",
+          "zh": "老虎很强壮。"
+        }
+      ]
+    },
+    {
+      "lemma": "lion",
+      "display": "lion",
+      "ipa": "/ˈlaɪən/",
+      "pos": "n",
+      "zh": "狮子",
+      "examples": [
+        {
+          "en": "The lion is big.",
+          "zh": "狮子很大。"
+        }
+      ]
+    },
+    {
+      "lemma": "giraffe",
+      "display": "giraffe",
+      "ipa": "/dʒəˈrɑːf/",
+      "pos": "n",
+      "zh": "长颈鹿",
+      "examples": [
+        {
+          "en": "The giraffe is tall.",
+          "zh": "长颈鹿很高。"
+        }
+      ]
+    },
+    {
+      "lemma": "rabbit",
+      "display": "rabbit",
+      "ipa": "/ˈræbɪt/",
+      "pos": "n",
+      "zh": "兔子",
+      "examples": [
+        {
+          "en": "The rabbit is white.",
+          "zh": "兔子是白的。"
+        }
+      ]
+    },
+    {
+      "lemma": "chicken",
+      "display": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "pos": "n",
+      "zh": "鸡",
+      "examples": [
+        {
+          "en": "The chicken is small.",
+          "zh": "鸡很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "cow",
+      "display": "cow",
+      "ipa": "/kaʊ/",
+      "pos": "n",
+      "zh": "奶牛",
+      "examples": [
+        {
+          "en": "The cow gives milk.",
+          "zh": "奶牛产奶。"
+        }
+      ]
+    },
+    {
+      "lemma": "sheep",
+      "display": "sheep",
+      "ipa": "/ʃiːp/",
+      "pos": "n",
+      "zh": "绵羊",
+      "examples": [
+        {
+          "en": "The sheep is white.",
+          "zh": "绵羊是白的。"
+        }
+      ]
+    },
+    {
+      "lemma": "car",
+      "display": "car",
+      "ipa": "/kɑː/",
+      "pos": "n",
+      "zh": "小汽车",
+      "examples": [
+        {
+          "en": "The car is red.",
+          "zh": "小汽车是红的。"
+        }
+      ]
+    },
+    {
+      "lemma": "bus",
+      "display": "bus",
+      "ipa": "/bʌs/",
+      "pos": "n",
+      "zh": "公共汽车",
+      "examples": [
+        {
+          "en": "I take the bus.",
+          "zh": "我坐公共汽车。"
+        }
+      ]
+    },
+    {
+      "lemma": "bike",
+      "display": "bike",
+      "ipa": "/baɪk/",
+      "pos": "n",
+      "zh": "自行车",
+      "examples": [
+        {
+          "en": "I ride a bike.",
+          "zh": "我骑自行车。"
+        }
+      ]
+    },
+    {
+      "lemma": "ball",
+      "display": "ball",
+      "ipa": "/bɔːl/",
+      "pos": "n",
+      "zh": "球",
+      "examples": [
+        {
+          "en": "Kick the ball.",
+          "zh": "踢球。"
+        }
+      ]
+    },
+    {
+      "lemma": "doll",
+      "display": "doll",
+      "ipa": "/dɒl/",
+      "pos": "n",
+      "zh": "玩具娃娃",
+      "examples": [
+        {
+          "en": "This is my doll.",
+          "zh": "这是我的娃娃。"
+        }
+      ]
+    },
+    {
+      "lemma": "toy",
+      "display": "toy",
+      "ipa": "/tɔɪ/",
+      "pos": "n",
+      "zh": "玩具",
+      "examples": [
+        {
+          "en": "I like this toy.",
+          "zh": "我喜欢这个玩具。"
+        }
+      ]
+    },
+    {
+      "lemma": "home",
+      "display": "home",
+      "ipa": "/həʊm/",
+      "pos": "n",
+      "zh": "家",
+      "examples": [
+        {
+          "en": "I go home.",
+          "zh": "我回家。"
+        }
+      ]
+    },
+    {
+      "lemma": "door",
+      "display": "door",
+      "ipa": "/dɔː/",
+      "pos": "n",
+      "zh": "门",
+      "examples": [
+        {
+          "en": "Open the door.",
+          "zh": "开门。"
+        }
+      ]
+    },
+    {
+      "lemma": "window",
+      "display": "window",
+      "ipa": "/ˈwɪndəʊ/",
+      "pos": "n",
+      "zh": "窗户",
+      "examples": [
+        {
+          "en": "Close the window.",
+          "zh": "关窗。"
+        }
+      ]
+    },
+    {
+      "lemma": "desk",
+      "display": "desk",
+      "ipa": "/desk/",
+      "pos": "n",
+      "zh": "课桌",
+      "examples": [
+        {
+          "en": "This is my desk.",
+          "zh": "这是我的课桌。"
+        }
+      ]
+    },
+    {
+      "lemma": "chair",
+      "display": "chair",
+      "ipa": "/tʃeə/",
+      "pos": "n",
+      "zh": "椅子",
+      "examples": [
+        {
+          "en": "Sit on the chair.",
+          "zh": "坐在椅子上。"
+        }
+      ]
+    },
+    {
+      "lemma": "room",
+      "display": "room",
+      "ipa": "/ruːm/",
+      "pos": "n",
+      "zh": "房间",
+      "examples": [
+        {
+          "en": "This is my room.",
+          "zh": "这是我的房间。"
+        }
+      ]
+    },
+    {
+      "lemma": "bed",
+      "display": "bed",
+      "ipa": "/bed/",
+      "pos": "n",
+      "zh": "床",
+      "examples": [
+        {
+          "en": "This is my bed.",
+          "zh": "这是我的床。"
+        }
+      ]
+    },
+    {
+      "lemma": "rice",
+      "display": "rice",
+      "ipa": "/raɪs/",
+      "pos": "n",
+      "zh": "米饭",
+      "examples": [
+        {
+          "en": "I eat rice.",
+          "zh": "我吃饭。"
+        }
+      ]
+    },
+    {
+      "lemma": "egg",
+      "display": "egg",
+      "ipa": "/eɡ/",
+      "pos": "n",
+      "zh": "鸡蛋",
+      "examples": [
+        {
+          "en": "I eat an egg.",
+          "zh": "我吃鸡蛋。"
+        }
+      ]
+    },
+    {
+      "lemma": "cake",
+      "display": "cake",
+      "ipa": "/keɪk/",
+      "pos": "n",
+      "zh": "蛋糕",
+      "examples": [
+        {
+          "en": "The cake is sweet.",
+          "zh": "蛋糕很甜。"
+        }
+      ]
+    },
+    {
+      "lemma": "juice",
+      "display": "juice",
+      "ipa": "/dʒuːs/",
+      "pos": "n",
+      "zh": "果汁",
+      "examples": [
+        {
+          "en": "I drink juice.",
+          "zh": "我喝果汁。"
+        }
+      ]
+    },
+    {
+      "lemma": "tea",
+      "display": "tea",
+      "ipa": "/tiː/",
+      "pos": "n",
+      "zh": "茶",
+      "examples": [
+        {
+          "en": "Mum drinks tea.",
+          "zh": "妈妈喝茶。"
+        }
+      ]
+    },
+    {
+      "lemma": "today",
+      "display": "today",
+      "ipa": "/təˈdeɪ/",
+      "pos": "n",
+      "zh": "今天",
+      "examples": [
+        {
+          "en": "Today is Monday.",
+          "zh": "今天是星期一。"
+        }
+      ]
+    },
+    {
+      "lemma": "morning",
+      "display": "morning",
+      "ipa": "/ˈmɔːnɪŋ/",
+      "pos": "n",
+      "zh": "早晨",
+      "examples": [
+        {
+          "en": "Good morning.",
+          "zh": "早上好。"
+        }
+      ]
+    },
+    {
+      "lemma": "night",
+      "display": "night",
+      "ipa": "/naɪt/",
+      "pos": "n",
+      "zh": "夜晚",
+      "examples": [
+        {
+          "en": "Good night.",
+          "zh": "晚安。"
+        }
+      ]
+    },
+    {
+      "lemma": "yes",
+      "display": "yes",
+      "ipa": "/jes/",
+      "pos": "int",
+      "zh": "是的",
+      "examples": [
+        {
+          "en": "Yes, I am.",
+          "zh": "是的，我是。"
+        }
+      ]
+    },
+    {
+      "lemma": "no",
+      "display": "no",
+      "ipa": "/nəʊ/",
+      "pos": "int",
+      "zh": "不",
+      "examples": [
+        {
+          "en": "No, I am not.",
+          "zh": "不，我不是。"
+        }
+      ]
+    },
+    {
+      "lemma": "please",
+      "display": "please",
+      "ipa": "/pliːz/",
+      "pos": "int",
+      "zh": "请",
+      "examples": [
+        {
+          "en": "Sit down, please.",
+          "zh": "请坐。"
+        }
+      ]
+    },
+    {
+      "lemma": "thanks",
+      "display": "thanks",
+      "ipa": "/θæŋks/",
+      "pos": "int",
+      "zh": "谢谢",
+      "examples": [
+        {
+          "en": "Thanks a lot.",
+          "zh": "非常感谢。"
+        }
+      ]
+    },
+    {
+      "lemma": "sorry",
+      "display": "sorry",
+      "ipa": "/ˈsɒri/",
+      "pos": "adj",
+      "zh": "对不起",
+      "examples": [
+        {
+          "en": "I am sorry.",
+          "zh": "对不起。"
+        }
+      ]
+    },
+    {
+      "lemma": "good",
+      "display": "good",
+      "ipa": "/ɡʊd/",
+      "pos": "adj",
+      "zh": "好的",
+      "examples": [
+        {
+          "en": "It is good.",
+          "zh": "这很好。"
+        }
+      ]
+    },
+    {
+      "lemma": "nice",
+      "display": "nice",
+      "ipa": "/naɪs/",
+      "pos": "adj",
+      "zh": "好的、漂亮的",
+      "examples": [
+        {
+          "en": "It is a nice day.",
+          "zh": "天气很好。"
+        }
+      ]
+    },
+    {
+      "lemma": "new",
+      "display": "new",
+      "ipa": "/njuː/",
+      "pos": "adj",
+      "zh": "新的",
+      "examples": [
+        {
+          "en": "I have a new bag.",
+          "zh": "我有一个新书包。"
+        }
+      ]
+    },
+    {
+      "lemma": "old",
+      "display": "old",
+      "ipa": "/əʊld/",
+      "pos": "adj",
+      "zh": "旧的、老的",
+      "examples": [
+        {
+          "en": "This is an old book.",
+          "zh": "这是一本旧书。"
+        }
+      ]
+    },
+    {
+      "lemma": "long",
+      "display": "long",
+      "ipa": "/lɒŋ/",
+      "pos": "adj",
+      "zh": "长的",
+      "examples": [
+        {
+          "en": "The ruler is long.",
+          "zh": "尺子很长。"
+        }
+      ]
+    },
+    {
+      "lemma": "short",
+      "display": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adj",
+      "zh": "短的",
+      "examples": [
+        {
+          "en": "The pencil is short.",
+          "zh": "铅笔很短。"
+        }
+      ]
+    },
+    {
+      "lemma": "tall",
+      "display": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adj",
+      "zh": "高的",
+      "examples": [
+        {
+          "en": "He is tall.",
+          "zh": "他很高。"
+        }
+      ]
+    },
+    {
+      "lemma": "fat",
+      "display": "fat",
+      "ipa": "/fæt/",
+      "pos": "adj",
+      "zh": "胖的",
+      "examples": [
+        {
+          "en": "The pig is fat.",
+          "zh": "猪很胖。"
+        }
+      ]
+    },
+    {
+      "lemma": "thin",
+      "display": "thin",
+      "ipa": "/θɪn/",
+      "pos": "adj",
+      "zh": "瘦的",
+      "examples": [
+        {
+          "en": "The cat is thin.",
+          "zh": "猫很瘦。"
+        }
+      ]
+    },
+    {
+      "lemma": "this",
+      "display": "this",
+      "ipa": "/ðɪs/",
+      "pos": "pron",
+      "zh": "这个",
+      "examples": [
+        {
+          "en": "This is a book.",
+          "zh": "这是一本书。"
+        }
+      ]
+    },
+    {
+      "lemma": "that",
+      "display": "that",
+      "ipa": "/ðæt/",
+      "pos": "pron",
+      "zh": "那个",
+      "examples": [
+        {
+          "en": "That is a cat.",
+          "zh": "那是一只猫。"
+        }
+      ]
+    },
+    {
+      "lemma": "what",
+      "display": "what",
+      "ipa": "/wɒt/",
+      "pos": "pron",
+      "zh": "什么",
+      "examples": [
+        {
+          "en": "What is this?",
+          "zh": "这是什么？"
+        }
+      ]
+    },
+    {
+      "lemma": "who",
+      "display": "who",
+      "ipa": "/huː/",
+      "pos": "pron",
+      "zh": "谁",
+      "examples": [
+        {
+          "en": "Who is he?",
+          "zh": "他是谁？"
+        }
+      ]
+    },
+    {
+      "lemma": "where",
+      "display": "where",
+      "ipa": "/weə/",
+      "pos": "adv",
+      "zh": "哪里",
+      "examples": [
+        {
+          "en": "Where is my bag?",
+          "zh": "我的包在哪里？"
+        }
+      ]
+    },
+    {
+      "lemma": "how",
+      "display": "how",
+      "ipa": "/haʊ/",
+      "pos": "adv",
+      "zh": "怎样",
+      "examples": [
+        {
+          "en": "How are you?",
+          "zh": "你好吗？"
+        }
+      ]
+    },
+    {
+      "lemma": "am",
+      "display": "am",
+      "ipa": "/æm/",
+      "pos": "v",
+      "zh": "是（我）",
+      "examples": [
+        {
+          "en": "I am a student.",
+          "zh": "我是学生。"
+        }
+      ]
+    },
+    {
+      "lemma": "is",
+      "display": "is",
+      "ipa": "/ɪz/",
+      "pos": "v",
+      "zh": "是",
+      "examples": [
+        {
+          "en": "He is a boy.",
+          "zh": "他是男孩。"
+        }
+      ]
+    },
+    {
+      "lemma": "are",
+      "display": "are",
+      "ipa": "/ɑː/",
+      "pos": "v",
+      "zh": "是（你们/他们）",
+      "examples": [
+        {
+          "en": "You are a girl.",
+          "zh": "你是女孩。"
+        }
+      ]
+    },
+    {
+      "lemma": "can",
+      "display": "can",
+      "ipa": "/kæn/",
+      "pos": "v",
+      "zh": "能",
+      "examples": [
+        {
+          "en": "I can swim.",
+          "zh": "我会游泳。"
+        }
+      ]
+    },
+    {
+      "lemma": "swim",
+      "display": "swim",
+      "ipa": "/swɪm/",
+      "pos": "v",
+      "zh": "游泳",
+      "examples": [
+        {
+          "en": "I can swim.",
+          "zh": "我会游泳。"
+        }
+      ]
+    },
+    {
+      "lemma": "fly",
+      "display": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "v",
+      "zh": "飞",
+      "examples": [
+        {
+          "en": "Birds can fly.",
+          "zh": "鸟会飞。"
+        }
+      ]
+    },
+    {
+      "lemma": "play",
+      "display": "play",
+      "ipa": "/pleɪ/",
+      "pos": "v",
+      "zh": "玩",
+      "examples": [
+        {
+          "en": "I play ball.",
+          "zh": "我玩球。"
+        }
+      ]
+    },
+    {
+      "lemma": "draw",
+      "display": "draw",
+      "ipa": "/drɔː/",
+      "pos": "v",
+      "zh": "画画",
+      "examples": [
+        {
+          "en": "I draw a cat.",
+          "zh": "我画一只猫。"
+        }
+      ]
+    },
+    {
+      "lemma": "listen",
+      "display": "listen",
+      "ipa": "/ˈlɪsn/",
+      "pos": "v",
+      "zh": "听",
+      "examples": [
+        {
+          "en": "Listen to me.",
+          "zh": "听我说。"
+        }
+      ]
+    },
+    {
+      "lemma": "speak",
+      "display": "speak",
+      "ipa": "/spiːk/",
+      "pos": "v",
+      "zh": "说",
+      "examples": [
+        {
+          "en": "Speak English.",
+          "zh": "说英语。"
+        }
+      ]
+    },
+    {
+      "lemma": "help",
+      "display": "help",
+      "ipa": "/help/",
+      "pos": "v",
+      "zh": "帮助",
+      "examples": [
+        {
+          "en": "Help me, please.",
+          "zh": "请帮帮我。"
+        }
+      ]
+    },
+    {
+      "lemma": "love",
+      "display": "love",
+      "ipa": "/lʌv/",
+      "pos": "v",
+      "zh": "爱",
+      "examples": [
+        {
+          "en": "I love mum.",
+          "zh": "我爱妈妈。"
+        }
+      ]
+    },
+    {
+      "lemma": "mum",
+      "display": "mum",
+      "ipa": "/mʌm/",
+      "pos": "n",
+      "zh": "妈妈",
+      "examples": [
+        {
+          "en": "This is my mum.",
+          "zh": "这是我妈妈。"
+        }
+      ]
+    },
+    {
+      "lemma": "dad",
+      "display": "dad",
+      "ipa": "/dæd/",
+      "pos": "n",
+      "zh": "爸爸",
+      "examples": [
+        {
+          "en": "This is my dad.",
+          "zh": "这是我爸爸。"
+        }
+      ]
+    },
+    {
+      "lemma": "baby",
+      "display": "baby",
+      "ipa": "/ˈbeɪbi/",
+      "pos": "n",
+      "zh": "婴儿",
+      "examples": [
+        {
+          "en": "The baby is small.",
+          "zh": "婴儿很小。"
+        }
+      ]
+    },
+    {
+      "lemma": "man",
+      "display": "man",
+      "ipa": "/mæn/",
+      "pos": "n",
+      "zh": "男人",
+      "examples": [
+        {
+          "en": "The man is a teacher.",
+          "zh": "这个男人是老师。"
+        }
+      ]
+    },
+    {
+      "lemma": "woman",
+      "display": "woman",
+      "ipa": "/ˈwʊmən/",
+      "pos": "n",
+      "zh": "女人",
+      "examples": [
+        {
+          "en": "The woman is a doctor.",
+          "zh": "这个女人是医生。"
+        }
+      ]
+    },
+    {
+      "lemma": "doctor",
+      "display": "doctor",
+      "ipa": "/ˈdɒktə/",
+      "pos": "n",
+      "zh": "医生",
+      "examples": [
+        {
+          "en": "He is a doctor.",
+          "zh": "他是医生。"
+        }
+      ]
+    },
+    {
+      "lemma": "farm",
+      "display": "farm",
+      "ipa": "/fɑːm/",
+      "pos": "n",
+      "zh": "农场",
+      "examples": [
+        {
+          "en": "We go to the farm.",
+          "zh": "我们去农场。"
+        }
+      ]
+    },
+    {
+      "lemma": "park",
+      "display": "park",
+      "ipa": "/pɑːk/",
+      "pos": "n",
+      "zh": "公园",
+      "examples": [
+        {
+          "en": "We play in the park.",
+          "zh": "我们在公园玩。"
+        }
+      ]
+    },
+    {
+      "lemma": "zoo",
+      "display": "zoo",
+      "ipa": "/zuː/",
+      "pos": "n",
+      "zh": "动物园",
+      "examples": [
+        {
+          "en": "We go to the zoo.",
+          "zh": "我们去动物园。"
+        }
+      ]
+    },
+    {
+      "lemma": "class",
+      "display": "class",
+      "ipa": "/klɑːs/",
+      "pos": "n",
+      "zh": "班级、课",
+      "examples": [
+        {
+          "en": "This is my class.",
+          "zh": "这是我的班级。"
+        }
+      ]
+    },
+    {
+      "lemma": "english",
+      "display": "English",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "pos": "n",
+      "zh": "英语",
+      "examples": [
+        {
+          "en": "I like English.",
+          "zh": "我喜欢英语。"
+        }
+      ]
+    },
+    {
+      "lemma": "chinese",
+      "display": "Chinese",
+      "ipa": "/ˌtʃaɪˈniːz/",
+      "pos": "n",
+      "zh": "中文、中国人",
+      "examples": [
+        {
+          "en": "I speak Chinese.",
+          "zh": "我说中文。"
+        }
+      ]
+    }
+  ]
+}

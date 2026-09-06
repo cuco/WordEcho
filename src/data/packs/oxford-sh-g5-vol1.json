@@ -1,0 +1,1215 @@
+{
+  "id": "oxford-sh-g5-vol1",
+  "title": "牛津上海 五年级上册",
+  "curriculum": "other",
+  "grade": "五年级",
+  "volume": "上册",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "first",
+      "lemma": "first",
+      "ipa": "/fɜːst/",
+      "pos": "num",
+      "zh": "第一",
+      "examples": [
+        {
+          "en": "I sit in the first row.",
+          "zh": "我坐在第一排。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "next",
+      "lemma": "next",
+      "ipa": "/nekst/",
+      "pos": "adv",
+      "zh": "然后",
+      "examples": [
+        {
+          "en": "Who is next?",
+          "zh": "下一个是谁？"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "then",
+      "lemma": "then",
+      "ipa": "/ðen/",
+      "pos": "conj",
+      "zh": "然后",
+      "examples": [
+        {
+          "en": "Wash your hands, then eat.",
+          "zh": "先洗手，然后吃饭。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "finally",
+      "lemma": "finally",
+      "ipa": "/ˈfaɪnəli/",
+      "pos": "adv",
+      "zh": "最后",
+      "examples": [
+        {
+          "en": "Finally we arrive home.",
+          "zh": "最后我们到家了。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "tea",
+      "lemma": "tea",
+      "ipa": "/tiː/",
+      "pos": "n",
+      "zh": "茶",
+      "examples": [
+        {
+          "en": "Mum drinks tea.",
+          "zh": "妈妈喝茶。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "boil",
+      "lemma": "boil",
+      "ipa": "/bɔɪl/",
+      "pos": "n",
+      "zh": "沸腾",
+      "examples": [
+        {
+          "en": "I have a boil.",
+          "zh": "我有一个沸腾。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "pour",
+      "lemma": "pour",
+      "ipa": "/pɔː(r)/",
+      "pos": "n",
+      "zh": "倾泻",
+      "examples": [
+        {
+          "en": "I have a pour.",
+          "zh": "我有一个倾泻。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "drink",
+      "lemma": "drink",
+      "ipa": "/drɪŋk/",
+      "pos": "v",
+      "zh": "喝",
+      "examples": [
+        {
+          "en": "I drink milk.",
+          "zh": "我喝牛奶。"
+        }
+      ],
+      "unit": "M4U1"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "ipa": "/ˈsekənd/",
+      "pos": "num",
+      "zh": "第二",
+      "examples": [
+        {
+          "en": "He is the second boy.",
+          "zh": "他是第二个男孩。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "third",
+      "lemma": "third",
+      "ipa": "/θɜːd/",
+      "pos": "num",
+      "zh": "第三",
+      "examples": [
+        {
+          "en": "He is the third student.",
+          "zh": "他是第三个学生。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "fourth",
+      "lemma": "fourth",
+      "ipa": "/fɔːθ/",
+      "pos": "num",
+      "zh": "第四",
+      "examples": [
+        {
+          "en": "He is the fourth student.",
+          "zh": "他是第四个学生。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "fifth",
+      "lemma": "fifth",
+      "ipa": "/fɪfθ/",
+      "pos": "num",
+      "zh": "第五",
+      "examples": [
+        {
+          "en": "He is the fifth student.",
+          "zh": "他是第五个学生。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "sixth",
+      "lemma": "sixth",
+      "ipa": "/sɪksθ/",
+      "pos": "n",
+      "zh": "月的第六日",
+      "examples": [
+        {
+          "en": "I have a sixth.",
+          "zh": "我有一个月的第六日。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "party",
+      "lemma": "party",
+      "ipa": "/ˈpɑːti/",
+      "pos": "n",
+      "zh": "政党",
+      "examples": [
+        {
+          "en": "I have a party.",
+          "zh": "我有一个政党。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "begin",
+      "lemma": "begin",
+      "ipa": "/bɪˈɡɪn/",
+      "pos": "v",
+      "zh": "开始",
+      "examples": [
+        {
+          "en": "Class begins at eight.",
+          "zh": "八点开始上课。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "bring",
+      "lemma": "bring",
+      "ipa": "/brɪŋ/",
+      "pos": "v",
+      "zh": "带来",
+      "examples": [
+        {
+          "en": "Please bring your book.",
+          "zh": "请把书带来。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "wear",
+      "lemma": "wear",
+      "ipa": "/weə(r)/",
+      "pos": "n",
+      "zh": "衣物",
+      "examples": [
+        {
+          "en": "I have a wear.",
+          "zh": "我有一个衣物。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "favourite",
+      "lemma": "favourite",
+      "ipa": "/ˈfeɪvərɪt/",
+      "pos": "n",
+      "zh": "特别喜爱的人",
+      "examples": [
+        {
+          "en": "I have a favourite.",
+          "zh": "我有一个特别喜爱的人。"
+        }
+      ],
+      "unit": "M1U1"
+    },
+    {
+      "word": "taxi",
+      "lemma": "taxi",
+      "ipa": "/ˈtæksi/",
+      "pos": "n",
+      "zh": "出租汽车",
+      "examples": [
+        {
+          "en": "I have a taxi.",
+          "zh": "我有一个出租汽车。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "underground",
+      "lemma": "underground",
+      "ipa": "/ˌʌndəˈɡraʊnd/",
+      "pos": "n",
+      "zh": "地下",
+      "examples": [
+        {
+          "en": "I have an underground.",
+          "zh": "我有一个地下。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "zebra",
+      "lemma": "zebra",
+      "ipa": "/ˈzebrə/",
+      "pos": "n",
+      "zh": "[脊椎]斑马",
+      "examples": [
+        {
+          "en": "I have a zebra.",
+          "zh": "我有一只[脊椎]斑马。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "crossing",
+      "lemma": "crossing",
+      "ipa": "/ˈkrɒsɪŋ/",
+      "pos": "n",
+      "zh": "十字路口",
+      "examples": [
+        {
+          "en": "I have a crossing.",
+          "zh": "我有一个十字路口。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "traffic",
+      "lemma": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "pos": "n",
+      "zh": "交通",
+      "examples": [
+        {
+          "en": "I have a traffic.",
+          "zh": "我有一个交通。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "light",
+      "lemma": "light",
+      "ipa": "/laɪt/",
+      "pos": "n",
+      "zh": "光",
+      "examples": [
+        {
+          "en": "I have a light.",
+          "zh": "我有一个光。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "lights",
+      "lemma": "lights",
+      "ipa": "/laɪts/",
+      "pos": "n",
+      "zh": "灯光",
+      "examples": [
+        {
+          "en": "I have a lights.",
+          "zh": "我有一个灯光。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "pavement",
+      "lemma": "pavement",
+      "ipa": "/ˈpeɪvmənt/",
+      "pos": "n",
+      "zh": "人行道",
+      "examples": [
+        {
+          "en": "I have a pavement.",
+          "zh": "我有一个人行道。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "live",
+      "lemma": "live",
+      "ipa": "/lɪv; laɪv/",
+      "pos": "adj",
+      "zh": "活的",
+      "examples": [
+        {
+          "en": "The cake is live.",
+          "zh": "蛋糕是活的。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "leave",
+      "lemma": "leave",
+      "ipa": "/liːv/",
+      "pos": "v",
+      "zh": "离开",
+      "examples": [
+        {
+          "en": "We leave school at four.",
+          "zh": "我们四点离校。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "by",
+      "lemma": "by",
+      "ipa": "/baɪ/",
+      "pos": "prep",
+      "zh": "通过",
+      "examples": [
+        {
+          "en": "I go to school by bus.",
+          "zh": "我坐公交车上学。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "on foot",
+      "lemma": "on foot",
+      "ipa": "/əˈraɪv/",
+      "pos": "v",
+      "zh": "到达",
+      "examples": [
+        {
+          "en": "I go to school on foot.",
+          "zh": "我走路上学。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "arrive at",
+      "lemma": "arrive at",
+      "ipa": "/krɒs/",
+      "pos": "n",
+      "zh": "交叉",
+      "examples": [
+        {
+          "en": "We arrive at school at eight.",
+          "zh": "我们八点到学校。"
+        }
+      ],
+      "unit": "M1U2"
+    },
+    {
+      "word": "worker",
+      "lemma": "worker",
+      "ipa": "/ˈwɜːkə(r)/",
+      "pos": "n",
+      "zh": "工人",
+      "examples": [
+        {
+          "en": "I have a worker.",
+          "zh": "我有一个工人。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "pilot",
+      "lemma": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "pos": "n",
+      "zh": "飞行员",
+      "examples": [
+        {
+          "en": "I have a pilot.",
+          "zh": "我有一个飞行员。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "farmer",
+      "lemma": "farmer",
+      "ipa": "/ˈfɑːmə(r)/",
+      "pos": "n",
+      "zh": "农夫",
+      "examples": [
+        {
+          "en": "I have a farmer.",
+          "zh": "我有一个农夫。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "shop",
+      "lemma": "shop",
+      "ipa": "/ʃɒp/",
+      "pos": "n",
+      "zh": "商店",
+      "examples": [
+        {
+          "en": "I have a shop.",
+          "zh": "我有一个商店。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "assistant",
+      "lemma": "assistant",
+      "ipa": "/əˈsɪstənt/",
+      "pos": "n",
+      "zh": "助手",
+      "examples": [
+        {
+          "en": "I have an assistant.",
+          "zh": "我有一个助手。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "fly",
+      "lemma": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "v",
+      "zh": "飞",
+      "examples": [
+        {
+          "en": "Birds can fly.",
+          "zh": "鸟会飞。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "help",
+      "lemma": "help",
+      "ipa": "/help/",
+      "pos": "v",
+      "zh": "帮助",
+      "examples": [
+        {
+          "en": "Help me, please.",
+          "zh": "请帮帮我。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "sick",
+      "lemma": "sick",
+      "ipa": "/sɪk/",
+      "pos": "adj",
+      "zh": "厌恶的",
+      "examples": [
+        {
+          "en": "I am sick.",
+          "zh": "我厌恶的。"
+        }
+      ],
+      "unit": "M1U3"
+    },
+    {
+      "word": "write an e-mail",
+      "lemma": "write an e-mail",
+      "ipa": "/pleɪ tʃes/",
+      "pos": "n",
+      "zh": "下象棋",
+      "examples": [
+        {
+          "en": "I write an e-mail to Grandma.",
+          "zh": "我给奶奶写电子邮件。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "once",
+      "lemma": "once",
+      "ipa": "/wʌns/",
+      "pos": "adv",
+      "zh": "一次",
+      "examples": [
+        {
+          "en": "I go there once a week.",
+          "zh": "我一周去一次。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "twice",
+      "lemma": "twice",
+      "ipa": "/twaɪs/",
+      "pos": "adv",
+      "zh": "两次",
+      "examples": [
+        {
+          "en": "I brush my teeth twice a day.",
+          "zh": "我每天刷两次牙。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "talk",
+      "lemma": "talk",
+      "ipa": "/tɔːk/",
+      "pos": "n",
+      "zh": "谈话",
+      "examples": [
+        {
+          "en": "I have a talk.",
+          "zh": "我有一个谈话。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "Internet",
+      "lemma": "internet",
+      "ipa": "/ˈɪntənet/",
+      "pos": "n",
+      "zh": "因特网",
+      "examples": [
+        {
+          "en": "I have an Internet.",
+          "zh": "我有一个因特网。"
+        }
+      ],
+      "unit": "M2U1"
+    },
+    {
+      "word": "same",
+      "lemma": "same",
+      "ipa": "/seɪm/",
+      "pos": "adj",
+      "zh": "相同的",
+      "examples": [
+        {
+          "en": "We have the same bag.",
+          "zh": "我们的包是一样的。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "different",
+      "lemma": "different",
+      "ipa": "/ˈdɪfrənt/",
+      "pos": "adj",
+      "zh": "不同的",
+      "examples": [
+        {
+          "en": "These two bags are different.",
+          "zh": "这两个包不一样。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "both",
+      "lemma": "both",
+      "ipa": "/bəʊθ/",
+      "pos": "conj",
+      "zh": "既",
+      "examples": [
+        {
+          "en": "Both cats are white.",
+          "zh": "两只猫都是白的。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "all",
+      "lemma": "all",
+      "ipa": "/ɔːl/",
+      "pos": "n",
+      "zh": "全部",
+      "examples": [
+        {
+          "en": "We all like fruit.",
+          "zh": "我们都喜欢水果。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "class",
+      "lemma": "class",
+      "ipa": "/klɑːs/",
+      "pos": "n",
+      "zh": "班级",
+      "examples": [
+        {
+          "en": "I have a class.",
+          "zh": "我有一个班级。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "each other",
+      "lemma": "each other",
+      "ipa": "/təˈɡeðə(r)/",
+      "pos": "adj",
+      "zh": "新潮的",
+      "examples": [
+        {
+          "en": "They help each other.",
+          "zh": "他们互相帮助。"
+        }
+      ],
+      "unit": "M2U2"
+    },
+    {
+      "word": "north",
+      "lemma": "north",
+      "ipa": "/nɔːθ/",
+      "pos": "n",
+      "zh": "北",
+      "examples": [
+        {
+          "en": "I have a north.",
+          "zh": "我有一个北。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "south",
+      "lemma": "south",
+      "ipa": "/saʊθ/",
+      "pos": "n",
+      "zh": "南方",
+      "examples": [
+        {
+          "en": "I have a south.",
+          "zh": "我有一个南方。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "west",
+      "lemma": "west",
+      "ipa": "/west/",
+      "pos": "n",
+      "zh": "西",
+      "examples": [
+        {
+          "en": "I have a west.",
+          "zh": "我有一个西。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "east",
+      "lemma": "east",
+      "ipa": "/iːst/",
+      "pos": "n",
+      "zh": "东方",
+      "examples": [
+        {
+          "en": "I have an east.",
+          "zh": "我有一个东方。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "study",
+      "lemma": "study",
+      "ipa": "/ˈstʌdi/",
+      "pos": "n",
+      "zh": "学习",
+      "examples": [
+        {
+          "en": "I have a study.",
+          "zh": "我有一个学习。"
+        }
+      ],
+      "unit": "M2U3"
+    },
+    {
+      "word": "hotel",
+      "lemma": "hotel",
+      "ipa": "/həʊˈtel/",
+      "pos": "n",
+      "zh": "旅馆",
+      "examples": [
+        {
+          "en": "I have a hotel.",
+          "zh": "我有一个旅馆。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "bank",
+      "lemma": "bank",
+      "ipa": "/bæŋk/",
+      "pos": "n",
+      "zh": "银行",
+      "examples": [
+        {
+          "en": "I have a bank.",
+          "zh": "我有一个银行。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "hospital",
+      "lemma": "hospital",
+      "ipa": "/ˈhɒspɪt(ə)l/",
+      "pos": "n",
+      "zh": "医院",
+      "examples": [
+        {
+          "en": "I have a hospital.",
+          "zh": "我有一个医院。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "bakery",
+      "lemma": "bakery",
+      "ipa": "/ˈbeɪkəri/",
+      "pos": "n",
+      "zh": "面包店",
+      "examples": [
+        {
+          "en": "I have a bakery.",
+          "zh": "我有一个面包店。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "museum",
+      "lemma": "museum",
+      "ipa": "/mjuˈziːəm/",
+      "pos": "n",
+      "zh": "博物馆",
+      "examples": [
+        {
+          "en": "I have a museum.",
+          "zh": "我有一个博物馆。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "cinema",
+      "lemma": "cinema",
+      "ipa": "/ˈsɪnəmə/",
+      "pos": "n",
+      "zh": "电影",
+      "examples": [
+        {
+          "en": "I have a cinema.",
+          "zh": "我有一个电影。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "along",
+      "lemma": "along",
+      "ipa": "/əˈlɒŋ/",
+      "pos": "prep",
+      "zh": "沿着",
+      "examples": [
+        {
+          "en": "We walk along the river.",
+          "zh": "我们沿着河边走。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "turn",
+      "lemma": "turn",
+      "ipa": "/tɜːn/",
+      "pos": "n",
+      "zh": "转弯",
+      "examples": [
+        {
+          "en": "I have a turn.",
+          "zh": "我有一个转弯。"
+        }
+      ],
+      "unit": "M3U1"
+    },
+    {
+      "word": "button",
+      "lemma": "button",
+      "ipa": "/ˈbʌt(ə)n/",
+      "pos": "n",
+      "zh": "按钮",
+      "examples": [
+        {
+          "en": "I have a button.",
+          "zh": "我有一个按钮。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "zip",
+      "lemma": "zip",
+      "ipa": "/zɪp/",
+      "pos": "n",
+      "zh": "拉链",
+      "examples": [
+        {
+          "en": "I have a zip.",
+          "zh": "我有一个拉链。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "ipa": "/ˈpɒkɪt/",
+      "pos": "n",
+      "zh": "口袋",
+      "examples": [
+        {
+          "en": "I have a pocket.",
+          "zh": "我有一个口袋。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "need",
+      "lemma": "need",
+      "ipa": "/niːd/",
+      "pos": "n",
+      "zh": "需要",
+      "examples": [
+        {
+          "en": "I have a need.",
+          "zh": "我有一个需要。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "put on",
+      "lemma": "put on",
+      "ipa": "/pʊt ɒn/",
+      "pos": "n",
+      "zh": "假话",
+      "examples": [
+        {
+          "en": "Put on your coat.",
+          "zh": "穿上外套。"
+        }
+      ],
+      "unit": "M3U2"
+    },
+    {
+      "word": "fever",
+      "lemma": "fever",
+      "ipa": "/ˈfiːvə(r)/",
+      "pos": "n",
+      "zh": "发烧",
+      "examples": [
+        {
+          "en": "I have a fever.",
+          "zh": "我有一个发烧。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "toothache",
+      "lemma": "toothache",
+      "ipa": "/ˈtuːθeɪk/",
+      "pos": "n",
+      "zh": "[口腔]牙痛",
+      "examples": [
+        {
+          "en": "I have a toothache.",
+          "zh": "我有一个[口腔]牙痛。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "cough",
+      "lemma": "cough",
+      "ipa": "/kɒf/",
+      "pos": "n",
+      "zh": "咳嗽",
+      "examples": [
+        {
+          "en": "I have a cough.",
+          "zh": "我有一个咳嗽。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "cold",
+      "lemma": "cold",
+      "ipa": "/kəʊld/",
+      "pos": "adj",
+      "zh": "冷的",
+      "examples": [
+        {
+          "en": "The water is cold.",
+          "zh": "水很冷。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "well",
+      "lemma": "well",
+      "ipa": "/wel/",
+      "pos": "n",
+      "zh": "井",
+      "examples": [
+        {
+          "en": "I have a well.",
+          "zh": "我有一个井。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "medicine",
+      "lemma": "medicine",
+      "ipa": "/ˈmedsn; ˈmedɪsn/",
+      "pos": "n",
+      "zh": "药",
+      "examples": [
+        {
+          "en": "I have a medicine.",
+          "zh": "我有一个药。"
+        }
+      ],
+      "unit": "M3U3"
+    },
+    {
+      "word": "gently",
+      "lemma": "gently",
+      "ipa": "/ˈdʒentli/",
+      "pos": "adv",
+      "zh": "轻轻地",
+      "examples": [
+        {
+          "en": "Hold the kitten gently.",
+          "zh": "轻轻抱着小猫。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "strongly",
+      "lemma": "strongly",
+      "ipa": "/ˈstrɒŋli/",
+      "pos": "adv",
+      "zh": "强有力地",
+      "examples": [
+        {
+          "en": "The wind blows strongly.",
+          "zh": "风刮得很猛。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "slowly",
+      "lemma": "slowly",
+      "ipa": "/ˈsləʊli/",
+      "pos": "adv",
+      "zh": "缓慢地",
+      "examples": [
+        {
+          "en": "Please speak slowly.",
+          "zh": "请说慢一点。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "quickly",
+      "lemma": "quickly",
+      "ipa": "/ˈkwɪkli/",
+      "pos": "adv",
+      "zh": "迅速地",
+      "examples": [
+        {
+          "en": "Please come quickly.",
+          "zh": "请快点来。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "blow",
+      "lemma": "blow",
+      "ipa": "/bləʊ/",
+      "pos": "n",
+      "zh": "吹",
+      "examples": [
+        {
+          "en": "I have a blow.",
+          "zh": "我有一个吹。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "happily",
+      "lemma": "happily",
+      "ipa": "/ˈhæpɪli/",
+      "pos": "adv",
+      "zh": "快乐地",
+      "examples": [
+        {
+          "en": "The children play happily.",
+          "zh": "孩子们开心地玩。"
+        }
+      ],
+      "unit": "M4U2"
+    },
+    {
+      "word": "smoke",
+      "lemma": "smoke",
+      "ipa": "/sməʊk/",
+      "pos": "n",
+      "zh": "烟",
+      "examples": [
+        {
+          "en": "I have a smoke.",
+          "zh": "我有一个烟。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "start",
+      "lemma": "start",
+      "ipa": "/stɑːt/",
+      "pos": "n",
+      "zh": "开始",
+      "examples": [
+        {
+          "en": "I have a start.",
+          "zh": "我有一个开始。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "campfire",
+      "lemma": "campfire",
+      "ipa": "/ˈkæmpfaɪə(r)/",
+      "pos": "n",
+      "zh": "营火",
+      "examples": [
+        {
+          "en": "I have a campfire.",
+          "zh": "我有一个营火。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "match",
+      "lemma": "match",
+      "ipa": "/mætʃ/",
+      "pos": "v",
+      "zh": "使比赛",
+      "examples": [
+        {
+          "en": "We watch a football match.",
+          "zh": "我们看足球比赛。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "careful",
+      "lemma": "careful",
+      "ipa": "/ˈkeəf(ə)l/",
+      "pos": "adj",
+      "zh": "仔细的",
+      "examples": [
+        {
+          "en": "The cake is careful.",
+          "zh": "蛋糕是仔细的。"
+        }
+      ],
+      "unit": "M4U3"
+    },
+    {
+      "word": "safety",
+      "lemma": "safety",
+      "ipa": "/ˈseɪfti/",
+      "pos": "n",
+      "zh": "安全",
+      "examples": [
+        {
+          "en": "I have a safety.",
+          "zh": "我有一个安全。"
+        }
+      ],
+      "unit": "M4U3"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+# 牛津上海版 六年级上册 · 社区对照表，导入前请核对课本 Word List
+relative	M1U1
+family tree	M1U1
+granddaughter	M1U1
+grandson	M1U1
+only	M1U1
+member	M1U1
+classmate	M1U1
+shop	M1U1
+go shopping	M1U1
+badminton	M1U1
+cycle	M1U1
+almost	M1U2
+never	M1U2
+other	M1U2
+each other	M1U2
+helpful	M1U2
+naughty	M1U2
+lie	M1U2
+ocean	M1U2
+yet	M1U2
+just	M1U2
+already	M1U2
+Earth	M1U2
+look after	M1U2
+environment	M1U2
+pollute	M1U2
+pollution	M1U2
+land	M1U2
+keep	M1U2
+pick up	M1U2
+rubbish bin	M1U2
+promise	M1U2
+discuss	M1U2
+reuse	M1U2
+kind	M3U8
+menu	M3U8
+cabbage	M3U8
+garlic	M3U8
+noodle	M3U8
+seafood	M3U8
+steam	M3U8
+prawn	M3U8
+also	M3U8
+fry	M3U8
+bacon	M3U8
+boil	M3U8
+wing	M3U8
+stall	M3U8
+section	M3U8
+frozen	M3U8
+packet	M3U8
+bake	M3U8
+hamburger	M3U8
+spend	M1U3
+island	M1U3
+bay	M1U3
+dragon	M1U3
+weekend	M1U3
+seaside	M1U3
+lucky	M1U3
+market	M1U3
+space	M1U3
+museum	M1U3
+activity	M1U3
+barbecue	M1U3
+kite	M1U3
+sandcastle	M1U3
+collect	M1U3
+album	M1U3
+plan	M1U3
+shall	M1U3
+o'clock	M1U3
+trip	M1U3
+secretary	M2U4
+bank	M2U4
+clerk	M2U4
+policewoman	M2U4
+dentist	M2U4
+pilot	M2U4
+fireman	M2U4
+postman	M2U4
+shop assistant	M2U4
+teach	M2U4
+put out	M2U4
+finish	M2U4
+age	M2U4
+programme	M2U5
+entrance	M2U5
+choir	M2U5
+noticeboard	M2U5
+parent	M2U5
+arrive	M2U5
+first	M2U5
+classroom	M2U5
+next	M2U5
+project	M2U5
+craft	M2U5
+club	M2U5
+finally	M2U5
+ground	M2U5
+invitation	M2U5
+yesterday	M2U5
+travel	M2U6
+about	M2U6
+minute	M2U6
+ferry	M2U6
+hour	M2U6
+half an hour	M2U6
+advertisement	M2U6
+board	M2U6
+a few	M2U6
+light rail	M2U6
+temple	M2U6
+rule	M2U7
+wait for	M2U7
+loudly	M2U7
+mean	M2U7
+lift	M2U7
+on the left	M2U7
+exit	M2U7
+upstairs	M2U7
+middle	M2U7
+in the middle	M2U7
+fun	M3U9
+cola	M3U9
+spicy	M3U9
+nut	M3U9
+lemon	M3U9
+snack	M3U9
+salty	M3U9
+chilli	M3U9
+sour	M3U9
+bitter	M3U9
+tasty	M3U9
+delicious	M3U9
+spread	M3U9
+prepare	M3U9
+enough	M3U9
+healthy	M3U10
+eating	M3U10
+diet	M3U10
+pyramid	M3U10
+salt	M3U10
+yogurt	M3U10
+a little	M3U10
+unhealthy	M3U10
+exercise	M3U10
+countryside	M3U10
+fit	M3U10
+stay	M3U10
+porridge	M3U10
+than	M3U10
+as ... as	M3U10
+quiz	M3U10
+before	M3U10
+should	M3U10
+suggestion	M3U10
