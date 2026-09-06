@@ -115,6 +115,12 @@ export function stopSpeaking(): void {
   }
 }
 
+/** Safari often fires utterance.onend immediately after speak(); don't trust that. */
+export function estimateSpeakMs(text: string, rate: number): number {
+  const r = Math.max(0.5, rate || 1);
+  return Math.min(10_000, Math.max(900, Math.round((text.trim().length / r) * 220 + 500)));
+}
+
 export function speakAndWait(text: string, lang: string, rate: number): Promise<void> {
   return new Promise((resolve) => {
     if (!text || typeof speechSynthesis === "undefined") return resolve();
@@ -122,15 +128,15 @@ export function speakAndWait(text: string, lang: string, rate: number): Promise<
     const finish = () => {
       if (done) return;
       done = true;
+      resolve();
+    };
+    const cap = estimateSpeakMs(text, rate);
+    const say = () => {
       try {
         speechSynthesis.cancel();
       } catch {
-        /* release the audio session before the mic opens */
+        /* ignore */
       }
-      resolve();
-    };
-    const say = () => {
-      speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
       const voice = pickVoice(lang);
       if (voice) {
@@ -140,10 +146,36 @@ export function speakAndWait(text: string, lang: string, rate: number): Promise<
         u.lang = lang;
       }
       u.rate = rate;
-      u.onend = finish;
-      u.onerror = finish;
+      let started = false;
+      u.onstart = () => {
+        started = true;
+      };
+      // Ignore a bogus immediate onend; wait until the engine actually spoke.
+      u.onend = () => {
+        if (started) finish();
+      };
+      u.onerror = () => finish();
       speechSynthesis.speak(u);
-      setTimeout(finish, 4000);
+      const t0 = Date.now();
+      const poll = setInterval(() => {
+        if (done) {
+          clearInterval(poll);
+          return;
+        }
+        try {
+          if (speechSynthesis.speaking || speechSynthesis.pending) started = true;
+          if (started && !speechSynthesis.speaking && !speechSynthesis.pending) {
+            clearInterval(poll);
+            finish();
+          }
+        } catch {
+          /* ignore */
+        }
+        if (Date.now() - t0 > cap) {
+          clearInterval(poll);
+          finish();
+        }
+      }, 50);
     };
     if (!cached.length && !speechSynthesis.getVoices().length) {
       void loadVoices().then(say);
@@ -314,17 +346,33 @@ export function releaseStream(stream: MediaStream | null | undefined): void {
   stream?.getTracks().forEach((t) => t.stop());
 }
 
-export function playAudioBlob(blob: Blob): void {
-  const url = URL.createObjectURL(blob);
-  const audio = new Audio(url);
-  const forget = () => URL.revokeObjectURL(url);
-  audio.addEventListener("ended", forget, { once: true });
-  audio.addEventListener("error", forget, { once: true });
-  void audio.play().catch(forget);
-}
-
 /** Actual mic capture after TTS. Word + a little silence; not including speak time. */
-export const FOLLOW_RECORD_MS = 4000;
+export const FOLLOW_RECORD_MS = 8000;
+
+export function playAudioBlob(blob: Blob): Promise<void> {
+  return new Promise((resolve) => {
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      clearTimeout(watchdog);
+      URL.revokeObjectURL(url);
+      try {
+        audio.pause();
+      } catch {
+        /* ignore */
+      }
+      resolve();
+    };
+    // Unplayable Safari blobs may never fire ended — don't stick on the speaker.
+    const watchdog = setTimeout(finish, FOLLOW_RECORD_MS + 2500);
+    audio.addEventListener("ended", finish, { once: true });
+    audio.addEventListener("error", finish, { once: true });
+    void audio.play().catch(finish);
+  });
+}
 /** Let requestData flush before stop(). */
 export const RECORDER_STOP_GAP_MS = 60;
 /** Safari may fire the last ondataavailable after onstop. */
@@ -373,7 +421,11 @@ function wakeAudioTracks(stream: MediaStream): void {
   }
 }
 
-export async function recordClip(ms = FOLLOW_RECORD_MS, existing?: MediaStream | null): Promise<Blob | null> {
+export async function recordClip(
+  ms = FOLLOW_RECORD_MS,
+  existing?: MediaStream | null,
+  signal?: AbortSignal,
+): Promise<Blob | null> {
   const ownStream = !existing;
   const stream = existing ?? (await requestMicStream());
   wakeAudioTracks(stream);
@@ -389,9 +441,14 @@ export async function recordClip(ms = FOLLOW_RECORD_MS, existing?: MediaStream |
   const chunks: Blob[] = [];
   return new Promise((resolve, reject) => {
     let settled = false;
+    let stopping = false;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const onAbort = () => stopSoon();
     const finish = (blob: Blob | null, err?: unknown) => {
       if (settled) return;
       settled = true;
+      if (timer !== undefined) clearTimeout(timer);
+      signal?.removeEventListener("abort", onAbort);
       if (ownStream) releaseStream(stream);
       if (err) reject(err);
       else resolve(blob);
@@ -403,13 +460,9 @@ export async function recordClip(ms = FOLLOW_RECORD_MS, existing?: MediaStream |
     const stopped = new Promise<void>((done) => {
       rec.onstop = () => done();
     });
-    try {
-      rec.start();
-    } catch (err) {
-      finish(null, err);
-      return;
-    }
-    setTimeout(() => {
+    const stopSoon = () => {
+      if (stopping || settled) return;
+      stopping = true;
       void (async () => {
         try {
           await flushAndStopRecorder(rec, stopped);
@@ -419,6 +472,17 @@ export async function recordClip(ms = FOLLOW_RECORD_MS, existing?: MediaStream |
           finish(null, err);
         }
       })();
-    }, ms);
+    };
+    try {
+      rec.start();
+    } catch (err) {
+      finish(null, err);
+      return;
+    }
+    timer = setTimeout(stopSoon, ms);
+    if (signal) {
+      signal.addEventListener("abort", onAbort);
+      if (signal.aborted) stopSoon();
+    }
   });
 }

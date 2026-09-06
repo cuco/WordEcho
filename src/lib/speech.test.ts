@@ -3,6 +3,7 @@ import {
   FOLLOW_MSG,
   FOLLOW_RECORD_MS,
   assembleAudioBlob,
+  estimateSpeakMs,
   flushAndStopRecorder,
   followShouldRecordDirectly,
   gradeFollow,
@@ -129,6 +130,16 @@ describe("FOLLOW_MSG", () => {
   });
 });
 
+describe("estimateSpeakMs", () => {
+  it("is at least 900ms even for a short word", () => {
+    expect(estimateSpeakMs("hi", 1)).toBeGreaterThanOrEqual(900);
+  });
+
+  it("grows with longer text and slower rate", () => {
+    expect(estimateSpeakMs("thirteen", 0.75)).toBeGreaterThan(estimateSpeakMs("hi", 1));
+  });
+});
+
 describe("isSafariOrIos / followShouldRecordDirectly", () => {
   const ipad =
     "Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
@@ -213,9 +224,8 @@ describe("flushAndStopRecorder", () => {
 });
 
 describe("FOLLOW_RECORD_MS", () => {
-  it("is long enough for a word after the listening indicator", () => {
-    expect(FOLLOW_RECORD_MS).toBeGreaterThanOrEqual(3500);
-    expect(FOLLOW_RECORD_MS).toBeLessThanOrEqual(4500);
+  it("is eight seconds of recording time after TTS, not including speak wait", () => {
+    expect(FOLLOW_RECORD_MS).toBe(8000);
   });
 });
 
@@ -258,6 +268,46 @@ describe("recordClip", () => {
       expect(constructed).toEqual([{ used: stream, opts: undefined }]);
       expect(stop).not.toHaveBeenCalled();
       expect(track.enabled).toBe(true);
+      expect(blob?.size).toBeGreaterThan(0);
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
+  it("stops early on abort, flushes, and still does not stop provided tracks", async () => {
+    const stop = vi.fn();
+    const track = { stop, enabled: false, readyState: "live" };
+    const stream = {
+      getTracks: () => [track],
+      getAudioTracks: () => [track],
+    } as unknown as MediaStream;
+
+    class FakeRecorder {
+      mimeType = "audio/webm";
+      state = "inactive";
+      ondataavailable: ((e: { data: Blob }) => void) | null = null;
+      onerror: (() => void) | null = null;
+      onstop: (() => void) | null = null;
+      start() {
+        this.state = "recording";
+      }
+      requestData() {
+        this.ondataavailable?.({ data: new Blob(["chunk"]) });
+      }
+      stop() {
+        this.state = "inactive";
+        this.ondataavailable?.({ data: new Blob(["tail"]) });
+        this.onstop?.();
+      }
+    }
+
+    vi.stubGlobal("MediaRecorder", FakeRecorder);
+    try {
+      const ac = new AbortController();
+      const pending = recordClip(10_000, stream, ac.signal);
+      ac.abort();
+      const blob = await pending;
+      expect(stop).not.toHaveBeenCalled();
       expect(blob?.size).toBeGreaterThan(0);
     } finally {
       vi.unstubAllGlobals();

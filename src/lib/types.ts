@@ -72,6 +72,8 @@ export type UserPrefs = {
   soundOn?: boolean;
   /** 亮答案后自动念一遍单词，默认开 */
   autoSpeak?: boolean;
+  /** 学习页「添加到主屏幕」提示已关掉 */
+  hideHomeScreenTip?: boolean;
   streakDays: number;
   lastStudyDate: string | null;
   studyDates: string[];

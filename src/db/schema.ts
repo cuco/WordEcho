@@ -25,6 +25,7 @@ export const defaultPrefs = (): UserPrefs => ({
   ttsRate: 0.85,
   soundOn: true,
   autoSpeak: true,
+  hideHomeScreenTip: false,
   streakDays: 0,
   lastStudyDate: null,
   studyDates: [],

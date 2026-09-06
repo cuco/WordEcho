@@ -1,21 +1,19 @@
 import { useRef, useState } from "react";
-import { MicIcon, SpeakerIcon } from "./icons";
+import { MicIcon, SpeakerIcon, StopIcon } from "./icons";
 import {
   FOLLOW_MSG,
   FOLLOW_RECORD_MS,
-  followShouldRecordDirectly,
-  gradeFollow,
   isMicDenied,
-  listenOnce,
   playAudioBlob,
   recordClip,
   releaseStream,
   requestMicStream,
-  shouldFallbackToRecorder,
   speak,
   speakAndWait,
   stopSpeaking,
 } from "../lib/speech";
+
+type FollowPhase = "idle" | "speaking" | "recording" | "playing";
 
 export function SpeakButton({
   text,
@@ -54,11 +52,16 @@ export function FollowButton({
   rate: number;
   onResult?: (msg: string) => void;
 }) {
-  const [listening, setListening] = useState(false);
+  const [phase, setPhase] = useState<FollowPhase>("idle");
   const busy = useRef(false);
+  const stopRec = useRef<AbortController | null>(null);
 
-  function go() {
-    if (busy.current) return;
+  function onClick() {
+    if (phase === "recording") {
+      stopRec.current?.abort();
+      return;
+    }
+    if (phase !== "idle" || busy.current) return;
     busy.current = true;
     // Must start getUserMedia on the click stack — awaiting TTS first drops the iOS gesture.
     const micPromise = requestMicStream();
@@ -67,6 +70,7 @@ export function FollowButton({
 
   async function runFollow(micPromise: Promise<MediaStream>) {
     stopSpeaking();
+    setPhase("speaking");
     let stream: MediaStream | null = null;
     try {
       try {
@@ -84,52 +88,51 @@ export function FollowButton({
       stopSpeaking();
       await new Promise((r) => setTimeout(r, 180));
 
-      // Red mic = speak now. Capture starts here, not during TTS.
-      setListening(true);
-
-      if (!followShouldRecordDirectly()) {
-        const heard = await listenOnce();
-        if (heard.ok) {
-          onResult?.(gradeFollow(word, heard.transcript));
-          return;
-        }
-        if (heard.reason === "denied") {
-          onResult?.(FOLLOW_MSG.denied);
-          return;
-        }
-        // Recognition already used the utterance window — do not record late.
-        if (!shouldFallbackToRecorder(heard)) {
-          onResult?.(FOLLOW_MSG.recordFailed);
-          return;
-        }
+      // Do not open a second stream after TTS — iOS often yields a silent track.
+      if (!stream) {
+        onResult?.(FOLLOW_MSG.recordFailed);
+        return;
       }
 
-      const blob = await recordClip(FOLLOW_RECORD_MS, stream);
+      // Always record after TTS. Chrome's SpeechRecognition used to run here
+      // while the button stayed on the speaker icon, so it never turned red.
+      const ac = new AbortController();
+      stopRec.current = ac;
+      setPhase("recording");
+      onResult?.(FOLLOW_MSG.recorded);
+
+      const blob = await recordClip(FOLLOW_RECORD_MS, stream, ac.signal);
+      stopRec.current = null;
       releaseStream(stream);
       stream = null;
       if (!blob) {
         onResult?.(FOLLOW_MSG.recordFailed);
         return;
       }
-      playAudioBlob(blob);
+      setPhase("playing");
       onResult?.(FOLLOW_MSG.recorded);
+      await playAudioBlob(blob);
     } catch (err) {
       onResult?.(isMicDenied(err) ? FOLLOW_MSG.denied : FOLLOW_MSG.recordFailed);
     } finally {
+      stopRec.current = null;
       releaseStream(stream);
-      setListening(false);
+      setPhase("idle");
       busy.current = false;
     }
   }
 
+  const recording = phase === "recording";
+  const playing = phase === "playing";
   return (
     <button
-      className={`iconbtn${listening ? " listening" : ""}`}
-      aria-label="跟读"
+      className={`iconbtn${recording ? " listening" : ""}${playing ? " playing" : ""}`}
+      aria-label={recording ? "停止录音" : "跟读"}
+      aria-busy={phase !== "idle"}
       title="我来读"
-      onClick={go}
+      onClick={onClick}
     >
-      <MicIcon />
+      {phase === "idle" ? <MicIcon /> : recording ? <StopIcon /> : <SpeakerIcon />}
     </button>
   );
 }

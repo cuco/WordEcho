@@ -20,6 +20,14 @@ export function SpeakerIcon({ size = 26 }: P) {
   );
 }
 
+export function StopIcon({ size = 26 }: P) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
+      <rect x="6.5" y="6.5" width="11" height="11" rx="2.8" fill="currentColor" />
+    </svg>
+  );
+}
+
 export function MicIcon({ size = 26 }: P) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>

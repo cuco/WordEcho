@@ -291,8 +291,8 @@ function buildDailyQuiz(words, reviews, date, limit, dictCore): QuizItem[] {
 
 1. 点「我来读」时**立刻** `getUserMedia`（必须挂在用户手势上）。**这条流要一直活到录完**：不要在范读前 `track.stop()`，也不要等 TTS 后再开第二条流——iOS 没有新的用户手势时第二条流经常是静音。范读 `onend` / 超时后 `speechSynthesis.cancel()`，再空约 180ms，然后用**同一条流**开 `MediaRecorder`。
 2. **iPad / Safari 跳过 `SpeechRecognition`。** 系统往往挂了 `webkitSpeechRecognition` 但转写是空的：识别先空转约 3 秒，孩子已经说完，后面的录音只接到尾巴。目标机以录音对照为准。
-3. 范读结束后麦克风按钮进入 listening，再录约 **4 秒**（不含 TTS）。孩子在红点亮起时开口。`MediaRecorder` **不要强行指定** `audio/mp4`（Safari 上会出现有 blob 但回放全静音）；用默认构造，`start()` 不要 timeslice。`requestData` 后再 `stop`，等到 `onstop` 才停轨道、拼 blob、回放。文案：`已录下你的声音，和范读对比听听看`。**不要**显示「没听清」。
-4. 非 Safari 且识别可用、拿到**非空**转写：规范化比较 → `很接近` / `再试一次`。识别已经开过一轮却失败：不要再开第二段录音（孩子不会再说一遍）。转写为空的 `没听清` 只留给 `gradeFollow` 本身。
+3. 按钮状态：`idle`（白底麦克风）→ 点击后 `speaking`（同底喇叭，等 TTS，忽略再点）→ TTS 一结束就进 `recording`（红底圆角方块＝点一下停止）→ 最长 **8 秒**录音（不含 TTS；可提前停）→ `playing`（恢复白底，喇叭带脉冲/声波动画回放）→ 播完或出错回 `idle`。孩子在红钮亮起时开口。Chrome 预览里也**不要**先跑 `SpeechRecognition`：识别会把按钮卡在喇叭态，红钮永远不出现。`MediaRecorder` **不要强行指定** `audio/mp4`（Safari 上会出现有 blob 但回放全静音）；用默认构造，`start()` 不要 timeslice。`requestData` 后再 `stop`，等到 `onstop` 才停轨道、拼 blob、回放。录音/回放文案：`已录下你的声音，和范读对比听听看`。**不要**显示「没听清」。
+4. 跟读以录音对照为准，不再用识别结果当过关反馈。`没听清` 只留给 `gradeFollow` 本身。
 5. 麦克风权限被拒：`没有麦克风权限`。录音失败（空 blob / 编码器不可用）：`这次没录上，再点一次试试`。
 6. 无麦克风：隐藏跟读，保留听发音。
 
