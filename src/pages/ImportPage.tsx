@@ -12,7 +12,7 @@ export function ImportPage() {
   const [recent, setRecent] = useState<WordRecord[]>([]);
   const [ids, setIds] = useState<string[]>([]);
   const [msg, setMsg] = useState("");
-  const [openMore, setOpenMore] = useState(false);
+  const [openMore, setOpenMore] = useState(true);
   const [lang, setLang] = useState("en-US");
   const [rate, setRate] = useState(0.9);
 
@@ -30,24 +30,61 @@ export function ImportPage() {
     );
     if (!lines.length) return;
     setBusy(true);
-    const saved = await resolveMany(
-      lines.map((l) => ({ word: l.word })),
-      { kind: "reading" },
-    );
-    setRecent((r) => {
-      const ids = new Set(saved.map((w) => w.id));
-      return [...saved, ...r.filter((w) => !ids.has(w.id))].slice(0, 20);
-    });
-    setText("");
-    setBusy(false);
+    try {
+      const saved = await resolveMany(
+        lines.map((l) => ({ word: l.word })),
+        { kind: "reading" },
+      );
+      setRecent((r) => {
+        const ids = new Set(saved.map((w) => w.id));
+        return [...saved, ...r.filter((w) => !ids.has(w.id))].slice(0, 20);
+      });
+      setText("");
+    } finally {
+      setBusy(false);
+    }
   }
 
   async function doImport(pack: WordPack) {
     setBusy(true);
-    const r = await importPack(pack);
-    setIds(await importedPackIds());
-    setMsg(`${pack.title}：新增 ${r.added}，合并 ${r.merged}`);
-    setBusy(false);
+    try {
+      const r = await importPack(pack);
+      setIds(await importedPackIds());
+      setMsg(`${pack.title}：新增 ${r.added}，合并 ${r.merged}`);
+    } catch {
+      setMsg(`${pack.title}：导入失败`);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function doImportAll() {
+    if (!builtinPacks.length) return;
+    setBusy(true);
+    let added = 0;
+    let merged = 0;
+    let failed = 0;
+    try {
+      for (let i = 0; i < builtinPacks.length; i++) {
+        const pack = builtinPacks[i]!;
+        setMsg(`正在导入 ${i + 1}/${builtinPacks.length}：${pack.title}…`);
+        try {
+          const r = await importPack(pack);
+          added += r.added;
+          merged += r.merged;
+        } catch {
+          failed += 1;
+        }
+      }
+      setIds(await importedPackIds());
+      setMsg(
+        failed
+          ? `全部完成：新增 ${added}，合并 ${merged}，失败 ${failed} 个`
+          : `全部完成：新增 ${added}，合并 ${merged}`,
+      );
+    } finally {
+      setBusy(false);
+    }
   }
 
   async function fromFile(file: File) {
@@ -121,6 +158,15 @@ export function ImportPage() {
 
       {openMore ? (
         <>
+          <div className="pack-actions">
+            <button
+              className="btn ghost small"
+              disabled={busy || !builtinPacks.length}
+              onClick={() => void doImportAll()}
+            >
+              一键导入所有
+            </button>
+          </div>
           {msg ? <p className="muted">{msg}</p> : null}
           {builtinPacks.map((p) => {
             const imported = ids.includes(p.id);

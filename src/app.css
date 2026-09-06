@@ -617,6 +617,18 @@ label { display: block; margin: 16px 0 6px; font-weight: 800; font-size: 14px; }
   padding: 14px 16px;
   margin: 12px 0;
 }
+.pack-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 4px;
+}
+.pack-actions .btn.small {
+  width: auto;
+  min-height: 44px;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 12px;
+}
 .pack-row {
   display: flex;
   align-items: center;
