@@ -1,0 +1,115 @@
+# New Magic / 启思英语 1B · 学生书目标词汇
+# 来源：https://www.scribd.com/document/740372923/New-Magic-1B（46 页公开 OCR）
+# 说明：不是 Self-Learning Booklet 的逐字转录；中文为短释义，例句由导入器生成。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
+# Unit 1 · I can sing
+fly	Unit 1	飞	v
+drive	Unit 1	驾驶	v
+count	Unit 1	数数	v
+skip	Unit 1	跳绳	v
+sing	Unit 1	唱歌	v
+draw	Unit 1	画画	v
+dance	Unit 1	跳舞	v
+cook	Unit 1	烹饪	v
+read	Unit 1	阅读	v
+swim	Unit 1	游泳	v
+family	Unit 1	家庭	n
+mother	Unit 1	妈妈	n
+father	Unit 1	爸爸	n
+brother	Unit 1	兄弟	n
+parrot	Unit 1	鹦鹉	n
+robot	Unit 1	机器人	n
+
+# Unit 2 · Fruit Day
+apple	Unit 2	苹果	n
+banana	Unit 2	香蕉	n
+grape	Unit 2	葡萄	n
+mango	Unit 2	芒果	n
+orange	Unit 2	橙子	n
+peach	Unit 2	桃子	n
+pear	Unit 2	梨	n
+pineapple	Unit 2	菠萝	n
+watermelon	Unit 2	西瓜	n
+cherry	Unit 2	樱桃	n
+fruit salad	Unit 2	水果沙拉	n
+fruit basket	Unit 2	水果篮	n
+apple pie	Unit 2	苹果派	n
+eleven	Unit 2	十一	num
+twelve	Unit 2	十二	num
+thirteen	Unit 2	十三	num
+fourteen	Unit 2	十四	num
+fifteen	Unit 2	十五	num
+sixteen	Unit 2	十六	num
+seventeen	Unit 2	十七	num
+eighteen	Unit 2	十八	num
+nineteen	Unit 2	十九	num
+twenty	Unit 2	二十	num
+
+# Unit 3 · My schoolbag
+school bag	Unit 3	书包	n
+pencil box	Unit 3	铅笔盒	n
+water bottle	Unit 3	水瓶	n
+rubber	Unit 3	橡皮	n
+ruler	Unit 3	尺子	n
+paper clip	Unit 3	回形针	n
+pencil	Unit 3	铅笔	n
+pen	Unit 3	钢笔	n
+crayon	Unit 3	蜡笔	n
+
+# Unit 4 · Where is the hamster?
+hamster	Unit 4	仓鼠	n
+board	Unit 4	写字板	n
+clock	Unit 4	时钟	n
+computer	Unit 4	电脑	n
+cupboard	Unit 4	柜橱	n
+duster	Unit 4	板擦	n
+fan	Unit 4	风扇	n
+magazine	Unit 4	杂志	n
+chair	Unit 4	椅子	n
+classroom	Unit 4	教室	n
+bed	Unit 4	床	n
+desk	Unit 4	书桌	n
+toy box	Unit 4	玩具箱	n
+doll	Unit 4	玩偶	n
+shoe	Unit 4	鞋	n
+in	Unit 4	在……里面	prep	The hamster is in the box.	仓鼠在盒子里。
+on	Unit 4	在……上面	prep	The hamster is on the computer.	仓鼠在电脑上。
+under	Unit 4	在……下面	prep	The hamster is under the chair.	仓鼠在椅子下面。
+
+# Unit 5 · The countryside
+see	Unit 5	看见	v
+hear	Unit 5	听见	v
+touch	Unit 5	触摸	v
+smell	Unit 5	闻到	v
+eye	Unit 5	眼睛	n
+ear	Unit 5	耳朵	n
+hand	Unit 5	手	n
+nose	Unit 5	鼻子	n
+bee	Unit 5	蜜蜂	n
+bench	Unit 5	长椅	n
+butterfly	Unit 5	蝴蝶	n
+duck	Unit 5	鸭子	n
+flower	Unit 5	花	n
+frog	Unit 5	青蛙	n
+house	Unit 5	房子	n
+tree	Unit 5	树	n
+rain shower	Unit 5	阵雨	n
+sky	Unit 5	天空	n
+sea	Unit 5	海	n
+
+# Unit 6 · The Alien Family
+alien	Unit 6	外星人	n
+tall	Unit 6	高的	adj
+short	Unit 6	矮的；短的	adj
+thin	Unit 6	瘦的	adj
+fat	Unit 6	胖的	adj
+long	Unit 6	长的	adj
+small	Unit 6	小的	adj
+big	Unit 6	大的	adj
+foot	Unit 6	脚	n
+finger	Unit 6	手指	n
+hair	Unit 6	头发	n
+hand	Unit 6	手	n
+mouth	Unit 6	嘴巴	n
+tooth	Unit 6	牙齿	n

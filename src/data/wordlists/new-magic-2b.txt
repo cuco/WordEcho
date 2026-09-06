@@ -1,0 +1,159 @@
+# New Magic / 启思英语 2B · 学生书目标词汇
+# 来源：https://www.scribd.com/document/740372924/New-Magic-2B（48 页公开 OCR）
+# 范围：各单元 Vocabulary / Word building / Grammar vocabulary / Main task 明示词汇。
+# 说明：不是 Self-Learning Booklet 的逐字转录；中文为短释义，例句由导入器生成。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性<TAB>英文例句（可选）<TAB>中文例句（可选）
+
+# Unit 1 · The four seasons
+spring	Unit 1	春天	n	It is warm in spring.	春天天气温暖。
+summer	Unit 1	夏天	n	It is hot in summer.	夏天天气炎热。
+autumn	Unit 1	秋天	n	It is cool in autumn.	秋天天气凉爽。
+winter	Unit 1	冬天	n	It is cold in winter.	冬天天气寒冷。
+wet	Unit 1	潮湿的	adj
+warm	Unit 1	温暖的	adj
+sunny	Unit 1	晴朗的	adj
+hot	Unit 1	炎热的	adj
+windy	Unit 1	有风的	adj
+cool	Unit 1	凉爽的	adj
+dry	Unit 1	干燥的	adj
+cold	Unit 1	寒冷的	adj
+season	Unit 1	季节	n
+beach	Unit 1	海滩	n
+countryside	Unit 1	乡村	n
+build sandcastles	Unit 1	堆沙堡	v
+collect shells	Unit 1	捡贝壳	v
+fly kites	Unit 1	放风筝	v
+have barbecues	Unit 1	吃烧烤	v
+have hotpots	Unit 1	吃火锅	v
+make snowmen	Unit 1	堆雪人	v
+plant trees	Unit 1	种树	v
+plant flowers	Unit 1	种花	v
+swim in the sea	Unit 1	在海里游泳	v
+go hiking	Unit 1	去徒步	v
+go skiing	Unit 1	去滑雪	v
+
+# Unit 2 · Our week
+Sunday	Unit 2	星期日	n	I paint pictures on Sunday.	我星期日画画。
+Monday	Unit 2	星期一	n	I play basketball on Monday.	我星期一打篮球。
+Tuesday	Unit 2	星期二	n	I read storybooks on Tuesday.	我星期二读故事书。
+Wednesday	Unit 2	星期三	n	I have swimming lessons on Wednesday.	我星期三上游泳课。
+Thursday	Unit 2	星期四	n	I play the piano on Thursday.	我星期四弹钢琴。
+Friday	Unit 2	星期五	n	I play badminton on Friday.	我星期五打羽毛球。
+Saturday	Unit 2	星期六	n	I play table tennis on Saturday.	我星期六打乒乓球。
+week	Unit 2	星期；周	n
+paint pictures	Unit 2	画画	v
+play badminton	Unit 2	打羽毛球	v
+play basketball	Unit 2	打篮球	v
+play football	Unit 2	踢足球	v
+play table tennis	Unit 2	打乒乓球	v
+play the piano	Unit 2	弹钢琴	v
+have swimming lessons	Unit 2	上游泳课	v
+read storybooks	Unit 2	读故事书	v
+free	Unit 2	空闲的	adj
+busy	Unit 2	忙碌的	adj
+every day	Unit 2	每天	adv
+limerick	Unit 2	五行打油诗	n
+rhyme	Unit 2	押韵词；韵文	n
+
+# Unit 3 · Yummy food!
+cake	Unit 3	蛋糕	n
+chicken wing	Unit 3	鸡翅	n
+sandwich	Unit 3	三明治	n
+sausage	Unit 3	香肠	n
+salad	Unit 3	沙拉	n
+noodles	Unit 3	面条	n
+chocolate milk	Unit 3	巧克力奶	n
+cola	Unit 3	可乐	n
+orange juice	Unit 3	橙汁	n
+apple juice	Unit 3	苹果汁	n
+tea	Unit 3	茶	n
+water	Unit 3	水	n
+a box of	Unit 3	一盒	det	We have a box of salad.	我们有一盒沙拉。
+a packet of	Unit 3	一包	det	I want a packet of sandwiches.	我想要一包三明治。
+a piece of	Unit 3	一块；一片	det	She has a piece of cake.	她有一块蛋糕。
+a plate of	Unit 3	一盘	det	He orders a plate of noodles.	他点了一盘面条。
+a bottle of	Unit 3	一瓶	det	Dad buys a bottle of cola.	爸爸买了一瓶可乐。
+a carton of	Unit 3	一盒	det	Harry drinks a carton of chocolate milk.	哈里喝了一盒巧克力奶。
+a cup of	Unit 3	一杯	det	Mum has a cup of tea.	妈妈喝一杯茶。
+a glass of	Unit 3	一杯	det	Holly has a glass of orange juice.	霍莉喝一杯橙汁。
+twenty	Unit 3	二十	num
+thirty	Unit 3	三十	num
+forty	Unit 3	四十	num
+fifty	Unit 3	五十	num
+sixty	Unit 3	六十	num
+seventy	Unit 3	七十	num
+eighty	Unit 3	八十	num
+ninety	Unit 3	九十	num
+a hundred	Unit 3	一百	num
+menu	Unit 3	菜单	n
+order	Unit 3	点餐；订购	v
+price	Unit 3	价格	n
+
+# Unit 4 · An interview with Mr Gordon
+o'clock	Unit 4	……点钟	adv
+half past	Unit 4	……点半	adv
+in the morning	Unit 4	在早上	adv
+in the afternoon	Unit 4	在下午	adv
+in the evening	Unit 4	在晚上	adv
+at night	Unit 4	在夜间	adv
+get up	Unit 4	起床	v
+have breakfast	Unit 4	吃早餐	v
+come to school	Unit 4	到学校	v
+have lunch	Unit 4	吃午餐	v
+go home	Unit 4	回家	v
+have dinner	Unit 4	吃晚餐	v
+take a shower	Unit 4	淋浴	v
+go to bed	Unit 4	上床睡觉	v
+wash my face	Unit 4	洗脸	v
+brush my teeth	Unit 4	刷牙	v
+do my homework	Unit 4	做家庭作业	v
+watch TV	Unit 4	看电视	v
+interview	Unit 4	采访	n
+reporter	Unit 4	记者	n
+
+# Unit 5 · Nice people around us
+bus driver	Unit 5	公交车司机	n
+dentist	Unit 5	牙医	n
+doctor	Unit 5	医生	n
+fireman	Unit 5	消防员	n
+nurse	Unit 5	护士	n
+policeman	Unit 5	警察	n
+postman	Unit 5	邮递员	n
+teacher	Unit 5	教师	n
+housewife	Unit 5	家庭主妇	n
+shop assistant	Unit 5	店员	n
+waiter	Unit 5	男服务员	n
+painter	Unit 5	画家；油漆工	n
+writer	Unit 5	作家	n
+catch thieves	Unit 5	抓小偷	v
+drive a bus	Unit 5	驾驶公交车	v
+put out fires	Unit 5	灭火	v
+take care of teeth	Unit 5	护理牙齿	v
+teach children	Unit 5	教孩子	v
+carry letters	Unit 5	递送信件	v
+uniform	Unit 5	制服	n
+underground	Unit 5	地铁	n
+speech	Unit 5	演讲	n
+
+# Unit 6 · Pets can be good friends
+clever	Unit 6	聪明的	adj
+cute	Unit 6	可爱的	adj
+naughty	Unit 6	淘气的	adj
+noisy	Unit 6	吵闹的	adj
+friendly	Unit 6	友好的	adj
+quiet	Unit 6	安静的	adj
+animal shelter	Unit 6	动物收容所	n
+birdseed	Unit 6	鸟食	n
+bone	Unit 6	骨头	n
+cage	Unit 6	笼子	n
+cat	Unit 6	猫	n
+dog	Unit 6	狗	n
+fish	Unit 6	鱼	n
+hamster	Unit 6	仓鼠	n
+parrot	Unit 6	鹦鹉	n
+puppy	Unit 6	小狗	n
+rabbit	Unit 6	兔子	n
+tortoise	Unit 6	陆龟	n
+bark	Unit 6	吠叫	v
+fight	Unit 6	打架	v
+hop	Unit 6	跳跃	v

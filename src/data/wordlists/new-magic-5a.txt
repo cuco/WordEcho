@@ -1,0 +1,9 @@
+# New Magic / 启思英语 5A · 单元名已核实，尚无公开完整词表
+# TOC：绘本宝 / 51jiaoxi 5A 目录
+# Format: English word	Unit N
+# Unit 1 · What do you do?
+# Unit 2 · E-age
+# Unit 3 · What's in our food?
+# Unit 4 · We can cook
+# Unit 5 · A fun place to go
+# Unit 6 · That's our Earth

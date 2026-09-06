@@ -1,0 +1,5 @@
+# 新魔法英语分级读物 Preparatory · 无公开逐册词表（不编造 384 本词汇）
+# 已查：上教/新启翔只卖书+账号；GitHub/ICSpeak 无 PM 级词库。可读前先导入 go-sight-words-220（Dolch）。
+# 有《自主阅读手册》后按行粘贴：word<TAB>Book 1
+
+# word\tBook 1

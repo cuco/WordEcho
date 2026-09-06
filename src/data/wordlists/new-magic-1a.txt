@@ -1,0 +1,55 @@
+# New Magic / 启思英语 1A · PARTIAL（非完整词汇手册）
+# 来源：51jiaoxi 公开教案预览、豆丁公开课 PPT 文字、New Magic 标题教案里点名的核心词。
+# 对照《启思英语》词汇手册后再当完整课本当导入。
+# Format: English word	Unit N
+
+# Unit 1 · Nice to meet you
+hello	Unit 1
+hi	Unit 1
+morning	Unit 1
+afternoon	Unit 1
+goodbye	Unit 1
+bye	Unit 1
+thank	Unit 1
+name	Unit 1
+school	Unit 1
+classroom	Unit 1
+student	Unit 1
+teacher	Unit 1
+
+# Unit 2 · My new friends
+mother	Unit 2
+father	Unit 2
+brother	Unit 2
+sister	Unit 2
+friend	Unit 2
+boy	Unit 2
+girl	Unit 2
+meet	Unit 2
+
+# Unit 3 · Happy birthday
+birthday	Unit 3
+cake	Unit 3
+party	Unit 3
+present	Unit 3
+candle	Unit 3
+hat	Unit 3
+
+# Unit 4 · Colours around us
+# （公开页只有单元名，没有完整颜色表 — 请从词汇手册补 red/blue/yellow 等）
+
+# Unit 5 · In the classroom
+desk	Unit 5
+chair	Unit 5
+book	Unit 5
+blackboard	Unit 5
+window	Unit 5
+door	Unit 5
+
+# Unit 6 · An animal story
+# 豆丁「new magic 1a unit 6」公开课 PPT 出现的词
+lion	Unit 6
+horse	Unit 6
+monkey	Unit 6
+tree	Unit 6
+man	Unit 6

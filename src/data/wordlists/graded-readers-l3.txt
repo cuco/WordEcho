@@ -1,0 +1,7 @@
+# 新魔法英语分级读物 Level 3 · fill from textbook / vocabulary handbook (no public complete list)
+# Format: English word\tUnit N
+# Example:
+# hello\tUnit 1
+# Aggregate words for this level (from reading handbook / ebook), not per storybook.
+
+# word\tBook 1

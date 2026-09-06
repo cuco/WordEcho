@@ -328,8 +328,11 @@ export function makeExample(word: string, pos: string, zhRaw: string): Example {
   const p = pos.toLowerCase();
 
   if (word.includes(" ")) {
-    if (/^(look|go|sit|stand|come|put|take|wait|cut|play|write|brush|plant|pick|turn|arrive|have)\b/i.test(word)) {
+    if (/^(bark|brush|build|carry|catch|collect|come|cut|do|drive|eat|fight|fly|get|go|have|hear|hop|listen|look|make|order|paint|pick|plant|play|put|read|see|sing|sit|sleep|smell|stand|stay|swim|take|talk|teach|touch|turn|wait|wash|watch|wear|write)\b/i.test(word)) {
       return { en: `I ${word}.`, zh: `我${zh}。` };
+    }
+    if (/^(in|at|on)\b/i.test(word)) {
+      return { en: `I read ${word}.`, zh: `我${zh}阅读。` };
     }
     return { en: `I like ${word}.`, zh: `我喜欢${zh}。` };
   }

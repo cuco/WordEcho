@@ -1,0 +1,29 @@
+# New Magic / 启思英语 2A · PARTIAL（单元名来自绘本宝 TOC；词极少）
+# 词：New Magic 2A 标题教案 / 新启翔介绍页点名的核心词。不要把沪教牛津 picnic 表混进来。
+# Format: English word	Unit N
+
+# Unit 1 · A day out
+park	Unit 1
+beach	Unit 1
+sea	Unit 1
+picnic	Unit 1
+games	Unit 1
+swim	Unit 1
+
+# Unit 2 · Let's go!
+father	Unit 2
+mother	Unit 2
+brother	Unit 2
+sister	Unit 2
+
+# Unit 3 · Our school
+school	Unit 3
+
+# Unit 4 · Our new flat
+# （公开页只有单元名）
+
+# Unit 5 · School picnic
+picnic	Unit 5
+
+# Unit 6 · The Honest Woodcutter
+# （公开页只有单元名）

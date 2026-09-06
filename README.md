@@ -40,4 +40,4 @@ npm run build-dict-lookup
 npm run gen-pack -- --list words.txt --id opw-l1 --title 'Oxford Phonics World 1' --curriculum other --grade 'Level 1' --volume 全册
 ```
 
-规格：[docs/DESIGN.md](docs/DESIGN.md) · 约束：[AGENTS.md](AGENTS.md)
+规格：[docs/DESIGN.md](docs/DESIGN.md) · 约束：[AGENTS.md](AGENTS.md) · 教材词包：[src/data/wordlists/BOOKS.md](src/data/wordlists/BOOKS.md)

@@ -1,0 +1,165 @@
+{
+  "id": "new-magic-2a",
+  "title": "New Magic 2A (partial)",
+  "curriculum": "new-magic",
+  "grade": "2A",
+  "volume": "Book A",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "park",
+      "lemma": "park",
+      "ipa": "/pɑːk/",
+      "pos": "n",
+      "zh": "公园",
+      "examples": [
+        {
+          "en": "We play in the park.",
+          "zh": "我们在公园玩。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "beach",
+      "lemma": "beach",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "beach",
+      "examples": [
+        {
+          "en": "I have a beach.",
+          "zh": "我有一个beach。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "sea",
+      "lemma": "sea",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "sea",
+      "examples": [
+        {
+          "en": "I have a sea.",
+          "zh": "我有一个sea。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "picnic",
+      "lemma": "picnic",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "picnic",
+      "examples": [
+        {
+          "en": "I have a picnic.",
+          "zh": "我有一个picnic。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "games",
+      "lemma": "games",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "games",
+      "examples": [
+        {
+          "en": "I have a games.",
+          "zh": "我有一个games。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "swim",
+      "lemma": "swim",
+      "ipa": "/swɪm/",
+      "pos": "v",
+      "zh": "游泳",
+      "examples": [
+        {
+          "en": "I can swim.",
+          "zh": "我会游泳。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "ipa": "/ˈfɑːðə/",
+      "pos": "n",
+      "zh": "爸爸",
+      "examples": [
+        {
+          "en": "My father is tall.",
+          "zh": "我爸爸很高。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "mother",
+      "lemma": "mother",
+      "ipa": "/ˈmʌðə/",
+      "pos": "n",
+      "zh": "妈妈",
+      "examples": [
+        {
+          "en": "My mother is kind.",
+          "zh": "我妈妈很温柔。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "brother",
+      "lemma": "brother",
+      "ipa": "/ˈbrʌðə/",
+      "pos": "n",
+      "zh": "哥哥或弟弟",
+      "examples": [
+        {
+          "en": "I have a brother.",
+          "zh": "我有一个兄弟。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sister",
+      "lemma": "sister",
+      "ipa": "/ˈsɪstə/",
+      "pos": "n",
+      "zh": "姐姐或妹妹",
+      "examples": [
+        {
+          "en": "This is my sister.",
+          "zh": "这是我的姐姐。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "ipa": "/skuːl/",
+      "pos": "n",
+      "zh": "学校",
+      "examples": [
+        {
+          "en": "I go to school.",
+          "zh": "我去上学。"
+        }
+      ],
+      "unit": "Unit 3"
+    }
+  ]
+}

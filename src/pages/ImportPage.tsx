@@ -115,24 +115,31 @@ export function ImportPage() {
 
       <div className="section-title">批量导入</div>
       <button className="disclosure" onClick={() => setOpenMore((v) => !v)}>
-        <span>课文词包（不常用）</span>
+        <span>课文词包</span>
         <span className="muted">{openMore ? "收起" : "展开"}</span>
       </button>
 
       {openMore ? (
         <>
           {msg ? <p className="muted">{msg}</p> : null}
-          {builtinPacks.map((p) => (
-            <div className="card" key={p.id}>
-              <b>{p.title}</b>
-              <p className="muted">
-                {p.words.length} 词 · {ids.includes(p.id) ? "已导入" : "未导入"}
-              </p>
-              <button className="btn ghost" disabled={busy} onClick={() => void doImport(p)}>
-                {ids.includes(p.id) ? "重新导入（合并）" : "导入"}
-              </button>
-            </div>
-          ))}
+          {builtinPacks.map((p) => {
+            const imported = ids.includes(p.id);
+            return (
+              <div className="card pack-row" key={p.id}>
+                <div className="pack-row-main">
+                  <b className="pack-row-title">{p.title}</b>
+                  <span className="muted pack-row-count">{p.words.length} 词</span>
+                </div>
+                <button
+                  className={`btn ghost small${imported ? " is-update" : ""}`}
+                  disabled={busy}
+                  onClick={() => void doImport(p)}
+                >
+                  {imported ? "更新" : "导入"}
+                </button>
+              </div>
+            );
+          })}
           <label>从文件导入 JSON</label>
           <input
             type="file"

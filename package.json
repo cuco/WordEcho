@@ -11,8 +11,8 @@
     "check": "tsx scripts/validate-data.ts",
     "gen-pack": "tsx scripts/gen-pack.ts",
     "pack-from-dict": "tsx scripts/pack-from-dict.ts",
-    "build-oxford-sh": "tsx scripts/build-oxford-sh.ts",
     "build-phonics": "tsx scripts/build-phonics.ts",
+    "scaffold-curriculum": "tsx scripts/scaffold-curriculum.ts",
     "pack-from-wordlist": "tsx scripts/pack-from-wordlist.ts",
     "build-dict-lookup": "tsx scripts/build-dict-lookup.ts"
   },

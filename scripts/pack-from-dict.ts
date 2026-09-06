@@ -28,7 +28,7 @@ const volume = arg("volume", "");
 
 if (!listPath || !id) {
   console.error(
-    "用法: npx tsx scripts/pack-from-dict.ts --list src/data/wordlists/oxford-sh-g3-vol1.txt --id oxford-sh-g3-vol1 --title '沪教牛津 三年级上' --curriculum other --grade 三年级 --volume 上册",
+    "用法: npx tsx scripts/pack-from-dict.ts --list src/data/wordlists/new-magic-1a.txt --id new-magic-1a --title 'New Magic 1A' --curriculum new-magic --grade 1A --volume 'Book A'",
   );
   process.exit(1);
 }
@@ -37,7 +37,7 @@ const dict = JSON.parse(
   await readFile(join(root, "src/data/dict-core.json"), "utf8"),
 ) as DictCore;
 const byLemma = new Map(dict.words.map((w) => [w.lemma, w]));
-const fallbackPath = arg("fallbacks", join(root, "src/data/wordlists/oxford-sh-g3-fallbacks.json"));
+const fallbackPath = arg("fallbacks", join(root, "src/data/wordlists/fallbacks.json"));
 const fallbacks = JSON.parse(await readFile(fallbackPath, "utf8")) as Record<string, Fallback>;
 
 const lines = (await readFile(listPath, "utf8"))

@@ -1,5 +1,3 @@
-# Go! Phonics Level 3 · 请从课本填写（官方无公开完整词库）
-# 格式：英文单词\tUnit N
-# 例：
-# ship\tUnit 1
-# chat\tUnit 1
+# Go! Phonics Level 3 · 空模板（搜过仍无公开词表）
+# 与 L2 相同：无公开 Answer Key / 社区词表。官方介绍长元音阶段，但不列单词。
+# 请从学生书抄：word<TAB>Unit N

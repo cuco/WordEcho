@@ -4,7 +4,7 @@
  * OPW source: ICSpeak community wordlists (unit-aligned).
  * Go! Phonics: no public complete list — fill wordlists/go-phonics-l*.txt from the book.
  */
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { kidGloss } from "../src/lib/kid-gloss.ts";
@@ -741,8 +741,20 @@ for (const [id, book] of Object.entries(OPW)) {
   console.log(id, pack.words.length);
 }
 
-/** Go! Phonics：无公开完整词表，只写空模板，不生成可导入 pack。 */
+/** Go! Phonics：无公开完整词表。L1 若已有手填/草稿则不覆盖；否则写空模板。 */
 for (const n of [1, 2, 3, 4, 5]) {
+  const path = join(listDir, `go-phonics-l${n}.txt`);
+  let exists = false;
+  try {
+    await access(path);
+    exists = true;
+  } catch {
+    /* missing */
+  }
+  if (exists) {
+    // keep hand-filled drafts / hunt notes
+    continue;
+  }
   const stub = [
     `# Go! Phonics Level ${n} · 请从课本填写（官方无公开完整词库）`,
     `# 格式：英文单词\\tUnit N`,
@@ -751,28 +763,30 @@ for (const n of [1, 2, 3, 4, 5]) {
     `# chat\\tUnit 1`,
     "",
   ].join("\n");
-  await writeFile(join(listDir, `go-phonics-l${n}.txt`), stub);
+  await writeFile(path, stub);
 }
 
 await writeFile(
   join(listDir, "PHONICS.md"),
   `# Phonics 词包说明
 
+拼读两套见本目录；四套教材总览见 [BOOKS.md](./BOOKS.md)。
+
 ## Oxford Phonics World（已入库）
 
 - \`opw-l1\` … \`opw-l5\`：按单元整理，可在 App「录入 → 课文词包」导入。
 - 来源为社区按册整理（ICSpeak），请对照自家课本核对。
 
-## Go! Phonics / 启思《玩转自然拼读》（缺公开完整表）
+## Go! Phonics / 启思《玩转自然拼读》
 
-官方不提供可下载完整词库。请用 \`go-phonics-l1.txt\` … \`l5.txt\` 按课本填写后：
+L1 有答案键残缺表；L2–L5 仍无公开完整库。对照课本补全后：
 
 \`\`\`bash
 npx tsx scripts/pack-from-wordlist.ts --list src/data/wordlists/go-phonics-l2.txt \\
   --id go-phonics-l2 --title 'Go! Phonics 2' --grade 'Level 2' --curriculum go-phonics
 \`\`\`
 
-再在 \`src/data/packs.ts\` 注册即可。
+再在 \`src/data/packs.ts\` 注册即可。四套教材总览见 [BOOKS.md](./BOOKS.md)。
 `,
 );
 

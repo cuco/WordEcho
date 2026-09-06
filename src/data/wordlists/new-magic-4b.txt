@@ -1,0 +1,9 @@
+# New Magic / 启思英语 4B · 单元名已核实，尚无公开完整词表
+# TOC：绘本宝 huibenbao.com/book/xinmofayingyu4b
+# Format: English word	Unit N
+# Unit 1 · New Year fun
+# Unit 2 · School play
+# Unit 3 · Chinese food
+# Unit 4 · Food fair
+# Unit 5 · Health tips
+# Unit 6 · Welcome to Rainbow City

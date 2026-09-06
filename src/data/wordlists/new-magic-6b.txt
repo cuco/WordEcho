@@ -1,0 +1,9 @@
+# New Magic / 启思英语 6B · 尚无公开 TOC / 词表
+# 已搜：绘本宝 xinmofayingyu6b 404；与 6A 相同，无 ICSpeak 式社区表。
+# Format: English word	Unit N
+# Unit 1
+# Unit 2
+# Unit 3
+# Unit 4
+# Unit 5
+# Unit 6

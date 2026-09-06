@@ -38,14 +38,30 @@ const lines = (await readFile(listPath, "utf8"))
 const seen = new Set<string>();
 const words: PackWord[] = [];
 for (const line of lines) {
-  const [word, unit = "Unit 1"] = line.split(/\t/).map((s) => s.trim());
+  const [
+    word,
+    unit = "Unit 1",
+    suppliedZh = "",
+    suppliedPos = "",
+    suppliedExampleEn = "",
+    suppliedExampleZh = "",
+  ] = line.split(/\t/).map((s) => s.trim());
   const lemma = lemmaOf(word);
   if (!lemma || seen.has(lemma)) continue;
   seen.add(lemma);
   const hit = byLemma.get(lemma);
-  const zh = kidGloss(hit?.zh ?? word, word);
-  const pos = hit?.pos || "n";
-  const examples = hit?.examples?.length ? hit.examples : [makeExample(word, pos, zh)];
+  // Hand-entered booklet text is canonical. Only shorten dictionary fallback
+  // glosses; otherwise phrases such as “在……里面” lose important context.
+  const zh = suppliedZh || kidGloss(hit?.zh || word, word);
+  const pos = suppliedPos || hit?.pos || "n";
+  if (Boolean(suppliedExampleEn) !== Boolean(suppliedExampleZh)) {
+    throw new Error(`例句中英文必须同时填写：${word}`);
+  }
+  const examples = suppliedExampleEn
+    ? [{ en: suppliedExampleEn, zh: suppliedExampleZh }]
+    : hit?.examples?.length
+      ? hit.examples
+      : [makeExample(word, pos, zh)];
   words.push({
     word: hit?.display ?? word,
     lemma,

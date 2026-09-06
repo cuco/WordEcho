@@ -1,0 +1,529 @@
+{
+  "id": "new-magic-1a",
+  "title": "New Magic 1A (partial)",
+  "curriculum": "new-magic",
+  "grade": "1A",
+  "volume": "Book A",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "hello",
+      "lemma": "hello",
+      "ipa": "/həˈləʊ/",
+      "pos": "int",
+      "zh": "你好",
+      "examples": [
+        {
+          "en": "Hello, I am Amy.",
+          "zh": "你好，我是艾米。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "hi",
+      "lemma": "hi",
+      "ipa": "/haɪ/",
+      "pos": "int",
+      "zh": "嗨",
+      "examples": [
+        {
+          "en": "Hi, Mike.",
+          "zh": "嗨，迈克。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "morning",
+      "lemma": "morning",
+      "ipa": "/ˈmɔːnɪŋ/",
+      "pos": "n",
+      "zh": "早晨",
+      "examples": [
+        {
+          "en": "Good morning.",
+          "zh": "早上好。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "afternoon",
+      "lemma": "afternoon",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "afternoon",
+      "examples": [
+        {
+          "en": "See you this afternoon.",
+          "zh": "下午见。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "goodbye",
+      "lemma": "goodbye",
+      "ipa": "/ˌɡʊdˈbaɪ/",
+      "pos": "int",
+      "zh": "再见",
+      "examples": [
+        {
+          "en": "Goodbye, class.",
+          "zh": "同学们再见。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "bye",
+      "lemma": "bye",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "bye",
+      "examples": [
+        {
+          "en": "I have a bye.",
+          "zh": "我有一个bye。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "thank",
+      "lemma": "thank",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "thank",
+      "examples": [
+        {
+          "en": "I have a thank.",
+          "zh": "我有一个thank。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "name",
+      "lemma": "name",
+      "ipa": "/neɪm/",
+      "pos": "n",
+      "zh": "名字",
+      "examples": [
+        {
+          "en": "My name is John.",
+          "zh": "我的名字是约翰。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "ipa": "/skuːl/",
+      "pos": "n",
+      "zh": "学校",
+      "examples": [
+        {
+          "en": "I go to school.",
+          "zh": "我去上学。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "classroom",
+      "lemma": "classroom",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "classroom",
+      "examples": [
+        {
+          "en": "I have a classroom.",
+          "zh": "我有一个classroom。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "student",
+      "lemma": "student",
+      "ipa": "/ˈstjuːdnt/",
+      "pos": "n",
+      "zh": "学生",
+      "examples": [
+        {
+          "en": "He is a student.",
+          "zh": "他是学生。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "teacher",
+      "lemma": "teacher",
+      "ipa": "/ˈtiːtʃə/",
+      "pos": "n",
+      "zh": "老师",
+      "examples": [
+        {
+          "en": "She is a teacher.",
+          "zh": "她是老师。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "mother",
+      "lemma": "mother",
+      "ipa": "/ˈmʌðə/",
+      "pos": "n",
+      "zh": "妈妈",
+      "examples": [
+        {
+          "en": "My mother is kind.",
+          "zh": "我妈妈很温柔。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "ipa": "/ˈfɑːðə/",
+      "pos": "n",
+      "zh": "爸爸",
+      "examples": [
+        {
+          "en": "My father is tall.",
+          "zh": "我爸爸很高。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "brother",
+      "lemma": "brother",
+      "ipa": "/ˈbrʌðə/",
+      "pos": "n",
+      "zh": "哥哥或弟弟",
+      "examples": [
+        {
+          "en": "I have a brother.",
+          "zh": "我有一个兄弟。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sister",
+      "lemma": "sister",
+      "ipa": "/ˈsɪstə/",
+      "pos": "n",
+      "zh": "姐姐或妹妹",
+      "examples": [
+        {
+          "en": "This is my sister.",
+          "zh": "这是我的姐姐。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "friend",
+      "lemma": "friend",
+      "ipa": "/frend/",
+      "pos": "n",
+      "zh": "朋友",
+      "examples": [
+        {
+          "en": "He is my friend.",
+          "zh": "他是我的朋友。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "boy",
+      "lemma": "boy",
+      "ipa": "/bɔɪ/",
+      "pos": "n",
+      "zh": "男孩",
+      "examples": [
+        {
+          "en": "The boy is tall.",
+          "zh": "这个男孩很高。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "girl",
+      "lemma": "girl",
+      "ipa": "/ɡɜːl/",
+      "pos": "n",
+      "zh": "女孩",
+      "examples": [
+        {
+          "en": "The girl is kind.",
+          "zh": "这个女孩很善良。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "meet",
+      "lemma": "meet",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "meet",
+      "examples": [
+        {
+          "en": "I have a meet.",
+          "zh": "我有一个meet。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "birthday",
+      "lemma": "birthday",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "birthday",
+      "examples": [
+        {
+          "en": "I have a birthday.",
+          "zh": "我有一个birthday。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "cake",
+      "lemma": "cake",
+      "ipa": "/keɪk/",
+      "pos": "n",
+      "zh": "蛋糕",
+      "examples": [
+        {
+          "en": "The cake is sweet.",
+          "zh": "蛋糕很甜。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "party",
+      "lemma": "party",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "party",
+      "examples": [
+        {
+          "en": "I have a party.",
+          "zh": "我有一个party。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "present",
+      "lemma": "present",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "present",
+      "examples": [
+        {
+          "en": "I have a present.",
+          "zh": "我有一个present。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "candle",
+      "lemma": "candle",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "candle",
+      "examples": [
+        {
+          "en": "I have a candle.",
+          "zh": "我有一个candle。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "hat",
+      "lemma": "hat",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "hat",
+      "examples": [
+        {
+          "en": "I have a hat.",
+          "zh": "我有一个hat。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "desk",
+      "lemma": "desk",
+      "ipa": "/desk/",
+      "pos": "n",
+      "zh": "课桌",
+      "examples": [
+        {
+          "en": "This is my desk.",
+          "zh": "这是我的课桌。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "chair",
+      "lemma": "chair",
+      "ipa": "/tʃeə/",
+      "pos": "n",
+      "zh": "椅子",
+      "examples": [
+        {
+          "en": "Sit on the chair.",
+          "zh": "坐在椅子上。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "book",
+      "lemma": "book",
+      "ipa": "/bʊk/",
+      "pos": "n",
+      "zh": "书",
+      "examples": [
+        {
+          "en": "This is my book.",
+          "zh": "这是我的书。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "blackboard",
+      "lemma": "blackboard",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "blackboard",
+      "examples": [
+        {
+          "en": "I have a blackboard.",
+          "zh": "我有一个blackboard。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "window",
+      "lemma": "window",
+      "ipa": "/ˈwɪndəʊ/",
+      "pos": "n",
+      "zh": "窗户",
+      "examples": [
+        {
+          "en": "Close the window.",
+          "zh": "关窗。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "door",
+      "lemma": "door",
+      "ipa": "/dɔː/",
+      "pos": "n",
+      "zh": "门",
+      "examples": [
+        {
+          "en": "Open the door.",
+          "zh": "开门。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "lion",
+      "lemma": "lion",
+      "ipa": "/ˈlaɪən/",
+      "pos": "n",
+      "zh": "狮子",
+      "examples": [
+        {
+          "en": "The lion is big.",
+          "zh": "狮子很大。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "horse",
+      "lemma": "horse",
+      "ipa": "/hɔːs/",
+      "pos": "n",
+      "zh": "马",
+      "examples": [
+        {
+          "en": "The horse can run.",
+          "zh": "马会跑。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "monkey",
+      "lemma": "monkey",
+      "ipa": "/ˈmʌŋki/",
+      "pos": "n",
+      "zh": "猴子",
+      "examples": [
+        {
+          "en": "The monkey likes bananas.",
+          "zh": "猴子喜欢香蕉。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "tree",
+      "lemma": "tree",
+      "ipa": "/triː/",
+      "pos": "n",
+      "zh": "树",
+      "examples": [
+        {
+          "en": "The tree is green.",
+          "zh": "树是绿的。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "man",
+      "lemma": "man",
+      "ipa": "/mæn/",
+      "pos": "n",
+      "zh": "男人",
+      "examples": [
+        {
+          "en": "The man is a teacher.",
+          "zh": "这个男人是老师。"
+        }
+      ],
+      "unit": "Unit 6"
+    }
+  ]
+}

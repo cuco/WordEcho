@@ -1,0 +1,9 @@
+# New Magic / 启思英语 3B · 单元名已核实，尚无公开完整词表
+# TOC：绘本宝 huibenbao.com/book/xinmofayingyu3b
+# Format: English word	Unit N
+# Unit 1 · At the fun park
+# Unit 2 · Beach fun
+# Unit 3 · Nice people at school
+# Unit 4 · How can you help?
+# Unit 5 · The Emperor and the Nightingale
+# Unit 6 · A bad day

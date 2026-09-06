@@ -1,5 +1,117 @@
-# Go! Phonics Level 1 · 请从课本填写（官方无公开完整词库）
-# 格式：英文单词\tUnit N
-# 例：
-# ship\tUnit 1
-# chat\tUnit 1
+# Go! Phonics Level 1 · PARTIAL（81 个公开答案页词汇）
+# 来源：RASS GPP1 Answer Key 搜索缓存；单元结构由新启翔官方 L1 contents 内页核对。
+# 旧文件中的 25/27/29/30/31 是答案页页码，不是单元号，现按官方字母/发音顺序重排。
+# 复现词只能保留一个单元；Xx/Yy 单元优先收 box/fox/six/taxi 等含 x 音词。
+# Unit 16 是总复习，不新增词。
+# Format: English word<TAB>Unit N
+
+# Unit 1 · beginning sounds a/e
+ant	Unit 1
+egg	Unit 1
+
+# Unit 2 · beginning sounds i/o
+ink	Unit 2
+ox	Unit 2
+
+# Unit 3 · beginning sound u
+up	Unit 3
+
+# Unit 4 · Bb/Cc
+bag	Unit 4
+bed	Unit 4
+bin	Unit 4
+bud	Unit 4
+bug	Unit 4
+can	Unit 4
+cat	Unit 4
+cub	Unit 4
+cup	Unit 4
+
+# Unit 5 · Dd/Ff
+dog	Unit 5
+fan	Unit 5
+fits	Unit 5
+fun	Unit 5
+
+# Unit 6 · Gg/Hh
+ham	Unit 6
+hen	Unit 6
+hens	Unit 6
+hog	Unit 6
+hug	Unit 6
+hut	Unit 6
+
+# Unit 7 · Jj
+jam	Unit 7
+jet	Unit 7
+job	Unit 7
+jog	Unit 7
+jug	Unit 7
+
+# Unit 8 · Kk/Ll
+kid	Unit 8
+kiss	Unit 8
+leg	Unit 8
+lid	Unit 8
+log	Unit 8
+lot	Unit 8
+
+# Unit 9 · Mm/Nn
+mad	Unit 9
+map	Unit 9
+mat	Unit 9
+men	Unit 9
+mud	Unit 9
+mug	Unit 9
+mum	Unit 9
+nap	Unit 9
+net	Unit 9
+
+# Unit 10 · Pp/Qq
+pan	Unit 10
+peg	Unit 10
+pens	Unit 10
+pet	Unit 10
+pig	Unit 10
+pin	Unit 10
+pot	Unit 10
+pub	Unit 10
+quick	Unit 10
+
+# Unit 11 · Rr
+rat	Unit 11
+red	Unit 11
+rock	Unit 11
+rub	Unit 11
+run	Unit 11
+
+# Unit 12 · Ss/Tt
+sad	Unit 12
+sips	Unit 12
+sisters	Unit 12
+sits	Unit 12
+tag	Unit 12
+tin	Unit 12
+top	Unit 12
+tub	Unit 12
+
+# Unit 13 · Vv/Ww
+van	Unit 13
+vegetables	Unit 13
+vet	Unit 13
+well	Unit 13
+wet	Unit 13
+wig	Unit 13
+wind	Unit 13
+
+# Unit 14 · Xx/Yy
+box	Unit 14
+fox	Unit 14
+six	Unit 14
+taxi	Unit 14
+yam	Unit 14
+
+# Unit 15 · Zz
+zebra	Unit 15
+zip	Unit 15
+zips	Unit 15
