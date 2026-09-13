@@ -6,23 +6,16 @@ import {
   FlameIcon,
   GearIcon,
   GemIcon,
-  HomeIcon,
   SunIcon,
   TargetIcon,
 } from "../components/icons";
 import { NameChip } from "../components/NameChip";
-import { db, getPrefs, savePrefs } from "../db/schema";
+import { db, getPrefs } from "../db/schema";
 import { repairWordMeanings } from "../db/repo";
 import { getRewardState } from "../db/rewards";
 import { getUnfinishedSession, startOrResumeDaily } from "../db/session";
 import { todayLocal } from "../lib/types";
 import { isStudyWord } from "../lib/word-quality";
-
-function isStandaloneDisplay(): boolean {
-  if (window.matchMedia("(display-mode: standalone)").matches) return true;
-  const nav = window.navigator as Navigator & { standalone?: boolean };
-  return nav.standalone === true;
-}
 
 const DOW = ["一", "二", "三", "四", "五", "六", "日"];
 
@@ -49,7 +42,6 @@ export function LearnPage() {
   const [notice, setNotice] = useState("");
   const [loaded, setLoaded] = useState(false);
   const [unfinished, setUnfinished] = useState<Awaited<ReturnType<typeof getUnfinishedSession>>>(null);
-  const [showHomeTip, setShowHomeTip] = useState(false);
 
   useEffect(() => {
     void (async () => {
@@ -57,7 +49,6 @@ export function LearnPage() {
       setStreak(prefs.streakDays);
       setLimit(prefs.dailyLimit);
       setStudyDates(prefs.studyDates);
-      setShowHomeTip(!prefs.hideHomeScreenTip && !isStandaloneDisplay());
       const words = await repairWordMeanings();
       const studyIds = new Set(words.filter(isStudyWord).map((word) => word.id));
       const reviews = await db.reviews.toArray();
@@ -115,12 +106,6 @@ export function LearnPage() {
     setCursor((c) => new Date(c.getFullYear(), c.getMonth() + delta, 1));
   }
 
-  async function dismissHomeTip() {
-    setShowHomeTip(false);
-    const prefs = await getPrefs();
-    await savePrefs({ ...prefs, hideHomeScreenTip: true });
-  }
-
   return (
     <>
       <header className="hud">
@@ -144,20 +129,6 @@ export function LearnPage() {
       </header>
 
       <main className="main">
-        {showHomeTip ? (
-          <aside className="home-screen-tip" aria-label="添加到主屏幕提示">
-            <span className="tip-icon">
-              <HomeIcon size={20} />
-            </span>
-            <p>
-              在 iPad 的浏览器里点「分享 → 添加到主屏幕」，之后从主屏幕打开，就像装了 App 一样。
-            </p>
-            <button type="button" className="tip-dismiss" onClick={() => void dismissHomeTip()}>
-              知道了
-            </button>
-          </aside>
-        ) : null}
-
         <section className="learn-hero">
           <h1>
             {unfinished ? "接着上次继续学" : doneToday ? (

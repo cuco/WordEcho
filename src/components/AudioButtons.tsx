@@ -21,12 +21,14 @@ export function SpeakButton({
   rate,
   size = "md",
   id,
+  onBeforeSpeak,
 }: {
   text: string;
   lang: string;
   rate: number;
   size?: "md" | "sm";
   id?: string;
+  onBeforeSpeak?: () => void;
 }) {
   return (
     <button
@@ -34,7 +36,10 @@ export function SpeakButton({
       className={`iconbtn solid${size === "sm" ? " sm" : ""}`}
       aria-label="听发音"
       title="听一听"
-      onClick={() => speak(text, lang, rate)}
+      onClick={() => {
+        onBeforeSpeak?.();
+        speak(text, lang, rate);
+      }}
     >
       <SpeakerIcon size={size === "sm" ? 22 : 26} />
     </button>

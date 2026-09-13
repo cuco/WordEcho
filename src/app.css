@@ -179,40 +179,41 @@ button { font-family: inherit; color: inherit; cursor: pointer; }
   border-bottom-color: #dcdcdc;
 }
 
-.home-screen-tip {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin: -6px 0 0;
-  padding: 12px 14px;
+.install-gate {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: max(24px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
+  background: linear-gradient(180deg, #f4ffe9 0%, #fff 65%);
+}
+.install-card {
+  width: min(100%, 480px);
+  padding: 30px 26px;
+  border: 2px solid var(--line);
+  border-bottom-width: 5px;
+  border-radius: 24px;
+  background: #fff;
+  text-align: center;
+}
+.install-icon {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 16px;
+  display: grid;
+  place-items: center;
+  border-radius: 22px;
+  background: var(--green-soft);
+  color: var(--green-text);
+}
+.install-card h1 { margin: 0 0 10px; font-size: 28px; }
+.install-card > p { margin: 0 0 20px; line-height: 1.55; font-weight: 700; color: #777; }
+.install-card .install-steps {
+  padding: 16px;
   border-radius: 16px;
-  border: 2px solid #ccecf8;
   background: var(--blue-soft);
+  color: #337895;
 }
-.home-screen-tip .tip-icon {
-  flex: none;
-  color: var(--blue);
-  margin-top: 1px;
-}
-.home-screen-tip p {
-  margin: 0;
-  flex: 1;
-  min-width: 0;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-  color: #5b7a8a;
-}
-.home-screen-tip .tip-dismiss {
-  flex: none;
-  border: 0;
-  background: transparent;
-  color: var(--blue-dark);
-  font-weight: 800;
-  font-size: 13px;
-  padding: 2px 4px;
-  white-space: nowrap;
-}
+.install-card .install-note { margin: 16px 0 0; font-size: 13px; color: var(--muted); }
 
 .section-title {
   font-size: 13px;

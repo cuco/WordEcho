@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { FollowButton, SpeakButton } from "../components/AudioButtons";
 import { Confetti } from "../components/Confetti";
+import { ReviewContinueButton } from "../components/ReviewContinueButton";
 import { CheckIcon, CrossIcon, FlameIcon, TrophyIcon } from "../components/icons";
 import { db, getPrefs } from "../db/schema";
 import { appendRetries, finishSession, gradeItem, loadSession } from "../db/session";
@@ -78,6 +79,10 @@ export function LessonPage() {
   const item = items[idx];
   const word = words.find((w) => w.id === item?.wordId);
   const example = word?.examples?.find((e) => e?.en?.trim());
+  // One utterance keeps the word and English example in order, with a sentence pause.
+  const answerSpeech = word
+    ? `${word.display}${example ? `${/[.!?]$/.test(word.display) ? "" : "."} ${example.en.trim()}` : ""}`
+    : "";
   const pct = useMemo(
     () => (items.length ? Math.round((idx / items.length) * 100) : 0),
     [idx, items.length],
@@ -150,7 +155,7 @@ export function LessonPage() {
       autoSpokenFor.current = item.id;
       autoSpeakTimer.current = window.setTimeout(() => {
         autoSpeakTimer.current = null;
-        speak(word.display, lang, rate);
+        speak(answerSpeech, lang, rate);
       }, AUTO_SPEAK_DELAY_MS);
     }
   }
@@ -307,7 +312,14 @@ export function LessonPage() {
       <div className="q-type">{TYPE_LABEL[item.type]}</div>
 
       <div className="prompt-row">
-        {showAudio && word ? <SpeakButton text={word.display} lang={lang} rate={rate} /> : null}
+        {showAudio && word ? (
+          <SpeakButton
+            text={revealed ? answerSpeech : word.display}
+            lang={lang}
+            rate={rate}
+            onBeforeSpeak={cancelAutoSpeak}
+          />
+        ) : null}
         <div className={`prompt ${item.type === "zh_to_en" ? "zh" : ""}`}>
           {item.type === "cloze"
             ? item.prompt.split("").map((ch, i) =>
@@ -363,15 +375,19 @@ export function LessonPage() {
             ) : null}
           </div>
           <div className="actions">
-            {word ? <SpeakButton text={word.display} lang={lang} rate={rate} /> : null}
+            {word ? (
+              <SpeakButton text={answerSpeech} lang={lang} rate={rate} onBeforeSpeak={cancelAutoSpeak} />
+            ) : null}
             {word ? (
               <FollowButton word={word.display} lang={lang} rate={rate} onResult={setFollowMsg} />
             ) : null}
             {followMsg ? <span className="hint">{followMsg}</span> : null}
           </div>
-          <button className={`btn${item.correct ? "" : " red"}`} onClick={() => void cont()}>
-            继续
-          </button>
+          <ReviewContinueButton
+            key={item.id}
+            className={`btn${item.correct ? "" : " red"}`}
+            onContinue={cont}
+          />
         </div>
       )}
     </div>

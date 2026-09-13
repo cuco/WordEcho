@@ -1,7 +1,11 @@
 import { useEffect } from "react";
+import { liveQuery } from "dexie";
 import { NavLink, Navigate, Outlet, Route, Routes } from "react-router-dom";
 import { BookIcon, HomeIcon, PlusIcon, GiftIcon } from "./components/icons";
-import { getPrefs } from "./db/schema";
+import { InstallGate } from "./components/InstallGate";
+import { syncInstallBridgeFromDb } from "./db/install-bridge";
+import { db, getPrefs } from "./db/schema";
+import { needsInstallGate } from "./lib/pwa-install";
 import { setSoundEnabled } from "./lib/sfx";
 import { loadVoices, setVoicePreference } from "./lib/speech";
 import { BankPage } from "./pages/BankPage";
@@ -39,13 +43,29 @@ function Shell() {
 }
 
 export function App() {
+  const installRequired = needsInstallGate();
+
   useEffect(() => {
+    if (installRequired) return;
     void loadVoices();
     void getPrefs().then((p) => {
       setVoicePreference(p.ttsVoice ?? null);
       setSoundEnabled(p.soundOn ?? true);
     });
-  }, []);
+  }, [installRequired]);
+
+  useEffect(() => {
+    if (!installRequired) return;
+    // Keep the small, install-only bridge current. liveQuery runs again only
+    // after a committed IndexedDB change, so rolled-back XP is never mirrored.
+    const subscription = liveQuery(() => Promise.all([
+      db.prefs.toArray(),
+      db.redemptions.toArray(),
+    ])).subscribe({ next: () => { void syncInstallBridgeFromDb().catch(() => undefined); } });
+    return () => subscription.unsubscribe();
+  }, [installRequired]);
+
+  if (installRequired) return <div className="app"><InstallGate /></div>;
 
   return (
     <div className="app">
