@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { dictCoreWords } from "../data/dict-core";
-import { buildDailyQuiz, pickType, selectWordsForDay } from "./quiz";
+import { builtinPacks } from "../data/packs";
+import { buildDailyQuiz, buildStem, isQuizItemValid, pickType, selectWordsForDay } from "./quiz";
 import { newReview } from "./srs";
 import type { WordRecord } from "./types";
 
@@ -47,5 +48,43 @@ describe("quiz", () => {
     }));
     const selected = selectWordsForDay(reviews, words, "2026-09-06", 5);
     expect(selected).toHaveLength(5);
+  });
+
+  it("never uses English placeholders as Chinese answer options", () => {
+    const target = word("ant", "ant", "蚂蚁");
+    const pool = [target, word("ink", "ink", "ink"), word("up", "up", "up")];
+    for (let day = 1; day <= 30; day++) {
+      const stem = buildStem("en_to_zh", target, pool, dictCoreWords, `2026-09-${day}`);
+      expect(stem.prompt).toBe("ant");
+      expect(stem.options.every((option) => /\p{Script=Han}/u.test(option))).toBe(true);
+      expect(new Set(stem.options).size).toBe(3);
+      expect(stem.options[stem.answerIndex]).toBe("蚂蚁");
+    }
+    expect(() => buildStem("en_to_zh", pool[1], pool, dictCoreWords, "2026-09-13")).toThrow("中文释义");
+  });
+
+  it("skips incomplete and English-only words in due, new and early-review slots", () => {
+    const good = word("good", "cat", "猫");
+    const pending = { ...word("pending", "dog", "狗"), enrichStatus: "pending" as const };
+    const invalid = word("invalid", "up", "up");
+    const words = [good, pending, invalid];
+    for (const dueAt of ["2026-09-12", "2026-09-13", "2026-09-14"]) {
+      const reviews = words.map((w) => ({ ...newReview(w.id, dueAt), repetitions: 2 }));
+      expect(selectWordsForDay(reviews, words, "2026-09-13", 15).map((w) => w.id)).toEqual(["good"]);
+    }
+  });
+
+  it("uses the expected languages and audio rules for every built-in translation question", () => {
+    for (const pack of builtinPacks) {
+      const words = pack.words.map((w, index) => word(`${pack.id}-${index}`, w.word, w.zh));
+      for (const w of words) {
+        for (const type of ["en_to_zh", "zh_to_en"] as const) {
+          const stem = buildStem(type, w, words, dictCoreWords, "2026-09-13");
+          const item = { ...stem, id: w.id, sessionId: "test", wordId: w.id,
+            chosenIndex: null, correct: null, isRetry: false };
+          expect(isQuizItemValid(item, w), `${pack.id}: ${w.display} ${type}`).toBe(true);
+        }
+      }
+    }
   });
 });

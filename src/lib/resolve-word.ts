@@ -1,5 +1,6 @@
 import type { DictCoreWord, DictLookupWord, ResolvedWord, WordPack, WordRecord } from "./types";
 import { lemmaOf } from "./types";
+import { hasChineseMeaning } from "./word-quality";
 
 export type ResolveLookup = {
   local: WordRecord[];
@@ -39,7 +40,7 @@ export function lookupReference(
   displayHint?: string,
 ): ResolvedWord | null {
   const dict = lookup.dictCore.find((w) => w.lemma === lemma);
-  if (dict) {
+  if (dict && hasChineseMeaning(dict.zh)) {
     return {
       lemma: dict.lemma,
       display: dict.display,
@@ -53,7 +54,7 @@ export function lookupReference(
   }
   for (const pack of lookup.packs) {
     const pw = pack.words.find((w) => lemmaOf(w.lemma ?? w.word) === lemma);
-    if (pw) {
+    if (pw && hasChineseMeaning(pw.zh)) {
       return {
         lemma,
         display: pw.word,
@@ -67,7 +68,7 @@ export function lookupReference(
     }
   }
   const fromLookup = lookup.dictLookup?.(lemma);
-  if (fromLookup?.zh) {
+  if (fromLookup && hasChineseMeaning(fromLookup.zh)) {
     return {
       lemma,
       display: displayHint ?? lemma,
@@ -88,7 +89,7 @@ export function lookupOffline(
   displayHint?: string,
 ): ResolvedWord | null {
   const local = lookup.local.find((w) => w.lemma === lemma);
-  if (local?.enrichStatus === "complete" && local.meaningZh) {
+  if (local?.enrichStatus === "complete" && hasChineseMeaning(local.meaningZh)) {
     return fromLocal(local);
   }
   const ref = lookupReference(lemma, lookup, displayHint);
@@ -107,7 +108,7 @@ export async function resolveWord(
   const display = lemmaRaw.trim() || lemma;
   const offline = lookupOffline(lemma, lookup, display);
 
-  if (inlineZh) {
+  if (inlineZh && hasChineseMeaning(inlineZh)) {
     return {
       lemma,
       display: offline?.display ?? display,
@@ -120,7 +121,7 @@ export async function resolveWord(
     };
   }
 
-  if (offline && offline.enrichStatus === "complete" && offline.meaningZh) {
+  if (offline && offline.enrichStatus === "complete" && hasChineseMeaning(offline.meaningZh)) {
     return offline;
   }
 
@@ -128,7 +129,7 @@ export async function resolveWord(
     try {
       const rows = await ai([lemma]);
       const row = rows.find((r) => lemmaOf(r.lemma) === lemma) ?? rows[0];
-      if (row?.meaningZh) {
+      if (row && hasChineseMeaning(row.meaningZh)) {
         return {
           lemma,
           display,
@@ -158,7 +159,7 @@ export async function resolveWord(
     lemma,
     display,
     ipa: offline?.ipa ?? null,
-    meaningZh: offline?.meaningZh ?? "",
+    meaningZh: offline && hasChineseMeaning(offline.meaningZh) ? offline.meaningZh : "",
     pos: offline?.pos ?? null,
     examples: offline?.examples ?? [],
     enrichStatus: "pending",

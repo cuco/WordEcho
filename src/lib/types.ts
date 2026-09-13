@@ -1,5 +1,24 @@
 export type WordSourceKind = "textbook" | "reading" | "pack" | "paste";
 
+export type RewardTheme = "pets" | "fantasy" | "space";
+export type RewardDefinition = {
+  id: string;
+  name: string;
+  theme: RewardTheme;
+  cost: number;
+  image: string;
+  hungerDays: number;
+};
+export type RewardCare = { fullness: number; settledOn: string };
+export type RewardRedemption = {
+  rewardId: string;
+  /** All spending on this partner, including feeding and repeat unlocks. */
+  cost: number;
+  redeemedAt: string;
+  /** Missing on old installations; starts full on first read after updating. */
+  care?: RewardCare;
+};
+
 export type Example = { en: string; zh: string };
 
 export type WordSource = {
@@ -77,6 +96,7 @@ export type UserPrefs = {
   streakDays: number;
   lastStudyDate: string | null;
   studyDates: string[];
+  xpTotal: number;
   xpToday: number;
   xpDate: string | null;
   aiBaseUrl?: string;

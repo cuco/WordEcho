@@ -1,9 +1,161 @@
-# New Magic / 启思英语 4B · 单元名已核实，尚无公开完整词表
-# TOC：绘本宝 huibenbao.com/book/xinmofayingyu4b
-# Format: English word	Unit N
+# New Magic / 启思英语 4B · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
 # Unit 1 · New Year fun
+get red packets	Unit 1	收红包	v
+eat dumplings	Unit 1	吃饺子	v
+watch fireworks	Unit 1	看烟花	v
+visit relatives	Unit 1	探亲	v
+flower market	Unit 1	花市	n
+temple fair	Unit 1	庙会	n
+lion dance	Unit 1	舞狮	n
+couplets	Unit 1	春联	n
+paper-cuttings	Unit 1	剪纸	n
+Chinese New Year	Unit 1	春节	n
+quarter past	Unit 1	……点一刻	expr
+half past	Unit 1	……点半	expr
+quarter to	Unit 1	差一刻到……点	expr
+arrival	Unit 1	到达	n
+station	Unit 1	车站	n
+
 # Unit 2 · School play
+bored	Unit 2	无聊的	adj
+disappointed	Unit 2	失望的	adj
+excited	Unit 2	兴奋的	adj
+frightened	Unit 2	害怕的	adj
+interested	Unit 2	感兴趣的	adj
+shocked	Unit 2	震惊的	adj
+surprised	Unit 2	惊讶的	adj
+tired	Unit 2	疲倦的	adj
+worried	Unit 2	担心的	adj
+delighted	Unit 2	高兴的	adj
+school play	Unit 2	校园剧	n
+school open day	Unit 2	学校开放日	n
+play script	Unit 2	剧本	n
+narrator	Unit 2	旁白者	n
+character	Unit 2	角色	n
+scene	Unit 2	场景	n
+genie	Unit 2	精灵	n
+lamp	Unit 2	神灯	n
+hut	Unit 2	小屋	n
+master	Unit 2	主人	n
+wish	Unit 2	愿望	n
+someone	Unit 2	某人	pron
+anyone	Unit 2	任何人	pron
+everyone	Unit 2	每个人	pron
+no one	Unit 2	没有人	pron
+something	Unit 2	某事	pron
+anything	Unit 2	任何事	pron
+everything	Unit 2	一切	pron
+nothing	Unit 2	没有什么	pron
+singing performance	Unit 2	歌唱表演	n
+magic performance	Unit 2	魔术表演	n
+dance performance	Unit 2	舞蹈表演	n
+kung fu performance	Unit 2	功夫表演	n
+choral speaking	Unit 2	集体朗诵	n
+
 # Unit 3 · Chinese food
+Gong Bao chicken	Unit 3	宫保鸡丁	n
+hotpot	Unit 3	火锅	n
+Mapo tofu	Unit 3	麻婆豆腐	n
+noodles with soybean paste	Unit 3	炸酱面	n
+Peking duck	Unit 3	北京烤鸭	n
+red bean soup	Unit 3	红豆汤	n
+spring rolls	Unit 3	春卷	n
+steamed buns	Unit 3	馒头	n
+wontons in soup	Unit 3	馄饨汤	n
+dumplings	Unit 3	饺子	n
+dim sum	Unit 3	点心	n
+menu	Unit 3	菜单	n
+chef	Unit 3	厨师	n
+host	Unit 3	主人	n
+restaurant	Unit 3	餐馆	n
+secret	Unit 3	秘密	n
+customer	Unit 3	顾客	n
+price	Unit 3	价格	n
+
 # Unit 4 · Food fair
+food fair	Unit 4	美食节	n
+chicken nuggets	Unit 4	鸡块	n
+mango pudding	Unit 4	芒果布丁	n
+onion rings	Unit 4	洋葱圈	n
+fried noodles	Unit 4	炒面	n
+egg tarts	Unit 4	蛋挞	n
+cheesecake	Unit 4	芝士蛋糕	n
+spaghetti with tomato sauce	Unit 4	番茄酱意大利面	n
+chicken wings	Unit 4	鸡翅	n
+fish balls	Unit 4	鱼丸	n
+crisps	Unit 4	薯片	n
+salad	Unit 4	沙拉	n
+ham sandwich	Unit 4	火腿三明治	n
+tuna sandwich	Unit 4	金枪鱼三明治	n
+ham and cheese sandwich	Unit 4	火腿芝士三明治	n
+coupon	Unit 4	优惠券	n
+stall	Unit 4	摊位	n
+a few	Unit 4	少量的	det
+a little	Unit 4	少量的	det
+plenty of	Unit 4	大量的	det
+packet	Unit 4	包	n
+bowl	Unit 4	碗	n
+plate	Unit 4	盘子	n
+
 # Unit 5 · Health tips
+broken arm	Unit 5	手臂骨折	n
+cold	Unit 5	感冒	n
+cough	Unit 5	咳嗽	n
+headache	Unit 5	头痛	n
+runny nose	Unit 5	流鼻涕	n
+sore throat	Unit 5	喉咙痛	n
+stomach ache	Unit 5	胃痛	n
+temperature	Unit 5	发烧	n
+toothache	Unit 5	牙痛	n
+flu	Unit 5	流感	n
+disease	Unit 5	疾病	n
+vaccination	Unit 5	疫苗接种	n
+mask	Unit 5	口罩	n
+doctor	Unit 5	医生	n
+patient	Unit 5	病人	n
+medicine	Unit 5	药	n
+healthy lifestyle	Unit 5	健康的生活方式	n
+exercise	Unit 5	锻炼	v
+have a rest	Unit 5	休息	v
+see a doctor	Unit 5	看医生	v
+cover your mouth	Unit 5	捂住嘴巴	v
+wash your hands	Unit 5	洗手	v
+drink water	Unit 5	喝水	v
+stay at home	Unit 5	待在家里	v
+
 # Unit 6 · Welcome to Rainbow City
+bridge	Unit 6	桥	n
+food market	Unit 6	食品市场	n
+harbour	Unit 6	海港	n
+science museum	Unit 6	科学馆	n
+space museum	Unit 6	太空馆	n
+square	Unit 6	广场	n
+wetland park	Unit 6	湿地公园	n
+art gallery	Unit 6	美术馆	n
+travel agency	Unit 6	旅行社	n
+tourist	Unit 6	游客	n
+travel brochure	Unit 6	旅游手册	n
+hotel	Unit 6	酒店	n
+take photos	Unit 6	拍照	v
+musical fountain	Unit 6	音乐喷泉	n
+do an experiment	Unit 6	做实验	v
+watch stars	Unit 6	观星	v
+watch birds	Unit 6	观鸟	v
+cross the harbour	Unit 6	横渡海港	v
+by ferry	Unit 6	乘渡轮	expr
+by train	Unit 6	乘火车	expr
+by bus	Unit 6	乘公共汽车	expr
+turn left	Unit 6	左转	v
+turn right	Unit 6	右转	v
+walk along	Unit 6	沿着……走	v
+walk across	Unit 6	穿过……走	v
+walk through	Unit 6	从……中穿过	v
+on the left	Unit 6	在左边	expr
+on the right	Unit 6	在右边	expr
+entrance	Unit 6	入口	n
+underground station	Unit 6	地铁站	n
+traffic lights	Unit 6	交通灯	n

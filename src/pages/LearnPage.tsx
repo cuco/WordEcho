@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { liveQuery } from "dexie";
 import { useNavigate } from "react-router-dom";
 import {
   CheckIcon,
@@ -11,8 +12,11 @@ import {
 } from "../components/icons";
 import { NameChip } from "../components/NameChip";
 import { db, getPrefs, savePrefs } from "../db/schema";
-import { startOrResumeDaily } from "../db/session";
+import { repairWordMeanings } from "../db/repo";
+import { getRewardState } from "../db/rewards";
+import { getUnfinishedSession, startOrResumeDaily } from "../db/session";
 import { todayLocal } from "../lib/types";
+import { isStudyWord } from "../lib/word-quality";
 
 function isStandaloneDisplay(): boolean {
   if (window.matchMedia("(display-mode: standalone)").matches) return true;
@@ -35,28 +39,48 @@ export function LearnPage() {
   const nav = useNavigate();
   const today = todayLocal();
   const [streak, setStreak] = useState(0);
-  const [xp, setXp] = useState(0);
+  const [available, setAvailable] = useState<number | null>(null);
   const [limit, setLimit] = useState(15);
   const [due, setDue] = useState(0);
   const [total, setTotal] = useState(0);
   const [studyDates, setStudyDates] = useState<string[]>([]);
   const [cursor, setCursor] = useState(() => new Date());
   const [busy, setBusy] = useState(false);
+  const [notice, setNotice] = useState("");
+  const [loaded, setLoaded] = useState(false);
+  const [unfinished, setUnfinished] = useState<Awaited<ReturnType<typeof getUnfinishedSession>>>(null);
   const [showHomeTip, setShowHomeTip] = useState(false);
 
   useEffect(() => {
     void (async () => {
       const prefs = await getPrefs();
       setStreak(prefs.streakDays);
-      setXp(prefs.xpDate === today ? prefs.xpToday : 0);
       setLimit(prefs.dailyLimit);
       setStudyDates(prefs.studyDates);
       setShowHomeTip(!prefs.hideHomeScreenTip && !isStandaloneDisplay());
+      const words = await repairWordMeanings();
+      const studyIds = new Set(words.filter(isStudyWord).map((word) => word.id));
       const reviews = await db.reviews.toArray();
-      setDue(reviews.filter((r) => r.dueAt <= today).length);
-      setTotal(await db.words.count());
+      setDue(reviews.filter((r) => r.dueAt <= today && studyIds.has(r.wordId)).length);
+      setTotal(words.length);
+      setUnfinished(await getUnfinishedSession(today));
+      setLoaded(true);
     })();
   }, [today]);
+
+  useEffect(() => {
+    let active = true;
+    // Both pages read the same balance; watch earned XP and all reward spending.
+    const subscription = liveQuery(() => Promise.all([db.prefs.toArray(), db.redemptions.toArray()]))
+      .subscribe({
+        next: () => {
+          void getRewardState().then((state) => { if (active) setAvailable(state.available); })
+            .catch(() => { if (active) setAvailable(null); });
+        },
+        error: () => { if (active) setAvailable(null); },
+      });
+    return () => { active = false; subscription.unsubscribe(); };
+  }, []);
 
   const cells = useMemo(
     () => monthCells(cursor.getFullYear(), cursor.getMonth()),
@@ -69,17 +93,22 @@ export function LearnPage() {
 
   const goal = Math.min(due, limit) || Math.min(total, limit);
   const doneToday = studyDates.includes(today);
+  const answered = unfinished?.items.filter((item) => item.chosenIndex !== null).length ?? 0;
+  const lessonTotal = unfinished?.items.length ?? 0;
 
   async function start() {
-    if (!total) {
+    if (!total && !unfinished) {
       nav("/import");
       return;
     }
     setBusy(true);
-    const { session, items } = await startOrResumeDaily();
-    setBusy(false);
-    if (!items.length) return;
-    nav(`/lesson/${session.id}`);
+    try {
+      const { session, items } = await startOrResumeDaily();
+      if (items.length) nav(`/lesson/${session.id}`);
+      else setNotice("这些单词的中文释义还没补全，补全后再来学习。");
+    } finally {
+      setBusy(false);
+    }
   }
 
   function shift(delta: number) {
@@ -100,13 +129,13 @@ export function LearnPage() {
           <FlameIcon />
           {streak}
         </span>
-        <span className="item gem">
+        <span className="item gem" role="status" title="可用积分，可兑换贴纸和喂养伙伴" aria-label={`当前可用积分 ${available ?? "加载中"}`}>
           <GemIcon />
-          {xp}
+          {available === null ? "—" : available.toLocaleString()}
         </span>
         <span className="item target">
           <TargetIcon />
-          {doneToday ? goal : 0}/{goal || limit}
+          {unfinished ? answered : doneToday ? goal : 0}/{unfinished ? lessonTotal : goal || limit}
         </span>
         <span className="spacer" />
         <button className="gear" aria-label="设置" onClick={() => nav("/settings")}>
@@ -131,7 +160,7 @@ export function LearnPage() {
 
         <section className="learn-hero">
           <h1>
-            {doneToday ? (
+            {unfinished ? "接着上次继续学" : doneToday ? (
               <>
                 <span className="done-badge">
                   <CheckIcon size={18} />
@@ -143,7 +172,9 @@ export function LearnPage() {
             )}
           </h1>
           <p>
-            {total === 0
+            {unfinished
+              ? `已完成 ${answered} / ${lessonTotal} 题，接着第 ${unfinished.session.currentIndex + 1} 题继续`
+              : total === 0
               ? "词库还是空的，先去录入几个单词"
               : doneToday
                 ? due > 0
@@ -153,9 +184,22 @@ export function LearnPage() {
                   ? `有 ${due} 个词到期，今天练 ${goal} 题`
                   : `没有到期的词，练 ${goal} 题巩固一下`}
           </p>
-          <button className="btn" disabled={busy} onClick={() => void start()}>
-            {total === 0 ? "去录入单词" : doneToday ? "再练一组" : "开始学习"}
+          {unfinished ? (
+            <div
+              className="progress resume-progress"
+              role="progressbar"
+              aria-label="本课答题进度"
+              aria-valuemin={0}
+              aria-valuemax={lessonTotal}
+              aria-valuenow={answered}
+            >
+              <span style={{ width: `${(answered / lessonTotal) * 100}%` }} />
+            </div>
+          ) : null}
+          <button className="btn" disabled={busy || !loaded} onClick={() => void start()}>
+            {unfinished ? "继续学习" : total === 0 ? "去录入单词" : doneToday ? "再练一组" : "开始学习"}
           </button>
+          {notice ? <p role="status">{notice}</p> : null}
         </section>
 
         <div className="section-title">打卡日历</div>

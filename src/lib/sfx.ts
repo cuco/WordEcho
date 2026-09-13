@@ -152,9 +152,9 @@ function tone(
   osc.stop(at + dur + 0.05);
 }
 
-/* ---------- 对外的四个提示音 ---------- */
+/* ---------- 提示音调度 ---------- */
 
-export type Cue = "correct" | "combo" | "wrong" | "finish";
+export type Cue = "correct" | "combo" | "wrong" | "finish" | "reward";
 
 /**
  * 把一个提示音排到 `at`。play* 用它，离线渲染（tmp-audio 里的 wav）也用它，
@@ -162,6 +162,15 @@ export type Cue = "correct" | "combo" | "wrong" | "finish";
  */
 export function scheduleCue(ac: BaseAudioContext, cue: Cue, at: number, combo = 1): void {
   switch (cue) {
+    case "reward": {
+      [523.25, 659.25, 783.99, 1046.5, 1318.51, 1567.98].forEach((f, i) => {
+        voice(ac, f, at + i * 0.12, { dur: 0.55, gain: 0.10, bright: 1.4, cutoff: 6200 });
+      });
+      [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => {
+        voice(ac, f, at + 1.4 + i * 0.02, { dur: 1.5, gain: 0.06, bright: 1.1, cutoff: 5200 });
+      });
+      return;
+    }
     case "correct": {
       // 连对越多，音高和亮度往上走一点，但保持同一个音色
       const lift = Math.min(combo - 1, 4) / 4;
@@ -250,4 +259,35 @@ export function playFinish(): void {
 export function playCombo(): void {
   const ac = audio();
   if (ac) scheduleCue(ac, "combo", ac.currentTime);
+}
+
+/** Call synchronously from the redemption gesture, before awaiting IndexedDB. */
+export function prepareRewardSound(): () => () => void {
+  const ac = audio();
+  return () => {
+    if (!ac || !enabled) return () => {};
+    // Reuse the gesture-unlocked context; mute only this cue through its own bus.
+    const bus = ac.createGain();
+    bus.connect(ac.destination);
+    const previous = graphs.get(ac);
+    const master = ac.createGain();
+    master.gain.value = MASTER;
+    master.connect(bus);
+    graphs.set(ac, { master });
+    try {
+      scheduleCue(ac, "reward", ac.currentTime);
+    } catch (error) {
+      bus.disconnect();
+      master.disconnect();
+      throw error;
+    } finally {
+      if (previous) graphs.set(ac, previous); else graphs.delete(ac);
+    }
+    const timer = window.setTimeout(() => { bus.disconnect(); master.disconnect(); }, 3200);
+    return () => {
+      window.clearTimeout(timer);
+      bus.gain.setTargetAtTime(0, ac.currentTime, 0.015);
+      window.setTimeout(() => { bus.disconnect(); master.disconnect(); }, 100);
+    };
+  };
 }

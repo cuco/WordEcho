@@ -1,9 +1,160 @@
-# New Magic / 启思英语 5B · 单元名已核实，尚无公开完整词表
-# TOC：绘本宝 huibenbao.com/book/xinmofayingyu5b
-# Format: English word	Unit N
-# Unit 1 · Games-past and present
+# New Magic / 启思英语 5B · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
+# Unit 1 · Games—past and present
+play rock paper scissors	Unit 1	玩石头剪刀布	v
+play video games	Unit 1	玩电子游戏	v
+play hopscotch	Unit 1	玩跳房子	v
+play hide-and-seek	Unit 1	玩捉迷藏	v
+play clapping games	Unit 1	玩拍手游戏	v
+play with radio-controlled cars	Unit 1	玩遥控车	v
+play tug of war	Unit 1	拔河	v
+play with robots	Unit 1	玩机器人	v
+play marbles	Unit 1	玩弹珠	v
+make models	Unit 1	制作模型	v
+play with dolls	Unit 1	玩玩偶	v
+put on puppet plays	Unit 1	表演木偶戏	v
+play with beanbags	Unit 1	玩豆袋	v
+play with hula hoops	Unit 1	玩呼啦圈	v
+jigsaw puzzle	Unit 1	拼图	n
+top	Unit 1	陀螺	n
+skipping rope	Unit 1	跳绳	n
+board game	Unit 1	棋盘游戏	n
+Chinese chequers	Unit 1	中国跳棋	n
+jumping game	Unit 1	跳跃游戏	n
+in the past	Unit 1	过去	expr
+nowadays	Unit 1	现今	adv
+used to	Unit 1	过去常常	expr
+
 # Unit 2 · Time flies
+clean the blackboard	Unit 2	擦黑板	v
+open the door	Unit 2	开门	v
+play the piano	Unit 2	弹钢琴	v
+wash your hair	Unit 2	洗头	v
+sweep the floor	Unit 2	扫地	v
+draw pictures	Unit 2	画画	v
+comb your hair	Unit 2	梳头	v
+set the table	Unit 2	摆餐桌	v
+wash your face	Unit 2	洗脸	v
+button your shirt	Unit 2	扣衬衫纽扣	v
+carry a school bag	Unit 2	背书包	v
+crawl	Unit 2	爬行	v
+get dressed	Unit 2	穿衣服	v
+have a bath	Unit 2	洗澡	v
+pack a school bag	Unit 2	整理书包	v
+put on shoes	Unit 2	穿鞋	v
+tie your hair up	Unit 2	把头发扎起来	v
+tie your shoelaces	Unit 2	系鞋带	v
+by yourself	Unit 2	独自	expr
+careless	Unit 2	粗心的	adj
+younger	Unit 2	更年轻的	adj
+
 # Unit 3 · Different weather conditions
+windy	Unit 3	有风的	adj
+hot	Unit 3	炎热的	adj
+cloudy	Unit 3	多云的	adj
+dry	Unit 3	干燥的	adj
+wet	Unit 3	潮湿的	adj
+cool	Unit 3	凉爽的	adj
+warm	Unit 3	温暖的	adj
+cold	Unit 3	寒冷的	adj
+heat wave	Unit 3	热浪	n
+typhoon	Unit 3	台风	n
+rainstorm	Unit 3	暴雨	n
+cold weather warning	Unit 3	寒冷天气警告	n
+flood	Unit 3	洪水	n
+shower	Unit 3	阵雨	n
+thunderstorm	Unit 3	雷暴	n
+hail	Unit 3	冰雹	n
+lightning	Unit 3	闪电	n
+thunder	Unit 3	雷声	n
+weather report	Unit 3	天气报告	n
+observatory	Unit 3	天文台	n
+warning	Unit 3	警告	n
+rainfall	Unit 3	降雨量	n
+forecast	Unit 3	预报	n
+temperature	Unit 3	气温	n
+property	Unit 3	财物	n
+temporary shelter	Unit 3	临时庇护所	n
+
 # Unit 4 · Wonderful nature
+fishing	Unit 4	钓鱼	n
+swimming	Unit 4	游泳	n
+camping	Unit 4	露营	n
+cycling	Unit 4	骑自行车	n
+windsurfing	Unit 4	帆板运动	n
+orienteering	Unit 4	定向越野	n
+horse riding	Unit 4	骑马	n
+rowing	Unit 4	划船	n
+hiking	Unit 4	徒步	n
+birdwatching	Unit 4	观鸟	n
+rock climbing	Unit 4	攀岩	n
+tree planting	Unit 4	植树	n
+canoeing	Unit 4	划独木舟	n
+mountain biking	Unit 4	山地自行车运动	n
+dolphin watching	Unit 4	观赏海豚	n
+archery	Unit 4	射箭	n
+campfire	Unit 4	营火	n
+tent	Unit 4	帐篷	n
+campsite	Unit 4	营地	n
+holiday village	Unit 4	度假村	n
+water sports centre	Unit 4	水上运动中心	n
+instructor	Unit 4	教练	n
+
 # Unit 5 · Summer fun!
+pair of trainers	Unit 5	一双运动鞋	n
+ice skates	Unit 5	冰鞋	n
+apron	Unit 5	围裙	n
+paintbrush	Unit 5	画笔	n
+wand	Unit 5	魔杖	n
+swimming trunks	Unit 5	男式泳裤	n
+goggles	Unit 5	护目镜	n
+leotard	Unit 5	紧身衣	n
+ballet shoes	Unit 5	芭蕾舞鞋	n
+badminton racket	Unit 5	羽毛球拍	n
+shuttlecock	Unit 5	羽毛球	n
+rucksack	Unit 5	帆布背包	n
+swimsuit	Unit 5	泳衣	n
+table tennis bat	Unit 5	乒乓球拍	n
+Tae Kwon Do kit	Unit 5	跆拳道服装装备	n
+ballet	Unit 5	芭蕾舞	n
+Tae Kwon Do	Unit 5	跆拳道	n
+beginner	Unit 5	初学者	n
+advanced	Unit 5	高级的	adj
+course	Unit 5	课程	n
+lesson	Unit 5	课	n
+
 # Unit 6 · Different festivals
+Chinese New Year	Unit 6	春节	n
+Dragon Boat Festival	Unit 6	端午节	n
+Halloween	Unit 6	万圣节	n
+Easter	Unit 6	复活节	n
+Mid-Autumn Festival	Unit 6	中秋节	n
+Christmas	Unit 6	圣诞节	n
+Qing Ming Festival	Unit 6	清明节	n
+New Year's Day	Unit 6	元旦	n
+festive activity	Unit 6	节庆活动	n
+festive food	Unit 6	节庆食物	n
+get red packets	Unit 6	收红包	v
+play trick or treat	Unit 6	玩不给糖就捣蛋	v
+play with lanterns	Unit 6	玩灯笼	v
+Easter egg	Unit 6	复活节彩蛋	n
+mooncake	Unit 6	月饼	n
+send Christmas cards	Unit 6	寄圣诞卡	v
+sweep graves	Unit 6	扫墓	v
+watch dragon boat races	Unit 6	观看龙舟赛	v
+wear costumes	Unit 6	穿节日服装	v
+rice dumpling	Unit 6	粽子	n
+poet	Unit 6	诗人	n
+emperor	Unit 6	皇帝	n
+kingdom	Unit 6	王国	n
+pill	Unit 6	药丸	n
+bow	Unit 6	弓	n
+arrow	Unit 6	箭	n
+crop	Unit 6	庄稼	n
+lunar month	Unit 6	农历月份	n
+proud	Unit 6	自豪的	adj
+cruel	Unit 6	残忍的	adj
+jealous	Unit 6	嫉妒的	adj

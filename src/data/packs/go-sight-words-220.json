@@ -12,7 +12,7 @@
       "lemma": "a",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "a",
+      "zh": "一个",
       "examples": [
         {
           "en": "I have an a.",
@@ -26,7 +26,7 @@
       "lemma": "and",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "and",
+      "zh": "和",
       "examples": [
         {
           "en": "I have an and.",
@@ -40,7 +40,7 @@
       "lemma": "away",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "away",
+      "zh": "离开",
       "examples": [
         {
           "en": "I have an away.",
@@ -110,7 +110,7 @@
       "lemma": "down",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "down",
+      "zh": "向下",
       "examples": [
         {
           "en": "I have a down.",
@@ -124,7 +124,7 @@
       "lemma": "find",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "find",
+      "zh": "找到",
       "examples": [
         {
           "en": "I have a find.",
@@ -138,7 +138,7 @@
       "lemma": "for",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "for",
+      "zh": "为了",
       "examples": [
         {
           "en": "I have a for.",
@@ -152,7 +152,7 @@
       "lemma": "funny",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "funny",
+      "zh": "有趣的",
       "examples": [
         {
           "en": "I have a funny.",
@@ -194,7 +194,7 @@
       "lemma": "here",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "here",
+      "zh": "这里",
       "examples": [
         {
           "en": "I have a here.",
@@ -222,7 +222,7 @@
       "lemma": "in",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "in",
+      "zh": "在……里面",
       "examples": [
         {
           "en": "I have an in.",
@@ -250,7 +250,7 @@
       "lemma": "it",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "it",
+      "zh": "它",
       "examples": [
         {
           "en": "I have an it.",
@@ -278,7 +278,7 @@
       "lemma": "little",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "little",
+      "zh": "小的",
       "examples": [
         {
           "en": "I have a little.",
@@ -306,7 +306,7 @@
       "lemma": "make",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "make",
+      "zh": "制作",
       "examples": [
         {
           "en": "I have a make.",
@@ -320,7 +320,7 @@
       "lemma": "me",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "me",
+      "zh": "我",
       "examples": [
         {
           "en": "Can you help me?",
@@ -334,7 +334,7 @@
       "lemma": "my",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "my",
+      "zh": "我的",
       "examples": [
         {
           "en": "I have a my.",
@@ -348,7 +348,7 @@
       "lemma": "not",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "not",
+      "zh": "不",
       "examples": [
         {
           "en": "I have a not.",
@@ -418,7 +418,7 @@
       "lemma": "said",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "said",
+      "zh": "说过",
       "examples": [
         {
           "en": "I have a said.",
@@ -446,7 +446,7 @@
       "lemma": "the",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "the",
+      "zh": "这个或那个",
       "examples": [
         {
           "en": "I have a the.",
@@ -474,7 +474,7 @@
       "lemma": "to",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "to",
+      "zh": "到",
       "examples": [
         {
           "en": "I have a to.",
@@ -502,7 +502,7 @@
       "lemma": "up",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "up",
+      "zh": "向上",
       "examples": [
         {
           "en": "I have an up.",
@@ -516,7 +516,7 @@
       "lemma": "we",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "we",
+      "zh": "我们",
       "examples": [
         {
           "en": "I have a we.",
@@ -572,7 +572,7 @@
       "lemma": "all",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "all",
+      "zh": "全部",
       "examples": [
         {
           "en": "We all like fruit.",
@@ -614,7 +614,7 @@
       "lemma": "at",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "at",
+      "zh": "在",
       "examples": [
         {
           "en": "I have an at.",
@@ -628,7 +628,7 @@
       "lemma": "ate",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ate",
+      "zh": "吃过",
       "examples": [
         {
           "en": "I have an ate.",
@@ -642,7 +642,7 @@
       "lemma": "be",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "be",
+      "zh": "是",
       "examples": [
         {
           "en": "I have a be.",
@@ -670,7 +670,7 @@
       "lemma": "brown",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "brown",
+      "zh": "棕色的",
       "examples": [
         {
           "en": "I have a brown.",
@@ -684,7 +684,7 @@
       "lemma": "but",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "but",
+      "zh": "但是",
       "examples": [
         {
           "en": "I have a but.",
@@ -698,7 +698,7 @@
       "lemma": "came",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "came",
+      "zh": "来过",
       "examples": [
         {
           "en": "I have a came.",
@@ -712,7 +712,7 @@
       "lemma": "did",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "did",
+      "zh": "做过",
       "examples": [
         {
           "en": "I did my homework.",
@@ -726,7 +726,7 @@
       "lemma": "do",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "do",
+      "zh": "做",
       "examples": [
         {
           "en": "I have a do.",
@@ -768,7 +768,7 @@
       "lemma": "get",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "get",
+      "zh": "得到",
       "examples": [
         {
           "en": "I have a get.",
@@ -810,7 +810,7 @@
       "lemma": "he",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "he",
+      "zh": "他",
       "examples": [
         {
           "en": "I have a he.",
@@ -824,7 +824,7 @@
       "lemma": "into",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "into",
+      "zh": "进入",
       "examples": [
         {
           "en": "I have an into.",
@@ -852,7 +852,7 @@
       "lemma": "must",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "must",
+      "zh": "必须",
       "examples": [
         {
           "en": "I have a must.",
@@ -894,7 +894,7 @@
       "lemma": "now",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "now",
+      "zh": "现在",
       "examples": [
         {
           "en": "I have a now.",
@@ -908,7 +908,7 @@
       "lemma": "on",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "on",
+      "zh": "在……上面",
       "examples": [
         {
           "en": "I have an on.",
@@ -922,7 +922,7 @@
       "lemma": "our",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "our",
+      "zh": "我们的",
       "examples": [
         {
           "en": "This is our classroom.",
@@ -936,7 +936,7 @@
       "lemma": "out",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "out",
+      "zh": "在外面",
       "examples": [
         {
           "en": "I have an out.",
@@ -964,7 +964,7 @@
       "lemma": "pretty",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pretty",
+      "zh": "漂亮的",
       "examples": [
         {
           "en": "I have a pretty.",
@@ -978,7 +978,7 @@
       "lemma": "ran",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ran",
+      "zh": "跑过",
       "examples": [
         {
           "en": "I have a ran.",
@@ -992,7 +992,7 @@
       "lemma": "ride",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ride",
+      "zh": "乘坐",
       "examples": [
         {
           "en": "I have a ride.",
@@ -1006,7 +1006,7 @@
       "lemma": "saw",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "saw",
+      "zh": "看见过",
       "examples": [
         {
           "en": "I have a saw.",
@@ -1020,7 +1020,7 @@
       "lemma": "say",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "say",
+      "zh": "说",
       "examples": [
         {
           "en": "I have a say.",
@@ -1034,7 +1034,7 @@
       "lemma": "she",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "she",
+      "zh": "她",
       "examples": [
         {
           "en": "I have a she.",
@@ -1048,7 +1048,7 @@
       "lemma": "so",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "so",
+      "zh": "所以",
       "examples": [
         {
           "en": "I have a so.",
@@ -1062,7 +1062,7 @@
       "lemma": "soon",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "soon",
+      "zh": "很快",
       "examples": [
         {
           "en": "I have a soon.",
@@ -1090,7 +1090,7 @@
       "lemma": "there",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "there",
+      "zh": "那里",
       "examples": [
         {
           "en": "There is a cat.",
@@ -1104,7 +1104,7 @@
       "lemma": "they",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "they",
+      "zh": "他们",
       "examples": [
         {
           "en": "I have a they.",
@@ -1132,7 +1132,7 @@
       "lemma": "too",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "too",
+      "zh": "也",
       "examples": [
         {
           "en": "I have a too.",
@@ -1146,7 +1146,7 @@
       "lemma": "under",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "under",
+      "zh": "在……下面",
       "examples": [
         {
           "en": "I have an under.",
@@ -1160,7 +1160,7 @@
       "lemma": "want",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "want",
+      "zh": "想要",
       "examples": [
         {
           "en": "I have a want.",
@@ -1174,7 +1174,7 @@
       "lemma": "was",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "was",
+      "zh": "曾经是",
       "examples": [
         {
           "en": "I was at home yesterday.",
@@ -1188,7 +1188,7 @@
       "lemma": "well",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "well",
+      "zh": "好地",
       "examples": [
         {
           "en": "I have a well.",
@@ -1202,7 +1202,7 @@
       "lemma": "went",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "went",
+      "zh": "去过",
       "examples": [
         {
           "en": "I have a went.",
@@ -1258,7 +1258,7 @@
       "lemma": "will",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "will",
+      "zh": "将要",
       "examples": [
         {
           "en": "I have a will.",
@@ -1272,7 +1272,7 @@
       "lemma": "with",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "with",
+      "zh": "和……一起",
       "examples": [
         {
           "en": "I have a with.",
@@ -1300,7 +1300,7 @@
       "lemma": "after",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "after",
+      "zh": "在……之后",
       "examples": [
         {
           "en": "I have an after.",
@@ -1314,7 +1314,7 @@
       "lemma": "again",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "again",
+      "zh": "再一次",
       "examples": [
         {
           "en": "I have an again.",
@@ -1328,7 +1328,7 @@
       "lemma": "an",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "an",
+      "zh": "一个",
       "examples": [
         {
           "en": "I have an an.",
@@ -1342,7 +1342,7 @@
       "lemma": "any",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "any",
+      "zh": "任何",
       "examples": [
         {
           "en": "I have an any.",
@@ -1356,7 +1356,7 @@
       "lemma": "as",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "as",
+      "zh": "像……一样",
       "examples": [
         {
           "en": "I have an as.",
@@ -1370,7 +1370,7 @@
       "lemma": "ask",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ask",
+      "zh": "问",
       "examples": [
         {
           "en": "I have an ask.",
@@ -1384,7 +1384,7 @@
       "lemma": "by",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "by",
+      "zh": "通过",
       "examples": [
         {
           "en": "I go to school by bus.",
@@ -1398,7 +1398,7 @@
       "lemma": "could",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "could",
+      "zh": "能够",
       "examples": [
         {
           "en": "I have a could.",
@@ -1412,7 +1412,7 @@
       "lemma": "every",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "every",
+      "zh": "每一个",
       "examples": [
         {
           "en": "I have an every.",
@@ -1440,7 +1440,7 @@
       "lemma": "from",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "from",
+      "zh": "来自",
       "examples": [
         {
           "en": "I have a from.",
@@ -1454,7 +1454,7 @@
       "lemma": "give",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "give",
+      "zh": "给",
       "examples": [
         {
           "en": "I have a give.",
@@ -1468,7 +1468,7 @@
       "lemma": "giving",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "giving",
+      "zh": "正在给予",
       "examples": [
         {
           "en": "I have a giving.",
@@ -1482,7 +1482,7 @@
       "lemma": "had",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "had",
+      "zh": "曾经有",
       "examples": [
         {
           "en": "I had breakfast at seven.",
@@ -1496,7 +1496,7 @@
       "lemma": "has",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "has",
+      "zh": "有",
       "examples": [
         {
           "en": "I have a has.",
@@ -1510,7 +1510,7 @@
       "lemma": "her",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "her",
+      "zh": "她或她的",
       "examples": [
         {
           "en": "I have a her.",
@@ -1524,7 +1524,7 @@
       "lemma": "him",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "him",
+      "zh": "他",
       "examples": [
         {
           "en": "I have a him.",
@@ -1538,7 +1538,7 @@
       "lemma": "his",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "his",
+      "zh": "他的",
       "examples": [
         {
           "en": "That is his book.",
@@ -1566,7 +1566,7 @@
       "lemma": "just",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "just",
+      "zh": "刚刚",
       "examples": [
         {
           "en": "I just arrived.",
@@ -1580,7 +1580,7 @@
       "lemma": "know",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "know",
+      "zh": "知道",
       "examples": [
         {
           "en": "I have a know.",
@@ -1594,7 +1594,7 @@
       "lemma": "let",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "let",
+      "zh": "让",
       "examples": [
         {
           "en": "I have a let.",
@@ -1608,7 +1608,7 @@
       "lemma": "live",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "live",
+      "zh": "居住",
       "examples": [
         {
           "en": "I have a live.",
@@ -1622,7 +1622,7 @@
       "lemma": "may",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "may",
+      "zh": "可以",
       "examples": [
         {
           "en": "May I come in?",
@@ -1636,7 +1636,7 @@
       "lemma": "of",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "of",
+      "zh": "……的",
       "examples": [
         {
           "en": "I have an of.",
@@ -1664,7 +1664,7 @@
       "lemma": "once",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "once",
+      "zh": "一次",
       "examples": [
         {
           "en": "I go there once a week.",
@@ -1692,7 +1692,7 @@
       "lemma": "over",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "over",
+      "zh": "在……上方",
       "examples": [
         {
           "en": "I have an over.",
@@ -1706,7 +1706,7 @@
       "lemma": "put",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "put",
+      "zh": "放",
       "examples": [
         {
           "en": "I have a put.",
@@ -1720,7 +1720,7 @@
       "lemma": "round",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "round",
+      "zh": "圆的",
       "examples": [
         {
           "en": "I have a round.",
@@ -1734,7 +1734,7 @@
       "lemma": "some",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "some",
+      "zh": "一些",
       "examples": [
         {
           "en": "I want some milk.",
@@ -1748,7 +1748,7 @@
       "lemma": "stop",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "stop",
+      "zh": "停",
       "examples": [
         {
           "en": "I have a stop.",
@@ -1762,7 +1762,7 @@
       "lemma": "take",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "take",
+      "zh": "拿走",
       "examples": [
         {
           "en": "Please take this book.",
@@ -1776,7 +1776,7 @@
       "lemma": "thank",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "thank",
+      "zh": "感谢",
       "examples": [
         {
           "en": "I have a thank.",
@@ -1790,7 +1790,7 @@
       "lemma": "them",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "them",
+      "zh": "他们",
       "examples": [
         {
           "en": "I have a them.",
@@ -1804,7 +1804,7 @@
       "lemma": "then",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "then",
+      "zh": "然后",
       "examples": [
         {
           "en": "Wash your hands, then eat.",
@@ -1818,7 +1818,7 @@
       "lemma": "think",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "think",
+      "zh": "想",
       "examples": [
         {
           "en": "I have a think.",
@@ -1832,7 +1832,7 @@
       "lemma": "walk",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "walk",
+      "zh": "走路",
       "examples": [
         {
           "en": "I have a walk.",
@@ -1846,7 +1846,7 @@
       "lemma": "were",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "were",
+      "zh": "曾经是",
       "examples": [
         {
           "en": "They were in the park.",
@@ -1860,7 +1860,7 @@
       "lemma": "when",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "when",
+      "zh": "什么时候",
       "examples": [
         {
           "en": "I have a when.",
@@ -1874,7 +1874,7 @@
       "lemma": "always",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "always",
+      "zh": "总是",
       "examples": [
         {
           "en": "I always brush my teeth.",
@@ -1888,7 +1888,7 @@
       "lemma": "around",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "around",
+      "zh": "在……周围",
       "examples": [
         {
           "en": "There are trees around the house.",
@@ -1902,7 +1902,7 @@
       "lemma": "because",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "because",
+      "zh": "因为",
       "examples": [
         {
           "en": "I have a because.",
@@ -1916,7 +1916,7 @@
       "lemma": "been",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "been",
+      "zh": "曾经是",
       "examples": [
         {
           "en": "I have a been.",
@@ -1930,7 +1930,7 @@
       "lemma": "before",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "before",
+      "zh": "在……之前",
       "examples": [
         {
           "en": "Wash your hands before lunch.",
@@ -1944,7 +1944,7 @@
       "lemma": "best",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "best",
+      "zh": "最好的",
       "examples": [
         {
           "en": "I have a best.",
@@ -1958,7 +1958,7 @@
       "lemma": "both",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "both",
+      "zh": "两个都",
       "examples": [
         {
           "en": "Both cats are white.",
@@ -1972,7 +1972,7 @@
       "lemma": "buy",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "buy",
+      "zh": "购买",
       "examples": [
         {
           "en": "I have a buy.",
@@ -1986,7 +1986,7 @@
       "lemma": "call",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "call",
+      "zh": "打电话",
       "examples": [
         {
           "en": "I have a call.",
@@ -2014,7 +2014,7 @@
       "lemma": "does",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "does",
+      "zh": "做",
       "examples": [
         {
           "en": "I have a does.",
@@ -2028,7 +2028,7 @@
       "lemma": "don't",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "don't",
+      "zh": "不要",
       "examples": [
         {
           "en": "I have a don't.",
@@ -2042,7 +2042,7 @@
       "lemma": "fast",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fast",
+      "zh": "快的",
       "examples": [
         {
           "en": "I have a fast.",
@@ -2056,7 +2056,7 @@
       "lemma": "first",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "first",
+      "zh": "第一",
       "examples": [
         {
           "en": "I sit in the first row.",
@@ -2084,7 +2084,7 @@
       "lemma": "found",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "found",
+      "zh": "找到过",
       "examples": [
         {
           "en": "I have a found.",
@@ -2098,7 +2098,7 @@
       "lemma": "gave",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "gave",
+      "zh": "给过",
       "examples": [
         {
           "en": "I have a gave.",
@@ -2112,7 +2112,7 @@
       "lemma": "goes",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "goes",
+      "zh": "去",
       "examples": [
         {
           "en": "I have a goes.",
@@ -2140,7 +2140,7 @@
       "lemma": "its",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "its",
+      "zh": "它的",
       "examples": [
         {
           "en": "I have an its.",
@@ -2154,7 +2154,7 @@
       "lemma": "made",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "made",
+      "zh": "制作过",
       "examples": [
         {
           "en": "I have a made.",
@@ -2168,7 +2168,7 @@
       "lemma": "many",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "many",
+      "zh": "许多",
       "examples": [
         {
           "en": "I have many books.",
@@ -2182,7 +2182,7 @@
       "lemma": "off",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "off",
+      "zh": "离开",
       "examples": [
         {
           "en": "I have an off.",
@@ -2196,7 +2196,7 @@
       "lemma": "or",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "or",
+      "zh": "或者",
       "examples": [
         {
           "en": "I have an or.",
@@ -2210,7 +2210,7 @@
       "lemma": "pull",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pull",
+      "zh": "拉",
       "examples": [
         {
           "en": "I have a pull.",
@@ -2238,7 +2238,7 @@
       "lemma": "right",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "right",
+      "zh": "右边",
       "examples": [
         {
           "en": "I have a right.",
@@ -2280,7 +2280,7 @@
       "lemma": "sleep",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "sleep",
+      "zh": "睡觉",
       "examples": [
         {
           "en": "I need sleep.",
@@ -2294,7 +2294,7 @@
       "lemma": "tell",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "tell",
+      "zh": "告诉",
       "examples": [
         {
           "en": "I have a tell.",
@@ -2308,7 +2308,7 @@
       "lemma": "their",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "their",
+      "zh": "他们的",
       "examples": [
         {
           "en": "I have a their.",
@@ -2322,7 +2322,7 @@
       "lemma": "these",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "these",
+      "zh": "这些",
       "examples": [
         {
           "en": "I have a these.",
@@ -2336,7 +2336,7 @@
       "lemma": "those",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "those",
+      "zh": "那些",
       "examples": [
         {
           "en": "I have a those.",
@@ -2350,7 +2350,7 @@
       "lemma": "upon",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "upon",
+      "zh": "在……上面",
       "examples": [
         {
           "en": "I have an upon.",
@@ -2364,7 +2364,7 @@
       "lemma": "us",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "us",
+      "zh": "我们",
       "examples": [
         {
           "en": "I have an us.",
@@ -2378,7 +2378,7 @@
       "lemma": "use",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "use",
+      "zh": "使用",
       "examples": [
         {
           "en": "I have an use.",
@@ -2392,7 +2392,7 @@
       "lemma": "very",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "very",
+      "zh": "非常",
       "examples": [
         {
           "en": "I am very happy.",
@@ -2406,7 +2406,7 @@
       "lemma": "wash",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "wash",
+      "zh": "洗",
       "examples": [
         {
           "en": "I have a wash.",
@@ -2420,7 +2420,7 @@
       "lemma": "which",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "which",
+      "zh": "哪一个",
       "examples": [
         {
           "en": "I have a which.",
@@ -2434,7 +2434,7 @@
       "lemma": "why",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "why",
+      "zh": "为什么",
       "examples": [
         {
           "en": "I have a why.",
@@ -2448,7 +2448,7 @@
       "lemma": "wish",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "wish",
+      "zh": "愿望",
       "examples": [
         {
           "en": "I have a wish.",
@@ -2462,7 +2462,7 @@
       "lemma": "work",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "work",
+      "zh": "工作",
       "examples": [
         {
           "en": "I need work.",
@@ -2476,7 +2476,7 @@
       "lemma": "would",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "would",
+      "zh": "愿意",
       "examples": [
         {
           "en": "I have a would.",
@@ -2504,7 +2504,7 @@
       "lemma": "your",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "your",
+      "zh": "你的",
       "examples": [
         {
           "en": "I have a your.",
@@ -2518,7 +2518,7 @@
       "lemma": "about",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "about",
+      "zh": "关于",
       "examples": [
         {
           "en": "This book is about animals.",
@@ -2532,7 +2532,7 @@
       "lemma": "better",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "better",
+      "zh": "更好的",
       "examples": [
         {
           "en": "I have a better.",
@@ -2546,7 +2546,7 @@
       "lemma": "bring",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "bring",
+      "zh": "带来",
       "examples": [
         {
           "en": "Please bring your book.",
@@ -2560,7 +2560,7 @@
       "lemma": "carry",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "carry",
+      "zh": "携带",
       "examples": [
         {
           "en": "I have a carry.",
@@ -2574,7 +2574,7 @@
       "lemma": "clean",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "clean",
+      "zh": "干净的",
       "examples": [
         {
           "en": "I have a clean.",
@@ -2588,7 +2588,7 @@
       "lemma": "cut",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "cut",
+      "zh": "切",
       "examples": [
         {
           "en": "I have a cut.",
@@ -2602,7 +2602,7 @@
       "lemma": "done",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "done",
+      "zh": "做完",
       "examples": [
         {
           "en": "I have a done.",
@@ -2658,7 +2658,7 @@
       "lemma": "fall",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fall",
+      "zh": "落下",
       "examples": [
         {
           "en": "I have a fall.",
@@ -2672,7 +2672,7 @@
       "lemma": "far",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "far",
+      "zh": "远的",
       "examples": [
         {
           "en": "I have a far.",
@@ -2686,7 +2686,7 @@
       "lemma": "full",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "full",
+      "zh": "满的",
       "examples": [
         {
           "en": "I have a full.",
@@ -2700,7 +2700,7 @@
       "lemma": "got",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "got",
+      "zh": "得到过",
       "examples": [
         {
           "en": "I have a got.",
@@ -2714,7 +2714,7 @@
       "lemma": "grow",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "grow",
+      "zh": "生长",
       "examples": [
         {
           "en": "Trees grow in the park.",
@@ -2728,7 +2728,7 @@
       "lemma": "hold",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hold",
+      "zh": "握住",
       "examples": [
         {
           "en": "I have a hold.",
@@ -2756,7 +2756,7 @@
       "lemma": "hurt",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hurt",
+      "zh": "受伤",
       "examples": [
         {
           "en": "I have a hurt.",
@@ -2770,7 +2770,7 @@
       "lemma": "if",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "if",
+      "zh": "如果",
       "examples": [
         {
           "en": "I have an if.",
@@ -2784,7 +2784,7 @@
       "lemma": "keep",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "keep",
+      "zh": "保留",
       "examples": [
         {
           "en": "Please keep the room clean.",
@@ -2798,7 +2798,7 @@
       "lemma": "kind",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "kind",
+      "zh": "善良的",
       "examples": [
         {
           "en": "I have a kind.",
@@ -2812,7 +2812,7 @@
       "lemma": "laugh",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "laugh",
+      "zh": "笑",
       "examples": [
         {
           "en": "I have a laugh.",
@@ -2826,7 +2826,7 @@
       "lemma": "light",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "light",
+      "zh": "灯",
       "examples": [
         {
           "en": "I have a light.",
@@ -2854,7 +2854,7 @@
       "lemma": "much",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "much",
+      "zh": "许多",
       "examples": [
         {
           "en": "I have a much.",
@@ -2868,7 +2868,7 @@
       "lemma": "myself",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "myself",
+      "zh": "我自己",
       "examples": [
         {
           "en": "I have a myself.",
@@ -2882,7 +2882,7 @@
       "lemma": "never",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "never",
+      "zh": "从不",
       "examples": [
         {
           "en": "I never litter.",
@@ -2910,7 +2910,7 @@
       "lemma": "only",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "only",
+      "zh": "只有",
       "examples": [
         {
           "en": "I have only one apple.",
@@ -2924,7 +2924,7 @@
       "lemma": "own",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "own",
+      "zh": "自己的",
       "examples": [
         {
           "en": "I have an own.",
@@ -2938,7 +2938,7 @@
       "lemma": "pick",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pick",
+      "zh": "摘",
       "examples": [
         {
           "en": "I have a pick.",
@@ -2966,7 +2966,7 @@
       "lemma": "shall",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "shall",
+      "zh": "将要",
       "examples": [
         {
           "en": "Shall we go now?",
@@ -2980,7 +2980,7 @@
       "lemma": "show",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "show",
+      "zh": "展示",
       "examples": [
         {
           "en": "I have a show.",
@@ -3022,7 +3022,7 @@
       "lemma": "start",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "start",
+      "zh": "开始",
       "examples": [
         {
           "en": "I have a start.",
@@ -3064,7 +3064,7 @@
       "lemma": "together",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "together",
+      "zh": "一起",
       "examples": [
         {
           "en": "I have a together.",
@@ -3078,7 +3078,7 @@
       "lemma": "try",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "try",
+      "zh": "尝试",
       "examples": [
         {
           "en": "I have a try.",
@@ -3092,7 +3092,7 @@
       "lemma": "warm",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "warm",
+      "zh": "温暖的",
       "examples": [
         {
           "en": "I have a warm.",

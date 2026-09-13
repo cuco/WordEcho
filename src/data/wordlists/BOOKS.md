@@ -4,20 +4,22 @@
 | --- | --- | --- | --- |
 | **Oxford Phonics World** | OUP | **已复核并入库** L1–L5（104 / 93 / 96 / 96 / 96 词） | `opw-l*.txt` → `packs/opw-l*.json` |
 | **Go! Phonics**（启思《玩转自然拼读》） | 启思 / RASS | L1 已校正单元号，现有 **81 词**；L2–L5 仍无公开表 | `go-phonics-l1` pack；L2–L5 模板 |
-| **New Magic / 启思英语** | 上海教育出版社 + OUP | 1B **98 词**、2B **142 词**已按学生书整理；1A/2A 残缺；3A–6B 待提取 | `new-magic-*` |
+| **New Magic / 启思英语** | 上海教育出版社 + OUP | **1A–6B 全 12 册已注册**；各册 101 / 98 / 108 / 142 / 142 / 128 / 101 / 145 / 186 / 144 / 117 / 123 词 | `new-magic-*` |
 | **新魔法英语分级读物** | 上海教育出版社（PM） | **无公开逐册词表**（不编造） | `graded-readers-*.txt` 模板 |
 | **Go! Sight Words 220** | 与分级读物配套的 Dolch | **已入库**（公开 Dolch 220，不是读物逐本词） | `go-sight-words-220` |
 
 > 已移除此前误标的「Oxford Shanghai English」词包：那是 **沪教牛津**，不是 New Magic。
 
-残缺词包标题带 **partial**。学生书提取包会标成“学生书核验”；只有逐项对照 Self-Learning Booklet 后才标记为手册完整版。
+学生书提取包标成“学生书核验”；4A 因没有可逐页读取的公开学生书，标成“公开材料核验”。只有逐项对照 Self-Learning Booklet 后才标记为手册完整版。词包中的 `examples` 字段全部保留：词表中已有的双语例句原样保留，其余是本地词典例句或面向儿童的原创补写例句，不能冒充词汇手册原句。
 
 ## 这次搜过、仍然没有完整表的地方
 
 - RASS：只有 [GPP1 Answer Key](https://www.rasslanguage.com/f/rasslanguage/files/rasslanguage/download/gpp1answer.pdf) 能在搜索引擎缓存里看到词；`gpp2answer.pdf` 等 403/404。
 - 新启翔：介绍页写「156 音组、2000+ 词」，公开页只展示 L1 目录和少量内页，不提供 L2–L5 词表下载。
 - ICSpeak / GitHub / gist：有 OPW、沪教牛津，**没有** New Magic / Go! Phonics。
-- 51jiaoxi、绘本宝：主要是 **单元目录** 和付费 PPT；公开预览里只有少量「新词汇」名单。
+- 绘本宝：1A–3B、4B、5A、5B 有公开学生书跨页预览，已用本地 OCR 按 Vocabulary / Word building / 主课文复核；4A、6A、6B 的书页缺失或 404。
+- 4A：公开教案、Unit 3–4 测试和期末测试可核验一部分教学词，因此单独标注证据级别，待拿到学生书或词汇手册再逐项复核。
+- Scribd：1B、2B、6A、6B 有可读学生书；6A、6B 各 52 页，实际为四个单元，已按公开 OCR 整理。
 - 单词鸭等落地页：广告「已收录词库」，页面上 **零个单词**。
 - Scribd 上可读/可下载的 New Magic 学生书可用于核验每单元目标词；不把学生书整本复制进仓库。
 
@@ -29,7 +31,7 @@
 ```bash
 npx tsx scripts/pack-from-wordlist.ts \
   --list src/data/wordlists/new-magic-1a.txt \
-  --id new-magic-1a --title 'New Magic 1A (partial)' \
+  --id new-magic-1a --title 'New Magic 1A（学生书核验）' \
   --grade '1A' --volume 'Book A' --curriculum new-magic
 ```
 
@@ -49,7 +51,8 @@ npx tsx scripts/pack-from-wordlist.ts \
 | 4B | New Year fun · School play · Chinese food · Food fair · Health tips · Welcome to Rainbow City |
 | 5A | What do you do? · E-age · What's in our food? · We can cook · A fun place to go · That's our Earth |
 | 5B | Games-past and present · Time flies · Different weather conditions · Wonderful nature · Summer fun! · Different festivals |
-| 6A / 6B | Scribd 已找到可读学生书，待按页提取 |
+| 6A | Travel and preferences · Write a book report · School clubs · World games |
+| 6B | Taking care of the Earth · Save the animals! · The missing statue · New friends |
 
 ## Go! Phonics
 

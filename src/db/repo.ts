@@ -4,12 +4,29 @@ import { builtinPacks } from "../data/packs";
 import { enrichWordsWithAi } from "../lib/ai-enrich";
 import { resolveWord } from "../lib/resolve-word";
 import { newReview } from "../lib/srs";
+import { isValidCare } from "../lib/reward-care";
+import { hasChineseMeaning } from "../lib/word-quality";
 import type { UserPrefs, WordPack, WordRecord, WordSource } from "../lib/types";
 import { lemmaOf, todayLocal, uuid } from "../lib/types";
 import { db, getPrefs } from "./schema";
+import { hasReviewedExamples, isReviewedPack, repairReviewedExamples, reviewedExampleUpdate } from "./reviewed-examples";
 
 export async function allWords(): Promise<WordRecord[]> {
-  return db.words.toArray();
+  return repairReviewedExamples();
+}
+
+/** Repair only words already saved locally; never import a reference dictionary. */
+export async function repairWordMeanings(): Promise<WordRecord[]> {
+  const words = await allWords();
+  for (const word of words) {
+    if (hasChineseMeaning(word.meaningZh)) continue;
+    const resolved = await resolveWord(word.display, { local: words, dictCore: dictCoreWords, packs: builtinPacks });
+    if (word.meaningZh === resolved.meaningZh && word.enrichStatus === resolved.enrichStatus) continue;
+    const patch = { meaningZh: resolved.meaningZh, enrichStatus: resolved.enrichStatus };
+    await db.words.update(word.id, patch);
+    Object.assign(word, patch);
+  }
+  return words;
 }
 
 function packSource(pack: WordPack, unit: string): WordSource {
@@ -42,16 +59,19 @@ export async function importPack(pack: WordPack): Promise<{ added: number; merge
           !existing.examples.length ||
           /^this is\b/i.test(existing.examples[0]?.en ?? "") ||
           (existing.examples[0]?.zh ?? "").includes("「");
-        const staleZh = /性交|[A-Za-z]\./.test(existing.meaningZh);
-        await db.words.put({
+        const staleZh = !hasChineseMeaning(existing.meaningZh) || /性交|[A-Za-z]\./.test(existing.meaningZh);
+        const next: WordRecord = {
           ...existing,
           sources,
           updatedAt: now,
-          enrichStatus: existing.meaningZh ? existing.enrichStatus : "complete",
+          enrichStatus: hasChineseMeaning(staleZh ? pw.zh : existing.meaningZh) ? "complete" : "pending",
           meaningZh: staleZh || !existing.meaningZh ? pw.zh : existing.meaningZh,
           ipa: existing.ipa || pw.ipa,
-          examples: staleExample ? pw.examples : existing.examples,
-        });
+          examples: !isReviewedPack(pack.id) && !hasReviewedExamples(existing) && staleExample
+            ? pw.examples : existing.examples,
+        };
+        next.examples = reviewedExampleUpdate(next) ?? next.examples;
+        await db.words.put(next);
         merged += 1;
         continue;
       }
@@ -65,7 +85,7 @@ export async function importPack(pack: WordPack): Promise<{ added: number; merge
         pos: pw.pos,
         examples: pw.examples,
         sources: [src],
-        enrichStatus: "complete",
+        enrichStatus: hasChineseMeaning(pw.zh) ? "complete" : "pending",
         createdAt: now,
         updatedAt: now,
       });
@@ -152,15 +172,18 @@ export async function resolveMany(lemmas: { word: string; zh?: string }[], sourc
 }
 
 export async function exportBackup(includeKey: boolean) {
-  const prefs = await getPrefs();
-  const { aiApiKey, ...rest } = prefs;
-  return {
-    words: await db.words.toArray(),
-    reviews: await db.reviews.toArray(),
-    sessions: await db.sessions.toArray(),
-    items: await db.items.toArray(),
-    prefs: includeKey ? prefs : { ...rest, aiApiKey: includeKey ? aiApiKey : undefined },
-  };
+  return db.transaction("rw", db.tables, async () => {
+    const prefs = await getPrefs();
+    const { aiApiKey: _key, ...rest } = prefs;
+    return {
+      words: await db.words.toArray(),
+      reviews: await db.reviews.toArray(),
+      sessions: await db.sessions.toArray(),
+      items: await db.items.toArray(),
+      prefs: includeKey ? prefs : rest,
+      redemptions: await db.redemptions.toArray(),
+    };
+  });
 }
 
 export async function importBackup(data: {
@@ -169,8 +192,20 @@ export async function importBackup(data: {
   sessions?: import("../lib/types").QuizSession[];
   items?: import("../lib/types").QuizItem[];
   prefs?: UserPrefs;
+  redemptions?: import("../lib/types").RewardRedemption[];
 }) {
-  await db.transaction("rw", db.words, db.reviews, db.sessions, db.items, db.prefs, async () => {
+  if (data.redemptions !== undefined) {
+    if (!data.prefs || !Array.isArray(data.redemptions)) throw new Error("奖励备份缺少积分数据");
+    const ids = new Set<string>();
+    for (const r of data.redemptions) {
+      if (!r || typeof r.rewardId !== "string" || !r.rewardId || ids.has(r.rewardId) ||
+          !Number.isSafeInteger(r.cost) || r.cost <= 0 || typeof r.redeemedAt !== "string" ||
+          !Number.isFinite(Date.parse(r.redeemedAt)) ||
+          (r.care !== undefined && !isValidCare(r.care))) throw new Error("奖励备份格式不正确");
+      ids.add(r.rewardId);
+    }
+  }
+  await db.transaction("rw", db.tables, async () => {
     if (data.words) {
       await db.words.clear();
       await db.words.bulkAdd(data.words);
@@ -187,6 +222,15 @@ export async function importBackup(data: {
       await db.items.clear();
       await db.items.bulkAdd(data.items);
     }
-    if (data.prefs) await db.prefs.put({ ...data.prefs, id: "prefs" });
+    if (data.prefs) {
+      await db.prefs.put({ ...data.prefs, id: "prefs" });
+      const prefs = await getPrefs();
+      const spent = (data.redemptions ?? []).reduce((sum, r) => sum + r.cost, 0);
+      if (!Number.isSafeInteger(prefs.xpTotal) || prefs.xpTotal < spent) throw new Error("备份中的积分与奖励不一致");
+      // Restoring legacy learning data also restores its empty collection.
+      // A words-only import never touches either XP or rewards.
+      await db.redemptions.clear();
+      await db.redemptions.bulkAdd(data.redemptions ?? []);
+    }
   });
 }

@@ -1,0 +1,1803 @@
+{
+  "id": "new-magic-3b",
+  "title": "New Magic 3B（学生书核验）",
+  "curriculum": "new-magic",
+  "grade": "3B",
+  "volume": "Book 3B",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "cable car",
+      "lemma": "cable car",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "缆车",
+      "examples": [
+        {
+          "en": "We take a cable car up the mountain.",
+          "zh": "我们乘缆车上山。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "climbing frame",
+      "lemma": "climbing frame",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "攀爬架",
+      "examples": [
+        {
+          "en": "The children climb on the climbing frame.",
+          "zh": "孩子们在攀爬架上攀爬。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "roller coaster",
+      "lemma": "roller coaster",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "过山车",
+      "examples": [
+        {
+          "en": "The roller coaster races down the steep track.",
+          "zh": "过山车沿着陡峭的轨道飞驰而下。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "roundabout",
+      "lemma": "roundabout",
+      "ipa": "/'raundә.baut/",
+      "pos": "n",
+      "zh": "旋转木马",
+      "examples": [
+        {
+          "en": "I sit on a horse on the roundabout.",
+          "zh": "我坐在旋转木马的一匹马上。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "sandpit",
+      "lemma": "sandpit",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "沙坑",
+      "examples": [
+        {
+          "en": "My little brother digs in the sandpit.",
+          "zh": "我小弟弟在沙坑里挖沙。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "see-saw",
+      "lemma": "see-saw",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "跷跷板",
+      "examples": [
+        {
+          "en": "The see-saw goes up and down.",
+          "zh": "跷跷板上下起伏。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "slide",
+      "lemma": "slide",
+      "ipa": "/slaid/",
+      "pos": "n",
+      "zh": "滑梯",
+      "examples": [
+        {
+          "en": "The little girl goes down the slide.",
+          "zh": "小女孩从滑梯上滑下来。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "swing",
+      "lemma": "swing",
+      "ipa": "/swiŋ/",
+      "pos": "n",
+      "zh": "秋千",
+      "examples": [
+        {
+          "en": "Dad gently pushes me on the swing.",
+          "zh": "我坐在秋千上，爸爸轻轻地推我。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Ferris wheel",
+      "lemma": "ferris wheel",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "摩天轮",
+      "examples": [
+        {
+          "en": "The Ferris wheel turns slowly above the park.",
+          "zh": "摩天轮在公园上方缓缓转动。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "gift shop",
+      "lemma": "gift shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "礼品店",
+      "examples": [
+        {
+          "en": "We choose postcards at the gift shop.",
+          "zh": "我们在礼品店挑选明信片。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "hot-air balloon",
+      "lemma": "hot-air balloon",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "热气球",
+      "examples": [
+        {
+          "en": "The hot-air balloon floats above the trees.",
+          "zh": "热气球漂浮在树木上方。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "bumper cars",
+      "lemma": "bumper cars",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "碰碰车",
+      "examples": [
+        {
+          "en": "We laugh as the bumper cars bump together.",
+          "zh": "碰碰车撞在一起，我们笑了起来。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "spring riders",
+      "lemma": "spring riders",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "弹簧摇马",
+      "examples": [
+        {
+          "en": "The children rock back and forth on spring riders.",
+          "zh": "孩子们坐在弹簧摇马上前后摇动。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "entrance",
+      "lemma": "entrance",
+      "ipa": "/'entrәns/",
+      "pos": "n",
+      "zh": "入口",
+      "examples": [
+        {
+          "en": "Please show your ticket at the entrance.",
+          "zh": "请在入口出示你的票。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "go straight",
+      "lemma": "go straight",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "直走",
+      "examples": [
+        {
+          "en": "Go straight until you reach the gift shop.",
+          "zh": "一直往前走，直到你到达礼品店。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "turn left",
+      "lemma": "turn left",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "左转",
+      "examples": [
+        {
+          "en": "Turn left at the next street.",
+          "zh": "在下一条街左转。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "turn right",
+      "lemma": "turn right",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "右转",
+      "examples": [
+        {
+          "en": "Turn right after you pass the library.",
+          "zh": "经过图书馆后右转。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "next to",
+      "lemma": "next to",
+      "ipa": "/–/",
+      "pos": "prep",
+      "zh": "在……旁边",
+      "examples": [
+        {
+          "en": "The slide is next to the sandpit.",
+          "zh": "滑梯在沙坑旁边。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "opposite",
+      "lemma": "opposite",
+      "ipa": "/'ɒpәzit/",
+      "pos": "prep",
+      "zh": "在……对面",
+      "examples": [
+        {
+          "en": "The bookshop is opposite the toy shop.",
+          "zh": "书店在玩具店对面。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "between",
+      "lemma": "between",
+      "ipa": "/bi'twi:n/",
+      "pos": "prep",
+      "zh": "在……之间",
+      "examples": [
+        {
+          "en": "The bench is between two tall trees.",
+          "zh": "长椅在两棵高大的树之间。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "ride",
+      "lemma": "ride",
+      "ipa": "/raid/",
+      "pos": "v",
+      "zh": "乘坐",
+      "examples": [
+        {
+          "en": "We ride the roller coaster together.",
+          "zh": "我们一起乘坐过山车。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "view",
+      "lemma": "view",
+      "ipa": "/vju:/",
+      "pos": "n",
+      "zh": "景色",
+      "examples": [
+        {
+          "en": "The view from the mountain is beautiful.",
+          "zh": "从山上看到的景色很美。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "drink soft drinks",
+      "lemma": "drink soft drinks",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "喝汽水",
+      "examples": [
+        {
+          "en": "We sometimes drink soft drinks at parties.",
+          "zh": "我们有时在聚会上喝汽水。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "swim in the sea",
+      "lemma": "swim in the sea",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "在海里游泳",
+      "examples": [
+        {
+          "en": "I swim in the sea with my parents.",
+          "zh": "我和爸爸妈妈一起在海里游泳。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "eat ice cream",
+      "lemma": "eat ice cream",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "吃冰淇淋",
+      "examples": [
+        {
+          "en": "Let's eat ice cream before it melts.",
+          "zh": "我们趁冰淇淋还没化赶快吃吧。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sunbathe",
+      "lemma": "sunbathe",
+      "ipa": "/'sʌnbeið/",
+      "pos": "v",
+      "zh": "晒太阳",
+      "examples": [
+        {
+          "en": "Some people sunbathe on the sandy beach.",
+          "zh": "一些人在沙滩上晒太阳。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "collect pebbles",
+      "lemma": "collect pebbles",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "收集鹅卵石",
+      "examples": [
+        {
+          "en": "We collect pebbles of different colours.",
+          "zh": "我们收集不同颜色的鹅卵石。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "find crabs",
+      "lemma": "find crabs",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "找螃蟹",
+      "examples": [
+        {
+          "en": "We find crabs hiding under the rocks.",
+          "zh": "我们找到藏在石头下面的螃蟹。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "listen to music",
+      "lemma": "listen to music",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "听音乐",
+      "examples": [
+        {
+          "en": "I listen to music on the bus.",
+          "zh": "我在公共汽车上听音乐。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "eat ice lollies",
+      "lemma": "eat ice lollies",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "吃冰棒",
+      "examples": [
+        {
+          "en": "We eat ice lollies on a hot day.",
+          "zh": "我们在炎热的日子里吃冰棒。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "watch the sunset",
+      "lemma": "watch the sunset",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "看日落",
+      "examples": [
+        {
+          "en": "We sit on the beach and watch the sunset.",
+          "zh": "我们坐在海滩上看日落。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "build sandcastles",
+      "lemma": "build sandcastles",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "堆沙堡",
+      "examples": [
+        {
+          "en": "The children build sandcastles with wet sand.",
+          "zh": "孩子们用湿沙堆沙堡。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "collect shells",
+      "lemma": "collect shells",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "捡贝壳",
+      "examples": [
+        {
+          "en": "We collect shells near the water.",
+          "zh": "我们在水边捡贝壳。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "take photos",
+      "lemma": "take photos",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "拍照",
+      "examples": [
+        {
+          "en": "I take photos of the colourful boats.",
+          "zh": "我给五颜六色的小船拍照。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "beach",
+      "lemma": "beach",
+      "ipa": "/bi:tʃ/",
+      "pos": "n",
+      "zh": "海滩",
+      "examples": [
+        {
+          "en": "Small waves wash onto the sandy beach.",
+          "zh": "小浪花涌上沙滩。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "pebble",
+      "lemma": "pebble",
+      "ipa": "/'pebl/",
+      "pos": "n",
+      "zh": "鹅卵石",
+      "examples": [
+        {
+          "en": "This pebble is small, round and smooth.",
+          "zh": "这颗鹅卵石又小又圆，表面光滑。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "crab",
+      "lemma": "crab",
+      "ipa": "/kræb/",
+      "pos": "n",
+      "zh": "螃蟹",
+      "examples": [
+        {
+          "en": "A little crab walks sideways on the sand.",
+          "zh": "一只小螃蟹在沙地上横着走。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "shell",
+      "lemma": "shell",
+      "ipa": "/ʃel/",
+      "pos": "n",
+      "zh": "贝壳",
+      "examples": [
+        {
+          "en": "I find a pink shell on the beach.",
+          "zh": "我在海滩上找到一个粉红色的贝壳。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "teacher",
+      "lemma": "teacher",
+      "ipa": "/ˈtiːtʃə/",
+      "pos": "n",
+      "zh": "老师",
+      "examples": [
+        {
+          "en": "Our teacher helps us learn new words.",
+          "zh": "我们的老师帮助我们学习新单词。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "principal",
+      "lemma": "principal",
+      "ipa": "/'prinsipәl/",
+      "pos": "n",
+      "zh": "校长",
+      "examples": [
+        {
+          "en": "The principal welcomes us to our new school.",
+          "zh": "校长欢迎我们来到新学校。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "caretaker",
+      "lemma": "caretaker",
+      "ipa": "/'kєәteikә/",
+      "pos": "n",
+      "zh": "管理员",
+      "examples": [
+        {
+          "en": "The caretaker opens the school gate each morning.",
+          "zh": "管理员每天早上打开学校大门。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "monitor",
+      "lemma": "monitor",
+      "ipa": "/'mɒnitә/",
+      "pos": "n",
+      "zh": "班长",
+      "examples": [
+        {
+          "en": "Our class monitor helps hand out the books.",
+          "zh": "我们班的班长帮忙发书。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "librarian",
+      "lemma": "librarian",
+      "ipa": "/lai'brєәriәn/",
+      "pos": "n",
+      "zh": "图书管理员",
+      "examples": [
+        {
+          "en": "The librarian helps me find a book.",
+          "zh": "图书管理员帮我找一本书。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "friendly",
+      "lemma": "friendly",
+      "ipa": "/'frendli/",
+      "pos": "adj",
+      "zh": "友善的",
+      "examples": [
+        {
+          "en": "Our new neighbour is friendly to everyone.",
+          "zh": "我们的新邻居对每个人都很友善。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "hard-working",
+      "lemma": "hard-working",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "勤劳的",
+      "examples": [
+        {
+          "en": "The hard-working gardener looks after all these flowers.",
+          "zh": "勤劳的园丁照料着所有这些花。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "ipa": "/kaind/",
+      "pos": "adj",
+      "zh": "善良的",
+      "examples": [
+        {
+          "en": "It is kind of you to help me.",
+          "zh": "你帮助我，真善良。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "polite",
+      "lemma": "polite",
+      "ipa": "/pә'lait/",
+      "pos": "adj",
+      "zh": "有礼貌的",
+      "examples": [
+        {
+          "en": "It is polite to say thank you.",
+          "zh": "说谢谢是有礼貌的表现。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "helpful",
+      "lemma": "helpful",
+      "ipa": "/'helpful/",
+      "pos": "adj",
+      "zh": "乐于助人的",
+      "examples": [
+        {
+          "en": "My helpful brother carries my heavy bag.",
+          "zh": "我乐于助人的哥哥帮我提沉重的包。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "tidy up the bookshelves",
+      "lemma": "tidy up the bookshelves",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "整理书架",
+      "examples": [
+        {
+          "en": "We tidy up the bookshelves after reading.",
+          "zh": "我们读完书后整理书架。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "put away the books",
+      "lemma": "put away the books",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "收好书本",
+      "examples": [
+        {
+          "en": "Please put away the books before lunch.",
+          "zh": "请在午饭前收好书本。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "take care of",
+      "lemma": "take care of",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "照顾",
+      "examples": [
+        {
+          "en": "I help take care of my baby sister.",
+          "zh": "我帮忙照顾我的小妹妹。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "talk to",
+      "lemma": "talk to",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "与……交谈",
+      "examples": [
+        {
+          "en": "I talk to my teacher after class.",
+          "zh": "我下课后和老师交谈。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "turn on the lights",
+      "lemma": "turn on the lights",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "开灯",
+      "examples": [
+        {
+          "en": "Please turn on the lights in the classroom.",
+          "zh": "请打开教室里的灯。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "turn off the lights",
+      "lemma": "turn off the lights",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "关灯",
+      "examples": [
+        {
+          "en": "We turn off the lights before leaving.",
+          "zh": "我们离开前关灯。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "sweep the playground",
+      "lemma": "sweep the playground",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "打扫操场",
+      "examples": [
+        {
+          "en": "We sweep the playground with long brooms.",
+          "zh": "我们用长扫帚打扫操场。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "sweep the hall",
+      "lemma": "sweep the hall",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "打扫礼堂",
+      "examples": [
+        {
+          "en": "The cleaners sweep the hall after the show.",
+          "zh": "清洁工在演出结束后打扫礼堂。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "pick up rubbish",
+      "lemma": "pick up rubbish",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "捡垃圾",
+      "examples": [
+        {
+          "en": "We pick up rubbish to keep the park clean.",
+          "zh": "我们捡垃圾，让公园保持干净。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "make plans",
+      "lemma": "make plans",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "制订计划",
+      "examples": [
+        {
+          "en": "Let's make plans for our class picnic.",
+          "zh": "我们为班级野餐制订计划吧。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "forest",
+      "lemma": "forest",
+      "ipa": "/'fɒrist/",
+      "pos": "n",
+      "zh": "森林",
+      "examples": [
+        {
+          "en": "Many birds live in this green forest.",
+          "zh": "许多鸟住在这片绿色的森林里。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "tree",
+      "lemma": "tree",
+      "ipa": "/triː/",
+      "pos": "n",
+      "zh": "树",
+      "examples": [
+        {
+          "en": "A tall tree gives us shade.",
+          "zh": "一棵大树为我们遮阴。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "bear",
+      "lemma": "bear",
+      "ipa": "/beə/",
+      "pos": "n",
+      "zh": "熊",
+      "examples": [
+        {
+          "en": "The brown bear catches a fish in the river.",
+          "zh": "棕熊在河里捉到一条鱼。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "grass",
+      "lemma": "grass",
+      "ipa": "/græs/",
+      "pos": "n",
+      "zh": "草",
+      "examples": [
+        {
+          "en": "The rabbit eats grass near the tree.",
+          "zh": "兔子在树旁吃草。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "branch",
+      "lemma": "branch",
+      "ipa": "/bræntʃ/",
+      "pos": "n",
+      "zh": "树枝",
+      "examples": [
+        {
+          "en": "A bird sits on the lowest branch.",
+          "zh": "一只鸟停在最低的树枝上。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "path",
+      "lemma": "path",
+      "ipa": "/pɑ:θ/",
+      "pos": "n",
+      "zh": "小路",
+      "examples": [
+        {
+          "en": "This narrow path leads to the lake.",
+          "zh": "这条狭窄的小路通向湖边。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "traveller",
+      "lemma": "traveller",
+      "ipa": "/'trævlә/",
+      "pos": "n",
+      "zh": "旅行者",
+      "examples": [
+        {
+          "en": "The tired traveller stops to drink some water.",
+          "zh": "疲倦的旅行者停下来喝点水。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "climb up",
+      "lemma": "climb up",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "向上爬",
+      "examples": [
+        {
+          "en": "The squirrels climb up the tree quickly.",
+          "zh": "松鼠们沿着树快速向上爬。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "climb down",
+      "lemma": "climb down",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "向下爬",
+      "examples": [
+        {
+          "en": "Please climb down the ladder slowly.",
+          "zh": "请沿着梯子慢慢爬下来。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "smile",
+      "lemma": "smile",
+      "ipa": "/smail/",
+      "pos": "v",
+      "zh": "微笑",
+      "examples": [
+        {
+          "en": "I smile when I see my best friend.",
+          "zh": "看到我最好的朋友时，我微笑了。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "sniff",
+      "lemma": "sniff",
+      "ipa": "/snif/",
+      "pos": "v",
+      "zh": "嗅",
+      "examples": [
+        {
+          "en": "Dogs sniff the ground to follow a smell.",
+          "zh": "狗嗅着地面，追踪气味。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "whisper",
+      "lemma": "whisper",
+      "ipa": "/'hwispә/",
+      "pos": "v",
+      "zh": "低声说",
+      "examples": [
+        {
+          "en": "Please whisper so the baby can sleep.",
+          "zh": "请小声说话，好让宝宝睡觉。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "ground",
+      "lemma": "ground",
+      "ipa": "/graund/",
+      "pos": "n",
+      "zh": "地面",
+      "examples": [
+        {
+          "en": "The fallen leaves cover the ground.",
+          "zh": "落叶铺满了地面。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "pretend to be dead",
+      "lemma": "pretend to be dead",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "装死",
+      "examples": [
+        {
+          "en": "In the story, the traveller must pretend to be dead.",
+          "zh": "故事里，旅行者必须装死。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "walk away",
+      "lemma": "walk away",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "走开",
+      "examples": [
+        {
+          "en": "The bear loses interest and starts to walk away.",
+          "zh": "熊失去了兴趣，开始走开。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "afraid",
+      "lemma": "afraid",
+      "ipa": "/ә'freid/",
+      "pos": "adj",
+      "zh": "害怕的",
+      "examples": [
+        {
+          "en": "The little boy is afraid of the dark.",
+          "zh": "这个小男孩怕黑。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "in danger",
+      "lemma": "in danger",
+      "ipa": "/–/",
+      "pos": "expr",
+      "zh": "处于危险中",
+      "examples": [
+        {
+          "en": "The kitten in the busy road is in danger.",
+          "zh": "繁忙马路上的小猫处于危险中。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "true friend",
+      "lemma": "true friend",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "真正的朋友",
+      "examples": [
+        {
+          "en": "A true friend helps you when you need support.",
+          "zh": "真正的朋友会在你需要支持时帮助你。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "help old people",
+      "lemma": "help old people",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "帮助老人",
+      "examples": [
+        {
+          "en": "We help old people carry their shopping bags.",
+          "zh": "我们帮老人提购物袋。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "help poor people",
+      "lemma": "help poor people",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "帮助穷人",
+      "examples": [
+        {
+          "en": "We help poor people by sharing food.",
+          "zh": "我们通过分享食物来帮助穷人。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "help blind people",
+      "lemma": "help blind people",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "帮助盲人",
+      "examples": [
+        {
+          "en": "Guide dogs help blind people travel safely.",
+          "zh": "导盲犬帮助盲人安全出行。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "make donations",
+      "lemma": "make donations",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "捐款",
+      "examples": [
+        {
+          "en": "Our families make donations to the children's hospital.",
+          "zh": "我们的家人向儿童医院捐款。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "give seats",
+      "lemma": "give seats",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "让座",
+      "examples": [
+        {
+          "en": "We give our seats to older people on buses.",
+          "zh": "我们在公共汽车上给年长的人让座。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "cross the road",
+      "lemma": "cross the road",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "过马路",
+      "examples": [
+        {
+          "en": "We cross the road when the light turns green.",
+          "zh": "绿灯亮时，我们过马路。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "emperor",
+      "lemma": "emperor",
+      "ipa": "/'empәrә/",
+      "pos": "n",
+      "zh": "皇帝",
+      "examples": [
+        {
+          "en": "The emperor lives in a grand palace.",
+          "zh": "皇帝住在一座宏伟的宫殿里。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "servant",
+      "lemma": "servant",
+      "ipa": "/'sә:vәnt/",
+      "pos": "n",
+      "zh": "仆人",
+      "examples": [
+        {
+          "en": "The servant brings tea to the emperor.",
+          "zh": "仆人给皇帝端来茶。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "nightingale",
+      "lemma": "nightingale",
+      "ipa": "/'naitingeil/",
+      "pos": "n",
+      "zh": "夜莺",
+      "examples": [
+        {
+          "en": "We hear a nightingale singing in the tree.",
+          "zh": "我们听到一只夜莺在树上唱歌。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "silk clothes",
+      "lemma": "silk clothes",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "丝绸衣服",
+      "examples": [
+        {
+          "en": "The emperor wears beautiful silk clothes.",
+          "zh": "皇帝穿着漂亮的丝绸衣服。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "feather",
+      "lemma": "feather",
+      "ipa": "/'feðә/",
+      "pos": "n",
+      "zh": "羽毛",
+      "examples": [
+        {
+          "en": "A soft feather falls from the bird's wing.",
+          "zh": "一片柔软的羽毛从鸟的翅膀上落下。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "cage",
+      "lemma": "cage",
+      "ipa": "/keidʒ/",
+      "pos": "n",
+      "zh": "笼子",
+      "examples": [
+        {
+          "en": "The bird flies out of the open cage.",
+          "zh": "鸟从开着门的笼子里飞出来。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "key",
+      "lemma": "key",
+      "ipa": "/ki:/",
+      "pos": "n",
+      "zh": "钥匙",
+      "examples": [
+        {
+          "en": "This small key opens the garden gate.",
+          "zh": "这把小钥匙能打开花园的门。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "beautiful",
+      "lemma": "beautiful",
+      "ipa": "/'bju:tiful/",
+      "pos": "adj",
+      "zh": "漂亮的",
+      "examples": [
+        {
+          "en": "The peacock has a beautiful, colourful tail.",
+          "zh": "这只孔雀有一条漂亮的彩色尾巴。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "ugly",
+      "lemma": "ugly",
+      "ipa": "/'ʌgli/",
+      "pos": "adj",
+      "zh": "难看的",
+      "examples": [
+        {
+          "en": "The old bin looks ugly beside the flowers.",
+          "zh": "这个旧垃圾桶放在花丛旁显得很难看。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "clean",
+      "lemma": "clean",
+      "ipa": "/kli:n/",
+      "pos": "adj",
+      "zh": "干净的",
+      "examples": [
+        {
+          "en": "My hands are clean after I wash them.",
+          "zh": "我的手洗过以后很干净。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "dirty",
+      "lemma": "dirty",
+      "ipa": "/'dә:ti/",
+      "pos": "adj",
+      "zh": "脏的",
+      "examples": [
+        {
+          "en": "My shoes are dirty after walking in mud.",
+          "zh": "走过泥地后，我的鞋子脏了。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "hard",
+      "lemma": "hard",
+      "ipa": "/hɑ:d/",
+      "pos": "adj",
+      "zh": "坚硬的",
+      "examples": [
+        {
+          "en": "The turtle has a hard shell.",
+          "zh": "这只乌龟有一个坚硬的壳。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "soft",
+      "lemma": "soft",
+      "ipa": "/sɒft/",
+      "pos": "adj",
+      "zh": "柔软的",
+      "examples": [
+        {
+          "en": "The rabbit has soft, white fur.",
+          "zh": "这只兔子有柔软的白毛。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "rough",
+      "lemma": "rough",
+      "ipa": "/rʌf/",
+      "pos": "adj",
+      "zh": "粗糙的",
+      "examples": [
+        {
+          "en": "The tree's bark feels rough under my fingers.",
+          "zh": "树皮在我的指尖摸起来很粗糙。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "smooth",
+      "lemma": "smooth",
+      "ipa": "/smu:ð/",
+      "pos": "adj",
+      "zh": "光滑的",
+      "examples": [
+        {
+          "en": "This stone feels smooth in my hand.",
+          "zh": "这块石头拿在手里摸起来很光滑。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "rich",
+      "lemma": "rich",
+      "ipa": "/ri:tʃ/",
+      "pos": "adj",
+      "zh": "富有的",
+      "examples": [
+        {
+          "en": "The rich emperor has a palace full of gold.",
+          "zh": "富有的皇帝有一座满是黄金的宫殿。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "ill",
+      "lemma": "ill",
+      "ipa": "/il/",
+      "pos": "adj",
+      "zh": "生病的",
+      "examples": [
+        {
+          "en": "My brother is ill, so he rests in bed.",
+          "zh": "我弟弟生病了，所以他卧床休息。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "free",
+      "lemma": "free",
+      "ipa": "/fri:/",
+      "pos": "adj",
+      "zh": "自由的",
+      "examples": [
+        {
+          "en": "The bird is free to leave its cage.",
+          "zh": "这只鸟可以自由地离开笼子。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "fly",
+      "lemma": "fly",
+      "ipa": "/flaɪ/",
+      "pos": "v",
+      "zh": "飞",
+      "examples": [
+        {
+          "en": "The birds fly across the bright blue sky.",
+          "zh": "鸟儿飞过明亮的蓝天。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "give",
+      "lemma": "give",
+      "ipa": "/giv/",
+      "pos": "v",
+      "zh": "给",
+      "examples": [
+        {
+          "en": "I give my sister a birthday card.",
+          "zh": "我给妹妹一张生日卡。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "keep",
+      "lemma": "keep",
+      "ipa": "/ki:p/",
+      "pos": "v",
+      "zh": "保留",
+      "examples": [
+        {
+          "en": "You can keep this card to remember our trip.",
+          "zh": "你可以保留这张卡片，作为旅行的纪念。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "take",
+      "lemma": "take",
+      "ipa": "/teik/",
+      "pos": "v",
+      "zh": "拿走",
+      "examples": [
+        {
+          "en": "Please take these empty plates away.",
+          "zh": "请把这些空盘子拿走。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "wear",
+      "lemma": "wear",
+      "ipa": "/wєә/",
+      "pos": "v",
+      "zh": "穿",
+      "examples": [
+        {
+          "en": "I wear a warm coat in winter.",
+          "zh": "我冬天穿一件暖和的外套。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "read",
+      "lemma": "read",
+      "ipa": "/riːd/",
+      "pos": "v",
+      "zh": "阅读",
+      "examples": [
+        {
+          "en": "We read a story together before bed.",
+          "zh": "我们睡前一起读一个故事。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "sing",
+      "lemma": "sing",
+      "ipa": "/sɪŋ/",
+      "pos": "v",
+      "zh": "唱歌",
+      "examples": [
+        {
+          "en": "We sing a song for Grandma's birthday.",
+          "zh": "我们为奶奶的生日唱一首歌。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "return",
+      "lemma": "return",
+      "ipa": "/ri'tә:n/",
+      "pos": "v",
+      "zh": "返回",
+      "examples": [
+        {
+          "en": "The birds return to their nest at sunset.",
+          "zh": "鸟儿在日落时返回鸟巢。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "toy bird",
+      "lemma": "toy bird",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "玩具鸟",
+      "examples": [
+        {
+          "en": "My toy bird sings when I press its wing.",
+          "zh": "我按玩具鸟的翅膀时，它会唱歌。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "fly a kite",
+      "lemma": "fly a kite",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "放风筝",
+      "examples": [
+        {
+          "en": "Let's fly a kite in the open field.",
+          "zh": "我们去空旷的田野里放风筝吧。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "ride a bicycle",
+      "lemma": "ride a bicycle",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "骑自行车",
+      "examples": [
+        {
+          "en": "I ride a bicycle along the park path.",
+          "zh": "我沿着公园的小路骑自行车。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "have a barbecue",
+      "lemma": "have a barbecue",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "烧烤",
+      "examples": [
+        {
+          "en": "We have a barbecue with our neighbours.",
+          "zh": "我们和邻居们一起烧烤。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "light a fire",
+      "lemma": "light a fire",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "生火",
+      "examples": [
+        {
+          "en": "The adults light a fire for the barbecue.",
+          "zh": "大人们为烧烤生火。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "sunny",
+      "lemma": "sunny",
+      "ipa": "/'sʌni/",
+      "pos": "adj",
+      "zh": "晴朗的",
+      "examples": [
+        {
+          "en": "It is sunny, so we play outside.",
+          "zh": "天气晴朗，所以我们在外面玩。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "cool",
+      "lemma": "cool",
+      "ipa": "/ku:l/",
+      "pos": "adj",
+      "zh": "凉爽的",
+      "examples": [
+        {
+          "en": "The evening air feels cool on my face.",
+          "zh": "傍晚的空气吹在我脸上，感觉凉爽。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "wind",
+      "lemma": "wind",
+      "ipa": "/wind/",
+      "pos": "n",
+      "zh": "风",
+      "examples": [
+        {
+          "en": "The wind blows my hat off.",
+          "zh": "风把我的帽子吹掉了。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "bright sky",
+      "lemma": "bright sky",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "明亮的天空",
+      "examples": [
+        {
+          "en": "White clouds float across the bright sky.",
+          "zh": "白云飘过明亮的天空。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "honey",
+      "lemma": "honey",
+      "ipa": "/'hʌni/",
+      "pos": "n",
+      "zh": "蜂蜜",
+      "examples": [
+        {
+          "en": "Bees make honey, which tastes very sweet.",
+          "zh": "蜜蜂酿造蜂蜜，蜂蜜尝起来很甜。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "bee",
+      "lemma": "bee",
+      "ipa": "/bi:/",
+      "pos": "n",
+      "zh": "蜜蜂",
+      "examples": [
+        {
+          "en": "A bee lands on a yellow flower.",
+          "zh": "一只蜜蜂落在一朵黄花上。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "dark",
+      "lemma": "dark",
+      "ipa": "/dɑ:k/",
+      "pos": "adj",
+      "zh": "黑暗的",
+      "examples": [
+        {
+          "en": "The room is dark, so I turn on a light.",
+          "zh": "房间里很暗，所以我打开一盏灯。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "rain",
+      "lemma": "rain",
+      "ipa": "/rein/",
+      "pos": "n",
+      "zh": "雨",
+      "examples": [
+        {
+          "en": "The rain makes little puddles on the path.",
+          "zh": "雨在小路上形成了小水坑。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "wet",
+      "lemma": "wet",
+      "ipa": "/wet/",
+      "pos": "adj",
+      "zh": "湿的",
+      "examples": [
+        {
+          "en": "My socks are wet after the rain.",
+          "zh": "下雨后，我的袜子湿了。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "hungry",
+      "lemma": "hungry",
+      "ipa": "/'hʌŋgi/",
+      "pos": "adj",
+      "zh": "饥饿的",
+      "examples": [
+        {
+          "en": "I feel hungry after playing football.",
+          "zh": "踢完足球后，我觉得饿了。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "chase birds",
+      "lemma": "chase birds",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "追鸟",
+      "examples": [
+        {
+          "en": "Please do not chase birds in the park.",
+          "zh": "请不要在公园里追鸟。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "hear loud noises",
+      "lemma": "hear loud noises",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "听到巨响",
+      "examples": [
+        {
+          "en": "We hear loud noises from the building site.",
+          "zh": "我们听到建筑工地传来巨响。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "pack things",
+      "lemma": "pack things",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "收拾东西",
+      "examples": [
+        {
+          "en": "We pack things into bags before going home.",
+          "zh": "我们回家前把东西收拾进袋子里。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "play hide-and-seek",
+      "lemma": "play hide-and-seek",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "玩捉迷藏",
+      "examples": [
+        {
+          "en": "We play hide-and-seek in Grandma's garden.",
+          "zh": "我们在奶奶的花园里玩捉迷藏。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "prepare food",
+      "lemma": "prepare food",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "准备食物",
+      "examples": [
+        {
+          "en": "We prepare food for our picnic together.",
+          "zh": "我们一起为野餐准备食物。"
+        }
+      ],
+      "unit": "Unit 6"
+    }
+  ]
+}

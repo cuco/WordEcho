@@ -125,7 +125,9 @@ export function ImportPage() {
       {recent.length ? (
         <>
           <div className="section-title">刚刚录入</div>
-          {recent.map((w) => (
+          {recent.map((w) => {
+            const example = w.examples?.find((e) => e?.en?.trim());
+            return (
             <div
               className={`result-card${w.enrichStatus === "complete" ? "" : " pending"}`}
               key={w.id + w.updatedAt}
@@ -140,13 +142,14 @@ export function ImportPage() {
                 </div>
                 <SpeakButton text={w.display} lang={lang} rate={rate} size="sm" />
               </div>
-              {w.examples[0] ? (
+              {example ? (
                 <div className="ex">
-                  {w.examples[0].en} · {w.examples[0].zh}
+                  {example.en}{example.zh?.trim() ? ` · ${example.zh}` : ""}
                 </div>
               ) : null}
             </div>
-          ))}
+            );
+          })}
         </>
       ) : null}
 

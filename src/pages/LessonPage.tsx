@@ -4,7 +4,7 @@ import { FollowButton, SpeakButton } from "../components/AudioButtons";
 import { Confetti } from "../components/Confetti";
 import { CheckIcon, CrossIcon, FlameIcon, TrophyIcon } from "../components/icons";
 import { db, getPrefs } from "../db/schema";
-import { appendRetries, finishSession, gradeItem } from "../db/session";
+import { appendRetries, finishSession, gradeItem, loadSession } from "../db/session";
 import type { Praise } from "../lib/praise";
 import { praiseCorrect, praiseFinish, praiseWrong } from "../lib/praise";
 import { playCombo, playCorrect, playFinish, playWrong, setSoundEnabled } from "../lib/sfx";
@@ -52,19 +52,15 @@ export function LessonPage() {
 
   useEffect(() => {
     void (async () => {
-      const s = await db.sessions.get(sessionId!);
-      const raw = await db.items.where("sessionId").equals(sessionId!).toArray();
+      const { session: s, items: ordered, words: loadedWords } = await loadSession(sessionId!);
       const prefs = await getPrefs();
       setLang(prefs.ttsLang);
       setRate(prefs.ttsRate);
       setSoundEnabled(prefs.soundOn ?? true);
       autoSpeakOn.current = prefs.autoSpeak ?? true;
       name.current = prefs.name ?? "";
-      setWords(await db.words.toArray());
+      setWords(loadedWords);
       setReviews(await db.reviews.toArray());
-      const ordered = s
-        ? (s.itemIds.map((id) => raw.find((i) => i.id === id)).filter(Boolean) as QuizItem[])
-        : raw;
       setSession(s ?? null);
       setItems(ordered);
       retriesAdded.current = ordered.some((i) => i.id.includes("retry"));
@@ -81,6 +77,7 @@ export function LessonPage() {
   const idx = session?.currentIndex ?? 0;
   const item = items[idx];
   const word = words.find((w) => w.id === item?.wordId);
+  const example = word?.examples?.find((e) => e?.en?.trim());
   const pct = useMemo(
     () => (items.length ? Math.round((idx / items.length) * 100) : 0),
     [idx, items.length],
@@ -278,7 +275,7 @@ export function LessonPage() {
   if (!item) {
     return (
       <div className="celebrate">
-        <p className="empty">这一课没有题目。</p>
+        <p className="empty">这一课没有可用题目，请先补全单词的中文释义。</p>
         <div className="footer">
           <button className="btn" onClick={() => nav("/")}>
             返回
@@ -359,9 +356,9 @@ export function LessonPage() {
           {praise?.note ? <p className="praise-note">{praise.note}</p> : null}
           <div className="answer">
             {word?.display} · {word?.meaningZh}
-            {word?.examples[0] ? (
+            {example ? (
               <small>
-                {word.examples[0].en} {word.examples[0].zh}
+                {example.en}{example.zh?.trim() ? ` ${example.zh}` : ""}
               </small>
             ) : null}
           </div>

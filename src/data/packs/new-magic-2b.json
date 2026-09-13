@@ -3,14 +3,14 @@
   "title": "New Magic 2B（学生书核验）",
   "curriculum": "new-magic",
   "grade": "2B",
-  "volume": "Book B",
+  "volume": "Book 2B",
   "language": "en",
   "version": 1,
   "words": [
     {
       "word": "spring",
       "lemma": "spring",
-      "ipa": "/–/",
+      "ipa": "/spriŋ/",
       "pos": "n",
       "zh": "春天",
       "examples": [
@@ -24,7 +24,7 @@
     {
       "word": "summer",
       "lemma": "summer",
-      "ipa": "/–/",
+      "ipa": "/'sʌmә/",
       "pos": "n",
       "zh": "夏天",
       "examples": [
@@ -38,7 +38,7 @@
     {
       "word": "autumn",
       "lemma": "autumn",
-      "ipa": "/–/",
+      "ipa": "/'ɒ:tәm/",
       "pos": "n",
       "zh": "秋天",
       "examples": [
@@ -52,7 +52,7 @@
     {
       "word": "winter",
       "lemma": "winter",
-      "ipa": "/–/",
+      "ipa": "/'wintә/",
       "pos": "n",
       "zh": "冬天",
       "examples": [
@@ -66,7 +66,7 @@
     {
       "word": "wet",
       "lemma": "wet",
-      "ipa": "/–/",
+      "ipa": "/wet/",
       "pos": "adj",
       "zh": "潮湿的",
       "examples": [
@@ -80,7 +80,7 @@
     {
       "word": "warm",
       "lemma": "warm",
-      "ipa": "/–/",
+      "ipa": "/wɒ:m/",
       "pos": "adj",
       "zh": "温暖的",
       "examples": [
@@ -94,7 +94,7 @@
     {
       "word": "sunny",
       "lemma": "sunny",
-      "ipa": "/–/",
+      "ipa": "/'sʌni/",
       "pos": "adj",
       "zh": "晴朗的",
       "examples": [
@@ -122,7 +122,7 @@
     {
       "word": "windy",
       "lemma": "windy",
-      "ipa": "/–/",
+      "ipa": "/'windi/",
       "pos": "adj",
       "zh": "有风的",
       "examples": [
@@ -136,7 +136,7 @@
     {
       "word": "cool",
       "lemma": "cool",
-      "ipa": "/–/",
+      "ipa": "/ku:l/",
       "pos": "adj",
       "zh": "凉爽的",
       "examples": [
@@ -150,7 +150,7 @@
     {
       "word": "dry",
       "lemma": "dry",
-      "ipa": "/–/",
+      "ipa": "/drai/",
       "pos": "adj",
       "zh": "干燥的",
       "examples": [
@@ -178,7 +178,7 @@
     {
       "word": "season",
       "lemma": "season",
-      "ipa": "/–/",
+      "ipa": "/'si:zn/",
       "pos": "n",
       "zh": "季节",
       "examples": [
@@ -192,7 +192,7 @@
     {
       "word": "beach",
       "lemma": "beach",
-      "ipa": "/–/",
+      "ipa": "/bi:tʃ/",
       "pos": "n",
       "zh": "海滩",
       "examples": [
@@ -206,7 +206,7 @@
     {
       "word": "countryside",
       "lemma": "countryside",
-      "ipa": "/–/",
+      "ipa": "/'kʌntrisaid/",
       "pos": "n",
       "zh": "乡村",
       "examples": [
@@ -374,7 +374,7 @@
     {
       "word": "Sunday",
       "lemma": "sunday",
-      "ipa": "/–/",
+      "ipa": "/'sʌndi/",
       "pos": "n",
       "zh": "星期日",
       "examples": [
@@ -388,7 +388,7 @@
     {
       "word": "Monday",
       "lemma": "monday",
-      "ipa": "/–/",
+      "ipa": "/'mʌndi/",
       "pos": "n",
       "zh": "星期一",
       "examples": [
@@ -402,7 +402,7 @@
     {
       "word": "Tuesday",
       "lemma": "tuesday",
-      "ipa": "/–/",
+      "ipa": "/'tju:zdi/",
       "pos": "n",
       "zh": "星期二",
       "examples": [
@@ -416,7 +416,7 @@
     {
       "word": "Wednesday",
       "lemma": "wednesday",
-      "ipa": "/–/",
+      "ipa": "/'wenzdi/",
       "pos": "n",
       "zh": "星期三",
       "examples": [
@@ -430,7 +430,7 @@
     {
       "word": "Thursday",
       "lemma": "thursday",
-      "ipa": "/–/",
+      "ipa": "/'θә:zdi/",
       "pos": "n",
       "zh": "星期四",
       "examples": [
@@ -444,7 +444,7 @@
     {
       "word": "Friday",
       "lemma": "friday",
-      "ipa": "/–/",
+      "ipa": "/'fraidi/",
       "pos": "n",
       "zh": "星期五",
       "examples": [
@@ -458,7 +458,7 @@
     {
       "word": "Saturday",
       "lemma": "saturday",
-      "ipa": "/–/",
+      "ipa": "/'sætәdi/",
       "pos": "n",
       "zh": "星期六",
       "examples": [
@@ -472,7 +472,7 @@
     {
       "word": "week",
       "lemma": "week",
-      "ipa": "/–/",
+      "ipa": "/wi:k/",
       "pos": "n",
       "zh": "星期；周",
       "examples": [
@@ -598,7 +598,7 @@
     {
       "word": "free",
       "lemma": "free",
-      "ipa": "/–/",
+      "ipa": "/fri:/",
       "pos": "adj",
       "zh": "空闲的",
       "examples": [
@@ -612,7 +612,7 @@
     {
       "word": "busy",
       "lemma": "busy",
-      "ipa": "/–/",
+      "ipa": "/'bizi/",
       "pos": "adj",
       "zh": "忙碌的",
       "examples": [
@@ -654,7 +654,7 @@
     {
       "word": "rhyme",
       "lemma": "rhyme",
-      "ipa": "/–/",
+      "ipa": "/raim/",
       "pos": "n",
       "zh": "押韵词；韵文",
       "examples": [
@@ -696,7 +696,7 @@
     {
       "word": "sandwich",
       "lemma": "sandwich",
-      "ipa": "/–/",
+      "ipa": "/'sændwitʃ/",
       "pos": "n",
       "zh": "三明治",
       "examples": [
@@ -710,7 +710,7 @@
     {
       "word": "sausage",
       "lemma": "sausage",
-      "ipa": "/–/",
+      "ipa": "/'sɒsidʒ/",
       "pos": "n",
       "zh": "香肠",
       "examples": [
@@ -724,7 +724,7 @@
     {
       "word": "salad",
       "lemma": "salad",
-      "ipa": "/–/",
+      "ipa": "/'sælәd/",
       "pos": "n",
       "zh": "沙拉",
       "examples": [
@@ -738,13 +738,13 @@
     {
       "word": "noodles",
       "lemma": "noodles",
-      "ipa": "/–/",
+      "ipa": "/'nu:dl/",
       "pos": "n",
       "zh": "面条",
       "examples": [
         {
-          "en": "I have a noodles.",
-          "zh": "我有一个面条。"
+          "en": "I have noodles.",
+          "zh": "我有面条。"
         }
       ],
       "unit": "Unit 3"
@@ -766,7 +766,7 @@
     {
       "word": "cola",
       "lemma": "cola",
-      "ipa": "/–/",
+      "ipa": "/'kәulә/",
       "pos": "n",
       "zh": "可乐",
       "examples": [
@@ -948,7 +948,7 @@
     {
       "word": "twenty",
       "lemma": "twenty",
-      "ipa": "/–/",
+      "ipa": "/'twenti/",
       "pos": "num",
       "zh": "二十",
       "examples": [
@@ -962,7 +962,7 @@
     {
       "word": "thirty",
       "lemma": "thirty",
-      "ipa": "/–/",
+      "ipa": "/'θә:ti/",
       "pos": "num",
       "zh": "三十",
       "examples": [
@@ -976,7 +976,7 @@
     {
       "word": "forty",
       "lemma": "forty",
-      "ipa": "/–/",
+      "ipa": "/'fɒ:ti/",
       "pos": "num",
       "zh": "四十",
       "examples": [
@@ -990,7 +990,7 @@
     {
       "word": "fifty",
       "lemma": "fifty",
-      "ipa": "/–/",
+      "ipa": "/'fifti/",
       "pos": "num",
       "zh": "五十",
       "examples": [
@@ -1004,7 +1004,7 @@
     {
       "word": "sixty",
       "lemma": "sixty",
-      "ipa": "/–/",
+      "ipa": "/'siksti/",
       "pos": "num",
       "zh": "六十",
       "examples": [
@@ -1018,7 +1018,7 @@
     {
       "word": "seventy",
       "lemma": "seventy",
-      "ipa": "/–/",
+      "ipa": "/'sevnti/",
       "pos": "num",
       "zh": "七十",
       "examples": [
@@ -1032,7 +1032,7 @@
     {
       "word": "eighty",
       "lemma": "eighty",
-      "ipa": "/–/",
+      "ipa": "/'eiti/",
       "pos": "num",
       "zh": "八十",
       "examples": [
@@ -1046,7 +1046,7 @@
     {
       "word": "ninety",
       "lemma": "ninety",
-      "ipa": "/–/",
+      "ipa": "/'nainti/",
       "pos": "num",
       "zh": "九十",
       "examples": [
@@ -1074,7 +1074,7 @@
     {
       "word": "menu",
       "lemma": "menu",
-      "ipa": "/–/",
+      "ipa": "/'menju:/",
       "pos": "n",
       "zh": "菜单",
       "examples": [
@@ -1088,7 +1088,7 @@
     {
       "word": "order",
       "lemma": "order",
-      "ipa": "/–/",
+      "ipa": "/'ɒ:dә/",
       "pos": "v",
       "zh": "点餐；订购",
       "examples": [
@@ -1102,7 +1102,7 @@
     {
       "word": "price",
       "lemma": "price",
-      "ipa": "/–/",
+      "ipa": "/prais/",
       "pos": "n",
       "zh": "价格",
       "examples": [
@@ -1116,7 +1116,7 @@
     {
       "word": "o'clock",
       "lemma": "o'clock",
-      "ipa": "/–/",
+      "ipa": "/ә'klɔk/",
       "pos": "adv",
       "zh": "……点钟",
       "examples": [
@@ -1368,7 +1368,7 @@
     {
       "word": "interview",
       "lemma": "interview",
-      "ipa": "/–/",
+      "ipa": "/'intәvju:/",
       "pos": "n",
       "zh": "采访",
       "examples": [
@@ -1382,7 +1382,7 @@
     {
       "word": "reporter",
       "lemma": "reporter",
-      "ipa": "/–/",
+      "ipa": "/ri'pɒ:tә/",
       "pos": "n",
       "zh": "记者",
       "examples": [
@@ -1410,7 +1410,7 @@
     {
       "word": "dentist",
       "lemma": "dentist",
-      "ipa": "/–/",
+      "ipa": "/'dentist/",
       "pos": "n",
       "zh": "牙医",
       "examples": [
@@ -1438,7 +1438,7 @@
     {
       "word": "fireman",
       "lemma": "fireman",
-      "ipa": "/–/",
+      "ipa": "/'faiәmәn/",
       "pos": "n",
       "zh": "消防员",
       "examples": [
@@ -1452,7 +1452,7 @@
     {
       "word": "nurse",
       "lemma": "nurse",
-      "ipa": "/–/",
+      "ipa": "/nә:s/",
       "pos": "n",
       "zh": "护士",
       "examples": [
@@ -1466,7 +1466,7 @@
     {
       "word": "policeman",
       "lemma": "policeman",
-      "ipa": "/–/",
+      "ipa": "/pә'li:smәn/",
       "pos": "n",
       "zh": "警察",
       "examples": [
@@ -1480,7 +1480,7 @@
     {
       "word": "postman",
       "lemma": "postman",
-      "ipa": "/–/",
+      "ipa": "/'pәustmәn/",
       "pos": "n",
       "zh": "邮递员",
       "examples": [
@@ -1508,7 +1508,7 @@
     {
       "word": "housewife",
       "lemma": "housewife",
-      "ipa": "/–/",
+      "ipa": "/'hauswaif/",
       "pos": "n",
       "zh": "家庭主妇",
       "examples": [
@@ -1536,7 +1536,7 @@
     {
       "word": "waiter",
       "lemma": "waiter",
-      "ipa": "/–/",
+      "ipa": "/'weitә/",
       "pos": "n",
       "zh": "男服务员",
       "examples": [
@@ -1550,7 +1550,7 @@
     {
       "word": "painter",
       "lemma": "painter",
-      "ipa": "/–/",
+      "ipa": "/'peintә/",
       "pos": "n",
       "zh": "画家；油漆工",
       "examples": [
@@ -1564,7 +1564,7 @@
     {
       "word": "writer",
       "lemma": "writer",
-      "ipa": "/–/",
+      "ipa": "/'raitә/",
       "pos": "n",
       "zh": "作家",
       "examples": [
@@ -1662,7 +1662,7 @@
     {
       "word": "uniform",
       "lemma": "uniform",
-      "ipa": "/–/",
+      "ipa": "/'ju:nifɒ:m/",
       "pos": "n",
       "zh": "制服",
       "examples": [
@@ -1676,7 +1676,7 @@
     {
       "word": "underground",
       "lemma": "underground",
-      "ipa": "/–/",
+      "ipa": "/'ʌndәgraund/",
       "pos": "n",
       "zh": "地铁",
       "examples": [
@@ -1690,7 +1690,7 @@
     {
       "word": "speech",
       "lemma": "speech",
-      "ipa": "/–/",
+      "ipa": "/spi:tʃ/",
       "pos": "n",
       "zh": "演讲",
       "examples": [
@@ -1704,7 +1704,7 @@
     {
       "word": "clever",
       "lemma": "clever",
-      "ipa": "/–/",
+      "ipa": "/'klevә/",
       "pos": "adj",
       "zh": "聪明的",
       "examples": [
@@ -1718,7 +1718,7 @@
     {
       "word": "cute",
       "lemma": "cute",
-      "ipa": "/–/",
+      "ipa": "/kju:t/",
       "pos": "adj",
       "zh": "可爱的",
       "examples": [
@@ -1732,7 +1732,7 @@
     {
       "word": "naughty",
       "lemma": "naughty",
-      "ipa": "/–/",
+      "ipa": "/'nɒ:ti/",
       "pos": "adj",
       "zh": "淘气的",
       "examples": [
@@ -1746,7 +1746,7 @@
     {
       "word": "noisy",
       "lemma": "noisy",
-      "ipa": "/–/",
+      "ipa": "/'nɒizi/",
       "pos": "adj",
       "zh": "吵闹的",
       "examples": [
@@ -1760,7 +1760,7 @@
     {
       "word": "friendly",
       "lemma": "friendly",
-      "ipa": "/–/",
+      "ipa": "/'frendli/",
       "pos": "adj",
       "zh": "友好的",
       "examples": [
@@ -1774,7 +1774,7 @@
     {
       "word": "quiet",
       "lemma": "quiet",
-      "ipa": "/–/",
+      "ipa": "/'kwaiәt/",
       "pos": "adj",
       "zh": "安静的",
       "examples": [
@@ -1816,7 +1816,7 @@
     {
       "word": "bone",
       "lemma": "bone",
-      "ipa": "/–/",
+      "ipa": "/bәun/",
       "pos": "n",
       "zh": "骨头",
       "examples": [
@@ -1830,7 +1830,7 @@
     {
       "word": "cage",
       "lemma": "cage",
-      "ipa": "/–/",
+      "ipa": "/keidʒ/",
       "pos": "n",
       "zh": "笼子",
       "examples": [
@@ -1886,7 +1886,7 @@
     {
       "word": "hamster",
       "lemma": "hamster",
-      "ipa": "/–/",
+      "ipa": "/'hæmstә/",
       "pos": "n",
       "zh": "仓鼠",
       "examples": [
@@ -1900,7 +1900,7 @@
     {
       "word": "parrot",
       "lemma": "parrot",
-      "ipa": "/–/",
+      "ipa": "/'pærәt/",
       "pos": "n",
       "zh": "鹦鹉",
       "examples": [
@@ -1914,7 +1914,7 @@
     {
       "word": "puppy",
       "lemma": "puppy",
-      "ipa": "/–/",
+      "ipa": "/'pʌpi/",
       "pos": "n",
       "zh": "小狗",
       "examples": [
@@ -1942,7 +1942,7 @@
     {
       "word": "tortoise",
       "lemma": "tortoise",
-      "ipa": "/–/",
+      "ipa": "/'tɒ:tәs/",
       "pos": "n",
       "zh": "陆龟",
       "examples": [
@@ -1956,7 +1956,7 @@
     {
       "word": "bark",
       "lemma": "bark",
-      "ipa": "/–/",
+      "ipa": "/bɑ:k/",
       "pos": "v",
       "zh": "吠叫",
       "examples": [
@@ -1970,7 +1970,7 @@
     {
       "word": "fight",
       "lemma": "fight",
-      "ipa": "/–/",
+      "ipa": "/fait/",
       "pos": "v",
       "zh": "打架",
       "examples": [
@@ -1984,7 +1984,7 @@
     {
       "word": "hop",
       "lemma": "hop",
-      "ipa": "/–/",
+      "ipa": "/hɒp/",
       "pos": "v",
       "zh": "跳跃",
       "examples": [

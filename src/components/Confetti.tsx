@@ -2,19 +2,19 @@ import { useMemo } from "react";
 
 const COLORS = ["#58cc02", "#1cb0f6", "#ffc800", "#ff4b4b", "#ce82ff", "#ff9600"];
 
-export function Confetti({ count = 60 }: { count?: number }) {
+export function Confetti({ count = 60, delay = 0, durationScale = 1 }: { count?: number; delay?: number; durationScale?: number }) {
   const pieces = useMemo(
     () =>
       Array.from({ length: count }, (_, i) => ({
         left: Math.random() * 100,
-        delay: Math.random() * 1.2,
-        duration: 2.2 + Math.random() * 1.6,
+        delay: delay + Math.random() * 1.2 * durationScale,
+        duration: (2.2 + Math.random() * 1.6) * durationScale,
         color: COLORS[i % COLORS.length],
         size: 7 + Math.random() * 7,
         round: Math.random() > 0.6,
         drift: (Math.random() - 0.5) * 120,
       })),
-    [count],
+    [count, delay, durationScale],
   );
 
   return (

@@ -1,0 +1,1425 @@
+{
+  "id": "new-magic-4a",
+  "title": "New Magic 4A（公开材料核验）",
+  "curriculum": "new-magic",
+  "grade": "4A",
+  "volume": "Book 4A",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "neighbour",
+      "lemma": "neighbour",
+      "ipa": "/'neibә/",
+      "pos": "n",
+      "zh": "邻居",
+      "examples": [
+        {
+          "en": "I have a neighbour.",
+          "zh": "我有一个邻居。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "tall",
+      "lemma": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adj",
+      "zh": "高的",
+      "examples": [
+        {
+          "en": "He is tall.",
+          "zh": "他很高。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "short",
+      "lemma": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adj",
+      "zh": "矮的",
+      "examples": [
+        {
+          "en": "The pencil is short.",
+          "zh": "铅笔很短。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "thin",
+      "lemma": "thin",
+      "ipa": "/θɪn/",
+      "pos": "adj",
+      "zh": "瘦的",
+      "examples": [
+        {
+          "en": "The cat is thin.",
+          "zh": "猫很瘦。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "fat",
+      "lemma": "fat",
+      "ipa": "/fæt/",
+      "pos": "adj",
+      "zh": "胖的",
+      "examples": [
+        {
+          "en": "The pig is fat.",
+          "zh": "猪很胖。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "young",
+      "lemma": "young",
+      "ipa": "/jʌŋ/",
+      "pos": "adj",
+      "zh": "年轻的",
+      "examples": [
+        {
+          "en": "She is young.",
+          "zh": "她很年轻。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "old",
+      "lemma": "old",
+      "ipa": "/əʊld/",
+      "pos": "adj",
+      "zh": "年老的",
+      "examples": [
+        {
+          "en": "This is an old book.",
+          "zh": "这是一本旧书。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "strong",
+      "lemma": "strong",
+      "ipa": "/strɒŋ/",
+      "pos": "adj",
+      "zh": "强壮的",
+      "examples": [
+        {
+          "en": "She is strong.",
+          "zh": "她很强壮。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "weak",
+      "lemma": "weak",
+      "ipa": "/wi:k/",
+      "pos": "adj",
+      "zh": "虚弱的",
+      "examples": [
+        {
+          "en": "The cake is weak.",
+          "zh": "蛋糕是虚弱的。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "friendly",
+      "lemma": "friendly",
+      "ipa": "/'frendli/",
+      "pos": "adj",
+      "zh": "友善的",
+      "examples": [
+        {
+          "en": "She is friendly.",
+          "zh": "她很友善。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "ipa": "/kaind/",
+      "pos": "adj",
+      "zh": "善良的",
+      "examples": [
+        {
+          "en": "She is kind.",
+          "zh": "她很善良。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "quiet",
+      "lemma": "quiet",
+      "ipa": "/'kwaiәt/",
+      "pos": "adj",
+      "zh": "安静的",
+      "examples": [
+        {
+          "en": "She is quiet.",
+          "zh": "她很安静。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "noisy",
+      "lemma": "noisy",
+      "ipa": "/'nɒizi/",
+      "pos": "adj",
+      "zh": "吵闹的",
+      "examples": [
+        {
+          "en": "She is noisy.",
+          "zh": "她很吵闹。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "smart",
+      "lemma": "smart",
+      "ipa": "/smɑ:t/",
+      "pos": "adj",
+      "zh": "聪明的",
+      "examples": [
+        {
+          "en": "The cake is smart.",
+          "zh": "蛋糕是聪明的。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "funny",
+      "lemma": "funny",
+      "ipa": "/'fʌni/",
+      "pos": "adj",
+      "zh": "有趣的",
+      "examples": [
+        {
+          "en": "The cake is funny.",
+          "zh": "蛋糕是有趣的。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "play chess",
+      "lemma": "play chess",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "下国际象棋",
+      "examples": [
+        {
+          "en": "I play chess.",
+          "zh": "我下国际象棋。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "watch films",
+      "lemma": "watch films",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "看电影",
+      "examples": [
+        {
+          "en": "I watch films.",
+          "zh": "我看电影。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "read comics",
+      "lemma": "read comics",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "看漫画",
+      "examples": [
+        {
+          "en": "I read comics.",
+          "zh": "我看漫画。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "do jigsaw puzzles",
+      "lemma": "do jigsaw puzzles",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "拼拼图",
+      "examples": [
+        {
+          "en": "I do jigsaw puzzles.",
+          "zh": "我拼拼图。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "ride a horse",
+      "lemma": "ride a horse",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "骑马",
+      "examples": [
+        {
+          "en": "I ride a horse.",
+          "zh": "我骑马。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "admire",
+      "lemma": "admire",
+      "ipa": "/әd'maiә/",
+      "pos": "v",
+      "zh": "钦佩",
+      "examples": [
+        {
+          "en": "I can admire.",
+          "zh": "我会钦佩。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "actor",
+      "lemma": "actor",
+      "ipa": "/'æktә/",
+      "pos": "n",
+      "zh": "演员",
+      "examples": [
+        {
+          "en": "I have an actor.",
+          "zh": "我有一个演员。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "athlete",
+      "lemma": "athlete",
+      "ipa": "/'æθli:t/",
+      "pos": "n",
+      "zh": "运动员",
+      "examples": [
+        {
+          "en": "I have an athlete.",
+          "zh": "我有一个运动员。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "doctor",
+      "lemma": "doctor",
+      "ipa": "/ˈdɒktə/",
+      "pos": "n",
+      "zh": "医生",
+      "examples": [
+        {
+          "en": "He is a doctor.",
+          "zh": "他是医生。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "inventor",
+      "lemma": "inventor",
+      "ipa": "/in'ventә/",
+      "pos": "n",
+      "zh": "发明家",
+      "examples": [
+        {
+          "en": "I have an inventor.",
+          "zh": "我有一个发明家。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "scientist",
+      "lemma": "scientist",
+      "ipa": "/'saiәntist/",
+      "pos": "n",
+      "zh": "科学家",
+      "examples": [
+        {
+          "en": "I have a scientist.",
+          "zh": "我有一个科学家。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "singer",
+      "lemma": "singer",
+      "ipa": "/'siŋә/",
+      "pos": "n",
+      "zh": "歌手",
+      "examples": [
+        {
+          "en": "I have a singer.",
+          "zh": "我有一个歌手。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "writer",
+      "lemma": "writer",
+      "ipa": "/'raitә/",
+      "pos": "n",
+      "zh": "作家",
+      "examples": [
+        {
+          "en": "I have a writer.",
+          "zh": "我有一个作家。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "brave",
+      "lemma": "brave",
+      "ipa": "/breiv/",
+      "pos": "adj",
+      "zh": "勇敢的",
+      "examples": [
+        {
+          "en": "The cake is brave.",
+          "zh": "蛋糕是勇敢的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "caring",
+      "lemma": "caring",
+      "ipa": "/'kεәriŋ/",
+      "pos": "adj",
+      "zh": "关心他人的",
+      "examples": [
+        {
+          "en": "The cake is caring.",
+          "zh": "蛋糕是关心他人的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "clever",
+      "lemma": "clever",
+      "ipa": "/'klevә/",
+      "pos": "adj",
+      "zh": "聪明的",
+      "examples": [
+        {
+          "en": "She is clever.",
+          "zh": "她很聪明。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "hard-working",
+      "lemma": "hard-working",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "勤劳的",
+      "examples": [
+        {
+          "en": "The cake is hard-working.",
+          "zh": "蛋糕是勤劳的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "helpful",
+      "lemma": "helpful",
+      "ipa": "/'helpful/",
+      "pos": "adj",
+      "zh": "乐于助人的",
+      "examples": [
+        {
+          "en": "She is helpful.",
+          "zh": "她很乐于助人。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "patient",
+      "lemma": "patient",
+      "ipa": "/'peiʃәnt/",
+      "pos": "adj",
+      "zh": "有耐心的",
+      "examples": [
+        {
+          "en": "The cake is patient.",
+          "zh": "蛋糕是有耐心的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "successful",
+      "lemma": "successful",
+      "ipa": "/sәk'sesful/",
+      "pos": "adj",
+      "zh": "成功的",
+      "examples": [
+        {
+          "en": "The cake is successful.",
+          "zh": "蛋糕是成功的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "famous",
+      "lemma": "famous",
+      "ipa": "/'feimәs/",
+      "pos": "adj",
+      "zh": "著名的",
+      "examples": [
+        {
+          "en": "The cake is famous.",
+          "zh": "蛋糕是著名的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "Hong Kong Disneyland",
+      "lemma": "hong kong disneyland",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "香港迪士尼乐园",
+      "examples": [
+        {
+          "en": "I like Hong Kong Disneyland.",
+          "zh": "我喜欢香港迪士尼乐园。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Ocean Park",
+      "lemma": "ocean park",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "海洋公园",
+      "examples": [
+        {
+          "en": "I like Ocean Park.",
+          "zh": "我喜欢海洋公园。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "the Peak",
+      "lemma": "the peak",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "太平山顶",
+      "examples": [
+        {
+          "en": "I like the Peak.",
+          "zh": "我喜欢太平山顶。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Science Museum",
+      "lemma": "science museum",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "科学馆",
+      "examples": [
+        {
+          "en": "We visit the science museum.",
+          "zh": "我们去科技馆。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Lantau Island",
+      "lemma": "lantau island",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "大屿山",
+      "examples": [
+        {
+          "en": "I like Lantau Island.",
+          "zh": "我喜欢大屿山。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Ngong Ping 360",
+      "lemma": "ngong ping 360",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "昂坪360",
+      "examples": [
+        {
+          "en": "I like Ngong Ping 360.",
+          "zh": "我喜欢昂坪。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Tian Tan Buddha",
+      "lemma": "tian tan buddha",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "天坛大佛",
+      "examples": [
+        {
+          "en": "I like Tian Tan Buddha.",
+          "zh": "我喜欢天坛大佛。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Tai O Fishing Village",
+      "lemma": "tai o fishing village",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "大澳渔村",
+      "examples": [
+        {
+          "en": "I like Tai O Fishing Village.",
+          "zh": "我喜欢大澳渔村。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Causeway Bay",
+      "lemma": "causeway bay",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "铜锣湾",
+      "examples": [
+        {
+          "en": "I like Causeway Bay.",
+          "zh": "我喜欢铜锣湾。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "Kowloon Walled City Park",
+      "lemma": "kowloon walled city park",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "九龙寨城公园",
+      "examples": [
+        {
+          "en": "I like Kowloon Walled City Park.",
+          "zh": "我喜欢九龙寨城公园。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "cable car ride",
+      "lemma": "cable car ride",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "缆车之旅",
+      "examples": [
+        {
+          "en": "I like cable car ride.",
+          "zh": "我喜欢缆车之旅。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "giant Buddha statue",
+      "lemma": "giant buddha statue",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "巨型佛像",
+      "examples": [
+        {
+          "en": "I like giant Buddha statue.",
+          "zh": "我喜欢巨型佛像。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "stilt house",
+      "lemma": "stilt house",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "高脚屋",
+      "examples": [
+        {
+          "en": "I like stilt house.",
+          "zh": "我喜欢高脚屋。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "traditional market",
+      "lemma": "traditional market",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "传统市场",
+      "examples": [
+        {
+          "en": "I like traditional market.",
+          "zh": "我喜欢传统市场。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "hotel",
+      "lemma": "hotel",
+      "ipa": "/hәu'tel/",
+      "pos": "n",
+      "zh": "酒店",
+      "examples": [
+        {
+          "en": "I have a hotel.",
+          "zh": "我有一个酒店。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "view",
+      "lemma": "view",
+      "ipa": "/vju:/",
+      "pos": "n",
+      "zh": "景色",
+      "examples": [
+        {
+          "en": "I have a view.",
+          "zh": "我有一个景色。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "ruins",
+      "lemma": "ruins",
+      "ipa": "/ruin/",
+      "pos": "n",
+      "zh": "遗迹",
+      "examples": [
+        {
+          "en": "I have ruins.",
+          "zh": "我有遗迹。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "exhibit",
+      "lemma": "exhibit",
+      "ipa": "/ig'zibit/",
+      "pos": "n",
+      "zh": "展品",
+      "examples": [
+        {
+          "en": "I have an exhibit.",
+          "zh": "我有一个展品。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "amazing",
+      "lemma": "amazing",
+      "ipa": "/ә'meiziŋ/",
+      "pos": "adj",
+      "zh": "令人惊叹的",
+      "examples": [
+        {
+          "en": "The cake is amazing.",
+          "zh": "蛋糕是令人惊叹的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "comfortable",
+      "lemma": "comfortable",
+      "ipa": "/'kʌmfәtәbl/",
+      "pos": "adj",
+      "zh": "舒适的",
+      "examples": [
+        {
+          "en": "The cake is comfortable.",
+          "zh": "蛋糕是舒适的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "enjoyable",
+      "lemma": "enjoyable",
+      "ipa": "/in'dʒɒiәbl/",
+      "pos": "adj",
+      "zh": "令人愉快的",
+      "examples": [
+        {
+          "en": "The cake is enjoyable.",
+          "zh": "蛋糕是令人愉快的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "exciting",
+      "lemma": "exciting",
+      "ipa": "/ik'saitiŋ/",
+      "pos": "adj",
+      "zh": "令人兴奋的",
+      "examples": [
+        {
+          "en": "The cake is exciting.",
+          "zh": "蛋糕是令人兴奋的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "relaxing",
+      "lemma": "relaxing",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "令人放松的",
+      "examples": [
+        {
+          "en": "The cake is relaxing.",
+          "zh": "蛋糕是令人放松的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "thrilling",
+      "lemma": "thrilling",
+      "ipa": "/'θriliŋ/",
+      "pos": "adj",
+      "zh": "激动人心的",
+      "examples": [
+        {
+          "en": "The cake is thrilling.",
+          "zh": "蛋糕是激动人心的。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "children's palace",
+      "lemma": "children's palace",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "少年宫",
+      "examples": [
+        {
+          "en": "I like children's palace.",
+          "zh": "我喜欢少年宫。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "activity room",
+      "lemma": "activity room",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "活动室",
+      "examples": [
+        {
+          "en": "I like activity room.",
+          "zh": "我喜欢活动室。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "reading corner",
+      "lemma": "reading corner",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "阅读角",
+      "examples": [
+        {
+          "en": "I like reading corner.",
+          "zh": "我喜欢阅读角。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "playground",
+      "lemma": "playground",
+      "ipa": "/'pleigraund/",
+      "pos": "n",
+      "zh": "操场",
+      "examples": [
+        {
+          "en": "I have a playground.",
+          "zh": "我有一个操场。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "basketball court",
+      "lemma": "basketball court",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "篮球场",
+      "examples": [
+        {
+          "en": "I like basketball court.",
+          "zh": "我喜欢篮球场。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "swimming pool",
+      "lemma": "swimming pool",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "游泳池",
+      "examples": [
+        {
+          "en": "I like swimming pool.",
+          "zh": "我喜欢游泳池。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "painting",
+      "lemma": "painting",
+      "ipa": "/'peintiŋ/",
+      "pos": "n",
+      "zh": "绘画",
+      "examples": [
+        {
+          "en": "I have a painting.",
+          "zh": "我有一个绘画。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "drawing",
+      "lemma": "drawing",
+      "ipa": "/'drɒ:iŋ/",
+      "pos": "n",
+      "zh": "画画",
+      "examples": [
+        {
+          "en": "I have a drawing.",
+          "zh": "我有一个画画。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "dancing",
+      "lemma": "dancing",
+      "ipa": "/'dænsiŋ/",
+      "pos": "n",
+      "zh": "跳舞",
+      "examples": [
+        {
+          "en": "I have a dancing.",
+          "zh": "我有一个跳舞。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "singing",
+      "lemma": "singing",
+      "ipa": "/'siŋiŋ/",
+      "pos": "n",
+      "zh": "唱歌",
+      "examples": [
+        {
+          "en": "I have a singing.",
+          "zh": "我有一个唱歌。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "chess",
+      "lemma": "chess",
+      "ipa": "/tʃes/",
+      "pos": "n",
+      "zh": "国际象棋",
+      "examples": [
+        {
+          "en": "I have a chess.",
+          "zh": "我有一个国际象棋。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "quiz show",
+      "lemma": "quiz show",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "知识竞赛节目",
+      "examples": [
+        {
+          "en": "I like quiz show.",
+          "zh": "我喜欢知识竞赛节目。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "gift card",
+      "lemma": "gift card",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "礼品卡",
+      "examples": [
+        {
+          "en": "I like gift card.",
+          "zh": "我喜欢礼品卡。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "rule",
+      "lemma": "rule",
+      "ipa": "/ru:l/",
+      "pos": "n",
+      "zh": "规则",
+      "examples": [
+        {
+          "en": "I have a rule.",
+          "zh": "我有一个规则。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "bring pets inside",
+      "lemma": "bring pets inside",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "把宠物带进室内",
+      "examples": [
+        {
+          "en": "I like bring pets inside.",
+          "zh": "我喜欢把宠物带进室内。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "run inside the building",
+      "lemma": "run inside the building",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "在楼内跑动",
+      "examples": [
+        {
+          "en": "I like run inside the building.",
+          "zh": "我喜欢在楼内跑动。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "keep quiet",
+      "lemma": "keep quiet",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "保持安静",
+      "examples": [
+        {
+          "en": "I keep quiet.",
+          "zh": "我保持安静。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "win a quiz show",
+      "lemma": "win a quiz show",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "赢得知识竞赛",
+      "examples": [
+        {
+          "en": "I win a quiz show.",
+          "zh": "我赢得知识竞赛。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "get a prize",
+      "lemma": "get a prize",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "获得奖品",
+      "examples": [
+        {
+          "en": "I get a prize.",
+          "zh": "我获得奖品。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "do sports",
+      "lemma": "do sports",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "做运动",
+      "examples": [
+        {
+          "en": "I do sports.",
+          "zh": "我做运动。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "play games",
+      "lemma": "play games",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "玩游戏",
+      "examples": [
+        {
+          "en": "I play games.",
+          "zh": "我玩游戏。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "watch a show",
+      "lemma": "watch a show",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "看表演",
+      "examples": [
+        {
+          "en": "I watch a show.",
+          "zh": "我看表演。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "play the piano",
+      "lemma": "play the piano",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "弹钢琴",
+      "examples": [
+        {
+          "en": "I play the piano.",
+          "zh": "我弹钢琴。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "make a model",
+      "lemma": "make a model",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "做模型",
+      "examples": [
+        {
+          "en": "I make a model.",
+          "zh": "我做模型。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "bored",
+      "lemma": "bored",
+      "ipa": "/–/",
+      "pos": "adj",
+      "zh": "无聊的",
+      "examples": [
+        {
+          "en": "The cake is bored.",
+          "zh": "蛋糕是无聊的。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "excited",
+      "lemma": "excited",
+      "ipa": "/ik'saitid/",
+      "pos": "adj",
+      "zh": "兴奋的",
+      "examples": [
+        {
+          "en": "The cake is excited.",
+          "zh": "蛋糕是兴奋的。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "nervous",
+      "lemma": "nervous",
+      "ipa": "/'nә:vәs/",
+      "pos": "adj",
+      "zh": "紧张的",
+      "examples": [
+        {
+          "en": "The cake is nervous.",
+          "zh": "蛋糕是紧张的。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "relaxed",
+      "lemma": "relaxed",
+      "ipa": "/ri'lækst/",
+      "pos": "adj",
+      "zh": "放松的",
+      "examples": [
+        {
+          "en": "The cake is relaxed.",
+          "zh": "蛋糕是放松的。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "tired",
+      "lemma": "tired",
+      "ipa": "/taiәd/",
+      "pos": "adj",
+      "zh": "疲倦的",
+      "examples": [
+        {
+          "en": "I am tired after PE.",
+          "zh": "体育课后我很累。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "Christmas party",
+      "lemma": "christmas party",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "圣诞聚会",
+      "examples": [
+        {
+          "en": "I like Christmas party.",
+          "zh": "我喜欢圣诞聚会。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "Christmas tree",
+      "lemma": "christmas tree",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "圣诞树",
+      "examples": [
+        {
+          "en": "I like Christmas tree.",
+          "zh": "我喜欢圣诞树。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "Christmas present",
+      "lemma": "christmas present",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "圣诞礼物",
+      "examples": [
+        {
+          "en": "I like Christmas present.",
+          "zh": "我喜欢圣诞礼物。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "Christmas card",
+      "lemma": "christmas card",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "圣诞卡",
+      "examples": [
+        {
+          "en": "I like Christmas card.",
+          "zh": "我喜欢圣诞卡。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "decoration",
+      "lemma": "decoration",
+      "ipa": "/.dekә'reiʃәn/",
+      "pos": "n",
+      "zh": "装饰品",
+      "examples": [
+        {
+          "en": "I have a decoration.",
+          "zh": "我有一个装饰品。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "carol",
+      "lemma": "carol",
+      "ipa": "/'kærәl/",
+      "pos": "n",
+      "zh": "圣诞颂歌",
+      "examples": [
+        {
+          "en": "I have a carol.",
+          "zh": "我有一个圣诞颂歌。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "exchange presents",
+      "lemma": "exchange presents",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "交换礼物",
+      "examples": [
+        {
+          "en": "I exchange presents.",
+          "zh": "我交换礼物。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "make decorations",
+      "lemma": "make decorations",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "制作装饰品",
+      "examples": [
+        {
+          "en": "I make decorations.",
+          "zh": "我制作装饰品。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "sing Christmas carols",
+      "lemma": "sing christmas carols",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "唱圣诞颂歌",
+      "examples": [
+        {
+          "en": "I sing Christmas carols.",
+          "zh": "我唱圣诞颂歌。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "decorate the tree",
+      "lemma": "decorate the tree",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "装饰圣诞树",
+      "examples": [
+        {
+          "en": "I decorate the tree.",
+          "zh": "我装饰圣诞树。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "prepare food",
+      "lemma": "prepare food",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "准备食物",
+      "examples": [
+        {
+          "en": "I prepare food.",
+          "zh": "我准备食物。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "wrap presents",
+      "lemma": "wrap presents",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "包装礼物",
+      "examples": [
+        {
+          "en": "I wrap presents.",
+          "zh": "我包装礼物。"
+        }
+      ],
+      "unit": "Unit 6"
+    }
+  ]
+}

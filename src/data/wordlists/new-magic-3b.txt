@@ -1,9 +1,144 @@
-# New Magic / 启思英语 3B · 单元名已核实，尚无公开完整词表
-# TOC：绘本宝 huibenbao.com/book/xinmofayingyu3b
-# Format: English word	Unit N
+# New Magic / 启思英语 3B · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句为按词义逐条编写、复核的原创双语句（2026-09-13）。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性<TAB>英文例句<TAB>中文例句
+
 # Unit 1 · At the fun park
+cable car	Unit 1	缆车	n	We take a cable car up the mountain.	我们乘缆车上山。
+climbing frame	Unit 1	攀爬架	n	The children climb on the climbing frame.	孩子们在攀爬架上攀爬。
+roller coaster	Unit 1	过山车	n	The roller coaster races down the steep track.	过山车沿着陡峭的轨道飞驰而下。
+roundabout	Unit 1	旋转木马	n	I sit on a horse on the roundabout.	我坐在旋转木马的一匹马上。
+sandpit	Unit 1	沙坑	n	My little brother digs in the sandpit.	我小弟弟在沙坑里挖沙。
+see-saw	Unit 1	跷跷板	n	The see-saw goes up and down.	跷跷板上下起伏。
+slide	Unit 1	滑梯	n	The little girl goes down the slide.	小女孩从滑梯上滑下来。
+swing	Unit 1	秋千	n	Dad gently pushes me on the swing.	我坐在秋千上，爸爸轻轻地推我。
+Ferris wheel	Unit 1	摩天轮	n	The Ferris wheel turns slowly above the park.	摩天轮在公园上方缓缓转动。
+gift shop	Unit 1	礼品店	n	We choose postcards at the gift shop.	我们在礼品店挑选明信片。
+hot-air balloon	Unit 1	热气球	n	The hot-air balloon floats above the trees.	热气球漂浮在树木上方。
+bumper cars	Unit 1	碰碰车	n	We laugh as the bumper cars bump together.	碰碰车撞在一起，我们笑了起来。
+spring riders	Unit 1	弹簧摇马	n	The children rock back and forth on spring riders.	孩子们坐在弹簧摇马上前后摇动。
+entrance	Unit 1	入口	n	Please show your ticket at the entrance.	请在入口出示你的票。
+go straight	Unit 1	直走	v	Go straight until you reach the gift shop.	一直往前走，直到你到达礼品店。
+turn left	Unit 1	左转	v	Turn left at the next street.	在下一条街左转。
+turn right	Unit 1	右转	v	Turn right after you pass the library.	经过图书馆后右转。
+next to	Unit 1	在……旁边	prep	The slide is next to the sandpit.	滑梯在沙坑旁边。
+opposite	Unit 1	在……对面	prep	The bookshop is opposite the toy shop.	书店在玩具店对面。
+between	Unit 1	在……之间	prep	The bench is between two tall trees.	长椅在两棵高大的树之间。
+ride	Unit 1	乘坐	v	We ride the roller coaster together.	我们一起乘坐过山车。
+view	Unit 1	景色	n	The view from the mountain is beautiful.	从山上看到的景色很美。
+
 # Unit 2 · Beach fun
+drink soft drinks	Unit 2	喝汽水	v	We sometimes drink soft drinks at parties.	我们有时在聚会上喝汽水。
+swim in the sea	Unit 2	在海里游泳	v	I swim in the sea with my parents.	我和爸爸妈妈一起在海里游泳。
+eat ice cream	Unit 2	吃冰淇淋	v	Let's eat ice cream before it melts.	我们趁冰淇淋还没化赶快吃吧。
+sunbathe	Unit 2	晒太阳	v	Some people sunbathe on the sandy beach.	一些人在沙滩上晒太阳。
+collect pebbles	Unit 2	收集鹅卵石	v	We collect pebbles of different colours.	我们收集不同颜色的鹅卵石。
+find crabs	Unit 2	找螃蟹	v	We find crabs hiding under the rocks.	我们找到藏在石头下面的螃蟹。
+listen to music	Unit 2	听音乐	v	I listen to music on the bus.	我在公共汽车上听音乐。
+eat ice lollies	Unit 2	吃冰棒	v	We eat ice lollies on a hot day.	我们在炎热的日子里吃冰棒。
+watch the sunset	Unit 2	看日落	v	We sit on the beach and watch the sunset.	我们坐在海滩上看日落。
+build sandcastles	Unit 2	堆沙堡	v	The children build sandcastles with wet sand.	孩子们用湿沙堆沙堡。
+collect shells	Unit 2	捡贝壳	v	We collect shells near the water.	我们在水边捡贝壳。
+take photos	Unit 2	拍照	v	I take photos of the colourful boats.	我给五颜六色的小船拍照。
+beach	Unit 2	海滩	n	Small waves wash onto the sandy beach.	小浪花涌上沙滩。
+pebble	Unit 2	鹅卵石	n	This pebble is small, round and smooth.	这颗鹅卵石又小又圆，表面光滑。
+crab	Unit 2	螃蟹	n	A little crab walks sideways on the sand.	一只小螃蟹在沙地上横着走。
+shell	Unit 2	贝壳	n	I find a pink shell on the beach.	我在海滩上找到一个粉红色的贝壳。
+
 # Unit 3 · Nice people at school
+teacher	Unit 3	老师	n	Our teacher helps us learn new words.	我们的老师帮助我们学习新单词。
+principal	Unit 3	校长	n	The principal welcomes us to our new school.	校长欢迎我们来到新学校。
+caretaker	Unit 3	管理员	n	The caretaker opens the school gate each morning.	管理员每天早上打开学校大门。
+monitor	Unit 3	班长	n	Our class monitor helps hand out the books.	我们班的班长帮忙发书。
+librarian	Unit 3	图书管理员	n	The librarian helps me find a book.	图书管理员帮我找一本书。
+friendly	Unit 3	友善的	adj	Our new neighbour is friendly to everyone.	我们的新邻居对每个人都很友善。
+hard-working	Unit 3	勤劳的	adj	The hard-working gardener looks after all these flowers.	勤劳的园丁照料着所有这些花。
+kind	Unit 3	善良的	adj	It is kind of you to help me.	你帮助我，真善良。
+polite	Unit 3	有礼貌的	adj	It is polite to say thank you.	说谢谢是有礼貌的表现。
+helpful	Unit 3	乐于助人的	adj	My helpful brother carries my heavy bag.	我乐于助人的哥哥帮我提沉重的包。
+tidy up the bookshelves	Unit 3	整理书架	v	We tidy up the bookshelves after reading.	我们读完书后整理书架。
+put away the books	Unit 3	收好书本	v	Please put away the books before lunch.	请在午饭前收好书本。
+take care of	Unit 3	照顾	v	I help take care of my baby sister.	我帮忙照顾我的小妹妹。
+talk to	Unit 3	与……交谈	v	I talk to my teacher after class.	我下课后和老师交谈。
+turn on the lights	Unit 3	开灯	v	Please turn on the lights in the classroom.	请打开教室里的灯。
+turn off the lights	Unit 3	关灯	v	We turn off the lights before leaving.	我们离开前关灯。
+sweep the playground	Unit 3	打扫操场	v	We sweep the playground with long brooms.	我们用长扫帚打扫操场。
+sweep the hall	Unit 3	打扫礼堂	v	The cleaners sweep the hall after the show.	清洁工在演出结束后打扫礼堂。
+pick up rubbish	Unit 3	捡垃圾	v	We pick up rubbish to keep the park clean.	我们捡垃圾，让公园保持干净。
+make plans	Unit 3	制订计划	v	Let's make plans for our class picnic.	我们为班级野餐制订计划吧。
+
 # Unit 4 · How can you help?
+forest	Unit 4	森林	n	Many birds live in this green forest.	许多鸟住在这片绿色的森林里。
+tree	Unit 4	树	n	A tall tree gives us shade.	一棵大树为我们遮阴。
+bear	Unit 4	熊	n	The brown bear catches a fish in the river.	棕熊在河里捉到一条鱼。
+grass	Unit 4	草	n	The rabbit eats grass near the tree.	兔子在树旁吃草。
+branch	Unit 4	树枝	n	A bird sits on the lowest branch.	一只鸟停在最低的树枝上。
+path	Unit 4	小路	n	This narrow path leads to the lake.	这条狭窄的小路通向湖边。
+traveller	Unit 4	旅行者	n	The tired traveller stops to drink some water.	疲倦的旅行者停下来喝点水。
+climb up	Unit 4	向上爬	v	The squirrels climb up the tree quickly.	松鼠们沿着树快速向上爬。
+climb down	Unit 4	向下爬	v	Please climb down the ladder slowly.	请沿着梯子慢慢爬下来。
+smile	Unit 4	微笑	v	I smile when I see my best friend.	看到我最好的朋友时，我微笑了。
+sniff	Unit 4	嗅	v	Dogs sniff the ground to follow a smell.	狗嗅着地面，追踪气味。
+whisper	Unit 4	低声说	v	Please whisper so the baby can sleep.	请小声说话，好让宝宝睡觉。
+ground	Unit 4	地面	n	The fallen leaves cover the ground.	落叶铺满了地面。
+pretend to be dead	Unit 4	装死	v	In the story, the traveller must pretend to be dead.	故事里，旅行者必须装死。
+walk away	Unit 4	走开	v	The bear loses interest and starts to walk away.	熊失去了兴趣，开始走开。
+afraid	Unit 4	害怕的	adj	The little boy is afraid of the dark.	这个小男孩怕黑。
+in danger	Unit 4	处于危险中	expr	The kitten in the busy road is in danger.	繁忙马路上的小猫处于危险中。
+true friend	Unit 4	真正的朋友	n	A true friend helps you when you need support.	真正的朋友会在你需要支持时帮助你。
+help old people	Unit 4	帮助老人	v	We help old people carry their shopping bags.	我们帮老人提购物袋。
+help poor people	Unit 4	帮助穷人	v	We help poor people by sharing food.	我们通过分享食物来帮助穷人。
+help blind people	Unit 4	帮助盲人	v	Guide dogs help blind people travel safely.	导盲犬帮助盲人安全出行。
+make donations	Unit 4	捐款	v	Our families make donations to the children's hospital.	我们的家人向儿童医院捐款。
+give seats	Unit 4	让座	v	We give our seats to older people on buses.	我们在公共汽车上给年长的人让座。
+cross the road	Unit 4	过马路	v	We cross the road when the light turns green.	绿灯亮时，我们过马路。
+
 # Unit 5 · The Emperor and the Nightingale
+emperor	Unit 5	皇帝	n	The emperor lives in a grand palace.	皇帝住在一座宏伟的宫殿里。
+servant	Unit 5	仆人	n	The servant brings tea to the emperor.	仆人给皇帝端来茶。
+nightingale	Unit 5	夜莺	n	We hear a nightingale singing in the tree.	我们听到一只夜莺在树上唱歌。
+silk clothes	Unit 5	丝绸衣服	n	The emperor wears beautiful silk clothes.	皇帝穿着漂亮的丝绸衣服。
+feather	Unit 5	羽毛	n	A soft feather falls from the bird's wing.	一片柔软的羽毛从鸟的翅膀上落下。
+cage	Unit 5	笼子	n	The bird flies out of the open cage.	鸟从开着门的笼子里飞出来。
+key	Unit 5	钥匙	n	This small key opens the garden gate.	这把小钥匙能打开花园的门。
+beautiful	Unit 5	漂亮的	adj	The peacock has a beautiful, colourful tail.	这只孔雀有一条漂亮的彩色尾巴。
+ugly	Unit 5	难看的	adj	The old bin looks ugly beside the flowers.	这个旧垃圾桶放在花丛旁显得很难看。
+clean	Unit 5	干净的	adj	My hands are clean after I wash them.	我的手洗过以后很干净。
+dirty	Unit 5	脏的	adj	My shoes are dirty after walking in mud.	走过泥地后，我的鞋子脏了。
+hard	Unit 5	坚硬的	adj	The turtle has a hard shell.	这只乌龟有一个坚硬的壳。
+soft	Unit 5	柔软的	adj	The rabbit has soft, white fur.	这只兔子有柔软的白毛。
+rough	Unit 5	粗糙的	adj	The tree's bark feels rough under my fingers.	树皮在我的指尖摸起来很粗糙。
+smooth	Unit 5	光滑的	adj	This stone feels smooth in my hand.	这块石头拿在手里摸起来很光滑。
+rich	Unit 5	富有的	adj	The rich emperor has a palace full of gold.	富有的皇帝有一座满是黄金的宫殿。
+ill	Unit 5	生病的	adj	My brother is ill, so he rests in bed.	我弟弟生病了，所以他卧床休息。
+free	Unit 5	自由的	adj	The bird is free to leave its cage.	这只鸟可以自由地离开笼子。
+fly	Unit 5	飞	v	The birds fly across the bright blue sky.	鸟儿飞过明亮的蓝天。
+give	Unit 5	给	v	I give my sister a birthday card.	我给妹妹一张生日卡。
+keep	Unit 5	保留	v	You can keep this card to remember our trip.	你可以保留这张卡片，作为旅行的纪念。
+take	Unit 5	拿走	v	Please take these empty plates away.	请把这些空盘子拿走。
+wear	Unit 5	穿	v	I wear a warm coat in winter.	我冬天穿一件暖和的外套。
+read	Unit 5	阅读	v	We read a story together before bed.	我们睡前一起读一个故事。
+sing	Unit 5	唱歌	v	We sing a song for Grandma's birthday.	我们为奶奶的生日唱一首歌。
+return	Unit 5	返回	v	The birds return to their nest at sunset.	鸟儿在日落时返回鸟巢。
+toy bird	Unit 5	玩具鸟	n	My toy bird sings when I press its wing.	我按玩具鸟的翅膀时，它会唱歌。
+
 # Unit 6 · A bad day
+fly a kite	Unit 6	放风筝	v	Let's fly a kite in the open field.	我们去空旷的田野里放风筝吧。
+ride a bicycle	Unit 6	骑自行车	v	I ride a bicycle along the park path.	我沿着公园的小路骑自行车。
+have a barbecue	Unit 6	烧烤	v	We have a barbecue with our neighbours.	我们和邻居们一起烧烤。
+light a fire	Unit 6	生火	v	The adults light a fire for the barbecue.	大人们为烧烤生火。
+sunny	Unit 6	晴朗的	adj	It is sunny, so we play outside.	天气晴朗，所以我们在外面玩。
+cool	Unit 6	凉爽的	adj	The evening air feels cool on my face.	傍晚的空气吹在我脸上，感觉凉爽。
+wind	Unit 6	风	n	The wind blows my hat off.	风把我的帽子吹掉了。
+bright sky	Unit 6	明亮的天空	n	White clouds float across the bright sky.	白云飘过明亮的天空。
+honey	Unit 6	蜂蜜	n	Bees make honey, which tastes very sweet.	蜜蜂酿造蜂蜜，蜂蜜尝起来很甜。
+bee	Unit 6	蜜蜂	n	A bee lands on a yellow flower.	一只蜜蜂落在一朵黄花上。
+dark	Unit 6	黑暗的	adj	The room is dark, so I turn on a light.	房间里很暗，所以我打开一盏灯。
+rain	Unit 6	雨	n	The rain makes little puddles on the path.	雨在小路上形成了小水坑。
+wet	Unit 6	湿的	adj	My socks are wet after the rain.	下雨后，我的袜子湿了。
+hungry	Unit 6	饥饿的	adj	I feel hungry after playing football.	踢完足球后，我觉得饿了。
+chase birds	Unit 6	追鸟	v	Please do not chase birds in the park.	请不要在公园里追鸟。
+hear loud noises	Unit 6	听到巨响	v	We hear loud noises from the building site.	我们听到建筑工地传来巨响。
+pack things	Unit 6	收拾东西	v	We pack things into bags before going home.	我们回家前把东西收拾进袋子里。
+play hide-and-seek	Unit 6	玩捉迷藏	v	We play hide-and-seek in Grandma's garden.	我们在奶奶的花园里玩捉迷藏。
+prepare food	Unit 6	准备食物	v	We prepare food for our picnic together.	我们一起为野餐准备食物。

@@ -90,6 +90,20 @@ describe("resolveWord", () => {
     expect(r.enrichStatus).toBe("pending");
   });
 
+  it("ignores English placeholders in complete local records and packs", async () => {
+    const local: WordRecord = { id: "cat", lemma: "cat", display: "cat", ipa: null,
+      meaningZh: "cat", pos: "n", examples: [], sources: [], enrichStatus: "complete",
+      createdAt: "", updatedAt: "" };
+    const packs = [{ id: "bad", title: "bad", curriculum: "other", grade: "", volume: "",
+      language: "en" as const, version: 1 as const,
+      words: [{ word: "cat", ipa: "", pos: "n", zh: "cat", examples: [], unit: "" }] }];
+    const result = await resolveWord("cat", { local: [local], dictCore: [], packs,
+      dictLookup: fakeLookup({ cat: { lemma: "cat", display: "cat", ipa: "", pos: "n", zh: "猫" } }) });
+    expect(result).toMatchObject({ source: "dict-lookup", meaningZh: "猫", enrichStatus: "complete" });
+    const missing = await resolveWord("cat", { local: [local], dictCore: [], packs });
+    expect(missing).toMatchObject({ meaningZh: "", enrichStatus: "pending" });
+  });
+
   it("hits dict-lookup without ai", async () => {
     const r = await resolveWord(
       "hedgehog",

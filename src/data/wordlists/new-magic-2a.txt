@@ -1,29 +1,124 @@
-# New Magic / 启思英语 2A · PARTIAL（单元名来自绘本宝 TOC；词极少）
-# 词：New Magic 2A 标题教案 / 新启翔介绍页点名的核心词。不要把沪教牛津 picnic 表混进来。
-# Format: English word	Unit N
+# New Magic / 启思英语 2A · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
 
 # Unit 1 · A day out
-park	Unit 1
-beach	Unit 1
-sea	Unit 1
-picnic	Unit 1
-games	Unit 1
-swim	Unit 1
+cinema	Unit 1	电影院	n
+park	Unit 1	公园	n
+supermarket	Unit 1	超市	n
+swimming pool	Unit 1	游泳池	n
+cake shop	Unit 1	蛋糕店	n
+bus stop	Unit 1	公共汽车站	n
+clinic	Unit 1	诊所	n
+fountain	Unit 1	喷泉	n
+school	Unit 1	学校	n
+mountain	Unit 1	山	n
+in front of	Unit 1	在……前面	prep
+behind	Unit 1	在……后面	prep
+near	Unit 1	在……附近	prep
 
 # Unit 2 · Let's go!
-father	Unit 2
-mother	Unit 2
-brother	Unit 2
-sister	Unit 2
+by bicycle	Unit 2	骑自行车	expr
+by bus	Unit 2	乘公共汽车	expr
+by car	Unit 2	乘小汽车	expr
+by ferry	Unit 2	乘渡轮	expr
+by minibus	Unit 2	乘小巴	expr
+by taxi	Unit 2	乘出租车	expr
+by underground	Unit 2	乘地铁	expr
+on foot	Unit 2	步行	expr
+birthday party	Unit 2	生日聚会	n
+live	Unit 2	居住	v
+island	Unit 2	岛屿	n
+city	Unit 2	城市	n
 
 # Unit 3 · Our school
-school	Unit 3
+art room	Unit 3	美术室	n
+computer room	Unit 3	电脑室	n
+hall	Unit 3	礼堂	n
+tuck shop	Unit 3	学校小卖部	n
+playground	Unit 3	操场	n
+classroom	Unit 3	教室	n
+music room	Unit 3	音乐室	n
+library	Unit 3	图书馆	n
+garden	Unit 3	花园	n
+activity room	Unit 3	活动室	n
+staff room	Unit 3	教员室	n
+buy snacks	Unit 3	买零食	v
+draw pictures	Unit 3	画画	v
+have computer lessons	Unit 3	上电脑课	v
+have lessons	Unit 3	上课	v
+play games	Unit 3	玩游戏	v
+read books	Unit 3	读书	v
+sing songs	Unit 3	唱歌	v
+watch shows	Unit 3	看表演	v
+meet teachers	Unit 3	见老师	v
+plant flowers	Unit 3	种花	v
+do activities	Unit 3	参加活动	v
+ground floor	Unit 3	底层	n
+first floor	Unit 3	一楼	n
+second floor	Unit 3	二楼	n
+third floor	Unit 3	三楼	n
+fourth floor	Unit 3	四楼	n
+fifth floor	Unit 3	五楼	n
 
 # Unit 4 · Our new flat
-# （公开页只有单元名）
+bathroom	Unit 4	浴室	n
+bedroom	Unit 4	卧室	n
+kitchen	Unit 4	厨房	n
+sitting room	Unit 4	客厅	n
+dining room	Unit 4	饭厅	n
+storeroom	Unit 4	储物室	n
+study	Unit 4	书房	n
+clean the windows	Unit 4	擦窗户	v
+clean the table	Unit 4	擦桌子	v
+dust the shelves	Unit 4	给架子除尘	v
+fold the clothes	Unit 4	叠衣服	v
+make the bed	Unit 4	整理床铺	v
+sweep the floor	Unit 4	扫地	v
+set the table	Unit 4	摆餐桌	v
+water the plants	Unit 4	给植物浇水	v
+wash the dishes	Unit 4	洗碗	v
+cook	Unit 4	做饭	v
+feed the dog	Unit 4	喂狗	v
 
 # Unit 5 · School picnic
-picnic	Unit 5
+raincoat	Unit 5	雨衣	n
+watch	Unit 5	手表	n
+water bottle	Unit 5	水瓶	n
+sandwich	Unit 5	三明治	n
+magazine	Unit 5	杂志	n
+ball	Unit 5	球	n
+umbrella	Unit 5	雨伞	n
+cap	Unit 5	帽子	n
+sunglasses	Unit 5	太阳镜	n
+gloves	Unit 5	手套	n
+scarf	Unit 5	围巾	n
+key ring	Unit 5	钥匙扣	n
+beach	Unit 5	海滩	n
+picnic	Unit 5	野餐	n
 
 # Unit 6 · The Honest Woodcutter
-# （公开页只有单元名）
+axe	Unit 6	斧头	n
+hill	Unit 6	小山	n
+river	Unit 6	河流	n
+woodcutter	Unit 6	樵夫	n
+fairy	Unit 6	仙女	n
+gold axe	Unit 6	金斧头	n
+silver axe	Unit 6	银斧头	n
+wooden axe	Unit 6	木斧头	n
+angry	Unit 6	生气的	adj
+friendly	Unit 6	友善的	adj
+greedy	Unit 6	贪心的	adj
+honest	Unit 6	诚实的	adj
+hard-working	Unit 6	勤劳的	adj
+lazy	Unit 6	懒惰的	adj
+polite	Unit 6	有礼貌的	adj
+rude	Unit 6	粗鲁的	adj
+sad	Unit 6	难过的	adj
+happy	Unit 6	开心的	adj
+go up	Unit 6	上升	v
+go down	Unit 6	下降	v
+drop	Unit 6	掉落	v
+walk	Unit 6	走路	v
+help	Unit 6	帮助	v

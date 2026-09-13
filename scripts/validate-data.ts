@@ -2,6 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { lemmaOf, type DictCore, type DictLookup, type WordPack } from "../src/lib/types.ts";
+import { hasChineseMeaning } from "../src/lib/word-quality.ts";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 let failed = 0;
@@ -23,6 +24,7 @@ function checkWord(
   seen.add(lemma);
   if (!w.ipa) fail(`${label} ${lemma}: empty ipa`);
   if (!zh) fail(`${label} ${lemma}: empty zh`);
+  else if (!hasChineseMeaning(zh)) fail(`${label} ${lemma}: zh must contain Chinese, got ${zh}`);
   if (zh.length > 16) fail(`${label} ${lemma}: zh too long`);
   if (!w.examples?.length) fail(`${label} ${lemma}: no examples`);
 }

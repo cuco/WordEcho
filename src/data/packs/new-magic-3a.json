@@ -1,0 +1,1999 @@
+{
+  "id": "new-magic-3a",
+  "title": "New Magic 3A（学生书核验）",
+  "curriculum": "new-magic",
+  "grade": "3A",
+  "volume": "Book 3A",
+  "language": "en",
+  "version": 1,
+  "words": [
+    {
+      "word": "Art",
+      "lemma": "art",
+      "ipa": "/ɑ:t/",
+      "pos": "n",
+      "zh": "美术",
+      "examples": [
+        {
+          "en": "We paint pictures in Art class.",
+          "zh": "我们在美术课上画画。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Chinese",
+      "lemma": "chinese",
+      "ipa": "/ˌtʃaɪˈniːz/",
+      "pos": "n",
+      "zh": "语文",
+      "examples": [
+        {
+          "en": "We read a poem in Chinese class.",
+          "zh": "我们在语文课上读一首诗。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Computer Studies",
+      "lemma": "computer studies",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "电脑课",
+      "examples": [
+        {
+          "en": "We use computers in Computer Studies class.",
+          "zh": "我们在电脑课上使用电脑。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "English",
+      "lemma": "english",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "pos": "n",
+      "zh": "英语",
+      "examples": [
+        {
+          "en": "I speak English with my teacher.",
+          "zh": "我和老师说英语。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Maths",
+      "lemma": "maths",
+      "ipa": "/mæθs/",
+      "pos": "n",
+      "zh": "数学",
+      "examples": [
+        {
+          "en": "We learn about numbers in Maths class.",
+          "zh": "我们在数学课上学习数字。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Music",
+      "lemma": "music",
+      "ipa": "/'mju:zik/",
+      "pos": "n",
+      "zh": "音乐",
+      "examples": [
+        {
+          "en": "We sing together in Music class.",
+          "zh": "我们在音乐课上一起唱歌。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "PE",
+      "lemma": "pe",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "体育",
+      "examples": [
+        {
+          "en": "We play basketball in PE class.",
+          "zh": "我们在体育课上打篮球。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "Science",
+      "lemma": "science",
+      "ipa": "/'saiәns/",
+      "pos": "n",
+      "zh": "科学",
+      "examples": [
+        {
+          "en": "We learn about plants in Science class.",
+          "zh": "我们在科学课上学习有关植物的知识。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "interesting",
+      "lemma": "interesting",
+      "ipa": "/'intristiŋ/",
+      "pos": "adj",
+      "zh": "有趣的",
+      "examples": [
+        {
+          "en": "This story about a dragon is interesting.",
+          "zh": "这个关于龙的故事很有趣。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "good at",
+      "lemma": "good at",
+      "ipa": "/–/",
+      "pos": "expr",
+      "zh": "擅长",
+      "examples": [
+        {
+          "en": "My sister is good at drawing cats.",
+          "zh": "我姐姐擅长画猫。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "weak in",
+      "lemma": "weak in",
+      "ipa": "/–/",
+      "pos": "expr",
+      "zh": "不擅长",
+      "examples": [
+        {
+          "en": "I am weak in Maths, so I practise daily.",
+          "zh": "我不擅长数学，所以我每天练习。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "subject",
+      "lemma": "subject",
+      "ipa": "/'sʌbdʒekt/",
+      "pos": "n",
+      "zh": "学科",
+      "examples": [
+        {
+          "en": "English is my favourite subject at school.",
+          "zh": "英语是我在学校最喜欢的学科。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "survey",
+      "lemma": "survey",
+      "ipa": "/sә'vei/",
+      "pos": "n",
+      "zh": "调查",
+      "examples": [
+        {
+          "en": "Our class does a survey about favourite subjects.",
+          "zh": "我们班做了一项关于最喜欢的学科的调查。"
+        }
+      ],
+      "unit": "Unit 1"
+    },
+    {
+      "word": "magazine",
+      "lemma": "magazine",
+      "ipa": "/.mægә'zi:n/",
+      "pos": "n",
+      "zh": "杂志",
+      "examples": [
+        {
+          "en": "Grandpa reads a magazine about animals.",
+          "zh": "爷爷在读一本关于动物的杂志。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "T-shirt",
+      "lemma": "t-shirt",
+      "ipa": "/'ti:,ʃә:t/",
+      "pos": "n",
+      "zh": "T恤衫",
+      "examples": [
+        {
+          "en": "My blue T-shirt has a star on it.",
+          "zh": "我的蓝色T恤衫上有一颗星星。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "puzzle",
+      "lemma": "puzzle",
+      "ipa": "/'pʌzl/",
+      "pos": "n",
+      "zh": "拼图",
+      "examples": [
+        {
+          "en": "Let's put the pieces of this puzzle together.",
+          "zh": "我们把这幅拼图的碎片拼起来吧。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sweets",
+      "lemma": "sweets",
+      "ipa": "/swi:t/",
+      "pos": "n",
+      "zh": "糖果",
+      "examples": [
+        {
+          "en": "There are three sweets in the bag.",
+          "zh": "袋子里有三颗糖果。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "shoes",
+      "lemma": "shoes",
+      "ipa": "/ʃu:/",
+      "pos": "n",
+      "zh": "鞋子",
+      "examples": [
+        {
+          "en": "Please take off your shoes at the door.",
+          "zh": "请在门口脱鞋。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "key ring",
+      "lemma": "key ring",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "钥匙扣",
+      "examples": [
+        {
+          "en": "A little bear hangs from my key ring.",
+          "zh": "我的钥匙扣上挂着一只小熊。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "leather shoes",
+      "lemma": "leather shoes",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "皮鞋",
+      "examples": [
+        {
+          "en": "Dad wears black leather shoes to work.",
+          "zh": "爸爸穿黑色皮鞋去上班。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "doll",
+      "lemma": "doll",
+      "ipa": "/dɒl/",
+      "pos": "n",
+      "zh": "玩偶",
+      "examples": [
+        {
+          "en": "My doll has long hair and blue eyes.",
+          "zh": "我的玩偶有长头发和蓝眼睛。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "ice cream",
+      "lemma": "ice cream",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "冰淇淋",
+      "examples": [
+        {
+          "en": "My ice cream melts in the sun.",
+          "zh": "我的冰淇淋在太阳下融化了。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "trainers",
+      "lemma": "trainers",
+      "ipa": "/'treinә/",
+      "pos": "n",
+      "zh": "运动鞋",
+      "examples": [
+        {
+          "en": "I wear trainers when I play tennis.",
+          "zh": "我打网球时穿运动鞋。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "hamburger",
+      "lemma": "hamburger",
+      "ipa": "/'hæmbә:gә/",
+      "pos": "n",
+      "zh": "汉堡包",
+      "examples": [
+        {
+          "en": "There is some cheese in my hamburger.",
+          "zh": "我的汉堡包里有一些奶酪。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "bookshop",
+      "lemma": "bookshop",
+      "ipa": "/'bukʃɒp/",
+      "pos": "n",
+      "zh": "书店",
+      "examples": [
+        {
+          "en": "We buy a storybook at the bookshop.",
+          "zh": "我们在书店买一本故事书。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "clothes shop",
+      "lemma": "clothes shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "服装店",
+      "examples": [
+        {
+          "en": "Mum tries on a coat in the clothes shop.",
+          "zh": "妈妈在服装店试穿一件外套。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "fast food shop",
+      "lemma": "fast food shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "快餐店",
+      "examples": [
+        {
+          "en": "We order burgers at the fast food shop.",
+          "zh": "我们在快餐店点汉堡包。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "gift shop",
+      "lemma": "gift shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "礼品店",
+      "examples": [
+        {
+          "en": "I choose a postcard in the gift shop.",
+          "zh": "我在礼品店挑选一张明信片。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "restaurant",
+      "lemma": "restaurant",
+      "ipa": "/'restәrɒŋ/",
+      "pos": "n",
+      "zh": "餐馆",
+      "examples": [
+        {
+          "en": "The waiter brings our food in the restaurant.",
+          "zh": "服务员在餐馆里把我们的食物端来。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "shoe shop",
+      "lemma": "shoe shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "鞋店",
+      "examples": [
+        {
+          "en": "These boots are from the new shoe shop.",
+          "zh": "这双靴子是在新开的鞋店买的。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sweet shop",
+      "lemma": "sweet shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "糖果店",
+      "examples": [
+        {
+          "en": "The sweet shop sells colourful lollipops.",
+          "zh": "这家糖果店卖五颜六色的棒棒糖。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "toy shop",
+      "lemma": "toy shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "玩具店",
+      "examples": [
+        {
+          "en": "A big teddy bear stands outside the toy shop.",
+          "zh": "玩具店外面立着一只大泰迪熊。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "cinema",
+      "lemma": "cinema",
+      "ipa": "/'sinәmә/",
+      "pos": "n",
+      "zh": "电影院",
+      "examples": [
+        {
+          "en": "We watch a funny film at the cinema.",
+          "zh": "我们在电影院看一部有趣的电影。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "sports shop",
+      "lemma": "sports shop",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "体育用品店",
+      "examples": [
+        {
+          "en": "Dad buys a football at the sports shop.",
+          "zh": "爸爸在体育用品店买一个足球。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "shopping centre",
+      "lemma": "shopping centre",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "购物中心",
+      "examples": [
+        {
+          "en": "The shopping centre has many different shops.",
+          "zh": "这座购物中心有许多不同的商店。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "buy",
+      "lemma": "buy",
+      "ipa": "/bai/",
+      "pos": "v",
+      "zh": "购买",
+      "examples": [
+        {
+          "en": "I want to buy a present for Mum.",
+          "zh": "我想给妈妈买一份礼物。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "have lunch",
+      "lemma": "have lunch",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "吃午饭",
+      "examples": [
+        {
+          "en": "We have lunch in the school hall.",
+          "zh": "我们在学校礼堂吃午饭。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "have dinner",
+      "lemma": "have dinner",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "吃晚饭",
+      "examples": [
+        {
+          "en": "We have dinner together at six o'clock.",
+          "zh": "我们六点钟一起吃晚饭。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "watch a film",
+      "lemma": "watch a film",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "看电影",
+      "examples": [
+        {
+          "en": "Let's watch a film after dinner.",
+          "zh": "我们晚饭后看部电影吧。"
+        }
+      ],
+      "unit": "Unit 2"
+    },
+    {
+      "word": "walk on the grass",
+      "lemma": "walk on the grass",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "在草地上走",
+      "examples": [
+        {
+          "en": "Please do not walk on the grass here.",
+          "zh": "请不要在这里的草地上走。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "climb trees",
+      "lemma": "climb trees",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "爬树",
+      "examples": [
+        {
+          "en": "Monkeys can climb trees very quickly.",
+          "zh": "猴子爬树爬得很快。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "play ball games",
+      "lemma": "play ball games",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "玩球类游戏",
+      "examples": [
+        {
+          "en": "We play ball games in the playground.",
+          "zh": "我们在操场上玩球类游戏。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "litter",
+      "lemma": "litter",
+      "ipa": "/'litә/",
+      "pos": "v",
+      "zh": "乱扔垃圾",
+      "examples": [
+        {
+          "en": "Please do not litter in the park.",
+          "zh": "请不要在公园里乱扔垃圾。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "ride a bicycle",
+      "lemma": "ride a bicycle",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "骑自行车",
+      "examples": [
+        {
+          "en": "I can ride a bicycle without any help.",
+          "zh": "我不用别人帮忙就会骑自行车。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "pick flowers",
+      "lemma": "pick flowers",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "摘花",
+      "examples": [
+        {
+          "en": "We must not pick flowers in this garden.",
+          "zh": "我们不能摘这座花园里的花。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "feed the fish",
+      "lemma": "feed the fish",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "喂鱼",
+      "examples": [
+        {
+          "en": "I feed the fish a little every morning.",
+          "zh": "我每天早上给鱼喂一点食物。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "take photos",
+      "lemma": "take photos",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "拍照",
+      "examples": [
+        {
+          "en": "May I take photos of these butterflies?",
+          "zh": "我可以给这些蝴蝶拍照吗？"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "fly a kite",
+      "lemma": "fly a kite",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "放风筝",
+      "examples": [
+        {
+          "en": "We fly a kite on windy days.",
+          "zh": "我们在有风的日子里放风筝。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "swim",
+      "lemma": "swim",
+      "ipa": "/swɪm/",
+      "pos": "v",
+      "zh": "游泳",
+      "examples": [
+        {
+          "en": "I swim in the pool with Dad.",
+          "zh": "我和爸爸在游泳池里游泳。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "talk on the phone",
+      "lemma": "talk on the phone",
+      "ipa": "/–/",
+      "pos": "v",
+      "zh": "打电话",
+      "examples": [
+        {
+          "en": "Please do not talk on the phone here.",
+          "zh": "请不要在这里打电话。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "may",
+      "lemma": "may",
+      "ipa": "/mei/",
+      "pos": "modal",
+      "zh": "可以",
+      "examples": [
+        {
+          "en": "May I borrow your blue pencil, please?",
+          "zh": "请问我可以借用你的蓝色铅笔吗？"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "may not",
+      "lemma": "may not",
+      "ipa": "/–/",
+      "pos": "modal",
+      "zh": "不可以",
+      "examples": [
+        {
+          "en": "You may not eat in the library.",
+          "zh": "你不可以在图书馆里吃东西。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "sign",
+      "lemma": "sign",
+      "ipa": "/sain/",
+      "pos": "n",
+      "zh": "标志",
+      "examples": [
+        {
+          "en": "The sign says we must not feed the ducks.",
+          "zh": "这个标志告诉我们不能喂鸭子。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "park",
+      "lemma": "park",
+      "ipa": "/pɑːk/",
+      "pos": "n",
+      "zh": "公园",
+      "examples": [
+        {
+          "en": "We walk our dog in the park.",
+          "zh": "我们在公园里遛狗。"
+        }
+      ],
+      "unit": "Unit 3"
+    },
+    {
+      "word": "January",
+      "lemma": "january",
+      "ipa": "/'dʒænjuәri/",
+      "pos": "n",
+      "zh": "一月",
+      "examples": [
+        {
+          "en": "January is the first month of the year.",
+          "zh": "一月是一年中的第一个月。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "February",
+      "lemma": "february",
+      "ipa": "/'februәri/",
+      "pos": "n",
+      "zh": "二月",
+      "examples": [
+        {
+          "en": "February is shorter than the other months.",
+          "zh": "二月比其他月份短。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "March",
+      "lemma": "march",
+      "ipa": "/mɑ:tʃ/",
+      "pos": "n",
+      "zh": "三月",
+      "examples": [
+        {
+          "en": "My baby brother's birthday is in March.",
+          "zh": "我小弟弟的生日在三月。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "April",
+      "lemma": "april",
+      "ipa": "/'eiprәl/",
+      "pos": "n",
+      "zh": "四月",
+      "examples": [
+        {
+          "en": "Our school picnic is in April.",
+          "zh": "我们学校的野餐在四月。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "June",
+      "lemma": "june",
+      "ipa": "/dʒu:n/",
+      "pos": "n",
+      "zh": "六月",
+      "examples": [
+        {
+          "en": "We have a swimming lesson in June.",
+          "zh": "我们六月有一节游泳课。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "July",
+      "lemma": "july",
+      "ipa": "/dʒu:'lai/",
+      "pos": "n",
+      "zh": "七月",
+      "examples": [
+        {
+          "en": "I visit my cousins in July.",
+          "zh": "我七月去看望我的表兄妹。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "August",
+      "lemma": "august",
+      "ipa": "/ɒ:'gʌst. 'ɒ:gәst/",
+      "pos": "n",
+      "zh": "八月",
+      "examples": [
+        {
+          "en": "We go to the beach in August.",
+          "zh": "我们八月去海滩。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "September",
+      "lemma": "september",
+      "ipa": "/sep'tembә/",
+      "pos": "n",
+      "zh": "九月",
+      "examples": [
+        {
+          "en": "Our new school year starts in September.",
+          "zh": "我们的新学年在九月开始。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "October",
+      "lemma": "october",
+      "ipa": "/ɒk'tәubә/",
+      "pos": "n",
+      "zh": "十月",
+      "examples": [
+        {
+          "en": "Halloween is on the last day of October.",
+          "zh": "万圣节在十月的最后一天。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "November",
+      "lemma": "november",
+      "ipa": "/nәu'vembә/",
+      "pos": "n",
+      "zh": "十一月",
+      "examples": [
+        {
+          "en": "My grandmother's birthday is in November.",
+          "zh": "我奶奶的生日在十一月。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "December",
+      "lemma": "december",
+      "ipa": "/di'sembә/",
+      "pos": "n",
+      "zh": "十二月",
+      "examples": [
+        {
+          "en": "We put up Christmas decorations in December.",
+          "zh": "我们十二月挂上圣诞装饰。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "Christmas",
+      "lemma": "christmas",
+      "ipa": "/'krismәs/",
+      "pos": "n",
+      "zh": "圣诞节",
+      "examples": [
+        {
+          "en": "We decorate a tree for Christmas.",
+          "zh": "我们为圣诞节装饰一棵树。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "Halloween",
+      "lemma": "halloween",
+      "ipa": "/.hælәu'i:n/",
+      "pos": "n",
+      "zh": "万圣节",
+      "examples": [
+        {
+          "en": "I dress up as a cat for Halloween.",
+          "zh": "我在万圣节装扮成一只猫。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "Dragon Boat Festival",
+      "lemma": "dragon boat festival",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "端午节",
+      "examples": [
+        {
+          "en": "We watch races during the Dragon Boat Festival.",
+          "zh": "我们在端午节看比赛。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "Easter",
+      "lemma": "easter",
+      "ipa": "/'i:stә/",
+      "pos": "n",
+      "zh": "复活节",
+      "examples": [
+        {
+          "en": "We paint colourful eggs at Easter.",
+          "zh": "我们在复活节给鸡蛋涂上各种颜色。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "Chinese New Year",
+      "lemma": "chinese new year",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "春节",
+      "examples": [
+        {
+          "en": "Our family gets together at Chinese New Year.",
+          "zh": "我们一家人在春节团聚。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "first",
+      "lemma": "first",
+      "ipa": "/fә:st/",
+      "pos": "ord",
+      "zh": "第一",
+      "examples": [
+        {
+          "en": "Please write your name on the first page.",
+          "zh": "请在第一页写上你的名字。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "ipa": "/'sekәnd/",
+      "pos": "ord",
+      "zh": "第二",
+      "examples": [
+        {
+          "en": "My classroom is on the second floor.",
+          "zh": "我的教室在二楼。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "third",
+      "lemma": "third",
+      "ipa": "/θә:d/",
+      "pos": "ord",
+      "zh": "第三",
+      "examples": [
+        {
+          "en": "I finish third in the running race.",
+          "zh": "我在跑步比赛中获得第三名。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "fourth",
+      "lemma": "fourth",
+      "ipa": "/fɒ:θ/",
+      "pos": "ord",
+      "zh": "第四",
+      "examples": [
+        {
+          "en": "The fourth duck in the line is small.",
+          "zh": "队伍里的第四只鸭子很小。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "fifth",
+      "lemma": "fifth",
+      "ipa": "/fifθ/",
+      "pos": "ord",
+      "zh": "第五",
+      "examples": [
+        {
+          "en": "May is the fifth month of the year.",
+          "zh": "五月是一年中的第五个月。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "sixth",
+      "lemma": "sixth",
+      "ipa": "/siksθ/",
+      "pos": "ord",
+      "zh": "第六",
+      "examples": [
+        {
+          "en": "Today is my little brother's sixth birthday.",
+          "zh": "今天是我小弟弟的六岁生日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "seventh",
+      "lemma": "seventh",
+      "ipa": "/'sevnθ/",
+      "pos": "ord",
+      "zh": "第七",
+      "examples": [
+        {
+          "en": "My name is seventh on the list.",
+          "zh": "我的名字在名单上排第七。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "thirteenth",
+      "lemma": "thirteenth",
+      "ipa": "/'θә:ti:nθ/",
+      "pos": "ord",
+      "zh": "第十三",
+      "examples": [
+        {
+          "en": "Our class photo is on the thirteenth page.",
+          "zh": "我们的班级合照在第十三页。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "fourteenth",
+      "lemma": "fourteenth",
+      "ipa": "/'fɒ:'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十四",
+      "examples": [
+        {
+          "en": "Our picnic is on the fourteenth of April.",
+          "zh": "我们的野餐在四月十四日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "fifteenth",
+      "lemma": "fifteenth",
+      "ipa": "/'fif'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十五",
+      "examples": [
+        {
+          "en": "Please read the fifteenth word on the board.",
+          "zh": "请读黑板上的第十五个单词。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "sixteenth",
+      "lemma": "sixteenth",
+      "ipa": "/'siks'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十六",
+      "examples": [
+        {
+          "en": "The sixteenth runner is wearing a red shirt.",
+          "zh": "第十六位跑步选手穿着红色衬衫。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "seventeenth",
+      "lemma": "seventeenth",
+      "ipa": "/sevn'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十七",
+      "examples": [
+        {
+          "en": "My cousin lives on the seventeenth floor.",
+          "zh": "我的表哥住在十七楼。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "eighteenth",
+      "lemma": "eighteenth",
+      "ipa": "/ei'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十八",
+      "examples": [
+        {
+          "en": "This is the eighteenth book on my reading list.",
+          "zh": "这是我的阅读书单上的第十八本书。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "nineteenth",
+      "lemma": "nineteenth",
+      "ipa": "/.nain'ti:nθ/",
+      "pos": "ord",
+      "zh": "第十九",
+      "examples": [
+        {
+          "en": "The nineteenth box has a yellow lid.",
+          "zh": "第十九个盒子有一个黄色的盖子。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twentieth",
+      "lemma": "twentieth",
+      "ipa": "/'twentiiθ/",
+      "pos": "ord",
+      "zh": "第二十",
+      "examples": [
+        {
+          "en": "The contest is on the twentieth of June.",
+          "zh": "比赛在六月二十日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twenty-first",
+      "lemma": "twenty-first",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第二十一",
+      "examples": [
+        {
+          "en": "The twenty-first child in the queue is Tom.",
+          "zh": "队伍里的第二十一个孩子是汤姆。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twenty-second",
+      "lemma": "twenty-second",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第二十二",
+      "examples": [
+        {
+          "en": "Circle the twenty-second number on the page.",
+          "zh": "圈出这一页上的第二十二个数字。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twenty-third",
+      "lemma": "twenty-third",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第二十三",
+      "examples": [
+        {
+          "en": "My birthday is on the twenty-third of July.",
+          "zh": "我的生日在七月二十三日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twenty-fourth",
+      "lemma": "twenty-fourth",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第二十四",
+      "examples": [
+        {
+          "en": "The twenty-fourth seat is next to the window.",
+          "zh": "第二十四个座位在窗户旁边。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "twenty-fifth",
+      "lemma": "twenty-fifth",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第二十五",
+      "examples": [
+        {
+          "en": "Christmas is on the twenty-fifth of December.",
+          "zh": "圣诞节在十二月二十五日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "thirtieth",
+      "lemma": "thirtieth",
+      "ipa": "/'θә:tiiθ/",
+      "pos": "ord",
+      "zh": "第三十",
+      "examples": [
+        {
+          "en": "Our holiday starts on the thirtieth of July.",
+          "zh": "我们的假期在七月三十日开始。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "thirty-first",
+      "lemma": "thirty-first",
+      "ipa": "/–/",
+      "pos": "ord",
+      "zh": "第三十一",
+      "examples": [
+        {
+          "en": "Halloween is on the thirty-first of October.",
+          "zh": "万圣节在十月三十一日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "school picnic",
+      "lemma": "school picnic",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "学校野餐",
+      "examples": [
+        {
+          "en": "We bring sandwiches to the school picnic.",
+          "zh": "我们带三明治去参加学校野餐。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "school games",
+      "lemma": "school games",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "学校运动会",
+      "examples": [
+        {
+          "en": "Our team wins a race at the school games.",
+          "zh": "我们队在学校运动会上赢了一场赛跑。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "school open day",
+      "lemma": "school open day",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "学校开放日",
+      "examples": [
+        {
+          "en": "Parents visit our classroom on school open day.",
+          "zh": "家长们在学校开放日参观我们的教室。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "parents' day",
+      "lemma": "parents' day",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "家长日",
+      "examples": [
+        {
+          "en": "Mum meets my teacher on parents' day.",
+          "zh": "妈妈在家长日和我的老师见面。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "contest",
+      "lemma": "contest",
+      "ipa": "/'kɒntest/",
+      "pos": "n",
+      "zh": "比赛",
+      "examples": [
+        {
+          "en": "My sister enters a singing contest.",
+          "zh": "我姐姐参加一个歌唱比赛。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "prize-giving",
+      "lemma": "prize-giving",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "颁奖礼",
+      "examples": [
+        {
+          "en": "The winners receive medals at the prize-giving.",
+          "zh": "获胜者在颁奖礼上领取奖牌。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "holiday",
+      "lemma": "holiday",
+      "ipa": "/'hɒlәdi/",
+      "pos": "n",
+      "zh": "假期",
+      "examples": [
+        {
+          "en": "We visit Grandma during the summer holiday.",
+          "zh": "我们在暑假期间去看望奶奶。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "calendar",
+      "lemma": "calendar",
+      "ipa": "/'kælindә/",
+      "pos": "n",
+      "zh": "日历",
+      "examples": [
+        {
+          "en": "I mark my birthday on the calendar.",
+          "zh": "我在日历上标出我的生日。"
+        }
+      ],
+      "unit": "Unit 4"
+    },
+    {
+      "word": "sugar",
+      "lemma": "sugar",
+      "ipa": "/'ʃugә/",
+      "pos": "n",
+      "zh": "糖",
+      "examples": [
+        {
+          "en": "Please add a little sugar to the tea.",
+          "zh": "请往茶里加一点糖。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "soy sauce",
+      "lemma": "soy sauce",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "酱油",
+      "examples": [
+        {
+          "en": "Dad adds soy sauce to the noodles.",
+          "zh": "爸爸往面条里加酱油。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "chicken",
+      "lemma": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "pos": "n",
+      "zh": "鸡肉",
+      "examples": [
+        {
+          "en": "We have chicken and rice for dinner.",
+          "zh": "我们晚饭吃鸡肉和米饭。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "salt",
+      "lemma": "salt",
+      "ipa": "/sɒ:lt/",
+      "pos": "n",
+      "zh": "盐",
+      "examples": [
+        {
+          "en": "This soup needs a little more salt.",
+          "zh": "这碗汤需要再加一点盐。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "pork",
+      "lemma": "pork",
+      "ipa": "/pɒ:k/",
+      "pos": "n",
+      "zh": "猪肉",
+      "examples": [
+        {
+          "en": "Mum cooks some pork with carrots.",
+          "zh": "妈妈用胡萝卜烧了一些猪肉。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "sausage",
+      "lemma": "sausage",
+      "ipa": "/'sɒsidʒ/",
+      "pos": "n",
+      "zh": "香肠",
+      "examples": [
+        {
+          "en": "There is a sausage on my plate.",
+          "zh": "我的盘子里有一根香肠。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "chilli",
+      "lemma": "chilli",
+      "ipa": "/'tʃili/",
+      "pos": "n",
+      "zh": "辣椒",
+      "examples": [
+        {
+          "en": "This red chilli makes the soup spicy.",
+          "zh": "这个红辣椒让汤变辣了。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "apple",
+      "lemma": "apple",
+      "ipa": "/ˈæpl/",
+      "pos": "n",
+      "zh": "苹果",
+      "examples": [
+        {
+          "en": "I cut an apple into four pieces.",
+          "zh": "我把一个苹果切成四块。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "lemon",
+      "lemma": "lemon",
+      "ipa": "/'lemәn/",
+      "pos": "n",
+      "zh": "柠檬",
+      "examples": [
+        {
+          "en": "Dad puts a slice of lemon in his water.",
+          "zh": "爸爸在水里放了一片柠檬。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "ginger",
+      "lemma": "ginger",
+      "ipa": "/'dʒindʒә/",
+      "pos": "n",
+      "zh": "姜",
+      "examples": [
+        {
+          "en": "Mum adds a slice of ginger to the soup.",
+          "zh": "妈妈往汤里加了一片姜。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "vinegar",
+      "lemma": "vinegar",
+      "ipa": "/'vinigә/",
+      "pos": "n",
+      "zh": "醋",
+      "examples": [
+        {
+          "en": "I dip my dumpling in a little vinegar.",
+          "zh": "我把饺子蘸上一点醋。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "honey",
+      "lemma": "honey",
+      "ipa": "/'hʌni/",
+      "pos": "n",
+      "zh": "蜂蜜",
+      "examples": [
+        {
+          "en": "I spread some honey on my toast.",
+          "zh": "我在烤面包片上涂了一些蜂蜜。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "garlic",
+      "lemma": "garlic",
+      "ipa": "/'gɑ:lik/",
+      "pos": "n",
+      "zh": "蒜",
+      "examples": [
+        {
+          "en": "Dad chops some garlic for the sauce.",
+          "zh": "爸爸切了一些蒜来做酱汁。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "prawn",
+      "lemma": "prawn",
+      "ipa": "/prɒ:n/",
+      "pos": "n",
+      "zh": "虾",
+      "examples": [
+        {
+          "en": "The cooked prawn has a pink shell.",
+          "zh": "这只煮熟的虾有粉红色的壳。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "salty",
+      "lemma": "salty",
+      "ipa": "/'sɒ:lti/",
+      "pos": "adj",
+      "zh": "咸的",
+      "examples": [
+        {
+          "en": "These crisps are too salty for me.",
+          "zh": "这些薯片对我来说太咸了。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "hot",
+      "lemma": "hot",
+      "ipa": "/hɒt/",
+      "pos": "adj",
+      "zh": "辣的",
+      "examples": [
+        {
+          "en": "This curry is hot because it has chillies.",
+          "zh": "这份咖喱很辣，因为里面有辣椒。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "sweet",
+      "lemma": "sweet",
+      "ipa": "/swi:t/",
+      "pos": "adj",
+      "zh": "甜的",
+      "examples": [
+        {
+          "en": "The honey makes my tea taste sweet.",
+          "zh": "蜂蜜让我的茶喝起来甜甜的。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "sour",
+      "lemma": "sour",
+      "ipa": "/'sauә/",
+      "pos": "adj",
+      "zh": "酸的",
+      "examples": [
+        {
+          "en": "This lemon tastes sour, so I add honey.",
+          "zh": "这个柠檬很酸，所以我加了蜂蜜。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "delicious",
+      "lemma": "delicious",
+      "ipa": "/di'liʃәs/",
+      "pos": "adj",
+      "zh": "美味的",
+      "examples": [
+        {
+          "en": "Grandma makes delicious soup for our family.",
+          "zh": "奶奶为我们一家人做美味的汤。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "chicken in lemon sauce",
+      "lemma": "chicken in lemon sauce",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "柠檬汁鸡肉",
+      "examples": [
+        {
+          "en": "We share some chicken in lemon sauce.",
+          "zh": "我们分着吃了一些柠檬汁鸡肉。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "prawns with chillies and garlic",
+      "lemma": "prawns with chillies and garlic",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "辣椒蒜蓉虾",
+      "examples": [
+        {
+          "en": "Dad cooks prawns with chillies and garlic.",
+          "zh": "爸爸做辣椒蒜蓉虾。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "satay",
+      "lemma": "satay",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "沙爹",
+      "examples": [
+        {
+          "en": "We order chicken satay at the restaurant.",
+          "zh": "我们在餐馆点了鸡肉沙爹。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "sweet and sour pork",
+      "lemma": "sweet and sour pork",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "咕咾肉",
+      "examples": [
+        {
+          "en": "My favourite dish is sweet and sour pork.",
+          "zh": "我最喜欢的菜是咕咾肉。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "fried mixed vegetables",
+      "lemma": "fried mixed vegetables",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "炒杂菜",
+      "examples": [
+        {
+          "en": "We have fried mixed vegetables with rice.",
+          "zh": "我们吃炒杂菜配米饭。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "fridge",
+      "lemma": "fridge",
+      "ipa": "/fridʒ/",
+      "pos": "n",
+      "zh": "冰箱",
+      "examples": [
+        {
+          "en": "Please put the milk in the fridge.",
+          "zh": "请把牛奶放进冰箱。"
+        }
+      ],
+      "unit": "Unit 5"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "ipa": "/dres/",
+      "pos": "n",
+      "zh": "连衣裙",
+      "examples": [
+        {
+          "en": "My sister wears a yellow dress today.",
+          "zh": "我姐姐今天穿一条黄色连衣裙。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "jacket",
+      "lemma": "jacket",
+      "ipa": "/'dʒækit/",
+      "pos": "n",
+      "zh": "夹克",
+      "examples": [
+        {
+          "en": "This jacket keeps me warm in the wind.",
+          "zh": "这件夹克让我在风中保持暖和。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "boots",
+      "lemma": "boots",
+      "ipa": "/bu:ts/",
+      "pos": "n",
+      "zh": "靴子",
+      "examples": [
+        {
+          "en": "My boots keep my feet dry in puddles.",
+          "zh": "我踩水坑时，靴子让我的脚保持干爽。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "blouse",
+      "lemma": "blouse",
+      "ipa": "/blauz/",
+      "pos": "n",
+      "zh": "女式衬衫",
+      "examples": [
+        {
+          "en": "Mum's white blouse has little blue buttons.",
+          "zh": "妈妈的白色女式衬衫上有蓝色的小纽扣。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "skirt",
+      "lemma": "skirt",
+      "ipa": "/skә:t/",
+      "pos": "n",
+      "zh": "裙子",
+      "examples": [
+        {
+          "en": "My skirt has two pockets at the front.",
+          "zh": "我的裙子前面有两个口袋。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "jeans",
+      "lemma": "jeans",
+      "ipa": "/dʒi:nz/",
+      "pos": "n",
+      "zh": "牛仔裤",
+      "examples": [
+        {
+          "en": "These jeans are too long for me.",
+          "zh": "这条牛仔裤对我来说太长了。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "shirt",
+      "lemma": "shirt",
+      "ipa": "/ʃә:t/",
+      "pos": "n",
+      "zh": "衬衫",
+      "examples": [
+        {
+          "en": "Dad irons his shirt before work.",
+          "zh": "爸爸上班前熨衬衫。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "coat",
+      "lemma": "coat",
+      "ipa": "/kәut/",
+      "pos": "n",
+      "zh": "外套",
+      "examples": [
+        {
+          "en": "Hang your coat on the hook, please.",
+          "zh": "请把你的外套挂在钩子上。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "belt",
+      "lemma": "belt",
+      "ipa": "/belt/",
+      "pos": "n",
+      "zh": "腰带",
+      "examples": [
+        {
+          "en": "This belt stops my trousers from falling down.",
+          "zh": "这条腰带让我的裤子不会往下掉。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "tie",
+      "lemma": "tie",
+      "ipa": "/tai/",
+      "pos": "n",
+      "zh": "领带",
+      "examples": [
+        {
+          "en": "Dad wears a red tie with his shirt.",
+          "zh": "爸爸穿衬衫配一条红色领带。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "shorts",
+      "lemma": "shorts",
+      "ipa": "/ʃɔ:ts/",
+      "pos": "n",
+      "zh": "短裤",
+      "examples": [
+        {
+          "en": "I wear shorts when I play football.",
+          "zh": "我踢足球时穿短裤。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "ipa": "/'pɒkit/",
+      "pos": "n",
+      "zh": "口袋",
+      "examples": [
+        {
+          "en": "I keep a tissue in my pocket.",
+          "zh": "我在口袋里放了一张纸巾。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "casual wear",
+      "lemma": "casual wear",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "便服",
+      "examples": [
+        {
+          "en": "We can come to school in casual wear today.",
+          "zh": "我们今天可以穿便服来学校。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "school uniform",
+      "lemma": "school uniform",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "校服",
+      "examples": [
+        {
+          "en": "My school uniform includes a blue shirt.",
+          "zh": "我的校服包括一件蓝色衬衫。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "fashion show",
+      "lemma": "fashion show",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "时装表演",
+      "examples": [
+        {
+          "en": "The children show their clothes at the fashion show.",
+          "zh": "孩子们在时装表演上展示自己的衣服。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "poetry reading",
+      "lemma": "poetry reading",
+      "ipa": "/–/",
+      "pos": "n",
+      "zh": "诗歌朗诵",
+      "examples": [
+        {
+          "en": "I read a short poem at the poetry reading.",
+          "zh": "我在诗歌朗诵会上读了一首短诗。"
+        }
+      ],
+      "unit": "Unit 6"
+    },
+    {
+      "word": "donate",
+      "lemma": "donate",
+      "ipa": "/'dәuneit/",
+      "pos": "v",
+      "zh": "捐赠",
+      "examples": [
+        {
+          "en": "We donate warm clothes to families in need.",
+          "zh": "我们把保暖的衣服捐给有需要的家庭。"
+        }
+      ],
+      "unit": "Unit 6"
+    }
+  ]
+}

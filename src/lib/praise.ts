@@ -3,6 +3,17 @@ import type { QuizItem } from "./types";
 
 export type Praise = { title: string; note?: string };
 
+export function praiseRewardCollection(): Praise {
+  return { title: "我的珍藏", note: "这是你用认真学习换来的小伙伴。" };
+}
+
+export function praiseReward(c: { collected: number; total: number; themeCollected: number; themeTotal: number }): Praise {
+  if (c.collected >= c.total) return { title: "整本贴纸册，都被你点亮了！", note: "每一张贴纸，都是你认真学习的纪念" };
+  if (c.themeCollected >= c.themeTotal) return { title: "一个主题，集齐啦！", note: "一点点积累，真的能收获好多美好" };
+  if (c.collected === 1) return { title: "第一位小伙伴，来啦！", note: "这是你用认真学习换来的第一张贴纸" };
+  return { title: "你的努力，变成了小惊喜！", note: "又一位小伙伴，加入你的贴纸册" };
+}
+
 function rotate(list: string[], seed: string): string {
   return list[hashString(seed) % list.length];
 }

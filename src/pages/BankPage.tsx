@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { db } from "../db/schema";
+import { allWords } from "../db/repo";
 import type { ReviewState, WordRecord } from "../lib/types";
 import { todayLocal } from "../lib/types";
 
@@ -12,7 +13,7 @@ export function BankPage() {
 
   useEffect(() => {
     void (async () => {
-      setWords(await db.words.toArray());
+      setWords(await allWords());
       setReviews(await db.reviews.toArray());
     })();
   }, []);

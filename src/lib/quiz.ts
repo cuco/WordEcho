@@ -7,6 +7,7 @@ import type {
   WordRecord,
 } from "./types";
 import { addDays, lemmaOf } from "./types";
+import { hasChineseMeaning, isStudyWord } from "./word-quality";
 
 const VOWELS = new Set("aeiou");
 const CLUSTERS = ["th", "ch", "sh", "ph", "wh", "ck", "ee", "ea", "oo", "ai", "oa"];
@@ -25,7 +26,7 @@ export function selectWordsForDay(
   date: string,
   limit: number,
 ): WordRecord[] {
-  const byId = new Map(words.map((w) => [w.id, w]));
+  const byId = new Map(words.filter(isStudyWord).map((w) => [w.id, w]));
   const due = reviews
     .filter((r) => r.dueAt <= date && byId.has(r.wordId))
     .sort((a, b) => b.lapses - a.lapses || a.intervalDays - b.intervalDays);
@@ -49,7 +50,7 @@ export function selectWordsForDay(
   if (picked.length < limit) {
     const tomorrow = addDays(date, 1);
     const early = reviews
-      .filter((r) => r.dueAt === tomorrow && !picked.some((p) => p.wordId === r.wordId))
+      .filter((r) => byId.has(r.wordId) && r.dueAt === tomorrow && !picked.some((p) => p.wordId === r.wordId))
       .sort((a, b) => a.ease - b.ease)
       .slice(0, 2);
     for (const e of early) {
@@ -74,6 +75,7 @@ function asPool(words: WordRecord[], dict: DictCoreWord[]): DistractorPool[] {
   const seen = new Set<string>();
   const pool: DistractorPool[] = [];
   for (const w of words) {
+    if (!isStudyWord(w)) continue;
     if (seen.has(w.lemma)) continue;
     seen.add(w.lemma);
     pool.push({
@@ -84,6 +86,7 @@ function asPool(words: WordRecord[], dict: DictCoreWord[]): DistractorPool[] {
     });
   }
   for (const w of dict) {
+    if (!hasChineseMeaning(w.zh)) continue;
     if (seen.has(w.lemma)) continue;
     seen.add(w.lemma);
     pool.push({
@@ -113,7 +116,7 @@ function pickDistractors(
     if (!values.includes(o[field])) values.push(o[field]);
     if (values.length === 2) break;
   }
-  while (values.length < 2) values.push(field === "display" ? "cat" : "小猫");
+  if (values.length < 2) throw new Error("本机词库和基础词典中没有足够的不同选项");
   return values;
 }
 
@@ -182,6 +185,7 @@ export function buildStem(
   dict: DictCoreWord[],
   date: string,
 ): Pick<QuizItem, "prompt" | "options" | "answerIndex" | "cloze" | "audioBeforeAnswer" | "type"> {
+  if (!isStudyWord(word)) throw new Error(`单词 ${word.display} 的中文释义尚未补全`);
   const pool = asPool(words, dict);
   const target: DistractorPool = {
     display: word.display,
@@ -229,6 +233,25 @@ export function buildStem(
     answerIndex: options.indexOf(word.meaningZh) as 0 | 1 | 2,
     audioBeforeAnswer: true,
   };
+}
+
+/** Check persisted questions too: old quizzes may contain English in meaningZh. */
+export function isQuizItemValid(item: QuizItem, word: WordRecord): boolean {
+  if (!isStudyWord(word) || item.options.length !== 3 || new Set(item.options).size !== 3) return false;
+  if (!Number.isInteger(item.answerIndex) || item.answerIndex < 0 || item.answerIndex > 2) return false;
+  const answer = item.options[item.answerIndex];
+  if (item.type === "en_to_zh") {
+    return item.prompt === word.display && answer === word.meaningZh &&
+      item.options.every(hasChineseMeaning) && item.audioBeforeAnswer;
+  }
+  if (item.type === "zh_to_en") {
+    return item.prompt === word.meaningZh && answer === word.display &&
+      item.options.every((option) => /[a-z]/i.test(option) && !hasChineseMeaning(option)) &&
+      !item.audioBeforeAnswer;
+  }
+  return item.type === "cloze" && Boolean(item.cloze) &&
+    item.prompt === item.cloze?.wordShown && answer === item.cloze?.blanks &&
+    item.prompt.replace(/_+/, answer) === word.display && item.audioBeforeAnswer;
 }
 
 export function buildDailyQuiz(

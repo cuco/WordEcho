@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { NavLink, Navigate, Outlet, Route, Routes } from "react-router-dom";
-import { BookIcon, HomeIcon, PlusIcon } from "./components/icons";
+import { BookIcon, HomeIcon, PlusIcon, GiftIcon } from "./components/icons";
 import { getPrefs } from "./db/schema";
 import { setSoundEnabled } from "./lib/sfx";
 import { loadVoices, setVoicePreference } from "./lib/speech";
@@ -10,6 +10,7 @@ import { LearnPage } from "./pages/LearnPage";
 import { LessonPage } from "./pages/LessonPage";
 import { SettingsPage } from "./pages/SettingsPage";
 import { WordPage } from "./pages/WordPage";
+import { RewardsPage } from "./pages/RewardsPage";
 
 function Shell() {
   return (
@@ -27,6 +28,10 @@ function Shell() {
         <NavLink to="/import" className={({ isActive }) => (isActive ? "active" : "")}>
           <PlusIcon />
           录入
+        </NavLink>
+        <NavLink to="/rewards" className={({ isActive }) => (isActive ? "active" : "")}>
+          <GiftIcon />
+          奖励
         </NavLink>
       </nav>
     </>
@@ -52,6 +57,7 @@ export function App() {
           <Route path="/bank/:id" element={<WordPage />} />
           <Route path="/import" element={<ImportPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/rewards" element={<RewardsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

@@ -1,5 +1,12 @@
 type P = { size?: number };
 
+export function GiftIcon({ size = 22 }: P) {
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <path d="M4 11h16v10H4zM3 7h18v4H3zM12 7v14" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+    <path d="M12 7C5 8 5 1 8 2c2 0 4 5 4 5Zm0 0c7 1 7-6 4-5-2 0-4 5-4 5Z" stroke="currentColor" strokeWidth="2" />
+  </svg>;
+}
+
 export function SpeakerIcon({ size = 26 }: P) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>

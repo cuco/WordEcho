@@ -1,55 +1,117 @@
-# New Magic / 启思英语 1A · PARTIAL（非完整词汇手册）
-# 来源：51jiaoxi 公开教案预览、豆丁公开课 PPT 文字、New Magic 标题教案里点名的核心词。
-# 对照《启思英语》词汇手册后再当完整课本当导入。
-# Format: English word	Unit N
+# New Magic / 启思英语 1A · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
 
 # Unit 1 · Nice to meet you
-hello	Unit 1
-hi	Unit 1
-morning	Unit 1
-afternoon	Unit 1
-goodbye	Unit 1
-bye	Unit 1
-thank	Unit 1
-name	Unit 1
-school	Unit 1
-classroom	Unit 1
-student	Unit 1
-teacher	Unit 1
+hello	Unit 1	你好	int
+hi	Unit 1	嗨	int
+good morning	Unit 1	早上好	expr
+good afternoon	Unit 1	下午好	expr
+goodbye	Unit 1	再见	int
+bye	Unit 1	再见	int
+name	Unit 1	名字	n
+spell	Unit 1	拼写	v
+school	Unit 1	学校	n
+children	Unit 1	孩子们	n
+teacher	Unit 1	老师	n
+friend	Unit 1	朋友	n
+class	Unit 1	班级	n
 
 # Unit 2 · My new friends
-mother	Unit 2
-father	Unit 2
-brother	Unit 2
-sister	Unit 2
-friend	Unit 2
-boy	Unit 2
-girl	Unit 2
-meet	Unit 2
+mother	Unit 2	妈妈	n
+father	Unit 2	爸爸	n
+sister	Unit 2	姐妹	n
+brother	Unit 2	兄弟	n
+boy	Unit 2	男孩	n
+girl	Unit 2	女孩	n
+years old	Unit 2	……岁	expr
+fine	Unit 2	很好	adj
+family	Unit 2	家庭	n
 
 # Unit 3 · Happy birthday
-birthday	Unit 3
-cake	Unit 3
-party	Unit 3
-present	Unit 3
-candle	Unit 3
-hat	Unit 3
+ball	Unit 3	球	n
+drawing board	Unit 3	画板	n
+doll	Unit 3	玩偶	n
+puzzle	Unit 3	拼图	n
+robot	Unit 3	机器人	n
+teddy bear	Unit 3	泰迪熊	n
+toy car	Unit 3	玩具汽车	n
+toy plane	Unit 3	玩具飞机	n
+toy boat	Unit 3	玩具船	n
+toy dog	Unit 3	玩具狗	n
+toy horse	Unit 3	玩具马	n
+birthday	Unit 3	生日	n
+gift	Unit 3	礼物	n
 
 # Unit 4 · Colours around us
-# （公开页只有单元名，没有完整颜色表 — 请从词汇手册补 red/blue/yellow 等）
+cap	Unit 4	帽子	n
+shirt	Unit 4	衬衫	n
+trousers	Unit 4	长裤	n
+dress	Unit 4	连衣裙	n
+socks	Unit 4	袜子	n
+shoes	Unit 4	鞋子	n
+shorts	Unit 4	短裤	n
+skirt	Unit 4	裙子	n
+T-shirt	Unit 4	T恤衫	n
+black	Unit 4	黑色的	adj
+blue	Unit 4	蓝色的	adj
+brown	Unit 4	棕色的	adj
+green	Unit 4	绿色的	adj
+orange	Unit 4	橙色的	adj
+red	Unit 4	红色的	adj
+white	Unit 4	白色的	adj
+yellow	Unit 4	黄色的	adj
+clothes	Unit 4	衣服	n
+fashion show	Unit 4	时装表演	n
 
 # Unit 5 · In the classroom
-desk	Unit 5
-chair	Unit 5
-book	Unit 5
-blackboard	Unit 5
-window	Unit 5
-door	Unit 5
+stand up	Unit 5	站起来	v
+sit down	Unit 5	坐下	v
+come in	Unit 5	进来	v
+keep quiet	Unit 5	保持安静	v
+line up	Unit 5	排队	v
+open the door	Unit 5	开门	v
+close the door	Unit 5	关门	v
+open the window	Unit 5	开窗	v
+close the window	Unit 5	关窗	v
+clean the board	Unit 5	擦黑板	v
+clean the desk	Unit 5	擦桌子	v
+turn on the light	Unit 5	开灯	v
+turn off the light	Unit 5	关灯	v
+do not eat	Unit 5	不要吃东西	v
+do not run	Unit 5	不要跑	v
+do not talk	Unit 5	不要说话	v
+do not push	Unit 5	不要推挤	v
+do not litter	Unit 5	不要乱扔垃圾	v
+bin	Unit 5	垃圾桶	n
+book	Unit 5	书	n
+chair	Unit 5	椅子	n
+desk	Unit 5	书桌	n
+door	Unit 5	门	n
+light	Unit 5	灯	n
+shelf	Unit 5	架子	n
+window	Unit 5	窗户	n
 
 # Unit 6 · An animal story
-# 豆丁「new magic 1a unit 6」公开课 PPT 出现的词
-lion	Unit 6
-horse	Unit 6
-monkey	Unit 6
-tree	Unit 6
-man	Unit 6
+panda	Unit 6	熊猫	n
+hippo	Unit 6	河马	n
+monkey	Unit 6	猴子	n
+horse	Unit 6	马	n
+tiger	Unit 6	老虎	n
+lion	Unit 6	狮子	n
+elephant	Unit 6	大象	n
+ears	Unit 6	耳朵	n
+head	Unit 6	头	n
+tail	Unit 6	尾巴	n
+nose	Unit 6	鼻子	n
+eyes	Unit 6	眼睛	n
+arms	Unit 6	手臂	n
+mouth	Unit 6	嘴巴	n
+legs	Unit 6	腿	n
+big	Unit 6	大的	adj
+small	Unit 6	小的	adj
+long	Unit 6	长的	adj
+short	Unit 6	短的	adj
+animal	Unit 6	动物	n
+story	Unit 6	故事	n

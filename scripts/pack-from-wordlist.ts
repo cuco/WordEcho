@@ -3,7 +3,8 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { kidGloss } from "../src/lib/kid-gloss.ts";
 import { makeExample } from "../src/lib/make-example.ts";
-import type { DictCore, PackWord, WordPack } from "../src/lib/types.ts";
+import { hasChineseMeaning } from "../src/lib/word-quality.ts";
+import type { DictCore, DictLookup, PackWord, WordPack } from "../src/lib/types.ts";
 import { lemmaOf } from "../src/lib/types.ts";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -29,6 +30,9 @@ if (!listPath || !id) {
 
 const dict = JSON.parse(await readFile(join(root, "src/data/dict-core.json"), "utf8")) as DictCore;
 const byLemma = new Map(dict.words.map((w) => [w.lemma, w]));
+const lookup = JSON.parse(
+  await readFile(join(root, "src/data/dict-lookup.json"), "utf8"),
+) as DictLookup;
 
 const lines = (await readFile(listPath, "utf8"))
   .split(/\r?\n/)
@@ -50,10 +54,13 @@ for (const line of lines) {
   if (!lemma || seen.has(lemma)) continue;
   seen.add(lemma);
   const hit = byLemma.get(lemma);
+  const lookupLemma = lookup.w[lemma] ? lemma : lookup.f?.[lemma];
+  const lookupHit = lookupLemma ? lookup.w[lookupLemma] : undefined;
   // Hand-entered booklet text is canonical. Only shorten dictionary fallback
   // glosses; otherwise phrases such as “在……里面” lose important context.
-  const zh = suppliedZh || kidGloss(hit?.zh || word, word);
-  const pos = suppliedPos || hit?.pos || "n";
+  const zh = suppliedZh || kidGloss(hit?.zh || lookupHit?.[2] || "");
+  if (!hasChineseMeaning(zh)) throw new Error(`缺少中文释义，请补全词表后再生成：${word}`);
+  const pos = suppliedPos || hit?.pos || lookupHit?.[1] || "n";
   if (Boolean(suppliedExampleEn) !== Boolean(suppliedExampleZh)) {
     throw new Error(`例句中英文必须同时填写：${word}`);
   }
@@ -65,7 +72,7 @@ for (const line of lines) {
   words.push({
     word: hit?.display ?? word,
     lemma,
-    ipa: hit?.ipa || "/–/",
+    ipa: hit?.ipa || lookupHit?.[0] || "/–/",
     pos,
     zh,
     examples,

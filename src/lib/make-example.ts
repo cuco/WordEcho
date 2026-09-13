@@ -327,8 +327,16 @@ export function makeExample(word: string, pos: string, zhRaw: string): Example {
   const zh = kidGloss(zhRaw, word);
   const p = pos.toLowerCase();
 
+  // Handle multi-word grammar items before the generic phrase fallback.
+  if (p === "modal") {
+    return { en: `We ${word} go inside.`, zh: `我们${zh}进去。` };
+  }
+  if (p === "expr") {
+    return { en: `We use “${word}” in class.`, zh: `我们在课堂上会用到“${word}”。` };
+  }
+
   if (word.includes(" ")) {
-    if (/^(bark|brush|build|carry|catch|collect|come|cut|do|drive|eat|fight|fly|get|go|have|hear|hop|listen|look|make|order|paint|pick|plant|play|put|read|see|sing|sit|sleep|smell|stand|stay|swim|take|talk|teach|touch|turn|wait|wash|watch|wear|write)\b/i.test(word)) {
+    if (/^(admire|appreciate|bark|brush|build|button|carry|catch|chase|clean|climb|collect|comb|come|cook|cover|crawl|cross|cut|deal|decorate|dip|do|donate|draw|drink|drive|dust|eat|examine|exchange|exercise|fax|feed|fight|find|fix|fly|fold|get|give|go|have|hear|help|hop|hunt|keep|leave|light|line|listen|live|look|make|meet|open|order|pack|paint|pick|plant|play|prefer|prepare|pretend|protect|put|read|recycle|reduce|return|reuse|ride|roll|save|see|send|set|sing|sit|sleep|smell|sniff|solve|spread|sprinkle|stand|stay|steal|surf|sweep|swim|take|talk|teach|throw|tie|touch|trap|turn|upload|use|visit|wait|walk|wash|watch|wear|whisper|win|wrap|write)\b/i.test(word)) {
       return { en: `I ${word}.`, zh: `我${zh}。` };
     }
     if (/^(in|at|on)\b/i.test(word)) {
@@ -359,7 +367,7 @@ export function makeExample(word: string, pos: string, zhRaw: string): Example {
   if (p === "pron") {
     return { en: `This bag is ${word}.`, zh: `这个包是${zh}。` };
   }
-  if (p === "num") {
+  if (p === "num" || p === "ord") {
     if (/th$|first|second|third/.test(lemma)) {
       return { en: `He is the ${word} student.`, zh: `他是${zh}个学生。` };
     }
@@ -380,6 +388,14 @@ export function makeExample(word: string, pos: string, zhRaw: string): Example {
       return { en: `I eat ${word}.`, zh: `我吃${zh}。` };
     }
     return { en: `I need ${word}.`, zh: `我需要${zh}。` };
+  }
+
+  if (/^[A-Z]/.test(word) && !word.includes(" ")) {
+    return { en: `I want to visit ${word}.`, zh: `我想去${zh}。` };
+  }
+
+  if (/s$/i.test(word) && !/(ss|us)$/i.test(word)) {
+    return { en: `I have ${word}.`, zh: `我有${zh}。` };
   }
 
   const art = article(word);

@@ -1,9 +1,159 @@
-# New Magic / 启思英语 3A · 单元名已核实，尚无公开完整词表
-# TOC：绘本宝 / 51jiaoxi 3A 目录
-# Format: English word	Unit N
+# New Magic / 启思英语 3A · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句为按词义逐条编写、复核的原创双语句（2026-09-13）。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性<TAB>英文例句<TAB>中文例句
+
 # Unit 1 · I like English
+Art	Unit 1	美术	n	We paint pictures in Art class.	我们在美术课上画画。
+Chinese	Unit 1	语文	n	We read a poem in Chinese class.	我们在语文课上读一首诗。
+Computer Studies	Unit 1	电脑课	n	We use computers in Computer Studies class.	我们在电脑课上使用电脑。
+English	Unit 1	英语	n	I speak English with my teacher.	我和老师说英语。
+Maths	Unit 1	数学	n	We learn about numbers in Maths class.	我们在数学课上学习数字。
+Music	Unit 1	音乐	n	We sing together in Music class.	我们在音乐课上一起唱歌。
+PE	Unit 1	体育	n	We play basketball in PE class.	我们在体育课上打篮球。
+Science	Unit 1	科学	n	We learn about plants in Science class.	我们在科学课上学习有关植物的知识。
+interesting	Unit 1	有趣的	adj	This story about a dragon is interesting.	这个关于龙的故事很有趣。
+good at	Unit 1	擅长	expr	My sister is good at drawing cats.	我姐姐擅长画猫。
+weak in	Unit 1	不擅长	expr	I am weak in Maths, so I practise daily.	我不擅长数学，所以我每天练习。
+subject	Unit 1	学科	n	English is my favourite subject at school.	英语是我在学校最喜欢的学科。
+survey	Unit 1	调查	n	Our class does a survey about favourite subjects.	我们班做了一项关于最喜欢的学科的调查。
+
 # Unit 2 · Let's go shopping
+magazine	Unit 2	杂志	n	Grandpa reads a magazine about animals.	爷爷在读一本关于动物的杂志。
+T-shirt	Unit 2	T恤衫	n	My blue T-shirt has a star on it.	我的蓝色T恤衫上有一颗星星。
+puzzle	Unit 2	拼图	n	Let's put the pieces of this puzzle together.	我们把这幅拼图的碎片拼起来吧。
+sweets	Unit 2	糖果	n	There are three sweets in the bag.	袋子里有三颗糖果。
+shoes	Unit 2	鞋子	n	Please take off your shoes at the door.	请在门口脱鞋。
+key ring	Unit 2	钥匙扣	n	A little bear hangs from my key ring.	我的钥匙扣上挂着一只小熊。
+leather shoes	Unit 2	皮鞋	n	Dad wears black leather shoes to work.	爸爸穿黑色皮鞋去上班。
+doll	Unit 2	玩偶	n	My doll has long hair and blue eyes.	我的玩偶有长头发和蓝眼睛。
+ice cream	Unit 2	冰淇淋	n	My ice cream melts in the sun.	我的冰淇淋在太阳下融化了。
+trainers	Unit 2	运动鞋	n	I wear trainers when I play tennis.	我打网球时穿运动鞋。
+hamburger	Unit 2	汉堡包	n	There is some cheese in my hamburger.	我的汉堡包里有一些奶酪。
+bookshop	Unit 2	书店	n	We buy a storybook at the bookshop.	我们在书店买一本故事书。
+clothes shop	Unit 2	服装店	n	Mum tries on a coat in the clothes shop.	妈妈在服装店试穿一件外套。
+fast food shop	Unit 2	快餐店	n	We order burgers at the fast food shop.	我们在快餐店点汉堡包。
+gift shop	Unit 2	礼品店	n	I choose a postcard in the gift shop.	我在礼品店挑选一张明信片。
+restaurant	Unit 2	餐馆	n	The waiter brings our food in the restaurant.	服务员在餐馆里把我们的食物端来。
+shoe shop	Unit 2	鞋店	n	These boots are from the new shoe shop.	这双靴子是在新开的鞋店买的。
+sweet shop	Unit 2	糖果店	n	The sweet shop sells colourful lollipops.	这家糖果店卖五颜六色的棒棒糖。
+toy shop	Unit 2	玩具店	n	A big teddy bear stands outside the toy shop.	玩具店外面立着一只大泰迪熊。
+cinema	Unit 2	电影院	n	We watch a funny film at the cinema.	我们在电影院看一部有趣的电影。
+sports shop	Unit 2	体育用品店	n	Dad buys a football at the sports shop.	爸爸在体育用品店买一个足球。
+shopping centre	Unit 2	购物中心	n	The shopping centre has many different shops.	这座购物中心有许多不同的商店。
+buy	Unit 2	购买	v	I want to buy a present for Mum.	我想给妈妈买一份礼物。
+have lunch	Unit 2	吃午饭	v	We have lunch in the school hall.	我们在学校礼堂吃午饭。
+have dinner	Unit 2	吃晚饭	v	We have dinner together at six o'clock.	我们六点钟一起吃晚饭。
+watch a film	Unit 2	看电影	v	Let's watch a film after dinner.	我们晚饭后看部电影吧。
+
 # Unit 3 · Let's go to the park
+walk on the grass	Unit 3	在草地上走	v	Please do not walk on the grass here.	请不要在这里的草地上走。
+climb trees	Unit 3	爬树	v	Monkeys can climb trees very quickly.	猴子爬树爬得很快。
+play ball games	Unit 3	玩球类游戏	v	We play ball games in the playground.	我们在操场上玩球类游戏。
+litter	Unit 3	乱扔垃圾	v	Please do not litter in the park.	请不要在公园里乱扔垃圾。
+ride a bicycle	Unit 3	骑自行车	v	I can ride a bicycle without any help.	我不用别人帮忙就会骑自行车。
+pick flowers	Unit 3	摘花	v	We must not pick flowers in this garden.	我们不能摘这座花园里的花。
+feed the fish	Unit 3	喂鱼	v	I feed the fish a little every morning.	我每天早上给鱼喂一点食物。
+take photos	Unit 3	拍照	v	May I take photos of these butterflies?	我可以给这些蝴蝶拍照吗？
+fly a kite	Unit 3	放风筝	v	We fly a kite on windy days.	我们在有风的日子里放风筝。
+swim	Unit 3	游泳	v	I swim in the pool with Dad.	我和爸爸在游泳池里游泳。
+talk on the phone	Unit 3	打电话	v	Please do not talk on the phone here.	请不要在这里打电话。
+may	Unit 3	可以	modal	May I borrow your blue pencil, please?	请问我可以借用你的蓝色铅笔吗？
+may not	Unit 3	不可以	modal	You may not eat in the library.	你不可以在图书馆里吃东西。
+sign	Unit 3	标志	n	The sign says we must not feed the ducks.	这个标志告诉我们不能喂鸭子。
+park	Unit 3	公园	n	We walk our dog in the park.	我们在公园里遛狗。
+
 # Unit 4 · My calendar
+January	Unit 4	一月	n	January is the first month of the year.	一月是一年中的第一个月。
+February	Unit 4	二月	n	February is shorter than the other months.	二月比其他月份短。
+March	Unit 4	三月	n	My baby brother's birthday is in March.	我小弟弟的生日在三月。
+April	Unit 4	四月	n	Our school picnic is in April.	我们学校的野餐在四月。
+May	Unit 4	五月	n	Our school open day is in May.	我们学校的开放日在五月。
+June	Unit 4	六月	n	We have a swimming lesson in June.	我们六月有一节游泳课。
+July	Unit 4	七月	n	I visit my cousins in July.	我七月去看望我的表兄妹。
+August	Unit 4	八月	n	We go to the beach in August.	我们八月去海滩。
+September	Unit 4	九月	n	Our new school year starts in September.	我们的新学年在九月开始。
+October	Unit 4	十月	n	Halloween is on the last day of October.	万圣节在十月的最后一天。
+November	Unit 4	十一月	n	My grandmother's birthday is in November.	我奶奶的生日在十一月。
+December	Unit 4	十二月	n	We put up Christmas decorations in December.	我们十二月挂上圣诞装饰。
+Christmas	Unit 4	圣诞节	n	We decorate a tree for Christmas.	我们为圣诞节装饰一棵树。
+Halloween	Unit 4	万圣节	n	I dress up as a cat for Halloween.	我在万圣节装扮成一只猫。
+Dragon Boat Festival	Unit 4	端午节	n	We watch races during the Dragon Boat Festival.	我们在端午节看比赛。
+Easter	Unit 4	复活节	n	We paint colourful eggs at Easter.	我们在复活节给鸡蛋涂上各种颜色。
+Chinese New Year	Unit 4	春节	n	Our family gets together at Chinese New Year.	我们一家人在春节团聚。
+first	Unit 4	第一	ord	Please write your name on the first page.	请在第一页写上你的名字。
+second	Unit 4	第二	ord	My classroom is on the second floor.	我的教室在二楼。
+third	Unit 4	第三	ord	I finish third in the running race.	我在跑步比赛中获得第三名。
+fourth	Unit 4	第四	ord	The fourth duck in the line is small.	队伍里的第四只鸭子很小。
+fifth	Unit 4	第五	ord	May is the fifth month of the year.	五月是一年中的第五个月。
+sixth	Unit 4	第六	ord	Today is my little brother's sixth birthday.	今天是我小弟弟的六岁生日。
+seventh	Unit 4	第七	ord	My name is seventh on the list.	我的名字在名单上排第七。
+thirteenth	Unit 4	第十三	ord	Our class photo is on the thirteenth page.	我们的班级合照在第十三页。
+fourteenth	Unit 4	第十四	ord	Our picnic is on the fourteenth of April.	我们的野餐在四月十四日。
+fifteenth	Unit 4	第十五	ord	Please read the fifteenth word on the board.	请读黑板上的第十五个单词。
+sixteenth	Unit 4	第十六	ord	The sixteenth runner is wearing a red shirt.	第十六位跑步选手穿着红色衬衫。
+seventeenth	Unit 4	第十七	ord	My cousin lives on the seventeenth floor.	我的表哥住在十七楼。
+eighteenth	Unit 4	第十八	ord	This is the eighteenth book on my reading list.	这是我的阅读书单上的第十八本书。
+nineteenth	Unit 4	第十九	ord	The nineteenth box has a yellow lid.	第十九个盒子有一个黄色的盖子。
+twentieth	Unit 4	第二十	ord	The contest is on the twentieth of June.	比赛在六月二十日。
+twenty-first	Unit 4	第二十一	ord	The twenty-first child in the queue is Tom.	队伍里的第二十一个孩子是汤姆。
+twenty-second	Unit 4	第二十二	ord	Circle the twenty-second number on the page.	圈出这一页上的第二十二个数字。
+twenty-third	Unit 4	第二十三	ord	My birthday is on the twenty-third of July.	我的生日在七月二十三日。
+twenty-fourth	Unit 4	第二十四	ord	The twenty-fourth seat is next to the window.	第二十四个座位在窗户旁边。
+twenty-fifth	Unit 4	第二十五	ord	Christmas is on the twenty-fifth of December.	圣诞节在十二月二十五日。
+thirtieth	Unit 4	第三十	ord	Our holiday starts on the thirtieth of July.	我们的假期在七月三十日开始。
+thirty-first	Unit 4	第三十一	ord	Halloween is on the thirty-first of October.	万圣节在十月三十一日。
+school picnic	Unit 4	学校野餐	n	We bring sandwiches to the school picnic.	我们带三明治去参加学校野餐。
+school games	Unit 4	学校运动会	n	Our team wins a race at the school games.	我们队在学校运动会上赢了一场赛跑。
+school open day	Unit 4	学校开放日	n	Parents visit our classroom on school open day.	家长们在学校开放日参观我们的教室。
+parents' day	Unit 4	家长日	n	Mum meets my teacher on parents' day.	妈妈在家长日和我的老师见面。
+contest	Unit 4	比赛	n	My sister enters a singing contest.	我姐姐参加一个歌唱比赛。
+prize-giving	Unit 4	颁奖礼	n	The winners receive medals at the prize-giving.	获胜者在颁奖礼上领取奖牌。
+holiday	Unit 4	假期	n	We visit Grandma during the summer holiday.	我们在暑假期间去看望奶奶。
+calendar	Unit 4	日历	n	I mark my birthday on the calendar.	我在日历上标出我的生日。
+
 # Unit 5 · Cooking at home
+sugar	Unit 5	糖	n	Please add a little sugar to the tea.	请往茶里加一点糖。
+soy sauce	Unit 5	酱油	n	Dad adds soy sauce to the noodles.	爸爸往面条里加酱油。
+chicken	Unit 5	鸡肉	n	We have chicken and rice for dinner.	我们晚饭吃鸡肉和米饭。
+salt	Unit 5	盐	n	This soup needs a little more salt.	这碗汤需要再加一点盐。
+pork	Unit 5	猪肉	n	Mum cooks some pork with carrots.	妈妈用胡萝卜烧了一些猪肉。
+sausage	Unit 5	香肠	n	There is a sausage on my plate.	我的盘子里有一根香肠。
+chilli	Unit 5	辣椒	n	This red chilli makes the soup spicy.	这个红辣椒让汤变辣了。
+apple	Unit 5	苹果	n	I cut an apple into four pieces.	我把一个苹果切成四块。
+lemon	Unit 5	柠檬	n	Dad puts a slice of lemon in his water.	爸爸在水里放了一片柠檬。
+ginger	Unit 5	姜	n	Mum adds a slice of ginger to the soup.	妈妈往汤里加了一片姜。
+vinegar	Unit 5	醋	n	I dip my dumpling in a little vinegar.	我把饺子蘸上一点醋。
+honey	Unit 5	蜂蜜	n	I spread some honey on my toast.	我在烤面包片上涂了一些蜂蜜。
+garlic	Unit 5	蒜	n	Dad chops some garlic for the sauce.	爸爸切了一些蒜来做酱汁。
+prawn	Unit 5	虾	n	The cooked prawn has a pink shell.	这只煮熟的虾有粉红色的壳。
+salty	Unit 5	咸的	adj	These crisps are too salty for me.	这些薯片对我来说太咸了。
+hot	Unit 5	辣的	adj	This curry is hot because it has chillies.	这份咖喱很辣，因为里面有辣椒。
+sweet	Unit 5	甜的	adj	The honey makes my tea taste sweet.	蜂蜜让我的茶喝起来甜甜的。
+sour	Unit 5	酸的	adj	This lemon tastes sour, so I add honey.	这个柠檬很酸，所以我加了蜂蜜。
+delicious	Unit 5	美味的	adj	Grandma makes delicious soup for our family.	奶奶为我们一家人做美味的汤。
+chicken in lemon sauce	Unit 5	柠檬汁鸡肉	n	We share some chicken in lemon sauce.	我们分着吃了一些柠檬汁鸡肉。
+prawns with chillies and garlic	Unit 5	辣椒蒜蓉虾	n	Dad cooks prawns with chillies and garlic.	爸爸做辣椒蒜蓉虾。
+satay	Unit 5	沙爹	n	We order chicken satay at the restaurant.	我们在餐馆点了鸡肉沙爹。
+sweet and sour pork	Unit 5	咕咾肉	n	My favourite dish is sweet and sour pork.	我最喜欢的菜是咕咾肉。
+fried mixed vegetables	Unit 5	炒杂菜	n	We have fried mixed vegetables with rice.	我们吃炒杂菜配米饭。
+fridge	Unit 5	冰箱	n	Please put the milk in the fridge.	请把牛奶放进冰箱。
+
 # Unit 6 · Dress Casual Day
+dress	Unit 6	连衣裙	n	My sister wears a yellow dress today.	我姐姐今天穿一条黄色连衣裙。
+jacket	Unit 6	夹克	n	This jacket keeps me warm in the wind.	这件夹克让我在风中保持暖和。
+boots	Unit 6	靴子	n	My boots keep my feet dry in puddles.	我踩水坑时，靴子让我的脚保持干爽。
+blouse	Unit 6	女式衬衫	n	Mum's white blouse has little blue buttons.	妈妈的白色女式衬衫上有蓝色的小纽扣。
+skirt	Unit 6	裙子	n	My skirt has two pockets at the front.	我的裙子前面有两个口袋。
+jeans	Unit 6	牛仔裤	n	These jeans are too long for me.	这条牛仔裤对我来说太长了。
+shirt	Unit 6	衬衫	n	Dad irons his shirt before work.	爸爸上班前熨衬衫。
+coat	Unit 6	外套	n	Hang your coat on the hook, please.	请把你的外套挂在钩子上。
+belt	Unit 6	腰带	n	This belt stops my trousers from falling down.	这条腰带让我的裤子不会往下掉。
+tie	Unit 6	领带	n	Dad wears a red tie with his shirt.	爸爸穿衬衫配一条红色领带。
+shorts	Unit 6	短裤	n	I wear shorts when I play football.	我踢足球时穿短裤。
+pocket	Unit 6	口袋	n	I keep a tissue in my pocket.	我在口袋里放了一张纸巾。
+casual wear	Unit 6	便服	n	We can come to school in casual wear today.	我们今天可以穿便服来学校。
+school uniform	Unit 6	校服	n	My school uniform includes a blue shirt.	我的校服包括一件蓝色衬衫。
+fashion show	Unit 6	时装表演	n	The children show their clothes at the fashion show.	孩子们在时装表演上展示自己的衣服。
+poetry reading	Unit 6	诗歌朗诵	n	I read a short poem at the poetry reading.	我在诗歌朗诵会上读了一首短诗。
+donate	Unit 6	捐赠	v	We donate warm clothes to families in need.	我们把保暖的衣服捐给有需要的家庭。

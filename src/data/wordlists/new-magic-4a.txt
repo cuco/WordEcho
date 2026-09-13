@@ -1,9 +1,117 @@
-# New Magic / 启思英语 4A · 单元名已核实，尚无公开完整词表
-# TOC：51jiaoxi 香港牛津 (New Magic) 4A 课文目录
-# Format: English word	Unit N
+# New Magic / 启思英语 4A · 公开材料核验词汇
+# 来源：公开教案、4A Unit 3-4 测试预览、4A 期末测试预览与 OUP 单元主题页；没有可逐页读取的学生书。
+# 说明：该册不是 Self-Learning Booklet 逐项转录；只收录公开材料能核验的教学词，例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
 # Unit 1 · Our new neighbours
+neighbour	Unit 1	邻居	n
+tall	Unit 1	高的	adj
+short	Unit 1	矮的	adj
+thin	Unit 1	瘦的	adj
+fat	Unit 1	胖的	adj
+young	Unit 1	年轻的	adj
+old	Unit 1	年老的	adj
+strong	Unit 1	强壮的	adj
+weak	Unit 1	虚弱的	adj
+friendly	Unit 1	友善的	adj
+kind	Unit 1	善良的	adj
+quiet	Unit 1	安静的	adj
+noisy	Unit 1	吵闹的	adj
+smart	Unit 1	聪明的	adj
+funny	Unit 1	有趣的	adj
+play chess	Unit 1	下国际象棋	v
+watch films	Unit 1	看电影	v
+read comics	Unit 1	看漫画	v
+do jigsaw puzzles	Unit 1	拼拼图	v
+ride a horse	Unit 1	骑马	v
+
 # Unit 2 · One you admire
+admire	Unit 2	钦佩	v
+actor	Unit 2	演员	n
+athlete	Unit 2	运动员	n
+doctor	Unit 2	医生	n
+inventor	Unit 2	发明家	n
+scientist	Unit 2	科学家	n
+singer	Unit 2	歌手	n
+writer	Unit 2	作家	n
+brave	Unit 2	勇敢的	adj
+caring	Unit 2	关心他人的	adj
+clever	Unit 2	聪明的	adj
+hard-working	Unit 2	勤劳的	adj
+helpful	Unit 2	乐于助人的	adj
+patient	Unit 2	有耐心的	adj
+successful	Unit 2	成功的	adj
+famous	Unit 2	著名的	adj
+
 # Unit 3 · Visit Hong Kong
+Hong Kong Disneyland	Unit 3	香港迪士尼乐园	n
+Ocean Park	Unit 3	海洋公园	n
+the Peak	Unit 3	太平山顶	n
+Science Museum	Unit 3	科学馆	n
+Lantau Island	Unit 3	大屿山	n
+Ngong Ping 360	Unit 3	昂坪360	n
+Tian Tan Buddha	Unit 3	天坛大佛	n
+Tai O Fishing Village	Unit 3	大澳渔村	n
+Causeway Bay	Unit 3	铜锣湾	n
+Kowloon Walled City Park	Unit 3	九龙寨城公园	n
+cable car ride	Unit 3	缆车之旅	n
+giant Buddha statue	Unit 3	巨型佛像	n
+stilt house	Unit 3	高脚屋	n
+traditional market	Unit 3	传统市场	n
+hotel	Unit 3	酒店	n
+view	Unit 3	景色	n
+ruins	Unit 3	遗迹	n
+exhibit	Unit 3	展品	n
+amazing	Unit 3	令人惊叹的	adj
+comfortable	Unit 3	舒适的	adj
+enjoyable	Unit 3	令人愉快的	adj
+exciting	Unit 3	令人兴奋的	adj
+relaxing	Unit 3	令人放松的	adj
+thrilling	Unit 3	激动人心的	adj
+
 # Unit 4 · A day at a children's palace
+children's palace	Unit 4	少年宫	n
+activity room	Unit 4	活动室	n
+reading corner	Unit 4	阅读角	n
+playground	Unit 4	操场	n
+basketball court	Unit 4	篮球场	n
+swimming pool	Unit 4	游泳池	n
+painting	Unit 4	绘画	n
+drawing	Unit 4	画画	n
+dancing	Unit 4	跳舞	n
+singing	Unit 4	唱歌	n
+chess	Unit 4	国际象棋	n
+quiz show	Unit 4	知识竞赛节目	n
+gift card	Unit 4	礼品卡	n
+rule	Unit 4	规则	n
+bring pets inside	Unit 4	把宠物带进室内	v
+run inside the building	Unit 4	在楼内跑动	v
+keep quiet	Unit 4	保持安静	v
+
 # Unit 5 · Let's have fun!
+win a quiz show	Unit 5	赢得知识竞赛	v
+get a prize	Unit 5	获得奖品	v
+do sports	Unit 5	做运动	v
+play games	Unit 5	玩游戏	v
+watch a show	Unit 5	看表演	v
+play the piano	Unit 5	弹钢琴	v
+make a model	Unit 5	做模型	v
+bored	Unit 5	无聊的	adj
+excited	Unit 5	兴奋的	adj
+nervous	Unit 5	紧张的	adj
+relaxed	Unit 5	放松的	adj
+tired	Unit 5	疲倦的	adj
+
 # Unit 6 · Christmas party
+Christmas party	Unit 6	圣诞聚会	n
+Christmas tree	Unit 6	圣诞树	n
+Christmas present	Unit 6	圣诞礼物	n
+Christmas card	Unit 6	圣诞卡	n
+decoration	Unit 6	装饰品	n
+carol	Unit 6	圣诞颂歌	n
+exchange presents	Unit 6	交换礼物	v
+make decorations	Unit 6	制作装饰品	v
+sing Christmas carols	Unit 6	唱圣诞颂歌	v
+decorate the tree	Unit 6	装饰圣诞树	v
+prepare food	Unit 6	准备食物	v
+wrap presents	Unit 6	包装礼物	v

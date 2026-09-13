@@ -52,8 +52,15 @@ export function SettingsPage() {
   }
 
   async function doImport(file: File) {
-    const data = JSON.parse(await file.text());
-    await importBackup(data);
+    try {
+      const data = JSON.parse(await file.text());
+      await importBackup(data);
+    } catch {
+      alert("备份未能导入，请检查文件。现有数据没有改变。");
+      return;
+    }
+    const restored = await getPrefs().catch(() => null);
+    if (restored) setPrefs(restored);
     alert("已导入备份");
   }
 

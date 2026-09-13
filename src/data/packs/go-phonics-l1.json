@@ -12,7 +12,7 @@
       "lemma": "ant",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ant",
+      "zh": "蚂蚁",
       "examples": [
         {
           "en": "I have an ant.",
@@ -40,7 +40,7 @@
       "lemma": "ink",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ink",
+      "zh": "墨水",
       "examples": [
         {
           "en": "I have an ink.",
@@ -54,7 +54,7 @@
       "lemma": "ox",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ox",
+      "zh": "公牛",
       "examples": [
         {
           "en": "I have an ox.",
@@ -68,7 +68,7 @@
       "lemma": "up",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "up",
+      "zh": "向上",
       "examples": [
         {
           "en": "I have an up.",
@@ -110,7 +110,7 @@
       "lemma": "bin",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "bin",
+      "zh": "垃圾桶",
       "examples": [
         {
           "en": "I have a bin.",
@@ -124,7 +124,7 @@
       "lemma": "bud",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "bud",
+      "zh": "花蕾",
       "examples": [
         {
           "en": "I have a bud.",
@@ -138,7 +138,7 @@
       "lemma": "bug",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "bug",
+      "zh": "虫子",
       "examples": [
         {
           "en": "I have a bug.",
@@ -180,7 +180,7 @@
       "lemma": "cub",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "cub",
+      "zh": "幼兽",
       "examples": [
         {
           "en": "I have a cub.",
@@ -194,7 +194,7 @@
       "lemma": "cup",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "cup",
+      "zh": "杯子",
       "examples": [
         {
           "en": "I have a cup.",
@@ -222,7 +222,7 @@
       "lemma": "fan",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fan",
+      "zh": "风扇",
       "examples": [
         {
           "en": "I have a fan.",
@@ -236,7 +236,7 @@
       "lemma": "fits",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fits",
+      "zh": "合身",
       "examples": [
         {
           "en": "I have a fits.",
@@ -250,7 +250,7 @@
       "lemma": "fun",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fun",
+      "zh": "有趣",
       "examples": [
         {
           "en": "I need fun.",
@@ -264,7 +264,7 @@
       "lemma": "ham",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "ham",
+      "zh": "火腿",
       "examples": [
         {
           "en": "I have a ham.",
@@ -278,7 +278,7 @@
       "lemma": "hen",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hen",
+      "zh": "母鸡",
       "examples": [
         {
           "en": "I have a hen.",
@@ -292,7 +292,7 @@
       "lemma": "hens",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hens",
+      "zh": "母鸡",
       "examples": [
         {
           "en": "I have a hens.",
@@ -306,7 +306,7 @@
       "lemma": "hog",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hog",
+      "zh": "猪",
       "examples": [
         {
           "en": "I have a hog.",
@@ -320,7 +320,7 @@
       "lemma": "hug",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hug",
+      "zh": "拥抱",
       "examples": [
         {
           "en": "I have a hug.",
@@ -334,7 +334,7 @@
       "lemma": "hut",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "hut",
+      "zh": "小屋",
       "examples": [
         {
           "en": "I have a hut.",
@@ -348,7 +348,7 @@
       "lemma": "jam",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "jam",
+      "zh": "果酱",
       "examples": [
         {
           "en": "I have a jam.",
@@ -362,7 +362,7 @@
       "lemma": "jet",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "jet",
+      "zh": "喷气飞机",
       "examples": [
         {
           "en": "I have a jet.",
@@ -376,7 +376,7 @@
       "lemma": "job",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "job",
+      "zh": "工作",
       "examples": [
         {
           "en": "I have a job.",
@@ -390,7 +390,7 @@
       "lemma": "jog",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "jog",
+      "zh": "慢跑",
       "examples": [
         {
           "en": "I have a jog.",
@@ -404,7 +404,7 @@
       "lemma": "jug",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "jug",
+      "zh": "罐子",
       "examples": [
         {
           "en": "I have a jug.",
@@ -418,7 +418,7 @@
       "lemma": "kid",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "kid",
+      "zh": "小孩",
       "examples": [
         {
           "en": "I have a kid.",
@@ -432,7 +432,7 @@
       "lemma": "kiss",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "kiss",
+      "zh": "亲吻",
       "examples": [
         {
           "en": "I have a kiss.",
@@ -460,7 +460,7 @@
       "lemma": "lid",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "lid",
+      "zh": "盖子",
       "examples": [
         {
           "en": "I have a lid.",
@@ -474,7 +474,7 @@
       "lemma": "log",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "log",
+      "zh": "木头",
       "examples": [
         {
           "en": "I have a log.",
@@ -488,7 +488,7 @@
       "lemma": "lot",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "lot",
+      "zh": "许多",
       "examples": [
         {
           "en": "I have a lot.",
@@ -502,7 +502,7 @@
       "lemma": "mad",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "mad",
+      "zh": "生气的",
       "examples": [
         {
           "en": "I have a mad.",
@@ -516,7 +516,7 @@
       "lemma": "map",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "map",
+      "zh": "地图",
       "examples": [
         {
           "en": "I have a map.",
@@ -530,7 +530,7 @@
       "lemma": "mat",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "mat",
+      "zh": "垫子",
       "examples": [
         {
           "en": "I have a mat.",
@@ -544,7 +544,7 @@
       "lemma": "men",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "men",
+      "zh": "男人们",
       "examples": [
         {
           "en": "I have a men.",
@@ -558,7 +558,7 @@
       "lemma": "mud",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "mud",
+      "zh": "泥",
       "examples": [
         {
           "en": "I have a mud.",
@@ -572,7 +572,7 @@
       "lemma": "mug",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "mug",
+      "zh": "杯子",
       "examples": [
         {
           "en": "I have a mug.",
@@ -600,7 +600,7 @@
       "lemma": "nap",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "nap",
+      "zh": "小睡",
       "examples": [
         {
           "en": "I have a nap.",
@@ -614,7 +614,7 @@
       "lemma": "net",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "net",
+      "zh": "网",
       "examples": [
         {
           "en": "I have a net.",
@@ -628,7 +628,7 @@
       "lemma": "pan",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pan",
+      "zh": "平底锅",
       "examples": [
         {
           "en": "I have a pan.",
@@ -642,7 +642,7 @@
       "lemma": "peg",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "peg",
+      "zh": "夹子",
       "examples": [
         {
           "en": "I have a peg.",
@@ -656,7 +656,7 @@
       "lemma": "pens",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pens",
+      "zh": "钢笔",
       "examples": [
         {
           "en": "I have a pens.",
@@ -670,7 +670,7 @@
       "lemma": "pet",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pet",
+      "zh": "宠物",
       "examples": [
         {
           "en": "I have a pet.",
@@ -698,7 +698,7 @@
       "lemma": "pin",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pin",
+      "zh": "别针",
       "examples": [
         {
           "en": "I have a pin.",
@@ -712,7 +712,7 @@
       "lemma": "pot",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pot",
+      "zh": "锅",
       "examples": [
         {
           "en": "I have a pot.",
@@ -726,7 +726,7 @@
       "lemma": "pub",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "pub",
+      "zh": "酒馆",
       "examples": [
         {
           "en": "I have a pub.",
@@ -740,7 +740,7 @@
       "lemma": "quick",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "quick",
+      "zh": "快的",
       "examples": [
         {
           "en": "I have a quick.",
@@ -754,7 +754,7 @@
       "lemma": "rat",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "rat",
+      "zh": "老鼠",
       "examples": [
         {
           "en": "I have a rat.",
@@ -782,7 +782,7 @@
       "lemma": "rock",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "rock",
+      "zh": "岩石",
       "examples": [
         {
           "en": "I have a rock.",
@@ -796,7 +796,7 @@
       "lemma": "rub",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "rub",
+      "zh": "揉擦",
       "examples": [
         {
           "en": "I have a rub.",
@@ -838,7 +838,7 @@
       "lemma": "sips",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "sips",
+      "zh": "小口喝",
       "examples": [
         {
           "en": "I have a sips.",
@@ -852,7 +852,7 @@
       "lemma": "sisters",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "sisters",
+      "zh": "姐妹",
       "examples": [
         {
           "en": "I have a sisters.",
@@ -866,7 +866,7 @@
       "lemma": "sits",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "sits",
+      "zh": "坐",
       "examples": [
         {
           "en": "I have a sits.",
@@ -880,7 +880,7 @@
       "lemma": "tag",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "tag",
+      "zh": "标签",
       "examples": [
         {
           "en": "I have a tag.",
@@ -894,7 +894,7 @@
       "lemma": "tin",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "tin",
+      "zh": "罐子",
       "examples": [
         {
           "en": "I have a tin.",
@@ -908,7 +908,7 @@
       "lemma": "top",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "top",
+      "zh": "陀螺",
       "examples": [
         {
           "en": "I have a top.",
@@ -922,7 +922,7 @@
       "lemma": "tub",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "tub",
+      "zh": "浴缸",
       "examples": [
         {
           "en": "I have a tub.",
@@ -936,7 +936,7 @@
       "lemma": "van",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "van",
+      "zh": "厢式货车",
       "examples": [
         {
           "en": "I have a van.",
@@ -950,7 +950,7 @@
       "lemma": "vegetables",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "vegetables",
+      "zh": "蔬菜",
       "examples": [
         {
           "en": "I have a vegetables.",
@@ -964,7 +964,7 @@
       "lemma": "vet",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "vet",
+      "zh": "兽医",
       "examples": [
         {
           "en": "I have a vet.",
@@ -978,7 +978,7 @@
       "lemma": "well",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "well",
+      "zh": "好地",
       "examples": [
         {
           "en": "I have a well.",
@@ -992,7 +992,7 @@
       "lemma": "wet",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "wet",
+      "zh": "潮湿的",
       "examples": [
         {
           "en": "I have a wet.",
@@ -1006,7 +1006,7 @@
       "lemma": "wig",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "wig",
+      "zh": "假发",
       "examples": [
         {
           "en": "I have a wig.",
@@ -1020,7 +1020,7 @@
       "lemma": "wind",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "wind",
+      "zh": "风",
       "examples": [
         {
           "en": "I need wind.",
@@ -1034,7 +1034,7 @@
       "lemma": "box",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "box",
+      "zh": "盒子",
       "examples": [
         {
           "en": "I have a box.",
@@ -1048,7 +1048,7 @@
       "lemma": "fox",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "fox",
+      "zh": "狐狸",
       "examples": [
         {
           "en": "I have a fox.",
@@ -1076,7 +1076,7 @@
       "lemma": "taxi",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "taxi",
+      "zh": "出租车",
       "examples": [
         {
           "en": "I have a taxi.",
@@ -1090,7 +1090,7 @@
       "lemma": "yam",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "yam",
+      "zh": "山药",
       "examples": [
         {
           "en": "I have a yam.",
@@ -1104,7 +1104,7 @@
       "lemma": "zebra",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "zebra",
+      "zh": "斑马",
       "examples": [
         {
           "en": "I have a zebra.",
@@ -1118,7 +1118,7 @@
       "lemma": "zip",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "zip",
+      "zh": "拉链",
       "examples": [
         {
           "en": "I have a zip.",
@@ -1132,7 +1132,7 @@
       "lemma": "zips",
       "ipa": "/–/",
       "pos": "n",
-      "zh": "zips",
+      "zh": "拉上拉链",
       "examples": [
         {
           "en": "I have a zips.",

@@ -1,9 +1,135 @@
-# New Magic / 启思英语 6B · 尚无公开 TOC / 词表
-# 已搜：绘本宝 xinmofayingyu6b 404；与 6A 相同，无 ICSpeak 式社区表。
-# Format: English word	Unit N
-# Unit 1
-# Unit 2
-# Unit 3
-# Unit 4
-# Unit 5
-# Unit 6
+# New Magic / 启思英语 6B · 学生书目标词汇
+# 来源：https://www.scribd.com/document/742167997/New-Magic-6B（52 页公开 OCR），按四个单元的 Word building 与主阅读复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
+# Unit 1 · Taking care of the Earth
+land pollution	Unit 1	土地污染	n
+air pollution	Unit 1	空气污染	n
+water pollution	Unit 1	水污染	n
+noise pollution	Unit 1	噪声污染	n
+vehicle	Unit 1	车辆	n
+factory	Unit 1	工厂	n
+black smoke	Unit 1	黑烟	n
+roadworks	Unit 1	道路施工	n
+loud noise	Unit 1	巨响	n
+heavy traffic	Unit 1	繁忙交通	n
+power plant	Unit 1	发电厂	n
+construction	Unit 1	建筑施工	n
+drill	Unit 1	钻机	n
+chemical	Unit 1	化学品	n
+rubbish	Unit 1	垃圾	n
+construction site	Unit 1	建筑工地	n
+complaint	Unit 1	投诉	n
+pile driver	Unit 1	打桩机	n
+soundproof wall	Unit 1	隔音墙	n
+lorry	Unit 1	卡车	n
+government	Unit 1	政府	n
+company	Unit 1	公司	n
+responsible	Unit 1	负有责任的	adj
+solution	Unit 1	解决办法	n
+reduce pollution	Unit 1	减少污染	v
+give out smoke	Unit 1	排放烟雾	v
+throw rubbish everywhere	Unit 1	到处扔垃圾	v
+set up soundproof walls	Unit 1	搭建隔音墙	v
+solve the problem	Unit 1	解决问题	v
+therefore	Unit 1	因此	adv
+so much	Unit 1	如此多的	det
+so many	Unit 1	如此多的	det
+ought to	Unit 1	应该	modal
+
+# Unit 2 · Save the animals!
+polar bear	Unit 2	北极熊	n
+cheetah	Unit 2	猎豹	n
+reef fish	Unit 2	珊瑚礁鱼	n
+sea turtle	Unit 2	海龟	n
+sea otter	Unit 2	海獭	n
+Asian elephant	Unit 2	亚洲象	n
+Chinese white dolphin	Unit 2	中华白海豚	n
+crocodile	Unit 2	鳄鱼	n
+giant panda	Unit 2	大熊猫	n
+shark	Unit 2	鲨鱼	n
+whale	Unit 2	鲸	n
+land mammal	Unit 2	陆地哺乳动物	n
+habitat	Unit 2	栖息地	n
+grassland	Unit 2	草原	n
+food supply	Unit 2	食物供应	n
+hunter	Unit 2	猎人	n
+tusk	Unit 2	象牙	n
+ivory product	Unit 2	象牙制品	n
+fishing net	Unit 2	渔网	n
+bamboo shoot	Unit 2	竹笋	n
+wetland	Unit 2	湿地	n
+fur coat	Unit 2	毛皮大衣	n
+leather bag	Unit 2	皮包	n
+ivory statue	Unit 2	象牙雕像	n
+shark's fin soup	Unit 2	鱼翅汤	n
+snow leopard	Unit 2	雪豹	n
+medicine	Unit 2	药物	n
+trap	Unit 2	诱捕	v
+hunt	Unit 2	捕猎	v
+destroy	Unit 2	破坏	v
+protect	Unit 2	保护	v
+in danger	Unit 2	处于危险中	expr
+
+# Unit 3 · The missing statue
+detective	Unit 3	侦探	n
+statue	Unit 3	雕像	n
+pony tail	Unit 3	马尾辫	n
+striped waistcoat	Unit 3	条纹马甲	n
+checked trousers	Unit 3	格子长裤	n
+plastic pipe	Unit 3	塑料管	n
+curly hair	Unit 3	卷发	n
+moustache	Unit 3	小胡子	n
+handcuffs	Unit 3	手铐	n
+clue	Unit 3	线索	n
+crime	Unit 3	罪案	n
+criminal	Unit 3	罪犯	n
+case	Unit 3	案件	n
+spotted blouse	Unit 3	圆点女衬衫	n
+striped sweater	Unit 3	条纹毛衣	n
+checked waistcoat	Unit 3	格子马甲	n
+thick eyebrows	Unit 3	浓眉	n
+straight hair	Unit 3	直发	n
+beard	Unit 3	胡须	n
+scar	Unit 3	疤痕	n
+sunglasses	Unit 3	太阳镜	n
+V-neck sweater	Unit 3	V领毛衣	n
+steal	Unit 3	偷	v
+belong to	Unit 3	属于	v
+examine	Unit 3	检查	v
+catch the criminal	Unit 3	抓住罪犯	v
+step forward	Unit 3	向前一步	v
+take out	Unit 3	取出	v
+case closed	Unit 3	结案	expr
+mine	Unit 3	我的	pron
+yours	Unit 3	你的；你们的	pron
+ours	Unit 3	我们的	pron
+theirs	Unit 3	他们的	pron
+
+# Unit 4 · New friends
+primary school	Unit 4	小学	n
+secondary school	Unit 4	中学	n
+make new friends	Unit 4	结交新朋友	v
+school club	Unit 4	学校社团	n
+project	Unit 4	项目	n
+nervous	Unit 4	紧张的	adj
+anxious	Unit 4	焦虑的	adj
+thoughtful	Unit 4	体贴的	adj
+considerate	Unit 4	体谅他人的	adj
+patient	Unit 4	有耐心的	adj
+caring	Unit 4	关心他人的	adj
+awful	Unit 4	糟糕的	adj
+cheerful	Unit 4	开朗的	adj
+generous	Unit 4	慷慨的	adj
+loving	Unit 4	充满爱心的	adj
+farewell poem	Unit 4	告别诗	n
+rhythm	Unit 4	节奏	n
+rhyme	Unit 4	押韵	n
+bookmark	Unit 4	书签	n
+be proud of	Unit 4	为……自豪	expr
+school canteen	Unit 4	学校食堂	n
+greenhouse	Unit 4	温室	n
+musical instrument	Unit 4	乐器	n
+volleyball court	Unit 4	排球场	n
+ahead	Unit 4	未来；向前	adv

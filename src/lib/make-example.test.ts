@@ -32,6 +32,17 @@ describe("makeExample", () => {
     expect(makeExample("afternoon", "n", "下午").en).toBe("See you this afternoon.");
   });
 
+  it("handles textbook ordinals, modals, expressions and plural nouns", () => {
+    expect(makeExample("twenty-first", "ord", "第二十一").en).toBe(
+      "He is the twenty-first student.",
+    );
+    expect(makeExample("may not", "modal", "不可以").en).toBe(
+      "We may not go inside.",
+    );
+    expect(makeExample("years old", "expr", "……岁").en).toContain("years old");
+    expect(makeExample("trousers", "n", "长裤").en).toBe("I have trousers.");
+  });
+
   it("never emits the placeholder pattern for normal content words", () => {
     const rows = [
       makeExample("evening", "n", "晚上"),

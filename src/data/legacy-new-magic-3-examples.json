@@ -1,0 +1,1626 @@
+{
+  "new-magic-3a": {
+    "art": [
+      {
+        "en": "I want to visit Art.",
+        "zh": "我想去美术。"
+      }
+    ],
+    "chinese": [
+      {
+        "en": "I speak Chinese.",
+        "zh": "我说中文。"
+      }
+    ],
+    "computer studies": [
+      {
+        "en": "I like Computer Studies.",
+        "zh": "我喜欢电脑课。"
+      }
+    ],
+    "english": [
+      {
+        "en": "I like English.",
+        "zh": "我喜欢英语。"
+      }
+    ],
+    "maths": [
+      {
+        "en": "I want to visit Maths.",
+        "zh": "我想去数学。"
+      }
+    ],
+    "music": [
+      {
+        "en": "I need Music.",
+        "zh": "我需要音乐。"
+      }
+    ],
+    "pe": [
+      {
+        "en": "We have PE on Monday.",
+        "zh": "我们星期一有体育课。"
+      }
+    ],
+    "science": [
+      {
+        "en": "I want to visit Science.",
+        "zh": "我想去科学。"
+      }
+    ],
+    "interesting": [
+      {
+        "en": "The cake is interesting.",
+        "zh": "蛋糕是有趣的。"
+      }
+    ],
+    "good at": [
+      {
+        "en": "She is good at English.",
+        "zh": "她英语很好。"
+      }
+    ],
+    "weak in": [
+      {
+        "en": "We use “weak in” in class.",
+        "zh": "我们在课堂上会用到“weak in”。"
+      }
+    ],
+    "subject": [
+      {
+        "en": "I have a subject.",
+        "zh": "我有一个学科。"
+      }
+    ],
+    "survey": [
+      {
+        "en": "I have a survey.",
+        "zh": "我有一个调查。"
+      }
+    ],
+    "magazine": [
+      {
+        "en": "I have a magazine.",
+        "zh": "我有一个杂志。"
+      }
+    ],
+    "t-shirt": [
+      {
+        "en": "I want to visit T-shirt.",
+        "zh": "我想去T-shirt。"
+      }
+    ],
+    "puzzle": [
+      {
+        "en": "I have a puzzle.",
+        "zh": "我有一个拼图。"
+      }
+    ],
+    "sweets": [
+      {
+        "en": "I have sweets.",
+        "zh": "我有糖果。"
+      }
+    ],
+    "shoes": [
+      {
+        "en": "I have shoes.",
+        "zh": "我有鞋子。"
+      }
+    ],
+    "key ring": [
+      {
+        "en": "I like key ring.",
+        "zh": "我喜欢钥匙扣。"
+      }
+    ],
+    "leather shoes": [
+      {
+        "en": "I like leather shoes.",
+        "zh": "我喜欢皮鞋。"
+      }
+    ],
+    "doll": [
+      {
+        "en": "This is my doll.",
+        "zh": "这是我的娃娃。"
+      }
+    ],
+    "ice cream": [
+      {
+        "en": "I eat ice cream in summer.",
+        "zh": "我夏天吃冰淇淋。"
+      }
+    ],
+    "trainers": [
+      {
+        "en": "I have trainers.",
+        "zh": "我有运动鞋。"
+      }
+    ],
+    "hamburger": [
+      {
+        "en": "I have a hamburger.",
+        "zh": "我有一个汉堡包。"
+      }
+    ],
+    "bookshop": [
+      {
+        "en": "I have a bookshop.",
+        "zh": "我有一个书店。"
+      }
+    ],
+    "clothes shop": [
+      {
+        "en": "I like clothes shop.",
+        "zh": "我喜欢服装店。"
+      }
+    ],
+    "fast food shop": [
+      {
+        "en": "I like fast food shop.",
+        "zh": "我喜欢快餐店。"
+      }
+    ],
+    "gift shop": [
+      {
+        "en": "I like gift shop.",
+        "zh": "我喜欢礼品店。"
+      }
+    ],
+    "restaurant": [
+      {
+        "en": "I have a restaurant.",
+        "zh": "我有一个餐馆。"
+      }
+    ],
+    "shoe shop": [
+      {
+        "en": "I like shoe shop.",
+        "zh": "我喜欢鞋店。"
+      }
+    ],
+    "sweet shop": [
+      {
+        "en": "I like sweet shop.",
+        "zh": "我喜欢糖果店。"
+      }
+    ],
+    "toy shop": [
+      {
+        "en": "I like toy shop.",
+        "zh": "我喜欢玩具店。"
+      }
+    ],
+    "cinema": [
+      {
+        "en": "I have a cinema.",
+        "zh": "我有一个电影院。"
+      }
+    ],
+    "sports shop": [
+      {
+        "en": "I like sports shop.",
+        "zh": "我喜欢体育用品店。"
+      }
+    ],
+    "shopping centre": [
+      {
+        "en": "I like shopping centre.",
+        "zh": "我喜欢购物中心。"
+      }
+    ],
+    "buy": [
+      {
+        "en": "I can buy.",
+        "zh": "我会购买。"
+      }
+    ],
+    "have lunch": [
+      {
+        "en": "I have lunch.",
+        "zh": "我吃午饭。"
+      }
+    ],
+    "have dinner": [
+      {
+        "en": "I have dinner.",
+        "zh": "我吃晚饭。"
+      }
+    ],
+    "watch a film": [
+      {
+        "en": "I watch a film.",
+        "zh": "我看电影。"
+      }
+    ],
+    "walk on the grass": [
+      {
+        "en": "I walk on the grass.",
+        "zh": "我在草地上走。"
+      }
+    ],
+    "climb trees": [
+      {
+        "en": "I climb trees.",
+        "zh": "我爬树。"
+      }
+    ],
+    "play ball games": [
+      {
+        "en": "I play ball games.",
+        "zh": "我玩球类游戏。"
+      }
+    ],
+    "litter": [
+      {
+        "en": "I can litter.",
+        "zh": "我会乱扔垃圾。"
+      }
+    ],
+    "ride a bicycle": [
+      {
+        "en": "I ride a bicycle.",
+        "zh": "我骑自行车。"
+      }
+    ],
+    "pick flowers": [
+      {
+        "en": "I pick flowers.",
+        "zh": "我摘花。"
+      }
+    ],
+    "feed the fish": [
+      {
+        "en": "I feed the fish.",
+        "zh": "我喂鱼。"
+      }
+    ],
+    "take photos": [
+      {
+        "en": "I take photos.",
+        "zh": "我拍照。"
+      }
+    ],
+    "fly a kite": [
+      {
+        "en": "I fly a kite.",
+        "zh": "我放风筝。"
+      }
+    ],
+    "swim": [
+      {
+        "en": "I can swim.",
+        "zh": "我会游泳。"
+      }
+    ],
+    "talk on the phone": [
+      {
+        "en": "I talk on the phone.",
+        "zh": "我打电话。"
+      }
+    ],
+    "may": [
+      {
+        "en": "May I come in?",
+        "zh": "我可以进来吗？"
+      }
+    ],
+    "may not": [
+      {
+        "en": "We may not go inside.",
+        "zh": "我们不可以进去。"
+      }
+    ],
+    "sign": [
+      {
+        "en": "I have a sign.",
+        "zh": "我有一个标志。"
+      }
+    ],
+    "park": [
+      {
+        "en": "We play in the park.",
+        "zh": "我们在公园玩。"
+      }
+    ],
+    "january": [
+      {
+        "en": "I want to visit January.",
+        "zh": "我想去一月。"
+      }
+    ],
+    "february": [
+      {
+        "en": "I want to visit February.",
+        "zh": "我想去二月。"
+      }
+    ],
+    "march": [
+      {
+        "en": "I want to visit March.",
+        "zh": "我想去三月。"
+      }
+    ],
+    "april": [
+      {
+        "en": "I want to visit April.",
+        "zh": "我想去四月。"
+      }
+    ],
+    "june": [
+      {
+        "en": "I want to visit June.",
+        "zh": "我想去六月。"
+      }
+    ],
+    "july": [
+      {
+        "en": "I want to visit July.",
+        "zh": "我想去七月。"
+      }
+    ],
+    "august": [
+      {
+        "en": "I want to visit August.",
+        "zh": "我想去八月。"
+      }
+    ],
+    "september": [
+      {
+        "en": "I want to visit September.",
+        "zh": "我想去九月。"
+      }
+    ],
+    "october": [
+      {
+        "en": "I want to visit October.",
+        "zh": "我想去十月。"
+      }
+    ],
+    "november": [
+      {
+        "en": "I want to visit November.",
+        "zh": "我想去十一月。"
+      }
+    ],
+    "december": [
+      {
+        "en": "I want to visit December.",
+        "zh": "我想去十二月。"
+      }
+    ],
+    "christmas": [
+      {
+        "en": "I want to visit Christmas.",
+        "zh": "我想去圣诞节。"
+      }
+    ],
+    "halloween": [
+      {
+        "en": "I want to visit Halloween.",
+        "zh": "我想去万圣节。"
+      }
+    ],
+    "dragon boat festival": [
+      {
+        "en": "I like Dragon Boat Festival.",
+        "zh": "我喜欢端午节。"
+      }
+    ],
+    "easter": [
+      {
+        "en": "I want to visit Easter.",
+        "zh": "我想去复活节。"
+      }
+    ],
+    "chinese new year": [
+      {
+        "en": "I like Chinese New Year.",
+        "zh": "我喜欢春节。"
+      }
+    ],
+    "first": [
+      {
+        "en": "I sit in the first row.",
+        "zh": "我坐在第一排。"
+      }
+    ],
+    "second": [
+      {
+        "en": "He is the second boy.",
+        "zh": "他是第二个男孩。"
+      }
+    ],
+    "third": [
+      {
+        "en": "He is the third student.",
+        "zh": "他是第三个学生。"
+      }
+    ],
+    "fourth": [
+      {
+        "en": "He is the fourth student.",
+        "zh": "他是第四个学生。"
+      }
+    ],
+    "fifth": [
+      {
+        "en": "He is the fifth student.",
+        "zh": "他是第五个学生。"
+      }
+    ],
+    "sixth": [
+      {
+        "en": "He is the sixth student.",
+        "zh": "他是第六个学生。"
+      }
+    ],
+    "seventh": [
+      {
+        "en": "He is the seventh student.",
+        "zh": "他是第七个学生。"
+      }
+    ],
+    "thirteenth": [
+      {
+        "en": "He is the thirteenth student.",
+        "zh": "他是第十三个学生。"
+      }
+    ],
+    "fourteenth": [
+      {
+        "en": "He is the fourteenth student.",
+        "zh": "他是第十四个学生。"
+      }
+    ],
+    "fifteenth": [
+      {
+        "en": "He is the fifteenth student.",
+        "zh": "他是第十五个学生。"
+      }
+    ],
+    "sixteenth": [
+      {
+        "en": "He is the sixteenth student.",
+        "zh": "他是第十六个学生。"
+      }
+    ],
+    "seventeenth": [
+      {
+        "en": "He is the seventeenth student.",
+        "zh": "他是第十七个学生。"
+      }
+    ],
+    "eighteenth": [
+      {
+        "en": "He is the eighteenth student.",
+        "zh": "他是第十八个学生。"
+      }
+    ],
+    "nineteenth": [
+      {
+        "en": "He is the nineteenth student.",
+        "zh": "他是第十九个学生。"
+      }
+    ],
+    "twentieth": [
+      {
+        "en": "He is the twentieth student.",
+        "zh": "他是第二十个学生。"
+      }
+    ],
+    "twenty-first": [
+      {
+        "en": "He is the twenty-first student.",
+        "zh": "他是第二十一个学生。"
+      }
+    ],
+    "twenty-second": [
+      {
+        "en": "He is the twenty-second student.",
+        "zh": "他是第二十二个学生。"
+      }
+    ],
+    "twenty-third": [
+      {
+        "en": "He is the twenty-third student.",
+        "zh": "他是第二十三个学生。"
+      }
+    ],
+    "twenty-fourth": [
+      {
+        "en": "He is the twenty-fourth student.",
+        "zh": "他是第二十四个学生。"
+      }
+    ],
+    "twenty-fifth": [
+      {
+        "en": "He is the twenty-fifth student.",
+        "zh": "他是第二十五个学生。"
+      }
+    ],
+    "thirtieth": [
+      {
+        "en": "He is the thirtieth student.",
+        "zh": "他是第三十个学生。"
+      }
+    ],
+    "thirty-first": [
+      {
+        "en": "He is the thirty-first student.",
+        "zh": "他是第三十一个学生。"
+      }
+    ],
+    "school picnic": [
+      {
+        "en": "I like school picnic.",
+        "zh": "我喜欢学校野餐。"
+      }
+    ],
+    "school games": [
+      {
+        "en": "I like school games.",
+        "zh": "我喜欢学校运动会。"
+      }
+    ],
+    "school open day": [
+      {
+        "en": "I like school open day.",
+        "zh": "我喜欢学校开放日。"
+      }
+    ],
+    "parents' day": [
+      {
+        "en": "I like parents' day.",
+        "zh": "我喜欢家长日。"
+      }
+    ],
+    "contest": [
+      {
+        "en": "I have a contest.",
+        "zh": "我有一个比赛。"
+      }
+    ],
+    "prize-giving": [
+      {
+        "en": "I have a prize-giving.",
+        "zh": "我有一个颁奖礼。"
+      }
+    ],
+    "holiday": [
+      {
+        "en": "I have a holiday.",
+        "zh": "我有一个假期。"
+      }
+    ],
+    "calendar": [
+      {
+        "en": "I have a calendar.",
+        "zh": "我有一个日历。"
+      }
+    ],
+    "sugar": [
+      {
+        "en": "I need sugar.",
+        "zh": "我需要糖。"
+      }
+    ],
+    "soy sauce": [
+      {
+        "en": "I like soy sauce.",
+        "zh": "我喜欢酱油。"
+      }
+    ],
+    "chicken": [
+      {
+        "en": "The chicken is small.",
+        "zh": "鸡很小。"
+      }
+    ],
+    "salt": [
+      {
+        "en": "I need salt.",
+        "zh": "我需要盐。"
+      }
+    ],
+    "pork": [
+      {
+        "en": "I eat pork.",
+        "zh": "我吃猪肉。"
+      }
+    ],
+    "sausage": [
+      {
+        "en": "I have a sausage.",
+        "zh": "我有一个香肠。"
+      }
+    ],
+    "chilli": [
+      {
+        "en": "I have a chilli.",
+        "zh": "我有一个辣椒。"
+      }
+    ],
+    "apple": [
+      {
+        "en": "I eat an apple.",
+        "zh": "我吃一个苹果。"
+      }
+    ],
+    "lemon": [
+      {
+        "en": "I have a lemon.",
+        "zh": "我有一个柠檬。"
+      }
+    ],
+    "ginger": [
+      {
+        "en": "I have a ginger.",
+        "zh": "我有一个姜。"
+      }
+    ],
+    "vinegar": [
+      {
+        "en": "I have a vinegar.",
+        "zh": "我有一个醋。"
+      }
+    ],
+    "honey": [
+      {
+        "en": "I have a honey.",
+        "zh": "我有一个蜂蜜。"
+      }
+    ],
+    "garlic": [
+      {
+        "en": "I have a garlic.",
+        "zh": "我有一个蒜。"
+      }
+    ],
+    "prawn": [
+      {
+        "en": "I have a prawn.",
+        "zh": "我有一只虾。"
+      }
+    ],
+    "salty": [
+      {
+        "en": "The cake is salty.",
+        "zh": "蛋糕是咸的。"
+      }
+    ],
+    "hot": [
+      {
+        "en": "The soup is hot.",
+        "zh": "汤很热。"
+      }
+    ],
+    "sweet": [
+      {
+        "en": "The cake is sweet.",
+        "zh": "蛋糕是甜的。"
+      }
+    ],
+    "sour": [
+      {
+        "en": "The cake is sour.",
+        "zh": "蛋糕是酸的。"
+      }
+    ],
+    "delicious": [
+      {
+        "en": "The cake is delicious.",
+        "zh": "蛋糕是美味的。"
+      }
+    ],
+    "chicken in lemon sauce": [
+      {
+        "en": "I like chicken in lemon sauce.",
+        "zh": "我喜欢柠檬汁鸡肉。"
+      }
+    ],
+    "prawns with chillies and garlic": [
+      {
+        "en": "I like prawns with chillies and garlic.",
+        "zh": "我喜欢辣椒蒜蓉虾。"
+      }
+    ],
+    "satay": [
+      {
+        "en": "I have a satay.",
+        "zh": "我有一个沙爹。"
+      }
+    ],
+    "sweet and sour pork": [
+      {
+        "en": "I like sweet and sour pork.",
+        "zh": "我喜欢咕咾肉。"
+      }
+    ],
+    "fried mixed vegetables": [
+      {
+        "en": "I like fried mixed vegetables.",
+        "zh": "我喜欢炒杂菜。"
+      }
+    ],
+    "fridge": [
+      {
+        "en": "I have a fridge.",
+        "zh": "我有一个冰箱。"
+      }
+    ],
+    "dress": [
+      {
+        "en": "I have a dress.",
+        "zh": "我有一个连衣裙。"
+      }
+    ],
+    "jacket": [
+      {
+        "en": "I have a jacket.",
+        "zh": "我有一个夹克。"
+      }
+    ],
+    "boots": [
+      {
+        "en": "I have boots.",
+        "zh": "我有靴子。"
+      }
+    ],
+    "blouse": [
+      {
+        "en": "I have a blouse.",
+        "zh": "我有一个女式衬衫。"
+      }
+    ],
+    "skirt": [
+      {
+        "en": "I have a skirt.",
+        "zh": "我有一个裙子。"
+      }
+    ],
+    "jeans": [
+      {
+        "en": "I have jeans.",
+        "zh": "我有牛仔裤。"
+      }
+    ],
+    "shirt": [
+      {
+        "en": "I have a shirt.",
+        "zh": "我有一个衬衫。"
+      }
+    ],
+    "coat": [
+      {
+        "en": "I have a coat.",
+        "zh": "我有一个外套。"
+      }
+    ],
+    "belt": [
+      {
+        "en": "I have a belt.",
+        "zh": "我有一个腰带。"
+      }
+    ],
+    "tie": [
+      {
+        "en": "I have a tie.",
+        "zh": "我有一个领带。"
+      }
+    ],
+    "shorts": [
+      {
+        "en": "I have shorts.",
+        "zh": "我有短裤。"
+      }
+    ],
+    "pocket": [
+      {
+        "en": "I have a pocket.",
+        "zh": "我有一个口袋。"
+      }
+    ],
+    "casual wear": [
+      {
+        "en": "I like casual wear.",
+        "zh": "我喜欢便服。"
+      }
+    ],
+    "school uniform": [
+      {
+        "en": "I like school uniform.",
+        "zh": "我喜欢校服。"
+      }
+    ],
+    "fashion show": [
+      {
+        "en": "I like fashion show.",
+        "zh": "我喜欢时装表演。"
+      }
+    ],
+    "poetry reading": [
+      {
+        "en": "I like poetry reading.",
+        "zh": "我喜欢诗歌朗诵。"
+      }
+    ],
+    "donate": [
+      {
+        "en": "I can donate.",
+        "zh": "我会捐赠。"
+      }
+    ]
+  },
+  "new-magic-3b": {
+    "cable car": [
+      {
+        "en": "I like cable car.",
+        "zh": "我喜欢缆车。"
+      }
+    ],
+    "climbing frame": [
+      {
+        "en": "I like climbing frame.",
+        "zh": "我喜欢攀爬架。"
+      }
+    ],
+    "roller coaster": [
+      {
+        "en": "I like roller coaster.",
+        "zh": "我喜欢过山车。"
+      }
+    ],
+    "roundabout": [
+      {
+        "en": "I have a roundabout.",
+        "zh": "我有一个旋转木马。"
+      }
+    ],
+    "sandpit": [
+      {
+        "en": "I have a sandpit.",
+        "zh": "我有一个沙坑。"
+      }
+    ],
+    "see-saw": [
+      {
+        "en": "I have a see-saw.",
+        "zh": "我有一个跷跷板。"
+      }
+    ],
+    "slide": [
+      {
+        "en": "I have a slide.",
+        "zh": "我有一个滑梯。"
+      }
+    ],
+    "swing": [
+      {
+        "en": "I have a swing.",
+        "zh": "我有一个秋千。"
+      }
+    ],
+    "ferris wheel": [
+      {
+        "en": "I like Ferris wheel.",
+        "zh": "我喜欢摩天轮。"
+      }
+    ],
+    "gift shop": [
+      {
+        "en": "I like gift shop.",
+        "zh": "我喜欢礼品店。"
+      }
+    ],
+    "hot-air balloon": [
+      {
+        "en": "I like hot-air balloon.",
+        "zh": "我喜欢热气球。"
+      }
+    ],
+    "bumper cars": [
+      {
+        "en": "I like bumper cars.",
+        "zh": "我喜欢碰碰车。"
+      }
+    ],
+    "spring riders": [
+      {
+        "en": "I like spring riders.",
+        "zh": "我喜欢弹簧摇马。"
+      }
+    ],
+    "entrance": [
+      {
+        "en": "I have an entrance.",
+        "zh": "我有一个入口。"
+      }
+    ],
+    "go straight": [
+      {
+        "en": "I go straight.",
+        "zh": "我直走。"
+      }
+    ],
+    "turn left": [
+      {
+        "en": "I turn left.",
+        "zh": "我左转。"
+      }
+    ],
+    "turn right": [
+      {
+        "en": "I turn right.",
+        "zh": "我右转。"
+      }
+    ],
+    "next to": [
+      {
+        "en": "I sit next to my friend.",
+        "zh": "我坐在朋友旁边。"
+      }
+    ],
+    "opposite": [
+      {
+        "en": "The book is opposite the bag.",
+        "zh": "书在包。"
+      }
+    ],
+    "between": [
+      {
+        "en": "The book is between the bag.",
+        "zh": "书在包。"
+      }
+    ],
+    "ride": [
+      {
+        "en": "I can ride.",
+        "zh": "我会乘坐。"
+      }
+    ],
+    "view": [
+      {
+        "en": "I have a view.",
+        "zh": "我有一个景色。"
+      }
+    ],
+    "drink soft drinks": [
+      {
+        "en": "I drink soft drinks.",
+        "zh": "我喝汽水。"
+      }
+    ],
+    "swim in the sea": [
+      {
+        "en": "I swim in the sea.",
+        "zh": "我在海里游泳。"
+      }
+    ],
+    "eat ice cream": [
+      {
+        "en": "I eat ice cream.",
+        "zh": "我吃冰淇淋。"
+      }
+    ],
+    "sunbathe": [
+      {
+        "en": "I can sunbathe.",
+        "zh": "我会晒太阳。"
+      }
+    ],
+    "collect pebbles": [
+      {
+        "en": "I collect pebbles.",
+        "zh": "我收集鹅卵石。"
+      }
+    ],
+    "find crabs": [
+      {
+        "en": "I find crabs.",
+        "zh": "我找螃蟹。"
+      }
+    ],
+    "listen to music": [
+      {
+        "en": "I listen to music.",
+        "zh": "我听音乐。"
+      }
+    ],
+    "eat ice lollies": [
+      {
+        "en": "I eat ice lollies.",
+        "zh": "我吃冰棒。"
+      }
+    ],
+    "watch the sunset": [
+      {
+        "en": "I watch the sunset.",
+        "zh": "我看日落。"
+      }
+    ],
+    "build sandcastles": [
+      {
+        "en": "I build sandcastles.",
+        "zh": "我堆沙堡。"
+      }
+    ],
+    "collect shells": [
+      {
+        "en": "I collect shells.",
+        "zh": "我捡贝壳。"
+      }
+    ],
+    "take photos": [
+      {
+        "en": "I take photos.",
+        "zh": "我拍照。"
+      }
+    ],
+    "beach": [
+      {
+        "en": "I have a beach.",
+        "zh": "我有一个海滩。"
+      }
+    ],
+    "pebble": [
+      {
+        "en": "I have a pebble.",
+        "zh": "我有一个鹅卵石。"
+      }
+    ],
+    "crab": [
+      {
+        "en": "I have a crab.",
+        "zh": "我有一个螃蟹。"
+      }
+    ],
+    "shell": [
+      {
+        "en": "I have a shell.",
+        "zh": "我有一个贝壳。"
+      }
+    ],
+    "teacher": [
+      {
+        "en": "She is a teacher.",
+        "zh": "她是老师。"
+      }
+    ],
+    "principal": [
+      {
+        "en": "I have a principal.",
+        "zh": "我有一个校长。"
+      }
+    ],
+    "caretaker": [
+      {
+        "en": "I have a caretaker.",
+        "zh": "我有一个管理员。"
+      }
+    ],
+    "monitor": [
+      {
+        "en": "I have a monitor.",
+        "zh": "我有一个班长。"
+      }
+    ],
+    "librarian": [
+      {
+        "en": "I have a librarian.",
+        "zh": "我有一个图书管理员。"
+      }
+    ],
+    "friendly": [
+      {
+        "en": "She is friendly.",
+        "zh": "她很友善。"
+      }
+    ],
+    "hard-working": [
+      {
+        "en": "The cake is hard-working.",
+        "zh": "蛋糕是勤劳的。"
+      }
+    ],
+    "kind": [
+      {
+        "en": "She is kind.",
+        "zh": "她很善良。"
+      }
+    ],
+    "polite": [
+      {
+        "en": "The cake is polite.",
+        "zh": "蛋糕是有礼貌的。"
+      }
+    ],
+    "helpful": [
+      {
+        "en": "She is helpful.",
+        "zh": "她很乐于助人。"
+      }
+    ],
+    "tidy up the bookshelves": [
+      {
+        "en": "I like tidy up the bookshelves.",
+        "zh": "我喜欢整理书架。"
+      }
+    ],
+    "put away the books": [
+      {
+        "en": "I put away the books.",
+        "zh": "我收好书本。"
+      }
+    ],
+    "take care of": [
+      {
+        "en": "I take care of.",
+        "zh": "我照顾。"
+      }
+    ],
+    "talk to": [
+      {
+        "en": "I talk to.",
+        "zh": "我与。"
+      }
+    ],
+    "turn on the lights": [
+      {
+        "en": "I turn on the lights.",
+        "zh": "我开灯。"
+      }
+    ],
+    "turn off the lights": [
+      {
+        "en": "I turn off the lights.",
+        "zh": "我关灯。"
+      }
+    ],
+    "sweep the playground": [
+      {
+        "en": "I sweep the playground.",
+        "zh": "我打扫操场。"
+      }
+    ],
+    "sweep the hall": [
+      {
+        "en": "I sweep the hall.",
+        "zh": "我打扫礼堂。"
+      }
+    ],
+    "pick up rubbish": [
+      {
+        "en": "I pick up rubbish.",
+        "zh": "我捡垃圾。"
+      }
+    ],
+    "make plans": [
+      {
+        "en": "I make plans.",
+        "zh": "我制订计划。"
+      }
+    ],
+    "forest": [
+      {
+        "en": "I have a forest.",
+        "zh": "我有一个森林。"
+      }
+    ],
+    "tree": [
+      {
+        "en": "The tree is green.",
+        "zh": "树是绿的。"
+      }
+    ],
+    "bear": [
+      {
+        "en": "The bear is big.",
+        "zh": "熊很大。"
+      }
+    ],
+    "grass": [
+      {
+        "en": "I need grass.",
+        "zh": "我需要草。"
+      }
+    ],
+    "branch": [
+      {
+        "en": "I have a branch.",
+        "zh": "我有一个树枝。"
+      }
+    ],
+    "path": [
+      {
+        "en": "I have a path.",
+        "zh": "我有一个小路。"
+      }
+    ],
+    "traveller": [
+      {
+        "en": "I have a traveller.",
+        "zh": "我有一个旅行者。"
+      }
+    ],
+    "climb up": [
+      {
+        "en": "I climb up.",
+        "zh": "我向上爬。"
+      }
+    ],
+    "climb down": [
+      {
+        "en": "I climb down.",
+        "zh": "我向下爬。"
+      }
+    ],
+    "smile": [
+      {
+        "en": "I can smile.",
+        "zh": "我会微笑。"
+      }
+    ],
+    "sniff": [
+      {
+        "en": "I can sniff.",
+        "zh": "我会嗅。"
+      }
+    ],
+    "whisper": [
+      {
+        "en": "I can whisper.",
+        "zh": "我会低声说。"
+      }
+    ],
+    "ground": [
+      {
+        "en": "I have a ground.",
+        "zh": "我有一个地面。"
+      }
+    ],
+    "pretend to be dead": [
+      {
+        "en": "I pretend to be dead.",
+        "zh": "我装死。"
+      }
+    ],
+    "walk away": [
+      {
+        "en": "I walk away.",
+        "zh": "我走开。"
+      }
+    ],
+    "afraid": [
+      {
+        "en": "I am not afraid.",
+        "zh": "我不害怕。"
+      }
+    ],
+    "in danger": [
+      {
+        "en": "The animals are in danger.",
+        "zh": "这些动物有危险。"
+      }
+    ],
+    "true friend": [
+      {
+        "en": "I like true friend.",
+        "zh": "我喜欢真正的朋友。"
+      }
+    ],
+    "help old people": [
+      {
+        "en": "I help old people.",
+        "zh": "我帮助老人。"
+      }
+    ],
+    "help poor people": [
+      {
+        "en": "I help poor people.",
+        "zh": "我帮助穷人。"
+      }
+    ],
+    "help blind people": [
+      {
+        "en": "I help blind people.",
+        "zh": "我帮助盲人。"
+      }
+    ],
+    "make donations": [
+      {
+        "en": "I make donations.",
+        "zh": "我捐款。"
+      }
+    ],
+    "give seats": [
+      {
+        "en": "I give seats.",
+        "zh": "我让座。"
+      }
+    ],
+    "cross the road": [
+      {
+        "en": "I cross the road.",
+        "zh": "我过马路。"
+      }
+    ],
+    "emperor": [
+      {
+        "en": "I have an emperor.",
+        "zh": "我有一个皇帝。"
+      }
+    ],
+    "servant": [
+      {
+        "en": "I have a servant.",
+        "zh": "我有一个仆人。"
+      }
+    ],
+    "nightingale": [
+      {
+        "en": "I have a nightingale.",
+        "zh": "我有一个夜莺。"
+      }
+    ],
+    "silk clothes": [
+      {
+        "en": "I like silk clothes.",
+        "zh": "我喜欢丝绸衣服。"
+      }
+    ],
+    "feather": [
+      {
+        "en": "I have a feather.",
+        "zh": "我有一个羽毛。"
+      }
+    ],
+    "cage": [
+      {
+        "en": "I have a cage.",
+        "zh": "我有一个笼子。"
+      }
+    ],
+    "key": [
+      {
+        "en": "I have a key.",
+        "zh": "我有一个钥匙。"
+      }
+    ],
+    "beautiful": [
+      {
+        "en": "The flower is beautiful.",
+        "zh": "这朵花很美。"
+      }
+    ],
+    "ugly": [
+      {
+        "en": "The cake is ugly.",
+        "zh": "蛋糕是难看的。"
+      }
+    ],
+    "clean": [
+      {
+        "en": "The cake is clean.",
+        "zh": "蛋糕是干净的。"
+      }
+    ],
+    "dirty": [
+      {
+        "en": "The cake is dirty.",
+        "zh": "蛋糕是脏的。"
+      }
+    ],
+    "hard": [
+      {
+        "en": "The cake is hard.",
+        "zh": "蛋糕是坚硬的。"
+      }
+    ],
+    "soft": [
+      {
+        "en": "The cake is soft.",
+        "zh": "蛋糕是柔软的。"
+      }
+    ],
+    "rough": [
+      {
+        "en": "The cake is rough.",
+        "zh": "蛋糕是粗糙的。"
+      }
+    ],
+    "smooth": [
+      {
+        "en": "The cake is smooth.",
+        "zh": "蛋糕是光滑的。"
+      }
+    ],
+    "rich": [
+      {
+        "en": "The cake is rich.",
+        "zh": "蛋糕是富有的。"
+      }
+    ],
+    "ill": [
+      {
+        "en": "I am ill.",
+        "zh": "我生病的。"
+      }
+    ],
+    "free": [
+      {
+        "en": "The cake is free.",
+        "zh": "蛋糕是自由的。"
+      }
+    ],
+    "fly": [
+      {
+        "en": "Birds can fly.",
+        "zh": "鸟会飞。"
+      }
+    ],
+    "give": [
+      {
+        "en": "I can give.",
+        "zh": "我会给。"
+      }
+    ],
+    "keep": [
+      {
+        "en": "Please keep the room clean.",
+        "zh": "请保持房间干净。"
+      }
+    ],
+    "take": [
+      {
+        "en": "Please take this book.",
+        "zh": "请拿着这本书。"
+      }
+    ],
+    "wear": [
+      {
+        "en": "I can wear.",
+        "zh": "我会穿。"
+      }
+    ],
+    "read": [
+      {
+        "en": "I read a book.",
+        "zh": "我读书。"
+      }
+    ],
+    "sing": [
+      {
+        "en": "We sing a song.",
+        "zh": "我们唱歌。"
+      }
+    ],
+    "return": [
+      {
+        "en": "I can return.",
+        "zh": "我会返回。"
+      }
+    ],
+    "toy bird": [
+      {
+        "en": "I like toy bird.",
+        "zh": "我喜欢玩具鸟。"
+      }
+    ],
+    "fly a kite": [
+      {
+        "en": "I fly a kite.",
+        "zh": "我放风筝。"
+      }
+    ],
+    "ride a bicycle": [
+      {
+        "en": "I ride a bicycle.",
+        "zh": "我骑自行车。"
+      }
+    ],
+    "have a barbecue": [
+      {
+        "en": "I have a barbecue.",
+        "zh": "我烧烤。"
+      }
+    ],
+    "light a fire": [
+      {
+        "en": "I light a fire.",
+        "zh": "我生火。"
+      }
+    ],
+    "sunny": [
+      {
+        "en": "It is sunny today.",
+        "zh": "今天晴朗的。"
+      }
+    ],
+    "cool": [
+      {
+        "en": "It is cool today.",
+        "zh": "今天凉爽的。"
+      }
+    ],
+    "wind": [
+      {
+        "en": "I need wind.",
+        "zh": "我需要风。"
+      }
+    ],
+    "bright sky": [
+      {
+        "en": "I like bright sky.",
+        "zh": "我喜欢明亮的天空。"
+      }
+    ],
+    "honey": [
+      {
+        "en": "I have a honey.",
+        "zh": "我有一个蜂蜜。"
+      }
+    ],
+    "bee": [
+      {
+        "en": "I have a bee.",
+        "zh": "我有一只蜜蜂。"
+      }
+    ],
+    "dark": [
+      {
+        "en": "The cake is dark.",
+        "zh": "蛋糕是黑暗的。"
+      }
+    ],
+    "rain": [
+      {
+        "en": "I need rain.",
+        "zh": "我需要雨。"
+      }
+    ],
+    "wet": [
+      {
+        "en": "The cake is wet.",
+        "zh": "蛋糕是湿的。"
+      }
+    ],
+    "hungry": [
+      {
+        "en": "I am hungry.",
+        "zh": "我饥饿的。"
+      }
+    ],
+    "chase birds": [
+      {
+        "en": "I chase birds.",
+        "zh": "我追鸟。"
+      }
+    ],
+    "hear loud noises": [
+      {
+        "en": "I hear loud noises.",
+        "zh": "我听到巨响。"
+      }
+    ],
+    "pack things": [
+      {
+        "en": "I pack things.",
+        "zh": "我收拾东西。"
+      }
+    ],
+    "play hide-and-seek": [
+      {
+        "en": "I play hide-and-seek.",
+        "zh": "我玩捉迷藏。"
+      }
+    ],
+    "prepare food": [
+      {
+        "en": "I prepare food.",
+        "zh": "我准备食物。"
+      }
+    ]
+  }
+}

@@ -64,7 +64,9 @@ export function NameChip() {
       aria-label={name ? `名字：${name}，点一下改名` : "点这里写名字"}
       onClick={open}
     >
-      <span className="name-text">{name || "点这里写名字"}</span>
+      <span className="name-text">
+        {name || <><span className="name-placeholder-wide">点这里写名字</span><span className="name-placeholder-short">写名字</span></>}
+      </span>
       <PencilIcon size={16} />
     </button>
   );

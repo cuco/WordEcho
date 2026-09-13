@@ -1,9 +1,202 @@
-# New Magic / 启思英语 5A · 单元名已核实，尚无公开完整词表
-# TOC：绘本宝 / 51jiaoxi 5A 目录
-# Format: English word	Unit N
+# New Magic / 启思英语 5A · 学生书目标词汇
+# 来源：绘本宝公开学生书跨页预览（Unit 1-6），经 OCR 后按 Vocabulary / Word building / 主课文复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
 # Unit 1 · What do you do?
+cook	Unit 1	厨师	n
+bus driver	Unit 1	公共汽车司机	n
+nurse	Unit 1	护士	n
+doctor	Unit 1	医生	n
+teacher	Unit 1	老师	n
+postman	Unit 1	邮递员	n
+policeman	Unit 1	警察	n
+actor	Unit 1	演员	n
+singer	Unit 1	歌手	n
+photographer	Unit 1	摄影师	n
+tour guide	Unit 1	导游	n
+waitress	Unit 1	女服务员	n
+astronaut	Unit 1	宇航员	n
+lawyer	Unit 1	律师	n
+pilot	Unit 1	飞行员	n
+reporter	Unit 1	记者	n
+security guard	Unit 1	保安	n
+shop assistant	Unit 1	店员	n
+waiter	Unit 1	男服务员	n
+hospital	Unit 1	医院	n
+clinic	Unit 1	诊所	n
+restaurant	Unit 1	餐馆	n
+studio	Unit 1	摄影棚	n
+plane	Unit 1	飞机	n
+shop	Unit 1	商店	n
+look after sick people	Unit 1	照顾病人	v
+fly a plane	Unit 1	驾驶飞机	v
+take photos	Unit 1	拍照	v
+help customers	Unit 1	帮助顾客	v
+
 # Unit 2 · E-age
+computer	Unit 2	电脑	n
+fax machine	Unit 2	传真机	n
+tablet	Unit 2	平板电脑	n
+digital camera	Unit 2	数码相机	n
+smartphone	Unit 2	智能手机	n
+write letters	Unit 2	写信	v
+send text messages	Unit 2	发短信	v
+upload a photo	Unit 2	上传照片	v
+chat online	Unit 2	在线聊天	v
+fax a message	Unit 2	传真消息	v
+send an email	Unit 2	发电子邮件	v
+send a telegram	Unit 2	发电报	v
+surf the Internet	Unit 2	上网	v
+pigeon	Unit 2	鸽子	n
+quill	Unit 2	羽毛笔	n
+ink	Unit 2	墨水	n
+paper	Unit 2	纸	n
+telephone	Unit 2	电话	n
+Morse code	Unit 2	摩尔斯电码	n
+once	Unit 2	一次	adv
+twice	Unit 2	两次	adv
+
 # Unit 3 · What's in our food?
+chocolates	Unit 3	巧克力	n
+fish balls	Unit 3	鱼丸	n
+noodles	Unit 3	面条	n
+coffee	Unit 3	咖啡	n
+orange juice	Unit 3	橙汁	n
+cola	Unit 3	可乐	n
+vegetables	Unit 3	蔬菜	n
+strawberries	Unit 3	草莓	n
+cheese	Unit 3	奶酪	n
+spring rolls	Unit 3	春卷	n
+hamburgers	Unit 3	汉堡包	n
+chicken	Unit 3	鸡肉	n
+balanced diet	Unit 3	均衡饮食	n
+cereals	Unit 3	谷类食物	n
+dairy products	Unit 3	乳制品	n
+food pyramid	Unit 3	食物金字塔	n
+fast food	Unit 3	快餐	n
+fruit and vegetables	Unit 3	水果和蔬菜	n
+meat	Unit 3	肉类	n
+noodles and pasta	Unit 3	面条和意面	n
+seafood	Unit 3	海鲜	n
+snacks	Unit 3	零食	n
+beans	Unit 3	豆类	n
+spaghetti	Unit 3	意大利面	n
+carrots	Unit 3	胡萝卜	n
+steak	Unit 3	牛排	n
+chocolate milk	Unit 3	巧克力奶	n
+cornflakes	Unit 3	玉米片	n
+watermelons	Unit 3	西瓜	n
+pork chops	Unit 3	猪排	n
+yogurt	Unit 3	酸奶	n
+oil	Unit 3	油	n
+bread	Unit 3	面包	n
+healthy	Unit 3	健康的	adj
+unhealthy	Unit 3	不健康的	adj
+less	Unit 3	较少的	det
+fewer	Unit 3	较少的	det
+more	Unit 3	更多的	det
+too much	Unit 3	太多的	det
+too many	Unit 3	太多的	det
+enough	Unit 3	足够的	det
+serving	Unit 3	一份食物	n
+energy	Unit 3	能量	n
+
 # Unit 4 · We can cook
+curry	Unit 4	咖喱	n
+dim sum	Unit 4	点心	n
+pizza	Unit 4	披萨	n
+hot dog	Unit 4	热狗	n
+pineapple fried rice	Unit 4	菠萝炒饭	n
+sushi	Unit 4	寿司	n
+Japanese food	Unit 4	日本菜	n
+sashimi	Unit 4	刺身	n
+tempura	Unit 4	天妇罗	n
+Indian food	Unit 4	印度菜	n
+naan bread	Unit 4	印度烤饼	n
+Italian food	Unit 4	意大利菜	n
+cappuccino	Unit 4	卡布奇诺	n
+tiramisu	Unit 4	提拉米苏	n
+Thai food	Unit 4	泰国菜	n
+tom yum soup	Unit 4	冬阴功汤	n
+hand roll	Unit 4	手卷寿司	n
+rice	Unit 4	米饭	n
+cucumber	Unit 4	黄瓜	n
+sesame seeds	Unit 4	芝麻	n
+seaweed	Unit 4	海苔	n
+salmon sashimi	Unit 4	三文鱼刺身	n
+soy sauce	Unit 4	酱油	n
+wasabi	Unit 4	芥末	n
+frankfurter	Unit 4	法兰克福香肠	n
+snail	Unit 4	蜗牛	n
+protein	Unit 4	蛋白质	n
+fat	Unit 4	脂肪	n
+pizza dough	Unit 4	披萨面团	n
+oven	Unit 4	烤箱	n
+first	Unit 4	首先	adv
+next	Unit 4	接下来	adv
+then	Unit 4	然后	adv
+after that	Unit 4	之后	adv
+finally	Unit 4	最后	adv
+cut	Unit 4	切	v
+spread	Unit 4	涂抹	v
+sprinkle	Unit 4	撒	v
+roll	Unit 4	卷	v
+dip	Unit 4	蘸	v
+
 # Unit 5 · A fun place to go
+play badminton	Unit 5	打羽毛球	v
+play on rides	Unit 5	玩游乐设施	v
+have a barbecue	Unit 5	烧烤	v
+take photos with cartoon characters	Unit 5	和卡通人物拍照	v
+fly kites	Unit 5	放风筝	v
+watch snails	Unit 5	观察蜗牛	v
+hiking	Unit 5	远足	n
+reading	Unit 5	阅读	n
+climb walls	Unit 5	攀岩墙	v
+swim	Unit 5	游泳	v
+feed goats	Unit 5	喂山羊	v
+make candles	Unit 5	制作蜡烛	v
+go fishing	Unit 5	去钓鱼	v
+make clay pots	Unit 5	做陶罐	v
+pick fruit	Unit 5	摘水果	v
+play in a tree house	Unit 5	在树屋里玩	v
+play on a rope course	Unit 5	玩绳索课程	v
+play with radio-controlled ships	Unit 5	玩遥控船	v
+ride horses	Unit 5	骑马	v
+go ice skating	Unit 5	去滑冰	v
+outing	Unit 5	郊游	n
+venue	Unit 5	地点	n
+course	Unit 5	课程	n
+
 # Unit 6 · That's our Earth
+save energy	Unit 6	节约能源	v
+save water	Unit 6	节约用水	v
+recycle cans	Unit 6	回收罐子	v
+recycle paper	Unit 6	回收纸张	v
+recycle plastic bottles	Unit 6	回收塑料瓶	v
+reuse plastic bottles	Unit 6	重复使用塑料瓶	v
+reuse plastic bags	Unit 6	重复使用塑料袋	v
+use less paper	Unit 6	少用纸	v
+turn off the lights	Unit 6	关灯	v
+turn off the air conditioner	Unit 6	关空调	v
+turn off the taps	Unit 6	关水龙头	v
+turn off the computer	Unit 6	关电脑	v
+fix a dripping tap	Unit 6	修理滴水的水龙头	v
+leave the lights on	Unit 6	让灯一直开着	v
+throw cans away	Unit 6	扔掉罐子	v
+give away	Unit 6	赠送	v
+cut down trees	Unit 6	砍伐树木	v
+use public transport	Unit 6	乘坐公共交通	v
+take a shopping bag	Unit 6	带购物袋	v
+drive a car	Unit 6	开车	v
+plastic	Unit 6	塑料	n
+rubbish	Unit 6	垃圾	n
+factory	Unit 6	工厂	n
+river	Unit 6	河流	n
+sea	Unit 6	海洋	n
+energy source	Unit 6	能源来源	n
+reduce	Unit 6	减少	v
+reuse	Unit 6	重复使用	v
+recycle	Unit 6	回收利用	v
+pollute	Unit 6	污染	v

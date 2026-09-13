@@ -1,9 +1,129 @@
-# New Magic / 启思英语 6A · 尚无公开 TOC / 词表
-# 已搜：绘本宝 xinmofayingyu6a 404；51jiaoxi/GitHub/单词鸭落地页无实际词条；OUP/上教不提供可下载 handbook。
-# Format: English word	Unit N
-# Unit 1
-# Unit 2
-# Unit 3
-# Unit 4
-# Unit 5
-# Unit 6
+# New Magic / 启思英语 6A · 学生书目标词汇
+# 来源：https://www.scribd.com/document/742167999/New-Magic-6A（52 页公开 OCR），按四个单元的 Word building 与主阅读复核。
+# 说明：不是 Self-Learning Booklet 的逐字转录；例句由本地词典或导入器原创补齐。
+# Format: English word<TAB>Unit N<TAB>中文<TAB>词性
+
+# Unit 1 · Travel and preferences
+Australia	Unit 1	澳大利亚	n
+China	Unit 1	中国	n
+Japan	Unit 1	日本	n
+Malaysia	Unit 1	马来西亚	n
+Thailand	Unit 1	泰国	n
+eat beef rice noodles	Unit 1	吃牛肉米粉	v
+have an elephant ride	Unit 1	骑大象	v
+watch a folk dance	Unit 1	观看民间舞蹈	v
+visit a museum	Unit 1	参观博物馆	v
+visit the Great Wall	Unit 1	游览长城	v
+eat dumplings	Unit 1	吃饺子	v
+do a bungee jump	Unit 1	蹦极	v
+fly in a hot-air balloon	Unit 1	乘热气球飞行	v
+go into a rainforest	Unit 1	进入雨林	v
+take a photo with a koala	Unit 1	和考拉拍照	v
+ride on a banana boat	Unit 1	乘香蕉船	v
+feed a kangaroo	Unit 1	喂袋鼠	v
+visit a temple	Unit 1	参观寺庙	v
+visit a water market	Unit 1	逛水上市场	v
+visit an amusement park	Unit 1	游览游乐园	v
+waterfall	Unit 1	瀑布	n
+resort	Unit 1	度假村	n
+facility	Unit 1	设施	n
+room rate	Unit 1	房价	n
+sea view	Unit 1	海景	n
+tree house	Unit 1	树屋	n
+prefer	Unit 1	更喜欢	v
+would rather	Unit 1	宁愿	expr
+although	Unit 1	虽然	conj
+
+# Unit 2 · Write a book report
+book report	Unit 2	读书报告	n
+fairy tale	Unit 2	童话故事	n
+author	Unit 2	作者	n
+character	Unit 2	角色	n
+summary	Unit 2	摘要	n
+ending	Unit 2	结局	n
+wealthy	Unit 2	富有的	adj
+beast	Unit 2	野兽	n
+castle	Unit 2	城堡	n
+cottage	Unit 2	小屋	n
+fairy	Unit 2	仙女	n
+wand	Unit 2	魔杖	n
+cruel	Unit 2	残忍的	adj
+caring	Unit 2	关心他人的	adj
+selfish	Unit 2	自私的	adj
+silly	Unit 2	愚蠢的	adj
+greedy	Unit 2	贪心的	adj
+hard-working	Unit 2	勤劳的	adj
+helpful	Unit 2	乐于助人的	adj
+kind	Unit 2	善良的	adj
+handsome	Unit 2	英俊的	adj
+prince	Unit 2	王子	n
+village	Unit 2	村庄	n
+before	Unit 2	在……之前	conj
+after	Unit 2	在……之后	conj
+
+# Unit 3 · School clubs
+Camping Club	Unit 3	露营社团	n
+First-aid Club	Unit 3	急救社团	n
+Drama Club	Unit 3	戏剧社团	n
+Gardening Club	Unit 3	园艺社团	n
+orienteering	Unit 3	定向越野	n
+compass	Unit 3	指南针	n
+knot tying	Unit 3	打结	n
+bandage	Unit 3	绷带	n
+training	Unit 3	训练	n
+acting	Unit 3	表演	n
+rehearsal	Unit 3	排练	n
+flowerpot	Unit 3	花盆	n
+weeding	Unit 3	除草	n
+fact sheet	Unit 3	资料页	n
+background	Unit 3	背景	n
+objective	Unit 3	目标	n
+member	Unit 3	成员	n
+activity	Unit 3	活动	n
+camping trip	Unit 3	露营旅行	n
+put up a tent	Unit 3	搭帐篷	v
+do first-aid	Unit 3	实施急救	v
+deal with a burn	Unit 3	处理烧伤	v
+deal with a wound	Unit 3	处理伤口	v
+put on a bandage	Unit 3	包扎绷带	v
+care for plants	Unit 3	照料植物	v
+potting	Unit 3	盆栽作业	n
+appreciate drama	Unit 3	欣赏戏剧	v
+professional actor	Unit 3	专业演员	n
+care for	Unit 3	照料	v
+deal with	Unit 3	处理	v
+put on	Unit 3	穿上；上演	v
+put up	Unit 3	搭建	v
+take part in	Unit 3	参加	v
+
+# Unit 4 · World games
+athlete	Unit 4	运动员	n
+flag	Unit 4	旗帜	n
+medal	Unit 4	奖牌	n
+coach	Unit 4	教练	n
+competition	Unit 4	比赛	n
+award ceremony	Unit 4	颁奖典礼	n
+weightlifting	Unit 4	举重	n
+hurdling	Unit 4	跨栏	n
+motor racing	Unit 4	赛车	n
+Olympic Games	Unit 4	奥林匹克运动会	n
+Olympic torch	Unit 4	奥运火炬	n
+stadium	Unit 4	体育场	n
+torch relay	Unit 4	火炬接力	n
+track event	Unit 4	径赛项目	n
+field event	Unit 4	田赛项目	n
+champion	Unit 4	冠军	n
+cycling event	Unit 4	自行车比赛项目	n
+opening ceremony	Unit 4	开幕式	n
+closing ceremony	Unit 4	闭幕式	n
+Olympic flame	Unit 4	奥运圣火	n
+Olympic ring	Unit 4	奥运五环	n
+continent	Unit 4	大洲	n
+mascot	Unit 4	吉祥物	n
+antelope	Unit 4	羚羊	n
+swallow	Unit 4	燕子	n
+fictional character	Unit 4	虚构人物	n
+tradition	Unit 4	传统	n
+trophy	Unit 4	奖杯	n
+competitor	Unit 4	参赛者	n
+bravery	Unit 4	勇敢	n
